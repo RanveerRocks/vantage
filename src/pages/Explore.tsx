@@ -1,6 +1,7 @@
 import { useEffect } from 'react'
 import { Link, useParams, useSearchParams } from 'react-router-dom'
 import { CareerVisaTab } from '../components/career-visa/CareerVisaTab'
+import { StudentLifeTab } from '../components/student-life/StudentLifeTab'
 import { findDegree } from '../lib/degrees'
 import { useVantageStore } from '../lib/store'
 
@@ -109,6 +110,8 @@ export function Explore() {
       >
         {tab === 'career-visa' ? (
           <CareerVisaTab degree={degree} />
+        ) : tab === 'student-life' ? (
+          <StudentLifeTab />
         ) : (
           <PlaceholderPanel label={TABS.find((t) => t.id === tab)?.label ?? ''} />
         )}

@@ -3,20 +3,19 @@ import { motion } from 'framer-motion'
 interface ReadoutBarProps {
   label: string
   value: number // 0–100
-  weight?: number
+  tag?: string // small mono annotation next to the label, e.g. "×0.35" or "w 3"
   detail?: string
+  dimmed?: boolean
 }
 
-export function ReadoutBar({ label, value, weight, detail }: ReadoutBarProps) {
+export function ReadoutBar({ label, value, tag, detail, dimmed = false }: ReadoutBarProps) {
   return (
-    <div>
+    <div className={dimmed ? 'opacity-50' : undefined}>
       <div className="flex items-baseline justify-between gap-3">
         <span className="flex items-baseline gap-2 text-xs font-medium uppercase tracking-wider text-ink">
           {label}
-          {weight !== undefined && (
-            <span className="font-mono text-[10px] font-normal normal-case text-slate">
-              ×{weight.toFixed(2)}
-            </span>
+          {tag !== undefined && (
+            <span className="font-mono text-[10px] font-normal normal-case text-slate">{tag}</span>
           )}
         </span>
         <span className="font-mono text-sm font-semibold tabular-nums">{Math.round(value)}</span>
