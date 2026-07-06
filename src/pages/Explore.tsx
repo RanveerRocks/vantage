@@ -1,11 +1,43 @@
-import { Link, useParams } from 'react-router-dom'
+import { useEffect } from 'react'
+import { Link, useParams, useSearchParams } from 'react-router-dom'
+import { CareerVisaTab } from '../components/career-visa/CareerVisaTab'
 import { findDegree } from '../lib/degrees'
+import { useVantageStore } from '../lib/store'
 
-const TABS = ['Career & Visa', 'Student Life', 'Pathways', 'True Cost', 'Emerging']
+const TAB_IDS = ['career-visa', 'student-life', 'pathways', 'true-cost', 'emerging'] as const
+type TabId = (typeof TAB_IDS)[number]
+
+const TABS: { id: TabId; label: string }[] = [
+  { id: 'career-visa', label: 'Career & Visa' },
+  { id: 'student-life', label: 'Student Life' },
+  { id: 'pathways', label: 'Pathways' },
+  { id: 'true-cost', label: 'True Cost' },
+  { id: 'emerging', label: 'Emerging' },
+]
+
+function isTabId(value: string | null): value is TabId {
+  return TAB_IDS.includes(value as TabId)
+}
+
+function PlaceholderPanel({ label }: { label: string }) {
+  return (
+    <div className="rounded-card border border-dashed border-hairline p-10 text-center">
+      <p className="font-mono text-xs uppercase tracking-widest text-slate">
+        {label} — arrives in a later phase
+      </p>
+    </div>
+  )
+}
 
 export function Explore() {
   const { degreeId } = useParams()
   const degree = findDegree(degreeId)
+  const [searchParams, setSearchParams] = useSearchParams()
+  const setSelectedDegreeId = useVantageStore((state) => state.setSelectedDegreeId)
+
+  useEffect(() => {
+    if (degree) setSelectedDegreeId(degree.id)
+  }, [degree, setSelectedDegreeId])
 
   if (!degree) {
     return (
@@ -27,29 +59,59 @@ export function Explore() {
     )
   }
 
+  const tabParam = searchParams.get('tab')
+  const tab: TabId = isTabId(tabParam) ? tabParam : 'career-visa'
+
+  function selectTab(id: TabId) {
+    setSearchParams((params) => {
+      params.set('tab', id)
+      return params
+    })
+  }
+
   return (
-    <div className="mx-auto w-full max-w-6xl px-4 py-12 sm:px-6">
+    <div className="mx-auto w-full max-w-6xl px-4 py-8 sm:px-6 sm:py-10">
       <p className="font-mono text-xs uppercase tracking-[0.2em] text-ultramarine">Exploring</p>
       <h1 className="mt-2 font-display text-3xl font-semibold tracking-tight sm:text-4xl">
         {degree.name}
       </h1>
-      <p className="mt-1 font-mono text-sm text-slate">{degree.id}</p>
 
-      <div className="mt-8 flex flex-wrap gap-2" aria-label="Workspace tabs (coming soon)">
-        {TABS.map((tab) => (
-          <span
-            key={tab}
-            className="rounded-chip border border-hairline px-3 py-1.5 text-sm text-slate"
+      <div
+        role="tablist"
+        aria-label="Explore sections"
+        className="mt-6 flex gap-1 overflow-x-auto border-b border-hairline"
+      >
+        {TABS.map(({ id, label }) => (
+          <button
+            key={id}
+            id={`tab-${id}`}
+            role="tab"
+            type="button"
+            aria-selected={tab === id}
+            aria-controls="explore-tabpanel"
+            onClick={() => selectTab(id)}
+            className={`-mb-px whitespace-nowrap border-b-2 px-3 py-2.5 text-sm ${
+              tab === id
+                ? 'border-ultramarine font-medium text-ink'
+                : 'border-transparent text-slate hover:text-ink'
+            }`}
           >
-            {tab}
-          </span>
+            {label}
+          </button>
         ))}
       </div>
 
-      <div className="mt-6 rounded-card border border-dashed border-hairline p-10 text-center">
-        <p className="font-mono text-xs uppercase tracking-widest text-slate">
-          Workspace under construction — components arrive in later phases
-        </p>
+      <div
+        id="explore-tabpanel"
+        role="tabpanel"
+        aria-labelledby={`tab-${tab}`}
+        className="mt-6"
+      >
+        {tab === 'career-visa' ? (
+          <CareerVisaTab degree={degree} />
+        ) : (
+          <PlaceholderPanel label={TABS.find((t) => t.id === tab)?.label ?? ''} />
+        )}
       </div>
     </div>
   )

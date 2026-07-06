@@ -1,5 +1,13 @@
 import { describe, expect, it } from 'vitest'
-import { careerVisaScore, clamp, minMax, minMaxInverted, roiScore, studentLifeIndex } from './scoring'
+import {
+  careerVisaBreakdown,
+  careerVisaScore,
+  clamp,
+  minMax,
+  minMaxInverted,
+  roiScore,
+  studentLifeIndex,
+} from './scoring'
 import { FACTOR_IDS } from './schemas'
 import type { CareerVisaMetrics, CountryId, FactorId, StudentLifeScore } from './schemas'
 import type { FactorWeights } from './scoring'
@@ -96,6 +104,25 @@ describe('careerVisaScore (X axis)', () => {
     // Single-record set: prScore falls back to 50; postStudy clamps to 100:
     //   0.20·100 + 0.20·50 = 30
     expect(careerVisaScore(records)[0].score).toBeCloseTo(30, 6)
+  })
+})
+
+describe('careerVisaBreakdown', () => {
+  it('exposes the four X components and matches careerVisaScore', () => {
+    const records = [
+      career('us', { jobDemand: 80, visaOpenness: 60, postStudyWorkYears: 3, prPathwayYears: 2 }),
+      career('de', { jobDemand: 40, visaOpenness: 80, postStudyWorkYears: 1.5, prPathwayYears: 6 }),
+    ]
+    const [us, de] = careerVisaBreakdown(records)
+    expect(us).toMatchObject({ countryId: 'us', jobDemand: 80, visaOpenness: 60 })
+    expect(us.postStudyScore).toBeCloseTo(100, 6)
+    expect(us.prScore).toBeCloseTo(100, 6)
+    expect(de.postStudyScore).toBeCloseTo(50, 6)
+    expect(de.prScore).toBeCloseTo(0, 6)
+    expect(careerVisaScore(records)).toEqual([
+      { countryId: 'us', score: us.score },
+      { countryId: 'de', score: de.score },
+    ])
   })
 })
 

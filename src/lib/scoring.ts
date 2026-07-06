@@ -28,23 +28,53 @@ export function minMaxInverted(values: number[]): number[] {
   return minMax(values).map((score) => 100 - score)
 }
 
+/** Weights of the four Career & Visa Score components (Graph 1 X axis). */
+export const X_WEIGHTS = {
+  jobDemand: 0.35,
+  visaOpenness: 0.25,
+  postStudyScore: 0.2,
+  prScore: 0.2,
+} as const
+
+export interface CareerVisaComponents {
+  countryId: CountryId
+  jobDemand: number
+  visaOpenness: number
+  postStudyScore: number
+  prScore: number
+  score: number
+}
+
 /**
- * Graph 1 X-axis, computed across the country set for one degree:
+ * Graph 1 X-axis with its four components, computed across the country set
+ * for one degree:
  *   postStudyScore = clamp(postStudyWorkYears / 3, 0, 1) × 100
  *   prScore        = minMaxInverted(prPathwayYears)
  *   X = 0.35·jobDemand + 0.25·visaOpenness + 0.20·postStudyScore + 0.20·prScore
  */
-export function careerVisaScore(records: CareerVisaMetrics[]): CountryScore[] {
+export function careerVisaBreakdown(records: CareerVisaMetrics[]): CareerVisaComponents[] {
   const prScores = minMaxInverted(records.map((record) => record.prPathwayYears))
   return records.map((record, index) => {
     const postStudyScore = clamp(record.postStudyWorkYears / 3, 0, 1) * 100
-    const score =
-      0.35 * record.jobDemand +
-      0.25 * record.visaOpenness +
-      0.2 * postStudyScore +
-      0.2 * prScores[index]
-    return { countryId: record.countryId, score }
+    const prScore = prScores[index]
+    return {
+      countryId: record.countryId,
+      jobDemand: record.jobDemand,
+      visaOpenness: record.visaOpenness,
+      postStudyScore,
+      prScore,
+      score:
+        X_WEIGHTS.jobDemand * record.jobDemand +
+        X_WEIGHTS.visaOpenness * record.visaOpenness +
+        X_WEIGHTS.postStudyScore * postStudyScore +
+        X_WEIGHTS.prScore * prScore,
+    }
   })
+}
+
+/** Graph 1 X-axis — the Career & Visa Score alone; see careerVisaBreakdown. */
+export function careerVisaScore(records: CareerVisaMetrics[]): CountryScore[] {
+  return careerVisaBreakdown(records).map(({ countryId, score }) => ({ countryId, score }))
 }
 
 /**
