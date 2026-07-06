@@ -1,0 +1,47 @@
+[
+  {
+    "id": "affordability",
+    "name": "Affordability",
+    "description": "How far a student budget stretches: rent, food, transport, and everyday costs."
+  },
+  {
+    "id": "safety",
+    "name": "Safety",
+    "description": "Personal safety and crime levels in the cities students actually live in."
+  },
+  {
+    "id": "openness",
+    "name": "Openness & Inclusion",
+    "description": "How welcoming daily life feels for international and Indian students."
+  },
+  {
+    "id": "work-rights",
+    "name": "Work Rights",
+    "description": "Rules and hour limits for working while you study."
+  },
+  {
+    "id": "healthcare",
+    "name": "Healthcare",
+    "description": "Access, quality, and cost of healthcare for students."
+  },
+  {
+    "id": "language",
+    "name": "Language Ease",
+    "description": "How easily you can study, work, and live in English."
+  },
+  {
+    "id": "community",
+    "name": "Indian Community",
+    "description": "Size and reach of the Indian student and diaspora community."
+  },
+  {
+    "id": "political-climate",
+    "name": "Political Climate",
+    "description": "Stability of immigration policy and public sentiment toward international students."
+  },
+  {
+    "id": "climate-lifestyle",
+    "name": "Climate & Lifestyle",
+    "description": "Weather, pace of life, and what living there day-to-day feels like."
+  }
+]

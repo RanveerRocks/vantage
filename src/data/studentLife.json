@@ -1,0 +1,1010 @@
+[
+  {
+    "countryId": "us",
+    "factorId": "affordability",
+    "score": 25,
+    "blurb": "[Sample] Placeholder note on affordability in United States; curated justification pending.",
+    "confidence": "placeholder",
+    "sources": [
+      {
+        "name": "Sample source — data pending curation",
+        "url": "https://example.com/vantage-sample-data",
+        "lastUpdated": "2026-07-01"
+      }
+    ]
+  },
+  {
+    "countryId": "us",
+    "factorId": "safety",
+    "score": 55,
+    "blurb": "[Sample] Placeholder note on safety in United States; curated justification pending.",
+    "confidence": "placeholder",
+    "sources": [
+      {
+        "name": "Sample source — data pending curation",
+        "url": "https://example.com/vantage-sample-data",
+        "lastUpdated": "2026-07-01"
+      }
+    ]
+  },
+  {
+    "countryId": "us",
+    "factorId": "openness",
+    "score": 70,
+    "blurb": "[Sample] Placeholder note on openness & inclusion in United States; curated justification pending.",
+    "confidence": "placeholder",
+    "sources": [
+      {
+        "name": "Sample source — data pending curation",
+        "url": "https://example.com/vantage-sample-data",
+        "lastUpdated": "2026-07-01"
+      }
+    ]
+  },
+  {
+    "countryId": "us",
+    "factorId": "work-rights",
+    "score": 60,
+    "blurb": "[Sample] Placeholder note on work rights in United States; curated justification pending.",
+    "confidence": "placeholder",
+    "sources": [
+      {
+        "name": "Sample source — data pending curation",
+        "url": "https://example.com/vantage-sample-data",
+        "lastUpdated": "2026-07-01"
+      }
+    ]
+  },
+  {
+    "countryId": "us",
+    "factorId": "healthcare",
+    "score": 40,
+    "blurb": "[Sample] Placeholder note on healthcare in United States; curated justification pending.",
+    "confidence": "placeholder",
+    "sources": [
+      {
+        "name": "Sample source — data pending curation",
+        "url": "https://example.com/vantage-sample-data",
+        "lastUpdated": "2026-07-01"
+      }
+    ]
+  },
+  {
+    "countryId": "us",
+    "factorId": "language",
+    "score": 95,
+    "blurb": "[Sample] Placeholder note on language ease in United States; curated justification pending.",
+    "confidence": "placeholder",
+    "sources": [
+      {
+        "name": "Sample source — data pending curation",
+        "url": "https://example.com/vantage-sample-data",
+        "lastUpdated": "2026-07-01"
+      }
+    ]
+  },
+  {
+    "countryId": "us",
+    "factorId": "community",
+    "score": 90,
+    "blurb": "[Sample] Placeholder note on indian community in United States; curated justification pending.",
+    "confidence": "placeholder",
+    "sources": [
+      {
+        "name": "Sample source — data pending curation",
+        "url": "https://example.com/vantage-sample-data",
+        "lastUpdated": "2026-07-01"
+      }
+    ]
+  },
+  {
+    "countryId": "us",
+    "factorId": "political-climate",
+    "score": 50,
+    "blurb": "[Sample] Placeholder note on political climate in United States; curated justification pending.",
+    "confidence": "placeholder",
+    "sources": [
+      {
+        "name": "Sample source — data pending curation",
+        "url": "https://example.com/vantage-sample-data",
+        "lastUpdated": "2026-07-01"
+      }
+    ]
+  },
+  {
+    "countryId": "us",
+    "factorId": "climate-lifestyle",
+    "score": 70,
+    "blurb": "[Sample] Placeholder note on climate & lifestyle in United States; curated justification pending.",
+    "confidence": "placeholder",
+    "sources": [
+      {
+        "name": "Sample source — data pending curation",
+        "url": "https://example.com/vantage-sample-data",
+        "lastUpdated": "2026-07-01"
+      }
+    ]
+  },
+  {
+    "countryId": "uk",
+    "factorId": "affordability",
+    "score": 35,
+    "blurb": "[Sample] Placeholder note on affordability in United Kingdom; curated justification pending.",
+    "confidence": "placeholder",
+    "sources": [
+      {
+        "name": "Sample source — data pending curation",
+        "url": "https://example.com/vantage-sample-data",
+        "lastUpdated": "2026-07-01"
+      }
+    ]
+  },
+  {
+    "countryId": "uk",
+    "factorId": "safety",
+    "score": 65,
+    "blurb": "[Sample] Placeholder note on safety in United Kingdom; curated justification pending.",
+    "confidence": "placeholder",
+    "sources": [
+      {
+        "name": "Sample source — data pending curation",
+        "url": "https://example.com/vantage-sample-data",
+        "lastUpdated": "2026-07-01"
+      }
+    ]
+  },
+  {
+    "countryId": "uk",
+    "factorId": "openness",
+    "score": 75,
+    "blurb": "[Sample] Placeholder note on openness & inclusion in United Kingdom; curated justification pending.",
+    "confidence": "placeholder",
+    "sources": [
+      {
+        "name": "Sample source — data pending curation",
+        "url": "https://example.com/vantage-sample-data",
+        "lastUpdated": "2026-07-01"
+      }
+    ]
+  },
+  {
+    "countryId": "uk",
+    "factorId": "work-rights",
+    "score": 65,
+    "blurb": "[Sample] Placeholder note on work rights in United Kingdom; curated justification pending.",
+    "confidence": "placeholder",
+    "sources": [
+      {
+        "name": "Sample source — data pending curation",
+        "url": "https://example.com/vantage-sample-data",
+        "lastUpdated": "2026-07-01"
+      }
+    ]
+  },
+  {
+    "countryId": "uk",
+    "factorId": "healthcare",
+    "score": 75,
+    "blurb": "[Sample] Placeholder note on healthcare in United Kingdom; curated justification pending.",
+    "confidence": "placeholder",
+    "sources": [
+      {
+        "name": "Sample source — data pending curation",
+        "url": "https://example.com/vantage-sample-data",
+        "lastUpdated": "2026-07-01"
+      }
+    ]
+  },
+  {
+    "countryId": "uk",
+    "factorId": "language",
+    "score": 95,
+    "blurb": "[Sample] Placeholder note on language ease in United Kingdom; curated justification pending.",
+    "confidence": "placeholder",
+    "sources": [
+      {
+        "name": "Sample source — data pending curation",
+        "url": "https://example.com/vantage-sample-data",
+        "lastUpdated": "2026-07-01"
+      }
+    ]
+  },
+  {
+    "countryId": "uk",
+    "factorId": "community",
+    "score": 88,
+    "blurb": "[Sample] Placeholder note on indian community in United Kingdom; curated justification pending.",
+    "confidence": "placeholder",
+    "sources": [
+      {
+        "name": "Sample source — data pending curation",
+        "url": "https://example.com/vantage-sample-data",
+        "lastUpdated": "2026-07-01"
+      }
+    ]
+  },
+  {
+    "countryId": "uk",
+    "factorId": "political-climate",
+    "score": 60,
+    "blurb": "[Sample] Placeholder note on political climate in United Kingdom; curated justification pending.",
+    "confidence": "placeholder",
+    "sources": [
+      {
+        "name": "Sample source — data pending curation",
+        "url": "https://example.com/vantage-sample-data",
+        "lastUpdated": "2026-07-01"
+      }
+    ]
+  },
+  {
+    "countryId": "uk",
+    "factorId": "climate-lifestyle",
+    "score": 55,
+    "blurb": "[Sample] Placeholder note on climate & lifestyle in United Kingdom; curated justification pending.",
+    "confidence": "placeholder",
+    "sources": [
+      {
+        "name": "Sample source — data pending curation",
+        "url": "https://example.com/vantage-sample-data",
+        "lastUpdated": "2026-07-01"
+      }
+    ]
+  },
+  {
+    "countryId": "ca",
+    "factorId": "affordability",
+    "score": 40,
+    "blurb": "[Sample] Placeholder note on affordability in Canada; curated justification pending.",
+    "confidence": "placeholder",
+    "sources": [
+      {
+        "name": "Sample source — data pending curation",
+        "url": "https://example.com/vantage-sample-data",
+        "lastUpdated": "2026-07-01"
+      }
+    ]
+  },
+  {
+    "countryId": "ca",
+    "factorId": "safety",
+    "score": 75,
+    "blurb": "[Sample] Placeholder note on safety in Canada; curated justification pending.",
+    "confidence": "placeholder",
+    "sources": [
+      {
+        "name": "Sample source — data pending curation",
+        "url": "https://example.com/vantage-sample-data",
+        "lastUpdated": "2026-07-01"
+      }
+    ]
+  },
+  {
+    "countryId": "ca",
+    "factorId": "openness",
+    "score": 80,
+    "blurb": "[Sample] Placeholder note on openness & inclusion in Canada; curated justification pending.",
+    "confidence": "placeholder",
+    "sources": [
+      {
+        "name": "Sample source — data pending curation",
+        "url": "https://example.com/vantage-sample-data",
+        "lastUpdated": "2026-07-01"
+      }
+    ]
+  },
+  {
+    "countryId": "ca",
+    "factorId": "work-rights",
+    "score": 75,
+    "blurb": "[Sample] Placeholder note on work rights in Canada; curated justification pending.",
+    "confidence": "placeholder",
+    "sources": [
+      {
+        "name": "Sample source — data pending curation",
+        "url": "https://example.com/vantage-sample-data",
+        "lastUpdated": "2026-07-01"
+      }
+    ]
+  },
+  {
+    "countryId": "ca",
+    "factorId": "healthcare",
+    "score": 70,
+    "blurb": "[Sample] Placeholder note on healthcare in Canada; curated justification pending.",
+    "confidence": "placeholder",
+    "sources": [
+      {
+        "name": "Sample source — data pending curation",
+        "url": "https://example.com/vantage-sample-data",
+        "lastUpdated": "2026-07-01"
+      }
+    ]
+  },
+  {
+    "countryId": "ca",
+    "factorId": "language",
+    "score": 92,
+    "blurb": "[Sample] Placeholder note on language ease in Canada; curated justification pending.",
+    "confidence": "placeholder",
+    "sources": [
+      {
+        "name": "Sample source — data pending curation",
+        "url": "https://example.com/vantage-sample-data",
+        "lastUpdated": "2026-07-01"
+      }
+    ]
+  },
+  {
+    "countryId": "ca",
+    "factorId": "community",
+    "score": 85,
+    "blurb": "[Sample] Placeholder note on indian community in Canada; curated justification pending.",
+    "confidence": "placeholder",
+    "sources": [
+      {
+        "name": "Sample source — data pending curation",
+        "url": "https://example.com/vantage-sample-data",
+        "lastUpdated": "2026-07-01"
+      }
+    ]
+  },
+  {
+    "countryId": "ca",
+    "factorId": "political-climate",
+    "score": 72,
+    "blurb": "[Sample] Placeholder note on political climate in Canada; curated justification pending.",
+    "confidence": "placeholder",
+    "sources": [
+      {
+        "name": "Sample source — data pending curation",
+        "url": "https://example.com/vantage-sample-data",
+        "lastUpdated": "2026-07-01"
+      }
+    ]
+  },
+  {
+    "countryId": "ca",
+    "factorId": "climate-lifestyle",
+    "score": 45,
+    "blurb": "[Sample] Placeholder note on climate & lifestyle in Canada; curated justification pending.",
+    "confidence": "placeholder",
+    "sources": [
+      {
+        "name": "Sample source — data pending curation",
+        "url": "https://example.com/vantage-sample-data",
+        "lastUpdated": "2026-07-01"
+      }
+    ]
+  },
+  {
+    "countryId": "au",
+    "factorId": "affordability",
+    "score": 38,
+    "blurb": "[Sample] Placeholder note on affordability in Australia; curated justification pending.",
+    "confidence": "placeholder",
+    "sources": [
+      {
+        "name": "Sample source — data pending curation",
+        "url": "https://example.com/vantage-sample-data",
+        "lastUpdated": "2026-07-01"
+      }
+    ]
+  },
+  {
+    "countryId": "au",
+    "factorId": "safety",
+    "score": 78,
+    "blurb": "[Sample] Placeholder note on safety in Australia; curated justification pending.",
+    "confidence": "placeholder",
+    "sources": [
+      {
+        "name": "Sample source — data pending curation",
+        "url": "https://example.com/vantage-sample-data",
+        "lastUpdated": "2026-07-01"
+      }
+    ]
+  },
+  {
+    "countryId": "au",
+    "factorId": "openness",
+    "score": 76,
+    "blurb": "[Sample] Placeholder note on openness & inclusion in Australia; curated justification pending.",
+    "confidence": "placeholder",
+    "sources": [
+      {
+        "name": "Sample source — data pending curation",
+        "url": "https://example.com/vantage-sample-data",
+        "lastUpdated": "2026-07-01"
+      }
+    ]
+  },
+  {
+    "countryId": "au",
+    "factorId": "work-rights",
+    "score": 78,
+    "blurb": "[Sample] Placeholder note on work rights in Australia; curated justification pending.",
+    "confidence": "placeholder",
+    "sources": [
+      {
+        "name": "Sample source — data pending curation",
+        "url": "https://example.com/vantage-sample-data",
+        "lastUpdated": "2026-07-01"
+      }
+    ]
+  },
+  {
+    "countryId": "au",
+    "factorId": "healthcare",
+    "score": 72,
+    "blurb": "[Sample] Placeholder note on healthcare in Australia; curated justification pending.",
+    "confidence": "placeholder",
+    "sources": [
+      {
+        "name": "Sample source — data pending curation",
+        "url": "https://example.com/vantage-sample-data",
+        "lastUpdated": "2026-07-01"
+      }
+    ]
+  },
+  {
+    "countryId": "au",
+    "factorId": "language",
+    "score": 94,
+    "blurb": "[Sample] Placeholder note on language ease in Australia; curated justification pending.",
+    "confidence": "placeholder",
+    "sources": [
+      {
+        "name": "Sample source — data pending curation",
+        "url": "https://example.com/vantage-sample-data",
+        "lastUpdated": "2026-07-01"
+      }
+    ]
+  },
+  {
+    "countryId": "au",
+    "factorId": "community",
+    "score": 80,
+    "blurb": "[Sample] Placeholder note on indian community in Australia; curated justification pending.",
+    "confidence": "placeholder",
+    "sources": [
+      {
+        "name": "Sample source — data pending curation",
+        "url": "https://example.com/vantage-sample-data",
+        "lastUpdated": "2026-07-01"
+      }
+    ]
+  },
+  {
+    "countryId": "au",
+    "factorId": "political-climate",
+    "score": 70,
+    "blurb": "[Sample] Placeholder note on political climate in Australia; curated justification pending.",
+    "confidence": "placeholder",
+    "sources": [
+      {
+        "name": "Sample source — data pending curation",
+        "url": "https://example.com/vantage-sample-data",
+        "lastUpdated": "2026-07-01"
+      }
+    ]
+  },
+  {
+    "countryId": "au",
+    "factorId": "climate-lifestyle",
+    "score": 80,
+    "blurb": "[Sample] Placeholder note on climate & lifestyle in Australia; curated justification pending.",
+    "confidence": "placeholder",
+    "sources": [
+      {
+        "name": "Sample source — data pending curation",
+        "url": "https://example.com/vantage-sample-data",
+        "lastUpdated": "2026-07-01"
+      }
+    ]
+  },
+  {
+    "countryId": "de",
+    "factorId": "affordability",
+    "score": 70,
+    "blurb": "[Sample] Placeholder note on affordability in Germany; curated justification pending.",
+    "confidence": "placeholder",
+    "sources": [
+      {
+        "name": "Sample source — data pending curation",
+        "url": "https://example.com/vantage-sample-data",
+        "lastUpdated": "2026-07-01"
+      }
+    ]
+  },
+  {
+    "countryId": "de",
+    "factorId": "safety",
+    "score": 72,
+    "blurb": "[Sample] Placeholder note on safety in Germany; curated justification pending.",
+    "confidence": "placeholder",
+    "sources": [
+      {
+        "name": "Sample source — data pending curation",
+        "url": "https://example.com/vantage-sample-data",
+        "lastUpdated": "2026-07-01"
+      }
+    ]
+  },
+  {
+    "countryId": "de",
+    "factorId": "openness",
+    "score": 62,
+    "blurb": "[Sample] Placeholder note on openness & inclusion in Germany; curated justification pending.",
+    "confidence": "placeholder",
+    "sources": [
+      {
+        "name": "Sample source — data pending curation",
+        "url": "https://example.com/vantage-sample-data",
+        "lastUpdated": "2026-07-01"
+      }
+    ]
+  },
+  {
+    "countryId": "de",
+    "factorId": "work-rights",
+    "score": 70,
+    "blurb": "[Sample] Placeholder note on work rights in Germany; curated justification pending.",
+    "confidence": "placeholder",
+    "sources": [
+      {
+        "name": "Sample source — data pending curation",
+        "url": "https://example.com/vantage-sample-data",
+        "lastUpdated": "2026-07-01"
+      }
+    ]
+  },
+  {
+    "countryId": "de",
+    "factorId": "healthcare",
+    "score": 80,
+    "blurb": "[Sample] Placeholder note on healthcare in Germany; curated justification pending.",
+    "confidence": "placeholder",
+    "sources": [
+      {
+        "name": "Sample source — data pending curation",
+        "url": "https://example.com/vantage-sample-data",
+        "lastUpdated": "2026-07-01"
+      }
+    ]
+  },
+  {
+    "countryId": "de",
+    "factorId": "language",
+    "score": 45,
+    "blurb": "[Sample] Placeholder note on language ease in Germany; curated justification pending.",
+    "confidence": "placeholder",
+    "sources": [
+      {
+        "name": "Sample source — data pending curation",
+        "url": "https://example.com/vantage-sample-data",
+        "lastUpdated": "2026-07-01"
+      }
+    ]
+  },
+  {
+    "countryId": "de",
+    "factorId": "community",
+    "score": 60,
+    "blurb": "[Sample] Placeholder note on indian community in Germany; curated justification pending.",
+    "confidence": "placeholder",
+    "sources": [
+      {
+        "name": "Sample source — data pending curation",
+        "url": "https://example.com/vantage-sample-data",
+        "lastUpdated": "2026-07-01"
+      }
+    ]
+  },
+  {
+    "countryId": "de",
+    "factorId": "political-climate",
+    "score": 68,
+    "blurb": "[Sample] Placeholder note on political climate in Germany; curated justification pending.",
+    "confidence": "placeholder",
+    "sources": [
+      {
+        "name": "Sample source — data pending curation",
+        "url": "https://example.com/vantage-sample-data",
+        "lastUpdated": "2026-07-01"
+      }
+    ]
+  },
+  {
+    "countryId": "de",
+    "factorId": "climate-lifestyle",
+    "score": 60,
+    "blurb": "[Sample] Placeholder note on climate & lifestyle in Germany; curated justification pending.",
+    "confidence": "placeholder",
+    "sources": [
+      {
+        "name": "Sample source — data pending curation",
+        "url": "https://example.com/vantage-sample-data",
+        "lastUpdated": "2026-07-01"
+      }
+    ]
+  },
+  {
+    "countryId": "ie",
+    "factorId": "affordability",
+    "score": 45,
+    "blurb": "[Sample] Placeholder note on affordability in Ireland; curated justification pending.",
+    "confidence": "placeholder",
+    "sources": [
+      {
+        "name": "Sample source — data pending curation",
+        "url": "https://example.com/vantage-sample-data",
+        "lastUpdated": "2026-07-01"
+      }
+    ]
+  },
+  {
+    "countryId": "ie",
+    "factorId": "safety",
+    "score": 74,
+    "blurb": "[Sample] Placeholder note on safety in Ireland; curated justification pending.",
+    "confidence": "placeholder",
+    "sources": [
+      {
+        "name": "Sample source — data pending curation",
+        "url": "https://example.com/vantage-sample-data",
+        "lastUpdated": "2026-07-01"
+      }
+    ]
+  },
+  {
+    "countryId": "ie",
+    "factorId": "openness",
+    "score": 78,
+    "blurb": "[Sample] Placeholder note on openness & inclusion in Ireland; curated justification pending.",
+    "confidence": "placeholder",
+    "sources": [
+      {
+        "name": "Sample source — data pending curation",
+        "url": "https://example.com/vantage-sample-data",
+        "lastUpdated": "2026-07-01"
+      }
+    ]
+  },
+  {
+    "countryId": "ie",
+    "factorId": "work-rights",
+    "score": 72,
+    "blurb": "[Sample] Placeholder note on work rights in Ireland; curated justification pending.",
+    "confidence": "placeholder",
+    "sources": [
+      {
+        "name": "Sample source — data pending curation",
+        "url": "https://example.com/vantage-sample-data",
+        "lastUpdated": "2026-07-01"
+      }
+    ]
+  },
+  {
+    "countryId": "ie",
+    "factorId": "healthcare",
+    "score": 68,
+    "blurb": "[Sample] Placeholder note on healthcare in Ireland; curated justification pending.",
+    "confidence": "placeholder",
+    "sources": [
+      {
+        "name": "Sample source — data pending curation",
+        "url": "https://example.com/vantage-sample-data",
+        "lastUpdated": "2026-07-01"
+      }
+    ]
+  },
+  {
+    "countryId": "ie",
+    "factorId": "language",
+    "score": 95,
+    "blurb": "[Sample] Placeholder note on language ease in Ireland; curated justification pending.",
+    "confidence": "placeholder",
+    "sources": [
+      {
+        "name": "Sample source — data pending curation",
+        "url": "https://example.com/vantage-sample-data",
+        "lastUpdated": "2026-07-01"
+      }
+    ]
+  },
+  {
+    "countryId": "ie",
+    "factorId": "community",
+    "score": 75,
+    "blurb": "[Sample] Placeholder note on indian community in Ireland; curated justification pending.",
+    "confidence": "placeholder",
+    "sources": [
+      {
+        "name": "Sample source — data pending curation",
+        "url": "https://example.com/vantage-sample-data",
+        "lastUpdated": "2026-07-01"
+      }
+    ]
+  },
+  {
+    "countryId": "ie",
+    "factorId": "political-climate",
+    "score": 75,
+    "blurb": "[Sample] Placeholder note on political climate in Ireland; curated justification pending.",
+    "confidence": "placeholder",
+    "sources": [
+      {
+        "name": "Sample source — data pending curation",
+        "url": "https://example.com/vantage-sample-data",
+        "lastUpdated": "2026-07-01"
+      }
+    ]
+  },
+  {
+    "countryId": "ie",
+    "factorId": "climate-lifestyle",
+    "score": 55,
+    "blurb": "[Sample] Placeholder note on climate & lifestyle in Ireland; curated justification pending.",
+    "confidence": "placeholder",
+    "sources": [
+      {
+        "name": "Sample source — data pending curation",
+        "url": "https://example.com/vantage-sample-data",
+        "lastUpdated": "2026-07-01"
+      }
+    ]
+  },
+  {
+    "countryId": "nl",
+    "factorId": "affordability",
+    "score": 55,
+    "blurb": "[Sample] Placeholder note on affordability in Netherlands; curated justification pending.",
+    "confidence": "placeholder",
+    "sources": [
+      {
+        "name": "Sample source — data pending curation",
+        "url": "https://example.com/vantage-sample-data",
+        "lastUpdated": "2026-07-01"
+      }
+    ]
+  },
+  {
+    "countryId": "nl",
+    "factorId": "safety",
+    "score": 76,
+    "blurb": "[Sample] Placeholder note on safety in Netherlands; curated justification pending.",
+    "confidence": "placeholder",
+    "sources": [
+      {
+        "name": "Sample source — data pending curation",
+        "url": "https://example.com/vantage-sample-data",
+        "lastUpdated": "2026-07-01"
+      }
+    ]
+  },
+  {
+    "countryId": "nl",
+    "factorId": "openness",
+    "score": 82,
+    "blurb": "[Sample] Placeholder note on openness & inclusion in Netherlands; curated justification pending.",
+    "confidence": "placeholder",
+    "sources": [
+      {
+        "name": "Sample source — data pending curation",
+        "url": "https://example.com/vantage-sample-data",
+        "lastUpdated": "2026-07-01"
+      }
+    ]
+  },
+  {
+    "countryId": "nl",
+    "factorId": "work-rights",
+    "score": 68,
+    "blurb": "[Sample] Placeholder note on work rights in Netherlands; curated justification pending.",
+    "confidence": "placeholder",
+    "sources": [
+      {
+        "name": "Sample source — data pending curation",
+        "url": "https://example.com/vantage-sample-data",
+        "lastUpdated": "2026-07-01"
+      }
+    ]
+  },
+  {
+    "countryId": "nl",
+    "factorId": "healthcare",
+    "score": 78,
+    "blurb": "[Sample] Placeholder note on healthcare in Netherlands; curated justification pending.",
+    "confidence": "placeholder",
+    "sources": [
+      {
+        "name": "Sample source — data pending curation",
+        "url": "https://example.com/vantage-sample-data",
+        "lastUpdated": "2026-07-01"
+      }
+    ]
+  },
+  {
+    "countryId": "nl",
+    "factorId": "language",
+    "score": 70,
+    "blurb": "[Sample] Placeholder note on language ease in Netherlands; curated justification pending.",
+    "confidence": "placeholder",
+    "sources": [
+      {
+        "name": "Sample source — data pending curation",
+        "url": "https://example.com/vantage-sample-data",
+        "lastUpdated": "2026-07-01"
+      }
+    ]
+  },
+  {
+    "countryId": "nl",
+    "factorId": "community",
+    "score": 55,
+    "blurb": "[Sample] Placeholder note on indian community in Netherlands; curated justification pending.",
+    "confidence": "placeholder",
+    "sources": [
+      {
+        "name": "Sample source — data pending curation",
+        "url": "https://example.com/vantage-sample-data",
+        "lastUpdated": "2026-07-01"
+      }
+    ]
+  },
+  {
+    "countryId": "nl",
+    "factorId": "political-climate",
+    "score": 74,
+    "blurb": "[Sample] Placeholder note on political climate in Netherlands; curated justification pending.",
+    "confidence": "placeholder",
+    "sources": [
+      {
+        "name": "Sample source — data pending curation",
+        "url": "https://example.com/vantage-sample-data",
+        "lastUpdated": "2026-07-01"
+      }
+    ]
+  },
+  {
+    "countryId": "nl",
+    "factorId": "climate-lifestyle",
+    "score": 58,
+    "blurb": "[Sample] Placeholder note on climate & lifestyle in Netherlands; curated justification pending.",
+    "confidence": "placeholder",
+    "sources": [
+      {
+        "name": "Sample source — data pending curation",
+        "url": "https://example.com/vantage-sample-data",
+        "lastUpdated": "2026-07-01"
+      }
+    ]
+  },
+  {
+    "countryId": "sg",
+    "factorId": "affordability",
+    "score": 42,
+    "blurb": "[Sample] Placeholder note on affordability in Singapore; curated justification pending.",
+    "confidence": "placeholder",
+    "sources": [
+      {
+        "name": "Sample source — data pending curation",
+        "url": "https://example.com/vantage-sample-data",
+        "lastUpdated": "2026-07-01"
+      }
+    ]
+  },
+  {
+    "countryId": "sg",
+    "factorId": "safety",
+    "score": 92,
+    "blurb": "[Sample] Placeholder note on safety in Singapore; curated justification pending.",
+    "confidence": "placeholder",
+    "sources": [
+      {
+        "name": "Sample source — data pending curation",
+        "url": "https://example.com/vantage-sample-data",
+        "lastUpdated": "2026-07-01"
+      }
+    ]
+  },
+  {
+    "countryId": "sg",
+    "factorId": "openness",
+    "score": 60,
+    "blurb": "[Sample] Placeholder note on openness & inclusion in Singapore; curated justification pending.",
+    "confidence": "placeholder",
+    "sources": [
+      {
+        "name": "Sample source — data pending curation",
+        "url": "https://example.com/vantage-sample-data",
+        "lastUpdated": "2026-07-01"
+      }
+    ]
+  },
+  {
+    "countryId": "sg",
+    "factorId": "work-rights",
+    "score": 55,
+    "blurb": "[Sample] Placeholder note on work rights in Singapore; curated justification pending.",
+    "confidence": "placeholder",
+    "sources": [
+      {
+        "name": "Sample source — data pending curation",
+        "url": "https://example.com/vantage-sample-data",
+        "lastUpdated": "2026-07-01"
+      }
+    ]
+  },
+  {
+    "countryId": "sg",
+    "factorId": "healthcare",
+    "score": 75,
+    "blurb": "[Sample] Placeholder note on healthcare in Singapore; curated justification pending.",
+    "confidence": "placeholder",
+    "sources": [
+      {
+        "name": "Sample source — data pending curation",
+        "url": "https://example.com/vantage-sample-data",
+        "lastUpdated": "2026-07-01"
+      }
+    ]
+  },
+  {
+    "countryId": "sg",
+    "factorId": "language",
+    "score": 85,
+    "blurb": "[Sample] Placeholder note on language ease in Singapore; curated justification pending.",
+    "confidence": "placeholder",
+    "sources": [
+      {
+        "name": "Sample source — data pending curation",
+        "url": "https://example.com/vantage-sample-data",
+        "lastUpdated": "2026-07-01"
+      }
+    ]
+  },
+  {
+    "countryId": "sg",
+    "factorId": "community",
+    "score": 82,
+    "blurb": "[Sample] Placeholder note on indian community in Singapore; curated justification pending.",
+    "confidence": "placeholder",
+    "sources": [
+      {
+        "name": "Sample source — data pending curation",
+        "url": "https://example.com/vantage-sample-data",
+        "lastUpdated": "2026-07-01"
+      }
+    ]
+  },
+  {
+    "countryId": "sg",
+    "factorId": "political-climate",
+    "score": 55,
+    "blurb": "[Sample] Placeholder note on political climate in Singapore; curated justification pending.",
+    "confidence": "placeholder",
+    "sources": [
+      {
+        "name": "Sample source — data pending curation",
+        "url": "https://example.com/vantage-sample-data",
+        "lastUpdated": "2026-07-01"
+      }
+    ]
+  },
+  {
+    "countryId": "sg",
+    "factorId": "climate-lifestyle",
+    "score": 65,
+    "blurb": "[Sample] Placeholder note on climate & lifestyle in Singapore; curated justification pending.",
+    "confidence": "placeholder",
+    "sources": [
+      {
+        "name": "Sample source — data pending curation",
+        "url": "https://example.com/vantage-sample-data",
+        "lastUpdated": "2026-07-01"
+      }
+    ]
+  }
+]

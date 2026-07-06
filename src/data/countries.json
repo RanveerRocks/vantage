@@ -1,0 +1,58 @@
+[
+  {
+    "id": "us",
+    "name": "United States",
+    "flag": "🇺🇸",
+    "currency": "USD",
+    "blurb": "[Sample] One-line story for Indian students headed to United States — curated copy pending."
+  },
+  {
+    "id": "uk",
+    "name": "United Kingdom",
+    "flag": "🇬🇧",
+    "currency": "GBP",
+    "blurb": "[Sample] One-line story for Indian students headed to United Kingdom — curated copy pending."
+  },
+  {
+    "id": "ca",
+    "name": "Canada",
+    "flag": "🇨🇦",
+    "currency": "CAD",
+    "blurb": "[Sample] One-line story for Indian students headed to Canada — curated copy pending."
+  },
+  {
+    "id": "au",
+    "name": "Australia",
+    "flag": "🇦🇺",
+    "currency": "AUD",
+    "blurb": "[Sample] One-line story for Indian students headed to Australia — curated copy pending."
+  },
+  {
+    "id": "de",
+    "name": "Germany",
+    "flag": "🇩🇪",
+    "currency": "EUR",
+    "blurb": "[Sample] One-line story for Indian students headed to Germany — curated copy pending."
+  },
+  {
+    "id": "ie",
+    "name": "Ireland",
+    "flag": "🇮🇪",
+    "currency": "EUR",
+    "blurb": "[Sample] One-line story for Indian students headed to Ireland — curated copy pending."
+  },
+  {
+    "id": "nl",
+    "name": "Netherlands",
+    "flag": "🇳🇱",
+    "currency": "EUR",
+    "blurb": "[Sample] One-line story for Indian students headed to Netherlands — curated copy pending."
+  },
+  {
+    "id": "sg",
+    "name": "Singapore",
+    "flag": "🇸🇬",
+    "currency": "SGD",
+    "blurb": "[Sample] One-line story for Indian students headed to Singapore — curated copy pending."
+  }
+]

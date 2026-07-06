@@ -1,0 +1,1218 @@
+[
+  {
+    "countryId": "us",
+    "degreeId": "cs-it",
+    "jobDemand": 85,
+    "visaOpenness": 38,
+    "postStudyWorkYears": 3,
+    "prPathwayYears": 8,
+    "medianSalaryY1PppUsd": 74500,
+    "totalDegreeCostUsd": 117000,
+    "narrative": "[Sample] Placeholder narrative for Computer Science & IT in United States. Two to three curated sentences will justify this position once real data lands. All values on this record are sample data.",
+    "confidence": "placeholder",
+    "sources": [
+      {
+        "name": "Sample source — data pending curation",
+        "url": "https://example.com/vantage-sample-data",
+        "lastUpdated": "2026-07-01"
+      }
+    ]
+  },
+  {
+    "countryId": "us",
+    "degreeId": "engineering",
+    "jobDemand": 80,
+    "visaOpenness": 38,
+    "postStudyWorkYears": 3,
+    "prPathwayYears": 8,
+    "medianSalaryY1PppUsd": 68000,
+    "totalDegreeCostUsd": 117000,
+    "narrative": "[Sample] Placeholder narrative for Engineering (non-CS) in United States. Two to three curated sentences will justify this position once real data lands. All values on this record are sample data.",
+    "confidence": "placeholder",
+    "sources": [
+      {
+        "name": "Sample source — data pending curation",
+        "url": "https://example.com/vantage-sample-data",
+        "lastUpdated": "2026-07-01"
+      }
+    ]
+  },
+  {
+    "countryId": "us",
+    "degreeId": "business-finance",
+    "jobDemand": 70,
+    "visaOpenness": 38,
+    "postStudyWorkYears": 3,
+    "prPathwayYears": 8,
+    "medianSalaryY1PppUsd": 65000,
+    "totalDegreeCostUsd": 124000,
+    "narrative": "[Sample] Placeholder narrative for Business & Finance in United States. Two to three curated sentences will justify this position once real data lands. All values on this record are sample data.",
+    "confidence": "placeholder",
+    "sources": [
+      {
+        "name": "Sample source — data pending curation",
+        "url": "https://example.com/vantage-sample-data",
+        "lastUpdated": "2026-07-01"
+      }
+    ]
+  },
+  {
+    "countryId": "us",
+    "degreeId": "economics",
+    "jobDemand": 65,
+    "visaOpenness": 38,
+    "postStudyWorkYears": 3,
+    "prPathwayYears": 8,
+    "medianSalaryY1PppUsd": 62000,
+    "totalDegreeCostUsd": 113000,
+    "narrative": "[Sample] Placeholder narrative for Economics in United States. Two to three curated sentences will justify this position once real data lands. All values on this record are sample data.",
+    "confidence": "placeholder",
+    "sources": [
+      {
+        "name": "Sample source — data pending curation",
+        "url": "https://example.com/vantage-sample-data",
+        "lastUpdated": "2026-07-01"
+      }
+    ]
+  },
+  {
+    "countryId": "us",
+    "degreeId": "data-science",
+    "jobDemand": 88,
+    "visaOpenness": 38,
+    "postStudyWorkYears": 3,
+    "prPathwayYears": 8,
+    "medianSalaryY1PppUsd": 71500,
+    "totalDegreeCostUsd": 121000,
+    "narrative": "[Sample] Placeholder narrative for Data Science & Analytics in United States. Two to three curated sentences will justify this position once real data lands. All values on this record are sample data.",
+    "confidence": "placeholder",
+    "sources": [
+      {
+        "name": "Sample source — data pending curation",
+        "url": "https://example.com/vantage-sample-data",
+        "lastUpdated": "2026-07-01"
+      }
+    ]
+  },
+  {
+    "countryId": "us",
+    "degreeId": "health-life-sciences",
+    "jobDemand": 82,
+    "visaOpenness": 38,
+    "postStudyWorkYears": 3,
+    "prPathwayYears": 8,
+    "medianSalaryY1PppUsd": 59000,
+    "totalDegreeCostUsd": 121000,
+    "narrative": "[Sample] Placeholder narrative for Health & Life Sciences in United States. Two to three curated sentences will justify this position once real data lands. All values on this record are sample data.",
+    "confidence": "placeholder",
+    "sources": [
+      {
+        "name": "Sample source — data pending curation",
+        "url": "https://example.com/vantage-sample-data",
+        "lastUpdated": "2026-07-01"
+      }
+    ]
+  },
+  {
+    "countryId": "us",
+    "degreeId": "design-media",
+    "jobDemand": 58,
+    "visaOpenness": 38,
+    "postStudyWorkYears": 3,
+    "prPathwayYears": 8,
+    "medianSalaryY1PppUsd": 49500,
+    "totalDegreeCostUsd": 113000,
+    "narrative": "[Sample] Placeholder narrative for Design & Media in United States. Two to three curated sentences will justify this position once real data lands. All values on this record are sample data.",
+    "confidence": "placeholder",
+    "sources": [
+      {
+        "name": "Sample source — data pending curation",
+        "url": "https://example.com/vantage-sample-data",
+        "lastUpdated": "2026-07-01"
+      }
+    ]
+  },
+  {
+    "countryId": "us",
+    "degreeId": "humanities-social",
+    "jobDemand": 52,
+    "visaOpenness": 38,
+    "postStudyWorkYears": 3,
+    "prPathwayYears": 8,
+    "medianSalaryY1PppUsd": 46500,
+    "totalDegreeCostUsd": 105000,
+    "narrative": "[Sample] Placeholder narrative for Humanities & Social Sciences in United States. Two to three curated sentences will justify this position once real data lands. All values on this record are sample data.",
+    "confidence": "placeholder",
+    "sources": [
+      {
+        "name": "Sample source — data pending curation",
+        "url": "https://example.com/vantage-sample-data",
+        "lastUpdated": "2026-07-01"
+      }
+    ]
+  },
+  {
+    "countryId": "uk",
+    "degreeId": "cs-it",
+    "jobDemand": 75,
+    "visaOpenness": 58,
+    "postStudyWorkYears": 2,
+    "prPathwayYears": 5,
+    "medianSalaryY1PppUsd": 53000,
+    "totalDegreeCostUsd": 90000,
+    "narrative": "[Sample] Placeholder narrative for Computer Science & IT in United Kingdom. Two to three curated sentences will justify this position once real data lands. All values on this record are sample data.",
+    "confidence": "placeholder",
+    "sources": [
+      {
+        "name": "Sample source — data pending curation",
+        "url": "https://example.com/vantage-sample-data",
+        "lastUpdated": "2026-07-01"
+      }
+    ]
+  },
+  {
+    "countryId": "uk",
+    "degreeId": "engineering",
+    "jobDemand": 70,
+    "visaOpenness": 58,
+    "postStudyWorkYears": 2,
+    "prPathwayYears": 5,
+    "medianSalaryY1PppUsd": 48500,
+    "totalDegreeCostUsd": 90000,
+    "narrative": "[Sample] Placeholder narrative for Engineering (non-CS) in United Kingdom. Two to three curated sentences will justify this position once real data lands. All values on this record are sample data.",
+    "confidence": "placeholder",
+    "sources": [
+      {
+        "name": "Sample source — data pending curation",
+        "url": "https://example.com/vantage-sample-data",
+        "lastUpdated": "2026-07-01"
+      }
+    ]
+  },
+  {
+    "countryId": "uk",
+    "degreeId": "business-finance",
+    "jobDemand": 60,
+    "visaOpenness": 58,
+    "postStudyWorkYears": 2,
+    "prPathwayYears": 5,
+    "medianSalaryY1PppUsd": 46000,
+    "totalDegreeCostUsd": 96000,
+    "narrative": "[Sample] Placeholder narrative for Business & Finance in United Kingdom. Two to three curated sentences will justify this position once real data lands. All values on this record are sample data.",
+    "confidence": "placeholder",
+    "sources": [
+      {
+        "name": "Sample source — data pending curation",
+        "url": "https://example.com/vantage-sample-data",
+        "lastUpdated": "2026-07-01"
+      }
+    ]
+  },
+  {
+    "countryId": "uk",
+    "degreeId": "economics",
+    "jobDemand": 55,
+    "visaOpenness": 58,
+    "postStudyWorkYears": 2,
+    "prPathwayYears": 5,
+    "medianSalaryY1PppUsd": 44000,
+    "totalDegreeCostUsd": 87000,
+    "narrative": "[Sample] Placeholder narrative for Economics in United Kingdom. Two to three curated sentences will justify this position once real data lands. All values on this record are sample data.",
+    "confidence": "placeholder",
+    "sources": [
+      {
+        "name": "Sample source — data pending curation",
+        "url": "https://example.com/vantage-sample-data",
+        "lastUpdated": "2026-07-01"
+      }
+    ]
+  },
+  {
+    "countryId": "uk",
+    "degreeId": "data-science",
+    "jobDemand": 78,
+    "visaOpenness": 58,
+    "postStudyWorkYears": 2,
+    "prPathwayYears": 5,
+    "medianSalaryY1PppUsd": 50500,
+    "totalDegreeCostUsd": 93000,
+    "narrative": "[Sample] Placeholder narrative for Data Science & Analytics in United Kingdom. Two to three curated sentences will justify this position once real data lands. All values on this record are sample data.",
+    "confidence": "placeholder",
+    "sources": [
+      {
+        "name": "Sample source — data pending curation",
+        "url": "https://example.com/vantage-sample-data",
+        "lastUpdated": "2026-07-01"
+      }
+    ]
+  },
+  {
+    "countryId": "uk",
+    "degreeId": "health-life-sciences",
+    "jobDemand": 72,
+    "visaOpenness": 58,
+    "postStudyWorkYears": 2,
+    "prPathwayYears": 5,
+    "medianSalaryY1PppUsd": 42000,
+    "totalDegreeCostUsd": 93000,
+    "narrative": "[Sample] Placeholder narrative for Health & Life Sciences in United Kingdom. Two to three curated sentences will justify this position once real data lands. All values on this record are sample data.",
+    "confidence": "placeholder",
+    "sources": [
+      {
+        "name": "Sample source — data pending curation",
+        "url": "https://example.com/vantage-sample-data",
+        "lastUpdated": "2026-07-01"
+      }
+    ]
+  },
+  {
+    "countryId": "uk",
+    "degreeId": "design-media",
+    "jobDemand": 48,
+    "visaOpenness": 58,
+    "postStudyWorkYears": 2,
+    "prPathwayYears": 5,
+    "medianSalaryY1PppUsd": 35000,
+    "totalDegreeCostUsd": 87000,
+    "narrative": "[Sample] Placeholder narrative for Design & Media in United Kingdom. Two to three curated sentences will justify this position once real data lands. All values on this record are sample data.",
+    "confidence": "placeholder",
+    "sources": [
+      {
+        "name": "Sample source — data pending curation",
+        "url": "https://example.com/vantage-sample-data",
+        "lastUpdated": "2026-07-01"
+      }
+    ]
+  },
+  {
+    "countryId": "uk",
+    "degreeId": "humanities-social",
+    "jobDemand": 42,
+    "visaOpenness": 58,
+    "postStudyWorkYears": 2,
+    "prPathwayYears": 5,
+    "medianSalaryY1PppUsd": 33000,
+    "totalDegreeCostUsd": 82000,
+    "narrative": "[Sample] Placeholder narrative for Humanities & Social Sciences in United Kingdom. Two to three curated sentences will justify this position once real data lands. All values on this record are sample data.",
+    "confidence": "placeholder",
+    "sources": [
+      {
+        "name": "Sample source — data pending curation",
+        "url": "https://example.com/vantage-sample-data",
+        "lastUpdated": "2026-07-01"
+      }
+    ]
+  },
+  {
+    "countryId": "ca",
+    "degreeId": "cs-it",
+    "jobDemand": 80,
+    "visaOpenness": 72,
+    "postStudyWorkYears": 3,
+    "prPathwayYears": 6,
+    "medianSalaryY1PppUsd": 57500,
+    "totalDegreeCostUsd": 77000,
+    "narrative": "[Sample] Placeholder narrative for Computer Science & IT in Canada. Two to three curated sentences will justify this position once real data lands. All values on this record are sample data.",
+    "confidence": "placeholder",
+    "sources": [
+      {
+        "name": "Sample source — data pending curation",
+        "url": "https://example.com/vantage-sample-data",
+        "lastUpdated": "2026-07-01"
+      }
+    ]
+  },
+  {
+    "countryId": "ca",
+    "degreeId": "engineering",
+    "jobDemand": 75,
+    "visaOpenness": 72,
+    "postStudyWorkYears": 3,
+    "prPathwayYears": 6,
+    "medianSalaryY1PppUsd": 53000,
+    "totalDegreeCostUsd": 77000,
+    "narrative": "[Sample] Placeholder narrative for Engineering (non-CS) in Canada. Two to three curated sentences will justify this position once real data lands. All values on this record are sample data.",
+    "confidence": "placeholder",
+    "sources": [
+      {
+        "name": "Sample source — data pending curation",
+        "url": "https://example.com/vantage-sample-data",
+        "lastUpdated": "2026-07-01"
+      }
+    ]
+  },
+  {
+    "countryId": "ca",
+    "degreeId": "business-finance",
+    "jobDemand": 65,
+    "visaOpenness": 72,
+    "postStudyWorkYears": 3,
+    "prPathwayYears": 6,
+    "medianSalaryY1PppUsd": 50500,
+    "totalDegreeCostUsd": 81000,
+    "narrative": "[Sample] Placeholder narrative for Business & Finance in Canada. Two to three curated sentences will justify this position once real data lands. All values on this record are sample data.",
+    "confidence": "placeholder",
+    "sources": [
+      {
+        "name": "Sample source — data pending curation",
+        "url": "https://example.com/vantage-sample-data",
+        "lastUpdated": "2026-07-01"
+      }
+    ]
+  },
+  {
+    "countryId": "ca",
+    "degreeId": "economics",
+    "jobDemand": 60,
+    "visaOpenness": 72,
+    "postStudyWorkYears": 3,
+    "prPathwayYears": 6,
+    "medianSalaryY1PppUsd": 48000,
+    "totalDegreeCostUsd": 74000,
+    "narrative": "[Sample] Placeholder narrative for Economics in Canada. Two to three curated sentences will justify this position once real data lands. All values on this record are sample data.",
+    "confidence": "placeholder",
+    "sources": [
+      {
+        "name": "Sample source — data pending curation",
+        "url": "https://example.com/vantage-sample-data",
+        "lastUpdated": "2026-07-01"
+      }
+    ]
+  },
+  {
+    "countryId": "ca",
+    "degreeId": "data-science",
+    "jobDemand": 83,
+    "visaOpenness": 72,
+    "postStudyWorkYears": 3,
+    "prPathwayYears": 6,
+    "medianSalaryY1PppUsd": 55000,
+    "totalDegreeCostUsd": 79000,
+    "narrative": "[Sample] Placeholder narrative for Data Science & Analytics in Canada. Two to three curated sentences will justify this position once real data lands. All values on this record are sample data.",
+    "confidence": "placeholder",
+    "sources": [
+      {
+        "name": "Sample source — data pending curation",
+        "url": "https://example.com/vantage-sample-data",
+        "lastUpdated": "2026-07-01"
+      }
+    ]
+  },
+  {
+    "countryId": "ca",
+    "degreeId": "health-life-sciences",
+    "jobDemand": 77,
+    "visaOpenness": 72,
+    "postStudyWorkYears": 3,
+    "prPathwayYears": 6,
+    "medianSalaryY1PppUsd": 45500,
+    "totalDegreeCostUsd": 79000,
+    "narrative": "[Sample] Placeholder narrative for Health & Life Sciences in Canada. Two to three curated sentences will justify this position once real data lands. All values on this record are sample data.",
+    "confidence": "placeholder",
+    "sources": [
+      {
+        "name": "Sample source — data pending curation",
+        "url": "https://example.com/vantage-sample-data",
+        "lastUpdated": "2026-07-01"
+      }
+    ]
+  },
+  {
+    "countryId": "ca",
+    "degreeId": "design-media",
+    "jobDemand": 53,
+    "visaOpenness": 72,
+    "postStudyWorkYears": 3,
+    "prPathwayYears": 6,
+    "medianSalaryY1PppUsd": 38500,
+    "totalDegreeCostUsd": 74000,
+    "narrative": "[Sample] Placeholder narrative for Design & Media in Canada. Two to three curated sentences will justify this position once real data lands. All values on this record are sample data.",
+    "confidence": "placeholder",
+    "sources": [
+      {
+        "name": "Sample source — data pending curation",
+        "url": "https://example.com/vantage-sample-data",
+        "lastUpdated": "2026-07-01"
+      }
+    ]
+  },
+  {
+    "countryId": "ca",
+    "degreeId": "humanities-social",
+    "jobDemand": 47,
+    "visaOpenness": 72,
+    "postStudyWorkYears": 3,
+    "prPathwayYears": 6,
+    "medianSalaryY1PppUsd": 36000,
+    "totalDegreeCostUsd": 69000,
+    "narrative": "[Sample] Placeholder narrative for Humanities & Social Sciences in Canada. Two to three curated sentences will justify this position once real data lands. All values on this record are sample data.",
+    "confidence": "placeholder",
+    "sources": [
+      {
+        "name": "Sample source — data pending curation",
+        "url": "https://example.com/vantage-sample-data",
+        "lastUpdated": "2026-07-01"
+      }
+    ]
+  },
+  {
+    "countryId": "au",
+    "degreeId": "cs-it",
+    "jobDemand": 77,
+    "visaOpenness": 68,
+    "postStudyWorkYears": 2,
+    "prPathwayYears": 5,
+    "medianSalaryY1PppUsd": 60000,
+    "totalDegreeCostUsd": 85000,
+    "narrative": "[Sample] Placeholder narrative for Computer Science & IT in Australia. Two to three curated sentences will justify this position once real data lands. All values on this record are sample data.",
+    "confidence": "placeholder",
+    "sources": [
+      {
+        "name": "Sample source — data pending curation",
+        "url": "https://example.com/vantage-sample-data",
+        "lastUpdated": "2026-07-01"
+      }
+    ]
+  },
+  {
+    "countryId": "au",
+    "degreeId": "engineering",
+    "jobDemand": 72,
+    "visaOpenness": 68,
+    "postStudyWorkYears": 2,
+    "prPathwayYears": 5,
+    "medianSalaryY1PppUsd": 55000,
+    "totalDegreeCostUsd": 85000,
+    "narrative": "[Sample] Placeholder narrative for Engineering (non-CS) in Australia. Two to three curated sentences will justify this position once real data lands. All values on this record are sample data.",
+    "confidence": "placeholder",
+    "sources": [
+      {
+        "name": "Sample source — data pending curation",
+        "url": "https://example.com/vantage-sample-data",
+        "lastUpdated": "2026-07-01"
+      }
+    ]
+  },
+  {
+    "countryId": "au",
+    "degreeId": "business-finance",
+    "jobDemand": 62,
+    "visaOpenness": 68,
+    "postStudyWorkYears": 2,
+    "prPathwayYears": 5,
+    "medianSalaryY1PppUsd": 52500,
+    "totalDegreeCostUsd": 90000,
+    "narrative": "[Sample] Placeholder narrative for Business & Finance in Australia. Two to three curated sentences will justify this position once real data lands. All values on this record are sample data.",
+    "confidence": "placeholder",
+    "sources": [
+      {
+        "name": "Sample source — data pending curation",
+        "url": "https://example.com/vantage-sample-data",
+        "lastUpdated": "2026-07-01"
+      }
+    ]
+  },
+  {
+    "countryId": "au",
+    "degreeId": "economics",
+    "jobDemand": 57,
+    "visaOpenness": 68,
+    "postStudyWorkYears": 2,
+    "prPathwayYears": 5,
+    "medianSalaryY1PppUsd": 50000,
+    "totalDegreeCostUsd": 82000,
+    "narrative": "[Sample] Placeholder narrative for Economics in Australia. Two to three curated sentences will justify this position once real data lands. All values on this record are sample data.",
+    "confidence": "placeholder",
+    "sources": [
+      {
+        "name": "Sample source — data pending curation",
+        "url": "https://example.com/vantage-sample-data",
+        "lastUpdated": "2026-07-01"
+      }
+    ]
+  },
+  {
+    "countryId": "au",
+    "degreeId": "data-science",
+    "jobDemand": 80,
+    "visaOpenness": 68,
+    "postStudyWorkYears": 2,
+    "prPathwayYears": 5,
+    "medianSalaryY1PppUsd": 57500,
+    "totalDegreeCostUsd": 87000,
+    "narrative": "[Sample] Placeholder narrative for Data Science & Analytics in Australia. Two to three curated sentences will justify this position once real data lands. All values on this record are sample data.",
+    "confidence": "placeholder",
+    "sources": [
+      {
+        "name": "Sample source — data pending curation",
+        "url": "https://example.com/vantage-sample-data",
+        "lastUpdated": "2026-07-01"
+      }
+    ]
+  },
+  {
+    "countryId": "au",
+    "degreeId": "health-life-sciences",
+    "jobDemand": 74,
+    "visaOpenness": 68,
+    "postStudyWorkYears": 2,
+    "prPathwayYears": 5,
+    "medianSalaryY1PppUsd": 47500,
+    "totalDegreeCostUsd": 87000,
+    "narrative": "[Sample] Placeholder narrative for Health & Life Sciences in Australia. Two to three curated sentences will justify this position once real data lands. All values on this record are sample data.",
+    "confidence": "placeholder",
+    "sources": [
+      {
+        "name": "Sample source — data pending curation",
+        "url": "https://example.com/vantage-sample-data",
+        "lastUpdated": "2026-07-01"
+      }
+    ]
+  },
+  {
+    "countryId": "au",
+    "degreeId": "design-media",
+    "jobDemand": 50,
+    "visaOpenness": 68,
+    "postStudyWorkYears": 2,
+    "prPathwayYears": 5,
+    "medianSalaryY1PppUsd": 40000,
+    "totalDegreeCostUsd": 82000,
+    "narrative": "[Sample] Placeholder narrative for Design & Media in Australia. Two to three curated sentences will justify this position once real data lands. All values on this record are sample data.",
+    "confidence": "placeholder",
+    "sources": [
+      {
+        "name": "Sample source — data pending curation",
+        "url": "https://example.com/vantage-sample-data",
+        "lastUpdated": "2026-07-01"
+      }
+    ]
+  },
+  {
+    "countryId": "au",
+    "degreeId": "humanities-social",
+    "jobDemand": 44,
+    "visaOpenness": 68,
+    "postStudyWorkYears": 2,
+    "prPathwayYears": 5,
+    "medianSalaryY1PppUsd": 37500,
+    "totalDegreeCostUsd": 77000,
+    "narrative": "[Sample] Placeholder narrative for Humanities & Social Sciences in Australia. Two to three curated sentences will justify this position once real data lands. All values on this record are sample data.",
+    "confidence": "placeholder",
+    "sources": [
+      {
+        "name": "Sample source — data pending curation",
+        "url": "https://example.com/vantage-sample-data",
+        "lastUpdated": "2026-07-01"
+      }
+    ]
+  },
+  {
+    "countryId": "de",
+    "degreeId": "cs-it",
+    "jobDemand": 83,
+    "visaOpenness": 66,
+    "postStudyWorkYears": 1.5,
+    "prPathwayYears": 5,
+    "medianSalaryY1PppUsd": 62500,
+    "totalDegreeCostUsd": 28000,
+    "narrative": "[Sample] Placeholder narrative for Computer Science & IT in Germany. Two to three curated sentences will justify this position once real data lands. All values on this record are sample data.",
+    "confidence": "placeholder",
+    "sources": [
+      {
+        "name": "Sample source — data pending curation",
+        "url": "https://example.com/vantage-sample-data",
+        "lastUpdated": "2026-07-01"
+      }
+    ]
+  },
+  {
+    "countryId": "de",
+    "degreeId": "engineering",
+    "jobDemand": 78,
+    "visaOpenness": 66,
+    "postStudyWorkYears": 1.5,
+    "prPathwayYears": 5,
+    "medianSalaryY1PppUsd": 57000,
+    "totalDegreeCostUsd": 28000,
+    "narrative": "[Sample] Placeholder narrative for Engineering (non-CS) in Germany. Two to three curated sentences will justify this position once real data lands. All values on this record are sample data.",
+    "confidence": "placeholder",
+    "sources": [
+      {
+        "name": "Sample source — data pending curation",
+        "url": "https://example.com/vantage-sample-data",
+        "lastUpdated": "2026-07-01"
+      }
+    ]
+  },
+  {
+    "countryId": "de",
+    "degreeId": "business-finance",
+    "jobDemand": 68,
+    "visaOpenness": 66,
+    "postStudyWorkYears": 1.5,
+    "prPathwayYears": 5,
+    "medianSalaryY1PppUsd": 54500,
+    "totalDegreeCostUsd": 28000,
+    "narrative": "[Sample] Placeholder narrative for Business & Finance in Germany. Two to three curated sentences will justify this position once real data lands. All values on this record are sample data.",
+    "confidence": "placeholder",
+    "sources": [
+      {
+        "name": "Sample source — data pending curation",
+        "url": "https://example.com/vantage-sample-data",
+        "lastUpdated": "2026-07-01"
+      }
+    ]
+  },
+  {
+    "countryId": "de",
+    "degreeId": "economics",
+    "jobDemand": 63,
+    "visaOpenness": 66,
+    "postStudyWorkYears": 1.5,
+    "prPathwayYears": 5,
+    "medianSalaryY1PppUsd": 52000,
+    "totalDegreeCostUsd": 28000,
+    "narrative": "[Sample] Placeholder narrative for Economics in Germany. Two to three curated sentences will justify this position once real data lands. All values on this record are sample data.",
+    "confidence": "placeholder",
+    "sources": [
+      {
+        "name": "Sample source — data pending curation",
+        "url": "https://example.com/vantage-sample-data",
+        "lastUpdated": "2026-07-01"
+      }
+    ]
+  },
+  {
+    "countryId": "de",
+    "degreeId": "data-science",
+    "jobDemand": 86,
+    "visaOpenness": 66,
+    "postStudyWorkYears": 1.5,
+    "prPathwayYears": 5,
+    "medianSalaryY1PppUsd": 60000,
+    "totalDegreeCostUsd": 28000,
+    "narrative": "[Sample] Placeholder narrative for Data Science & Analytics in Germany. Two to three curated sentences will justify this position once real data lands. All values on this record are sample data.",
+    "confidence": "placeholder",
+    "sources": [
+      {
+        "name": "Sample source — data pending curation",
+        "url": "https://example.com/vantage-sample-data",
+        "lastUpdated": "2026-07-01"
+      }
+    ]
+  },
+  {
+    "countryId": "de",
+    "degreeId": "health-life-sciences",
+    "jobDemand": 80,
+    "visaOpenness": 66,
+    "postStudyWorkYears": 1.5,
+    "prPathwayYears": 5,
+    "medianSalaryY1PppUsd": 49500,
+    "totalDegreeCostUsd": 28000,
+    "narrative": "[Sample] Placeholder narrative for Health & Life Sciences in Germany. Two to three curated sentences will justify this position once real data lands. All values on this record are sample data.",
+    "confidence": "placeholder",
+    "sources": [
+      {
+        "name": "Sample source — data pending curation",
+        "url": "https://example.com/vantage-sample-data",
+        "lastUpdated": "2026-07-01"
+      }
+    ]
+  },
+  {
+    "countryId": "de",
+    "degreeId": "design-media",
+    "jobDemand": 56,
+    "visaOpenness": 66,
+    "postStudyWorkYears": 1.5,
+    "prPathwayYears": 5,
+    "medianSalaryY1PppUsd": 41500,
+    "totalDegreeCostUsd": 28000,
+    "narrative": "[Sample] Placeholder narrative for Design & Media in Germany. Two to three curated sentences will justify this position once real data lands. All values on this record are sample data.",
+    "confidence": "placeholder",
+    "sources": [
+      {
+        "name": "Sample source — data pending curation",
+        "url": "https://example.com/vantage-sample-data",
+        "lastUpdated": "2026-07-01"
+      }
+    ]
+  },
+  {
+    "countryId": "de",
+    "degreeId": "humanities-social",
+    "jobDemand": 50,
+    "visaOpenness": 66,
+    "postStudyWorkYears": 1.5,
+    "prPathwayYears": 5,
+    "medianSalaryY1PppUsd": 39000,
+    "totalDegreeCostUsd": 28000,
+    "narrative": "[Sample] Placeholder narrative for Humanities & Social Sciences in Germany. Two to three curated sentences will justify this position once real data lands. All values on this record are sample data.",
+    "confidence": "placeholder",
+    "sources": [
+      {
+        "name": "Sample source — data pending curation",
+        "url": "https://example.com/vantage-sample-data",
+        "lastUpdated": "2026-07-01"
+      }
+    ]
+  },
+  {
+    "countryId": "ie",
+    "degreeId": "cs-it",
+    "jobDemand": 81,
+    "visaOpenness": 74,
+    "postStudyWorkYears": 2,
+    "prPathwayYears": 5,
+    "medianSalaryY1PppUsd": 60000,
+    "totalDegreeCostUsd": 64000,
+    "narrative": "[Sample] Placeholder narrative for Computer Science & IT in Ireland. Two to three curated sentences will justify this position once real data lands. All values on this record are sample data.",
+    "confidence": "placeholder",
+    "sources": [
+      {
+        "name": "Sample source — data pending curation",
+        "url": "https://example.com/vantage-sample-data",
+        "lastUpdated": "2026-07-01"
+      }
+    ]
+  },
+  {
+    "countryId": "ie",
+    "degreeId": "engineering",
+    "jobDemand": 76,
+    "visaOpenness": 74,
+    "postStudyWorkYears": 2,
+    "prPathwayYears": 5,
+    "medianSalaryY1PppUsd": 55000,
+    "totalDegreeCostUsd": 64000,
+    "narrative": "[Sample] Placeholder narrative for Engineering (non-CS) in Ireland. Two to three curated sentences will justify this position once real data lands. All values on this record are sample data.",
+    "confidence": "placeholder",
+    "sources": [
+      {
+        "name": "Sample source — data pending curation",
+        "url": "https://example.com/vantage-sample-data",
+        "lastUpdated": "2026-07-01"
+      }
+    ]
+  },
+  {
+    "countryId": "ie",
+    "degreeId": "business-finance",
+    "jobDemand": 66,
+    "visaOpenness": 74,
+    "postStudyWorkYears": 2,
+    "prPathwayYears": 5,
+    "medianSalaryY1PppUsd": 52500,
+    "totalDegreeCostUsd": 67000,
+    "narrative": "[Sample] Placeholder narrative for Business & Finance in Ireland. Two to three curated sentences will justify this position once real data lands. All values on this record are sample data.",
+    "confidence": "placeholder",
+    "sources": [
+      {
+        "name": "Sample source — data pending curation",
+        "url": "https://example.com/vantage-sample-data",
+        "lastUpdated": "2026-07-01"
+      }
+    ]
+  },
+  {
+    "countryId": "ie",
+    "degreeId": "economics",
+    "jobDemand": 61,
+    "visaOpenness": 74,
+    "postStudyWorkYears": 2,
+    "prPathwayYears": 5,
+    "medianSalaryY1PppUsd": 50000,
+    "totalDegreeCostUsd": 62000,
+    "narrative": "[Sample] Placeholder narrative for Economics in Ireland. Two to three curated sentences will justify this position once real data lands. All values on this record are sample data.",
+    "confidence": "placeholder",
+    "sources": [
+      {
+        "name": "Sample source — data pending curation",
+        "url": "https://example.com/vantage-sample-data",
+        "lastUpdated": "2026-07-01"
+      }
+    ]
+  },
+  {
+    "countryId": "ie",
+    "degreeId": "data-science",
+    "jobDemand": 84,
+    "visaOpenness": 74,
+    "postStudyWorkYears": 2,
+    "prPathwayYears": 5,
+    "medianSalaryY1PppUsd": 57500,
+    "totalDegreeCostUsd": 65000,
+    "narrative": "[Sample] Placeholder narrative for Data Science & Analytics in Ireland. Two to three curated sentences will justify this position once real data lands. All values on this record are sample data.",
+    "confidence": "placeholder",
+    "sources": [
+      {
+        "name": "Sample source — data pending curation",
+        "url": "https://example.com/vantage-sample-data",
+        "lastUpdated": "2026-07-01"
+      }
+    ]
+  },
+  {
+    "countryId": "ie",
+    "degreeId": "health-life-sciences",
+    "jobDemand": 78,
+    "visaOpenness": 74,
+    "postStudyWorkYears": 2,
+    "prPathwayYears": 5,
+    "medianSalaryY1PppUsd": 47500,
+    "totalDegreeCostUsd": 65000,
+    "narrative": "[Sample] Placeholder narrative for Health & Life Sciences in Ireland. Two to three curated sentences will justify this position once real data lands. All values on this record are sample data.",
+    "confidence": "placeholder",
+    "sources": [
+      {
+        "name": "Sample source — data pending curation",
+        "url": "https://example.com/vantage-sample-data",
+        "lastUpdated": "2026-07-01"
+      }
+    ]
+  },
+  {
+    "countryId": "ie",
+    "degreeId": "design-media",
+    "jobDemand": 54,
+    "visaOpenness": 74,
+    "postStudyWorkYears": 2,
+    "prPathwayYears": 5,
+    "medianSalaryY1PppUsd": 40000,
+    "totalDegreeCostUsd": 62000,
+    "narrative": "[Sample] Placeholder narrative for Design & Media in Ireland. Two to three curated sentences will justify this position once real data lands. All values on this record are sample data.",
+    "confidence": "placeholder",
+    "sources": [
+      {
+        "name": "Sample source — data pending curation",
+        "url": "https://example.com/vantage-sample-data",
+        "lastUpdated": "2026-07-01"
+      }
+    ]
+  },
+  {
+    "countryId": "ie",
+    "degreeId": "humanities-social",
+    "jobDemand": 48,
+    "visaOpenness": 74,
+    "postStudyWorkYears": 2,
+    "prPathwayYears": 5,
+    "medianSalaryY1PppUsd": 37500,
+    "totalDegreeCostUsd": 58000,
+    "narrative": "[Sample] Placeholder narrative for Humanities & Social Sciences in Ireland. Two to three curated sentences will justify this position once real data lands. All values on this record are sample data.",
+    "confidence": "placeholder",
+    "sources": [
+      {
+        "name": "Sample source — data pending curation",
+        "url": "https://example.com/vantage-sample-data",
+        "lastUpdated": "2026-07-01"
+      }
+    ]
+  },
+  {
+    "countryId": "nl",
+    "degreeId": "cs-it",
+    "jobDemand": 79,
+    "visaOpenness": 62,
+    "postStudyWorkYears": 1,
+    "prPathwayYears": 5,
+    "medianSalaryY1PppUsd": 61000,
+    "totalDegreeCostUsd": 59000,
+    "narrative": "[Sample] Placeholder narrative for Computer Science & IT in Netherlands. Two to three curated sentences will justify this position once real data lands. All values on this record are sample data.",
+    "confidence": "placeholder",
+    "sources": [
+      {
+        "name": "Sample source — data pending curation",
+        "url": "https://example.com/vantage-sample-data",
+        "lastUpdated": "2026-07-01"
+      }
+    ]
+  },
+  {
+    "countryId": "nl",
+    "degreeId": "engineering",
+    "jobDemand": 74,
+    "visaOpenness": 62,
+    "postStudyWorkYears": 1,
+    "prPathwayYears": 5,
+    "medianSalaryY1PppUsd": 56000,
+    "totalDegreeCostUsd": 59000,
+    "narrative": "[Sample] Placeholder narrative for Engineering (non-CS) in Netherlands. Two to three curated sentences will justify this position once real data lands. All values on this record are sample data.",
+    "confidence": "placeholder",
+    "sources": [
+      {
+        "name": "Sample source — data pending curation",
+        "url": "https://example.com/vantage-sample-data",
+        "lastUpdated": "2026-07-01"
+      }
+    ]
+  },
+  {
+    "countryId": "nl",
+    "degreeId": "business-finance",
+    "jobDemand": 64,
+    "visaOpenness": 62,
+    "postStudyWorkYears": 1,
+    "prPathwayYears": 5,
+    "medianSalaryY1PppUsd": 53500,
+    "totalDegreeCostUsd": 62000,
+    "narrative": "[Sample] Placeholder narrative for Business & Finance in Netherlands. Two to three curated sentences will justify this position once real data lands. All values on this record are sample data.",
+    "confidence": "placeholder",
+    "sources": [
+      {
+        "name": "Sample source — data pending curation",
+        "url": "https://example.com/vantage-sample-data",
+        "lastUpdated": "2026-07-01"
+      }
+    ]
+  },
+  {
+    "countryId": "nl",
+    "degreeId": "economics",
+    "jobDemand": 59,
+    "visaOpenness": 62,
+    "postStudyWorkYears": 1,
+    "prPathwayYears": 5,
+    "medianSalaryY1PppUsd": 51000,
+    "totalDegreeCostUsd": 57000,
+    "narrative": "[Sample] Placeholder narrative for Economics in Netherlands. Two to three curated sentences will justify this position once real data lands. All values on this record are sample data.",
+    "confidence": "placeholder",
+    "sources": [
+      {
+        "name": "Sample source — data pending curation",
+        "url": "https://example.com/vantage-sample-data",
+        "lastUpdated": "2026-07-01"
+      }
+    ]
+  },
+  {
+    "countryId": "nl",
+    "degreeId": "data-science",
+    "jobDemand": 82,
+    "visaOpenness": 62,
+    "postStudyWorkYears": 1,
+    "prPathwayYears": 5,
+    "medianSalaryY1PppUsd": 58500,
+    "totalDegreeCostUsd": 60000,
+    "narrative": "[Sample] Placeholder narrative for Data Science & Analytics in Netherlands. Two to three curated sentences will justify this position once real data lands. All values on this record are sample data.",
+    "confidence": "placeholder",
+    "sources": [
+      {
+        "name": "Sample source — data pending curation",
+        "url": "https://example.com/vantage-sample-data",
+        "lastUpdated": "2026-07-01"
+      }
+    ]
+  },
+  {
+    "countryId": "nl",
+    "degreeId": "health-life-sciences",
+    "jobDemand": 76,
+    "visaOpenness": 62,
+    "postStudyWorkYears": 1,
+    "prPathwayYears": 5,
+    "medianSalaryY1PppUsd": 48500,
+    "totalDegreeCostUsd": 60000,
+    "narrative": "[Sample] Placeholder narrative for Health & Life Sciences in Netherlands. Two to three curated sentences will justify this position once real data lands. All values on this record are sample data.",
+    "confidence": "placeholder",
+    "sources": [
+      {
+        "name": "Sample source — data pending curation",
+        "url": "https://example.com/vantage-sample-data",
+        "lastUpdated": "2026-07-01"
+      }
+    ]
+  },
+  {
+    "countryId": "nl",
+    "degreeId": "design-media",
+    "jobDemand": 52,
+    "visaOpenness": 62,
+    "postStudyWorkYears": 1,
+    "prPathwayYears": 5,
+    "medianSalaryY1PppUsd": 41000,
+    "totalDegreeCostUsd": 57000,
+    "narrative": "[Sample] Placeholder narrative for Design & Media in Netherlands. Two to three curated sentences will justify this position once real data lands. All values on this record are sample data.",
+    "confidence": "placeholder",
+    "sources": [
+      {
+        "name": "Sample source — data pending curation",
+        "url": "https://example.com/vantage-sample-data",
+        "lastUpdated": "2026-07-01"
+      }
+    ]
+  },
+  {
+    "countryId": "nl",
+    "degreeId": "humanities-social",
+    "jobDemand": 46,
+    "visaOpenness": 62,
+    "postStudyWorkYears": 1,
+    "prPathwayYears": 5,
+    "medianSalaryY1PppUsd": 38500,
+    "totalDegreeCostUsd": 54000,
+    "narrative": "[Sample] Placeholder narrative for Humanities & Social Sciences in Netherlands. Two to three curated sentences will justify this position once real data lands. All values on this record are sample data.",
+    "confidence": "placeholder",
+    "sources": [
+      {
+        "name": "Sample source — data pending curation",
+        "url": "https://example.com/vantage-sample-data",
+        "lastUpdated": "2026-07-01"
+      }
+    ]
+  },
+  {
+    "countryId": "sg",
+    "degreeId": "cs-it",
+    "jobDemand": 75,
+    "visaOpenness": 55,
+    "postStudyWorkYears": 1,
+    "prPathwayYears": 6,
+    "medianSalaryY1PppUsd": 67000,
+    "totalDegreeCostUsd": 91000,
+    "narrative": "[Sample] Placeholder narrative for Computer Science & IT in Singapore. Two to three curated sentences will justify this position once real data lands. All values on this record are sample data.",
+    "confidence": "placeholder",
+    "sources": [
+      {
+        "name": "Sample source — data pending curation",
+        "url": "https://example.com/vantage-sample-data",
+        "lastUpdated": "2026-07-01"
+      }
+    ]
+  },
+  {
+    "countryId": "sg",
+    "degreeId": "engineering",
+    "jobDemand": 70,
+    "visaOpenness": 55,
+    "postStudyWorkYears": 1,
+    "prPathwayYears": 6,
+    "medianSalaryY1PppUsd": 61500,
+    "totalDegreeCostUsd": 91000,
+    "narrative": "[Sample] Placeholder narrative for Engineering (non-CS) in Singapore. Two to three curated sentences will justify this position once real data lands. All values on this record are sample data.",
+    "confidence": "placeholder",
+    "sources": [
+      {
+        "name": "Sample source — data pending curation",
+        "url": "https://example.com/vantage-sample-data",
+        "lastUpdated": "2026-07-01"
+      }
+    ]
+  },
+  {
+    "countryId": "sg",
+    "degreeId": "business-finance",
+    "jobDemand": 60,
+    "visaOpenness": 55,
+    "postStudyWorkYears": 1,
+    "prPathwayYears": 6,
+    "medianSalaryY1PppUsd": 59000,
+    "totalDegreeCostUsd": 97000,
+    "narrative": "[Sample] Placeholder narrative for Business & Finance in Singapore. Two to three curated sentences will justify this position once real data lands. All values on this record are sample data.",
+    "confidence": "placeholder",
+    "sources": [
+      {
+        "name": "Sample source — data pending curation",
+        "url": "https://example.com/vantage-sample-data",
+        "lastUpdated": "2026-07-01"
+      }
+    ]
+  },
+  {
+    "countryId": "sg",
+    "degreeId": "economics",
+    "jobDemand": 55,
+    "visaOpenness": 55,
+    "postStudyWorkYears": 1,
+    "prPathwayYears": 6,
+    "medianSalaryY1PppUsd": 56000,
+    "totalDegreeCostUsd": 88000,
+    "narrative": "[Sample] Placeholder narrative for Economics in Singapore. Two to three curated sentences will justify this position once real data lands. All values on this record are sample data.",
+    "confidence": "placeholder",
+    "sources": [
+      {
+        "name": "Sample source — data pending curation",
+        "url": "https://example.com/vantage-sample-data",
+        "lastUpdated": "2026-07-01"
+      }
+    ]
+  },
+  {
+    "countryId": "sg",
+    "degreeId": "data-science",
+    "jobDemand": 78,
+    "visaOpenness": 55,
+    "postStudyWorkYears": 1,
+    "prPathwayYears": 6,
+    "medianSalaryY1PppUsd": 64500,
+    "totalDegreeCostUsd": 94000,
+    "narrative": "[Sample] Placeholder narrative for Data Science & Analytics in Singapore. Two to three curated sentences will justify this position once real data lands. All values on this record are sample data.",
+    "confidence": "placeholder",
+    "sources": [
+      {
+        "name": "Sample source — data pending curation",
+        "url": "https://example.com/vantage-sample-data",
+        "lastUpdated": "2026-07-01"
+      }
+    ]
+  },
+  {
+    "countryId": "sg",
+    "degreeId": "health-life-sciences",
+    "jobDemand": 72,
+    "visaOpenness": 55,
+    "postStudyWorkYears": 1,
+    "prPathwayYears": 6,
+    "medianSalaryY1PppUsd": 53000,
+    "totalDegreeCostUsd": 94000,
+    "narrative": "[Sample] Placeholder narrative for Health & Life Sciences in Singapore. Two to three curated sentences will justify this position once real data lands. All values on this record are sample data.",
+    "confidence": "placeholder",
+    "sources": [
+      {
+        "name": "Sample source — data pending curation",
+        "url": "https://example.com/vantage-sample-data",
+        "lastUpdated": "2026-07-01"
+      }
+    ]
+  },
+  {
+    "countryId": "sg",
+    "degreeId": "design-media",
+    "jobDemand": 48,
+    "visaOpenness": 55,
+    "postStudyWorkYears": 1,
+    "prPathwayYears": 6,
+    "medianSalaryY1PppUsd": 45000,
+    "totalDegreeCostUsd": 88000,
+    "narrative": "[Sample] Placeholder narrative for Design & Media in Singapore. Two to three curated sentences will justify this position once real data lands. All values on this record are sample data.",
+    "confidence": "placeholder",
+    "sources": [
+      {
+        "name": "Sample source — data pending curation",
+        "url": "https://example.com/vantage-sample-data",
+        "lastUpdated": "2026-07-01"
+      }
+    ]
+  },
+  {
+    "countryId": "sg",
+    "degreeId": "humanities-social",
+    "jobDemand": 42,
+    "visaOpenness": 55,
+    "postStudyWorkYears": 1,
+    "prPathwayYears": 6,
+    "medianSalaryY1PppUsd": 42000,
+    "totalDegreeCostUsd": 82000,
+    "narrative": "[Sample] Placeholder narrative for Humanities & Social Sciences in Singapore. Two to three curated sentences will justify this position once real data lands. All values on this record are sample data.",
+    "confidence": "placeholder",
+    "sources": [
+      {
+        "name": "Sample source — data pending curation",
+        "url": "https://example.com/vantage-sample-data",
+        "lastUpdated": "2026-07-01"
+      }
+    ]
+  }
+]

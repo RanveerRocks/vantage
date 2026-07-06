@@ -1,12 +1,4 @@
-export type DegreeId =
-  | 'cs-it'
-  | 'engineering'
-  | 'business-finance'
-  | 'economics'
-  | 'data-science'
-  | 'health-life-sciences'
-  | 'design-media'
-  | 'humanities-social'
+import type { DegreeId } from './schemas'
 
 export interface Degree {
   id: DegreeId

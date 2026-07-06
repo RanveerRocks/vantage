@@ -1,0 +1,274 @@
+[
+  {
+    "countryId": "us",
+    "stages": [
+      {
+        "label": "Study",
+        "years": 2,
+        "description": "[Sample] Placeholder description of the study stage in United States; curated details pending."
+      },
+      {
+        "label": "Post-study work visa",
+        "years": 3,
+        "description": "[Sample] Placeholder description of the post-study work visa stage in United States; curated details pending."
+      },
+      {
+        "label": "PR process",
+        "years": 3,
+        "description": "[Sample] Placeholder description of the pr process stage in United States; curated details pending."
+      },
+      {
+        "label": "Citizenship",
+        "years": 5,
+        "description": "[Sample] Placeholder description of the citizenship stage in United States; curated details pending."
+      }
+    ],
+    "totalYearsToPr": 8,
+    "confidence": "placeholder",
+    "sources": [
+      {
+        "name": "Sample source — data pending curation",
+        "url": "https://example.com/vantage-sample-data",
+        "lastUpdated": "2026-07-01"
+      }
+    ]
+  },
+  {
+    "countryId": "uk",
+    "stages": [
+      {
+        "label": "Study",
+        "years": 2,
+        "description": "[Sample] Placeholder description of the study stage in United Kingdom; curated details pending."
+      },
+      {
+        "label": "Post-study work visa",
+        "years": 2,
+        "description": "[Sample] Placeholder description of the post-study work visa stage in United Kingdom; curated details pending."
+      },
+      {
+        "label": "PR process",
+        "years": 1,
+        "description": "[Sample] Placeholder description of the pr process stage in United Kingdom; curated details pending."
+      },
+      {
+        "label": "Citizenship",
+        "years": 1,
+        "description": "[Sample] Placeholder description of the citizenship stage in United Kingdom; curated details pending."
+      }
+    ],
+    "totalYearsToPr": 5,
+    "confidence": "placeholder",
+    "sources": [
+      {
+        "name": "Sample source — data pending curation",
+        "url": "https://example.com/vantage-sample-data",
+        "lastUpdated": "2026-07-01"
+      }
+    ]
+  },
+  {
+    "countryId": "ca",
+    "stages": [
+      {
+        "label": "Study",
+        "years": 2,
+        "description": "[Sample] Placeholder description of the study stage in Canada; curated details pending."
+      },
+      {
+        "label": "Post-study work visa",
+        "years": 3,
+        "description": "[Sample] Placeholder description of the post-study work visa stage in Canada; curated details pending."
+      },
+      {
+        "label": "PR process",
+        "years": 1,
+        "description": "[Sample] Placeholder description of the pr process stage in Canada; curated details pending."
+      },
+      {
+        "label": "Citizenship",
+        "years": 3,
+        "description": "[Sample] Placeholder description of the citizenship stage in Canada; curated details pending."
+      }
+    ],
+    "totalYearsToPr": 6,
+    "confidence": "placeholder",
+    "sources": [
+      {
+        "name": "Sample source — data pending curation",
+        "url": "https://example.com/vantage-sample-data",
+        "lastUpdated": "2026-07-01"
+      }
+    ]
+  },
+  {
+    "countryId": "au",
+    "stages": [
+      {
+        "label": "Study",
+        "years": 2,
+        "description": "[Sample] Placeholder description of the study stage in Australia; curated details pending."
+      },
+      {
+        "label": "Post-study work visa",
+        "years": 2,
+        "description": "[Sample] Placeholder description of the post-study work visa stage in Australia; curated details pending."
+      },
+      {
+        "label": "PR process",
+        "years": 1,
+        "description": "[Sample] Placeholder description of the pr process stage in Australia; curated details pending."
+      },
+      {
+        "label": "Citizenship",
+        "years": 4,
+        "description": "[Sample] Placeholder description of the citizenship stage in Australia; curated details pending."
+      }
+    ],
+    "totalYearsToPr": 5,
+    "confidence": "placeholder",
+    "sources": [
+      {
+        "name": "Sample source — data pending curation",
+        "url": "https://example.com/vantage-sample-data",
+        "lastUpdated": "2026-07-01"
+      }
+    ]
+  },
+  {
+    "countryId": "de",
+    "stages": [
+      {
+        "label": "Study",
+        "years": 2,
+        "description": "[Sample] Placeholder description of the study stage in Germany; curated details pending."
+      },
+      {
+        "label": "Post-study work visa",
+        "years": 1.5,
+        "description": "[Sample] Placeholder description of the post-study work visa stage in Germany; curated details pending."
+      },
+      {
+        "label": "PR process",
+        "years": 1.5,
+        "description": "[Sample] Placeholder description of the pr process stage in Germany; curated details pending."
+      },
+      {
+        "label": "Citizenship",
+        "years": 3,
+        "description": "[Sample] Placeholder description of the citizenship stage in Germany; curated details pending."
+      }
+    ],
+    "totalYearsToPr": 5,
+    "confidence": "placeholder",
+    "sources": [
+      {
+        "name": "Sample source — data pending curation",
+        "url": "https://example.com/vantage-sample-data",
+        "lastUpdated": "2026-07-01"
+      }
+    ]
+  },
+  {
+    "countryId": "ie",
+    "stages": [
+      {
+        "label": "Study",
+        "years": 2,
+        "description": "[Sample] Placeholder description of the study stage in Ireland; curated details pending."
+      },
+      {
+        "label": "Post-study work visa",
+        "years": 2,
+        "description": "[Sample] Placeholder description of the post-study work visa stage in Ireland; curated details pending."
+      },
+      {
+        "label": "PR process",
+        "years": 1,
+        "description": "[Sample] Placeholder description of the pr process stage in Ireland; curated details pending."
+      },
+      {
+        "label": "Citizenship",
+        "years": 3,
+        "description": "[Sample] Placeholder description of the citizenship stage in Ireland; curated details pending."
+      }
+    ],
+    "totalYearsToPr": 5,
+    "confidence": "placeholder",
+    "sources": [
+      {
+        "name": "Sample source — data pending curation",
+        "url": "https://example.com/vantage-sample-data",
+        "lastUpdated": "2026-07-01"
+      }
+    ]
+  },
+  {
+    "countryId": "nl",
+    "stages": [
+      {
+        "label": "Study",
+        "years": 2,
+        "description": "[Sample] Placeholder description of the study stage in Netherlands; curated details pending."
+      },
+      {
+        "label": "Post-study work visa",
+        "years": 1,
+        "description": "[Sample] Placeholder description of the post-study work visa stage in Netherlands; curated details pending."
+      },
+      {
+        "label": "PR process",
+        "years": 2,
+        "description": "[Sample] Placeholder description of the pr process stage in Netherlands; curated details pending."
+      },
+      {
+        "label": "Citizenship",
+        "years": 2,
+        "description": "[Sample] Placeholder description of the citizenship stage in Netherlands; curated details pending."
+      }
+    ],
+    "totalYearsToPr": 5,
+    "confidence": "placeholder",
+    "sources": [
+      {
+        "name": "Sample source — data pending curation",
+        "url": "https://example.com/vantage-sample-data",
+        "lastUpdated": "2026-07-01"
+      }
+    ]
+  },
+  {
+    "countryId": "sg",
+    "stages": [
+      {
+        "label": "Study",
+        "years": 2,
+        "description": "[Sample] Placeholder description of the study stage in Singapore; curated details pending."
+      },
+      {
+        "label": "Post-study work visa",
+        "years": 1,
+        "description": "[Sample] Placeholder description of the post-study work visa stage in Singapore; curated details pending."
+      },
+      {
+        "label": "PR process",
+        "years": 3,
+        "description": "[Sample] Placeholder description of the pr process stage in Singapore; curated details pending."
+      },
+      {
+        "label": "Citizenship",
+        "years": 2,
+        "description": "[Sample] Placeholder description of the citizenship stage in Singapore; curated details pending."
+      }
+    ],
+    "totalYearsToPr": 6,
+    "confidence": "placeholder",
+    "sources": [
+      {
+        "name": "Sample source — data pending curation",
+        "url": "https://example.com/vantage-sample-data",
+        "lastUpdated": "2026-07-01"
+      }
+    ]
+  }
+]

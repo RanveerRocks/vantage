@@ -1,0 +1,162 @@
+[
+  {
+    "countryId": "us",
+    "tuitionPerYearUsd": 38000,
+    "livingPerYearUsd": 16000,
+    "insurancePerYearUsd": 2200,
+    "visaFeesOneTimeUsd": 500,
+    "flightsPerYearUsd": 1300,
+    "hiddenNotes": [
+      "[Sample] Hidden-cost note pending curation — e.g. forex movement between offer and arrival.",
+      "[Sample] Hidden-cost note pending curation — e.g. deposits, surcharges, or proof-of-funds rules."
+    ],
+    "confidence": "placeholder",
+    "sources": [
+      {
+        "name": "Sample source — data pending curation",
+        "url": "https://example.com/vantage-sample-data",
+        "lastUpdated": "2026-07-01"
+      }
+    ]
+  },
+  {
+    "countryId": "uk",
+    "tuitionPerYearUsd": 28000,
+    "livingPerYearUsd": 14000,
+    "insurancePerYearUsd": 1200,
+    "visaFeesOneTimeUsd": 800,
+    "flightsPerYearUsd": 1000,
+    "hiddenNotes": [
+      "[Sample] Hidden-cost note pending curation — e.g. forex movement between offer and arrival.",
+      "[Sample] Hidden-cost note pending curation — e.g. deposits, surcharges, or proof-of-funds rules."
+    ],
+    "confidence": "placeholder",
+    "sources": [
+      {
+        "name": "Sample source — data pending curation",
+        "url": "https://example.com/vantage-sample-data",
+        "lastUpdated": "2026-07-01"
+      }
+    ]
+  },
+  {
+    "countryId": "ca",
+    "tuitionPerYearUsd": 24000,
+    "livingPerYearUsd": 12000,
+    "insurancePerYearUsd": 800,
+    "visaFeesOneTimeUsd": 600,
+    "flightsPerYearUsd": 1200,
+    "hiddenNotes": [
+      "[Sample] Hidden-cost note pending curation — e.g. forex movement between offer and arrival.",
+      "[Sample] Hidden-cost note pending curation — e.g. deposits, surcharges, or proof-of-funds rules."
+    ],
+    "confidence": "placeholder",
+    "sources": [
+      {
+        "name": "Sample source — data pending curation",
+        "url": "https://example.com/vantage-sample-data",
+        "lastUpdated": "2026-07-01"
+      }
+    ]
+  },
+  {
+    "countryId": "au",
+    "tuitionPerYearUsd": 26000,
+    "livingPerYearUsd": 14000,
+    "insurancePerYearUsd": 600,
+    "visaFeesOneTimeUsd": 900,
+    "flightsPerYearUsd": 1000,
+    "hiddenNotes": [
+      "[Sample] Hidden-cost note pending curation — e.g. forex movement between offer and arrival.",
+      "[Sample] Hidden-cost note pending curation — e.g. deposits, surcharges, or proof-of-funds rules."
+    ],
+    "confidence": "placeholder",
+    "sources": [
+      {
+        "name": "Sample source — data pending curation",
+        "url": "https://example.com/vantage-sample-data",
+        "lastUpdated": "2026-07-01"
+      }
+    ]
+  },
+  {
+    "countryId": "de",
+    "tuitionPerYearUsd": 1500,
+    "livingPerYearUsd": 11000,
+    "insurancePerYearUsd": 1300,
+    "visaFeesOneTimeUsd": 300,
+    "flightsPerYearUsd": 900,
+    "hiddenNotes": [
+      "[Sample] Hidden-cost note pending curation — e.g. forex movement between offer and arrival.",
+      "[Sample] Hidden-cost note pending curation — e.g. deposits, surcharges, or proof-of-funds rules."
+    ],
+    "confidence": "placeholder",
+    "sources": [
+      {
+        "name": "Sample source — data pending curation",
+        "url": "https://example.com/vantage-sample-data",
+        "lastUpdated": "2026-07-01"
+      }
+    ]
+  },
+  {
+    "countryId": "ie",
+    "tuitionPerYearUsd": 18000,
+    "livingPerYearUsd": 12000,
+    "insurancePerYearUsd": 700,
+    "visaFeesOneTimeUsd": 400,
+    "flightsPerYearUsd": 950,
+    "hiddenNotes": [
+      "[Sample] Hidden-cost note pending curation — e.g. forex movement between offer and arrival.",
+      "[Sample] Hidden-cost note pending curation — e.g. deposits, surcharges, or proof-of-funds rules."
+    ],
+    "confidence": "placeholder",
+    "sources": [
+      {
+        "name": "Sample source — data pending curation",
+        "url": "https://example.com/vantage-sample-data",
+        "lastUpdated": "2026-07-01"
+      }
+    ]
+  },
+  {
+    "countryId": "nl",
+    "tuitionPerYearUsd": 15000,
+    "livingPerYearUsd": 12000,
+    "insurancePerYearUsd": 1500,
+    "visaFeesOneTimeUsd": 350,
+    "flightsPerYearUsd": 900,
+    "hiddenNotes": [
+      "[Sample] Hidden-cost note pending curation — e.g. forex movement between offer and arrival.",
+      "[Sample] Hidden-cost note pending curation — e.g. deposits, surcharges, or proof-of-funds rules."
+    ],
+    "confidence": "placeholder",
+    "sources": [
+      {
+        "name": "Sample source — data pending curation",
+        "url": "https://example.com/vantage-sample-data",
+        "lastUpdated": "2026-07-01"
+      }
+    ]
+  },
+  {
+    "countryId": "sg",
+    "tuitionPerYearUsd": 30000,
+    "livingPerYearUsd": 13000,
+    "insurancePerYearUsd": 800,
+    "visaFeesOneTimeUsd": 200,
+    "flightsPerYearUsd": 500,
+    "hiddenNotes": [
+      "[Sample] Hidden-cost note pending curation — e.g. forex movement between offer and arrival.",
+      "[Sample] Hidden-cost note pending curation — e.g. deposits, surcharges, or proof-of-funds rules."
+    ],
+    "confidence": "placeholder",
+    "sources": [
+      {
+        "name": "Sample source — data pending curation",
+        "url": "https://example.com/vantage-sample-data",
+        "lastUpdated": "2026-07-01"
+      }
+    ]
+  }
+]
