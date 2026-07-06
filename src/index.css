@@ -1,0 +1,33 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply bg-paper font-sans text-ink antialiased;
+  }
+
+  :focus-visible {
+    outline: 2px solid theme('colors.ultramarine');
+    outline-offset: 2px;
+  }
+}
+
+@layer components {
+  /* Cartographic survey grid: fine 24px mesh with a heavier 120px major line,
+     fading out toward the edges like a chart margin. */
+  .survey-grid {
+    background-image:
+      linear-gradient(to right, rgba(36, 64, 201, 0.06) 1px, transparent 1px),
+      linear-gradient(to bottom, rgba(36, 64, 201, 0.06) 1px, transparent 1px),
+      linear-gradient(to right, rgba(36, 64, 201, 0.12) 1px, transparent 1px),
+      linear-gradient(to bottom, rgba(36, 64, 201, 0.12) 1px, transparent 1px);
+    background-size:
+      24px 24px,
+      24px 24px,
+      120px 120px,
+      120px 120px;
+    -webkit-mask-image: radial-gradient(ellipse 90% 100% at 50% 0%, black 40%, transparent 100%);
+    mask-image: radial-gradient(ellipse 90% 100% at 50% 0%, black 40%, transparent 100%);
+  }
+}
