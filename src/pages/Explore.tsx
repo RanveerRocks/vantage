@@ -1,6 +1,7 @@
 import { useEffect } from 'react'
 import { Link, useParams, useSearchParams } from 'react-router-dom'
 import { CareerVisaTab } from '../components/career-visa/CareerVisaTab'
+import { EmergingTab } from '../components/emerging/EmergingTab'
 import { PathwaysTab } from '../components/pathways/PathwaysTab'
 import { StudentLifeTab } from '../components/student-life/StudentLifeTab'
 import { TrueCostTab } from '../components/true-cost/TrueCostTab'
@@ -20,16 +21,6 @@ const TABS: { id: TabId; label: string }[] = [
 
 function isTabId(value: string | null): value is TabId {
   return TAB_IDS.includes(value as TabId)
-}
-
-function PlaceholderPanel({ label }: { label: string }) {
-  return (
-    <div className="rounded-card border border-dashed border-hairline p-10 text-center">
-      <p className="font-mono text-xs uppercase tracking-widest text-slate">
-        {label} — arrives in a later phase
-      </p>
-    </div>
-  )
 }
 
 export function Explore() {
@@ -119,7 +110,7 @@ export function Explore() {
         ) : tab === 'true-cost' ? (
           <TrueCostTab />
         ) : (
-          <PlaceholderPanel label={TABS.find((t) => t.id === tab)?.label ?? ''} />
+          <EmergingTab degree={degree} />
         )}
       </div>
     </div>
