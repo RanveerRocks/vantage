@@ -1,5 +1,6 @@
 import { create } from 'zustand'
 import { persist } from 'zustand/middleware'
+import type { Currency } from './currency'
 import { FACTOR_IDS, type DegreeId, type FactorId } from './schemas'
 
 export const DEFAULT_WEIGHT = 3
@@ -13,6 +14,8 @@ function defaultWeights(): FactorWeights {
 interface VantageState {
   selectedDegreeId: DegreeId | null
   setSelectedDegreeId: (id: DegreeId) => void
+  currency: Currency
+  setCurrency: (currency: Currency) => void
   weights: FactorWeights
   setWeight: (id: FactorId, value: number) => void
   resetWeights: () => void
@@ -23,6 +26,8 @@ export const useVantageStore = create<VantageState>()(
     (set) => ({
       selectedDegreeId: null,
       setSelectedDegreeId: (id) => set({ selectedDegreeId: id }),
+      currency: 'inr',
+      setCurrency: (currency) => set({ currency }),
       weights: defaultWeights(),
       setWeight: (id, value) =>
         set((state) => ({

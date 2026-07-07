@@ -27,6 +27,8 @@ export function Header() {
   const location = useLocation()
   const selectedDegreeId = useVantageStore((state) => state.selectedDegreeId)
   const setSelectedDegreeId = useVantageStore((state) => state.setSelectedDegreeId)
+  const currency = useVantageStore((state) => state.currency)
+  const setCurrency = useVantageStore((state) => state.setCurrency)
 
   const exploreMatch = matchPath('/explore/:degreeId', location.pathname)
   const urlDegree = findDegree(exploreMatch?.params.degreeId)
@@ -82,21 +84,33 @@ export function Header() {
             </svg>
           </label>
 
-          {/* Currency toggle — placeholder, wired up in a later phase */}
           <div
             role="group"
-            aria-label="Currency (coming in a later phase)"
+            aria-label="Currency"
             className="flex shrink-0 overflow-hidden rounded-chip border border-hairline font-mono text-sm"
           >
             <button
               type="button"
-              disabled
-              aria-pressed="true"
-              className="bg-ultramarine px-2.5 py-1 text-paper"
+              aria-pressed={currency === 'inr'}
+              onClick={() => setCurrency('inr')}
+              className={
+                currency === 'inr'
+                  ? 'bg-ultramarine px-2.5 py-1 text-paper'
+                  : 'px-2.5 py-1 text-slate hover:text-ink'
+              }
             >
               ₹
             </button>
-            <button type="button" disabled aria-pressed="false" className="px-2.5 py-1 text-slate">
+            <button
+              type="button"
+              aria-pressed={currency === 'usd'}
+              onClick={() => setCurrency('usd')}
+              className={
+                currency === 'usd'
+                  ? 'bg-ultramarine px-2.5 py-1 text-paper'
+                  : 'px-2.5 py-1 text-slate hover:text-ink'
+              }
+            >
               $
             </button>
           </div>

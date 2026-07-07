@@ -1,8 +1,9 @@
 import { useEffect } from 'react'
 import { animate, motion, useMotionValue, useReducedMotion, useTransform } from 'framer-motion'
-import { formatInrLakh } from '../../lib/currency'
+import { formatMoney } from '../../lib/currency'
 import type { CareerVisaMetrics, Country } from '../../lib/schemas'
 import { X_WEIGHTS, type CareerVisaComponents } from '../../lib/scoring'
+import { useVantageStore } from '../../lib/store'
 import { ConfidenceBadge } from '../shared/ConfidenceBadge'
 import { Drawer } from '../shared/Drawer'
 import { ReadoutBar } from '../shared/ReadoutBar'
@@ -51,6 +52,7 @@ interface CountryDrawerProps {
 
 export function CountryDrawer({ detail, usdToInr, onClose }: CountryDrawerProps) {
   const { country, record, breakdown, roiScore } = detail
+  const currency = useVantageStore((state) => state.currency)
 
   return (
     <Drawer
@@ -114,13 +116,13 @@ export function CountryDrawer({ detail, usdToInr, onClose }: CountryDrawerProps)
           <div className="rounded-card border border-hairline bg-white p-3">
             <dt className="text-[11px] uppercase tracking-wider text-slate">Year-1 salary (PPP)</dt>
             <dd className="mt-1 font-mono text-lg font-medium tabular-nums">
-              {formatInrLakh(record.medianSalaryY1PppUsd, usdToInr)}
+              {formatMoney(record.medianSalaryY1PppUsd, currency, usdToInr)}
             </dd>
           </div>
           <div className="rounded-card border border-hairline bg-white p-3">
             <dt className="text-[11px] uppercase tracking-wider text-slate">Total degree cost</dt>
             <dd className="mt-1 font-mono text-lg font-medium tabular-nums">
-              {formatInrLakh(record.totalDegreeCostUsd, usdToInr)}
+              {formatMoney(record.totalDegreeCostUsd, currency, usdToInr)}
             </dd>
           </div>
         </dl>
