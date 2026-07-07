@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom'
 function OwnerPlaceholder({ children }: { children: ReactNode }) {
   return (
     <div className="mt-3 rounded-card border border-dashed border-gold/50 bg-gold/5 p-4">
-      <p className="font-mono text-[10px] uppercase tracking-wider text-gold">
+      <p className="font-mono text-[10px] uppercase tracking-wider text-gold-deep">
         Placeholder — owner copy to replace
       </p>
       <p className="mt-2 text-sm leading-relaxed text-slate">{children}</p>
@@ -41,7 +41,7 @@ export function About() {
           The formulas behind every score are already public on the{' '}
           <Link
             to="/methodology"
-            className="text-ultramarine underline-offset-2 hover:underline"
+            className="text-ultramarine underline underline-offset-2"
           >
             methodology page
           </Link>

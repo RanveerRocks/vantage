@@ -11,6 +11,19 @@
     outline: 2px solid theme('colors.ultramarine');
     outline-offset: 2px;
   }
+
+  /* Framer Motion honors this via MotionConfig; this covers CSS transitions
+     and animations (chevrons, hover arrows) the same way. */
+  @media (prefers-reduced-motion: reduce) {
+    *,
+    *::before,
+    *::after {
+      animation-duration: 0.01ms !important;
+      animation-iteration-count: 1 !important;
+      transition-duration: 0.01ms !important;
+      scroll-behavior: auto !important;
+    }
+  }
 }
 
 @layer components {

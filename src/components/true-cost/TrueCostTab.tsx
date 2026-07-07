@@ -203,7 +203,7 @@ export function TrueCostTab() {
       <p className="mt-3 text-xs text-slate">
         First-year estimate only — full-degree totals depend on programme length. Switch ₹/$ in
         the header.{' '}
-        <Link to="/methodology" className="text-ultramarine underline-offset-2 hover:underline">
+        <Link to="/methodology" className="text-ultramarine underline underline-offset-2">
           How these are computed
         </Link>
       </p>

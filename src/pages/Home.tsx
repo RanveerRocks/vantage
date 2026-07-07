@@ -72,7 +72,6 @@ export function Home() {
                 }}
                 to={`/explore/${degree.id}`}
                 onClick={() => setSelectedDegreeId(degree.id)}
-                aria-label={`Explore ${degree.name}`}
                 className="group rounded-card border border-hairline bg-white p-4 hover:border-ultramarine"
               >
                 <span className="font-mono text-[10px] text-slate">

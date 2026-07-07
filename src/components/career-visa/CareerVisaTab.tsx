@@ -87,7 +87,7 @@ export function CareerVisaTab({ degree }: { degree: Degree }) {
       <p className="mt-3 text-xs text-slate">
         Both scores are relative to these eight countries for this degree (0 = weakest in the set,
         100 = strongest). Click or arrow to a country and press Enter for the full breakdown.{' '}
-        <Link to="/methodology" className="text-ultramarine underline-offset-2 hover:underline">
+        <Link to="/methodology" className="text-ultramarine underline underline-offset-2">
           How these are computed
         </Link>
       </p>

@@ -3,5 +3,5 @@
 // with the country palette; the gold marker highlights PR eligibility.
 export const STAGE_COLORS = ['#2440C9', '#7C8AE0', '#5B6472', '#C9CEC5']
 
-/** Text color that stays readable on each stage color. */
-export const STAGE_TEXT_COLORS = ['#FFFFFF', '#FFFFFF', '#FFFFFF', '#111826']
+/** Text color that stays readable on each stage color (AA at label size). */
+export const STAGE_TEXT_COLORS = ['#FFFFFF', '#111826', '#FFFFFF', '#111826']

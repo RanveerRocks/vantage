@@ -164,7 +164,7 @@ export function PathwaysTab() {
           <button
             type="button"
             onClick={() => setCompareIds([])}
-            className="rounded-chip px-2 py-1 text-xs text-ultramarine underline-offset-2 hover:underline"
+            className="rounded-chip px-2 py-1 text-xs text-ultramarine underline underline-offset-2"
           >
             Clear
           </button>
@@ -229,7 +229,7 @@ export function PathwaysTab() {
 
       <p className="mt-3 text-xs text-slate">
         Sorted by years to PR eligibility. Click a country for stage-by-stage detail and sources.{' '}
-        <Link to="/methodology" className="text-ultramarine underline-offset-2 hover:underline">
+        <Link to="/methodology" className="text-ultramarine underline underline-offset-2">
           How these are computed
         </Link>
       </p>

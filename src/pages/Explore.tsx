@@ -1,12 +1,33 @@
-import { useEffect } from 'react'
+import { lazy, Suspense, useEffect } from 'react'
 import { Link, useParams, useSearchParams } from 'react-router-dom'
-import { CareerVisaTab } from '../components/career-visa/CareerVisaTab'
-import { EmergingTab } from '../components/emerging/EmergingTab'
-import { PathwaysTab } from '../components/pathways/PathwaysTab'
-import { StudentLifeTab } from '../components/student-life/StudentLifeTab'
-import { TrueCostTab } from '../components/true-cost/TrueCostTab'
 import { findDegree } from '../lib/degrees'
 import { useVantageStore } from '../lib/store'
+
+// Each tab code-splits so the Recharts scatter (the heaviest chunk) loads
+// only when its tab is opened.
+const CareerVisaTab = lazy(() =>
+  import('../components/career-visa/CareerVisaTab').then((m) => ({ default: m.CareerVisaTab })),
+)
+const StudentLifeTab = lazy(() =>
+  import('../components/student-life/StudentLifeTab').then((m) => ({ default: m.StudentLifeTab })),
+)
+const PathwaysTab = lazy(() =>
+  import('../components/pathways/PathwaysTab').then((m) => ({ default: m.PathwaysTab })),
+)
+const TrueCostTab = lazy(() =>
+  import('../components/true-cost/TrueCostTab').then((m) => ({ default: m.TrueCostTab })),
+)
+const EmergingTab = lazy(() =>
+  import('../components/emerging/EmergingTab').then((m) => ({ default: m.EmergingTab })),
+)
+
+function TabFallback() {
+  return (
+    <p className="py-16 text-center font-mono text-xs uppercase tracking-widest text-slate" role="status">
+      Loading…
+    </p>
+  )
+}
 
 const TAB_IDS = ['career-visa', 'student-life', 'pathways', 'true-cost', 'emerging'] as const
 type TabId = (typeof TAB_IDS)[number]
@@ -101,17 +122,19 @@ export function Explore() {
         aria-labelledby={`tab-${tab}`}
         className="mt-6"
       >
-        {tab === 'career-visa' ? (
-          <CareerVisaTab degree={degree} />
-        ) : tab === 'student-life' ? (
-          <StudentLifeTab />
-        ) : tab === 'pathways' ? (
-          <PathwaysTab />
-        ) : tab === 'true-cost' ? (
-          <TrueCostTab />
-        ) : (
-          <EmergingTab degree={degree} />
-        )}
+        <Suspense fallback={<TabFallback />}>
+          {tab === 'career-visa' ? (
+            <CareerVisaTab degree={degree} />
+          ) : tab === 'student-life' ? (
+            <StudentLifeTab />
+          ) : tab === 'pathways' ? (
+            <PathwaysTab />
+          ) : tab === 'true-cost' ? (
+            <TrueCostTab />
+          ) : (
+            <EmergingTab degree={degree} />
+          )}
+        </Suspense>
       </div>
     </div>
   )

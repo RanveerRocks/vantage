@@ -134,7 +134,7 @@ export function StudentLifeTab() {
           <p className="mt-3 text-xs text-slate">
             SLI = Σ(score × weight) ÷ Σ(weight), on curated 0–100 factor scores. Click a country
             for its factor breakdown.{' '}
-            <Link to="/methodology" className="text-ultramarine underline-offset-2 hover:underline">
+            <Link to="/methodology" className="text-ultramarine underline underline-offset-2">
               How these are computed
             </Link>
           </p>

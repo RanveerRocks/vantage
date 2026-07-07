@@ -289,38 +289,42 @@ export function CareerVisaChart({ degreeName, points, selectedId, onSelect }: Ca
           onBlur={() => setFocusedId(null)}
           className="h-[380px] min-w-0 flex-1 rounded-chip sm:h-[470px]"
         >
-          <ResponsiveContainer width="100%" height="100%">
-            <ScatterChart margin={{ top: 12, right: 20, bottom: 6, left: 0 }}>
-              <CartesianGrid stroke={HAIRLINE} strokeWidth={1} />
-              <XAxis
-                dataKey="x"
-                type="number"
-                domain={[0, 100]}
-                ticks={TICKS}
-                tick={TICK_STYLE}
-                tickLine={false}
-                axisLine={{ stroke: HAIRLINE }}
-                tickMargin={8}
-                height={28}
-              />
-              <YAxis
-                dataKey="y"
-                type="number"
-                domain={[0, 100]}
-                ticks={TICKS}
-                tick={TICK_STYLE}
-                tickLine={false}
-                axisLine={{ stroke: HAIRLINE }}
-                tickMargin={6}
-                width={40}
-              />
-              <ReferenceLine x={50} stroke={INK} strokeOpacity={0.22} />
-              <ReferenceLine y={50} stroke={INK} strokeOpacity={0.22} />
-              <Customized component={renderQuadrantLabels} />
-              <Customized component={renderCrosshair} />
-              <Scatter data={points} isAnimationActive={false} shape={renderDot} />
-            </ScatterChart>
-          </ResponsiveContainer>
+          {/* The SVG is decorative for AT: the application wrapper, keyboard
+              nav, and live region are the accessible interface. */}
+          <div className="h-full" aria-hidden="true">
+            <ResponsiveContainer width="100%" height="100%">
+              <ScatterChart margin={{ top: 12, right: 20, bottom: 6, left: 0 }}>
+                <CartesianGrid stroke={HAIRLINE} strokeWidth={1} />
+                <XAxis
+                  dataKey="x"
+                  type="number"
+                  domain={[0, 100]}
+                  ticks={TICKS}
+                  tick={TICK_STYLE}
+                  tickLine={false}
+                  axisLine={{ stroke: HAIRLINE }}
+                  tickMargin={8}
+                  height={28}
+                />
+                <YAxis
+                  dataKey="y"
+                  type="number"
+                  domain={[0, 100]}
+                  ticks={TICKS}
+                  tick={TICK_STYLE}
+                  tickLine={false}
+                  axisLine={{ stroke: HAIRLINE }}
+                  tickMargin={6}
+                  width={40}
+                />
+                <ReferenceLine x={50} stroke={INK} strokeOpacity={0.22} />
+                <ReferenceLine y={50} stroke={INK} strokeOpacity={0.22} />
+                <Customized component={renderQuadrantLabels} />
+                <Customized component={renderCrosshair} />
+                <Scatter data={points} isAnimationActive={false} shape={renderDot} />
+              </ScatterChart>
+            </ResponsiveContainer>
+          </div>
         </div>
       </div>
       <p className="mt-1 text-center font-mono text-[10px] uppercase tracking-[0.18em] text-slate" aria-hidden="true">

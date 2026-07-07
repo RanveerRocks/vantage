@@ -58,7 +58,7 @@ export function Methodology() {
           <span className="font-mono text-xs">lastUpdated</span> date, and a confidence level
           (high, medium, low, or placeholder). When confidence is{' '}
           <span className="font-mono text-xs">placeholder</span>, the UI shows a visible{' '}
-          <span className="rounded-chip border border-gold/50 bg-gold/10 px-1.5 py-0.5 font-mono text-[10px] uppercase tracking-wider text-gold">
+          <span className="rounded-chip border border-gold/50 bg-gold/10 px-1.5 py-0.5 font-mono text-[10px] uppercase tracking-wider text-gold-deep">
             Sample data
           </span>{' '}
           badge — as it does today, because the current dataset is entirely schema-valid sample
