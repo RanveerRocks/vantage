@@ -4,55 +4,55 @@
     "name": "United States",
     "flag": "🇺🇸",
     "currency": "USD",
-    "blurb": "[Sample] One-line story for Indian students headed to United States — curated copy pending."
+    "blurb": "[Sample] One-line story for international students headed to United States. Curated copy pending."
   },
   {
     "id": "uk",
     "name": "United Kingdom",
     "flag": "🇬🇧",
     "currency": "GBP",
-    "blurb": "[Sample] One-line story for Indian students headed to United Kingdom — curated copy pending."
+    "blurb": "[Sample] One-line story for international students headed to United Kingdom. Curated copy pending."
   },
   {
     "id": "ca",
     "name": "Canada",
     "flag": "🇨🇦",
     "currency": "CAD",
-    "blurb": "[Sample] One-line story for Indian students headed to Canada — curated copy pending."
+    "blurb": "[Sample] One-line story for international students headed to Canada. Curated copy pending."
   },
   {
     "id": "au",
     "name": "Australia",
     "flag": "🇦🇺",
     "currency": "AUD",
-    "blurb": "[Sample] One-line story for Indian students headed to Australia — curated copy pending."
+    "blurb": "[Sample] One-line story for international students headed to Australia. Curated copy pending."
   },
   {
     "id": "de",
     "name": "Germany",
     "flag": "🇩🇪",
     "currency": "EUR",
-    "blurb": "[Sample] One-line story for Indian students headed to Germany — curated copy pending."
+    "blurb": "[Sample] One-line story for international students headed to Germany. Curated copy pending."
   },
   {
     "id": "ie",
     "name": "Ireland",
     "flag": "🇮🇪",
     "currency": "EUR",
-    "blurb": "[Sample] One-line story for Indian students headed to Ireland — curated copy pending."
+    "blurb": "[Sample] One-line story for international students headed to Ireland. Curated copy pending."
   },
   {
     "id": "nl",
     "name": "Netherlands",
     "flag": "🇳🇱",
     "currency": "EUR",
-    "blurb": "[Sample] One-line story for Indian students headed to Netherlands — curated copy pending."
+    "blurb": "[Sample] One-line story for international students headed to Netherlands. Curated copy pending."
   },
   {
     "id": "sg",
     "name": "Singapore",
     "flag": "🇸🇬",
     "currency": "SGD",
-    "blurb": "[Sample] One-line story for Indian students headed to Singapore — curated copy pending."
+    "blurb": "[Sample] One-line story for international students headed to Singapore. Curated copy pending."
   }
 ]

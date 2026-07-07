@@ -23,9 +23,12 @@ const EmergingTab = lazy(() =>
 
 function TabFallback() {
   return (
-    <p className="py-16 text-center font-mono text-xs uppercase tracking-widest text-slate" role="status">
-      Loading…
-    </p>
+    <div
+      className="rounded-card border border-dashed border-hairline p-14 text-center"
+      role="status"
+    >
+      <p className="font-mono text-xs uppercase tracking-widest text-slate">Loading…</p>
+    </div>
   )
 }
 
@@ -85,7 +88,7 @@ export function Explore() {
   }
 
   return (
-    <div className="mx-auto w-full max-w-6xl px-4 py-8 sm:px-6 sm:py-10">
+    <div className="mx-auto w-full max-w-6xl px-4 py-10 sm:px-6 sm:py-12">
       <p className="font-mono text-xs uppercase tracking-[0.2em] text-ultramarine">Exploring</p>
       <h1 className="mt-2 font-display text-3xl font-semibold tracking-tight sm:text-4xl">
         {degree.name}
@@ -94,7 +97,7 @@ export function Explore() {
       <div
         role="tablist"
         aria-label="Explore sections"
-        className="mt-6 flex gap-1 overflow-x-auto border-b border-hairline"
+        className="mt-8 flex gap-1 overflow-x-auto border-b border-hairline"
       >
         {TABS.map(({ id, label }) => (
           <button
@@ -120,7 +123,7 @@ export function Explore() {
         id="explore-tabpanel"
         role="tabpanel"
         aria-labelledby={`tab-${tab}`}
-        className="mt-6"
+        className="mt-8"
       >
         <Suspense fallback={<TabFallback />}>
           {tab === 'career-visa' ? (

@@ -60,7 +60,7 @@ export function InstallPrompt() {
         Add to home screen
       </p>
       <p className="mt-1.5 text-sm leading-relaxed text-ink">
-        Install Vantage for quick access — it works offline with the last data you loaded.
+        Install Vantage for quick access. It works offline with the last data you loaded.
       </p>
       <div className="mt-3 flex gap-2">
         <button

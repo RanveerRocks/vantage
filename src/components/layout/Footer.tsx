@@ -8,7 +8,7 @@ export function Footer() {
       <div className="mx-auto flex w-full max-w-6xl flex-col justify-between gap-3 px-4 py-6 sm:flex-row sm:items-center sm:px-6">
         <p className="text-sm text-slate">
           Data current as of <span className="font-mono text-xs">{config.ratesLastUpdated}</span>.
-          Informational only — verify with official sources before deciding.
+          Informational only.
         </p>
         <div className="flex items-center gap-4">
           <Link to="/about" className="rounded-chip text-sm text-slate hover:text-ink">

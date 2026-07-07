@@ -43,6 +43,10 @@ export function Home() {
   return (
     <>
       <section className="relative overflow-hidden border-b border-hairline">
+        <div
+          className="absolute inset-0 bg-[radial-gradient(90%_70%_at_15%_0%,rgba(36,64,201,0.05),transparent_65%)]"
+          aria-hidden="true"
+        />
         <div className="survey-grid absolute inset-0" aria-hidden="true" />
         <div className="relative mx-auto w-full max-w-6xl px-4 py-14 sm:px-6 sm:py-20">
           <p className="font-mono text-xs uppercase tracking-[0.2em] text-ultramarine">
@@ -53,7 +57,7 @@ export function Home() {
           </h1>
           <p className="mt-5 max-w-xl text-slate">
             Vantage compares the career, visa, cost, and life outcomes of one degree across eight
-            countries — for Indian students and their families. Informational, never
+            countries, for international students and their families. Informational, never
             recommendatory.
           </p>
 
@@ -72,7 +76,7 @@ export function Home() {
                 }}
                 to={`/explore/${degree.id}`}
                 onClick={() => setSelectedDegreeId(degree.id)}
-                className="group rounded-card border border-hairline bg-white p-4 hover:border-ultramarine"
+                className="group rounded-card border border-hairline bg-white p-4 shadow-soft transition-[border-color,box-shadow,transform] duration-200 hover:-translate-y-0.5 hover:border-ultramarine hover:shadow-lift"
               >
                 <span className="font-mono text-[10px] text-slate">
                   {String(index + 1).padStart(2, '0')}

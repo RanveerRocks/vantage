@@ -68,14 +68,16 @@ export function CareerVisaTab({ degree }: { degree: Degree }) {
             Career &amp; Visa Landscape
           </h2>
           <p className="mt-1 max-w-xl text-sm text-slate">
-            Where {degree.name} stands across the eight countries — pathway strength against
+            Where {degree.name} stands across the eight countries: pathway strength against
             return on cost.
           </p>
         </div>
         {allSample && <ConfidenceBadge confidence="placeholder" />}
       </div>
 
-      <div className="mt-4 rounded-card border border-hairline bg-white p-2 sm:p-4">
+      <p className="mt-5 text-xs text-slate">Click any country for a full breakdown.</p>
+
+      <div className="mt-2 rounded-card border border-hairline bg-white p-2 shadow-soft sm:p-4">
         <CareerVisaChart
           degreeName={degree.name}
           points={points}
@@ -86,7 +88,7 @@ export function CareerVisaTab({ degree }: { degree: Degree }) {
 
       <p className="mt-3 text-xs text-slate">
         Both scores are relative to these eight countries for this degree (0 = weakest in the set,
-        100 = strongest). Click or arrow to a country and press Enter for the full breakdown.{' '}
+        100 = strongest).{' '}
         <Link to="/methodology" className="text-ultramarine underline underline-offset-2">
           How these are computed
         </Link>

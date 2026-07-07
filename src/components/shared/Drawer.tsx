@@ -3,6 +3,7 @@ import { motion } from 'framer-motion'
 
 interface DrawerProps {
   label: string
+  kicker?: string
   header: ReactNode
   onClose: () => void
   children: ReactNode
@@ -12,7 +13,7 @@ interface DrawerProps {
  * Right-side detail drawer: backdrop, slide-in panel, Escape/backdrop close,
  * focus moved to the close button on open and restored on close.
  */
-export function Drawer({ label, header, onClose, children }: DrawerProps) {
+export function Drawer({ label, kicker, header, onClose, children }: DrawerProps) {
   const closeRef = useRef<HTMLButtonElement>(null)
 
   useEffect(() => {
@@ -50,8 +51,15 @@ export function Drawer({ label, header, onClose, children }: DrawerProps) {
         exit={{ x: '100%' }}
         transition={{ duration: 0.26, ease: 'easeOut' }}
       >
-        <div className="flex items-start justify-between gap-3 border-b border-hairline p-5">
-          <div className="min-w-0">{header}</div>
+        <div className="flex items-start justify-between gap-3 border-b border-hairline bg-white p-5">
+          <div className="min-w-0">
+            {kicker && (
+              <p className="mb-1.5 font-mono text-[10px] uppercase tracking-[0.18em] text-ultramarine">
+                {kicker}
+              </p>
+            )}
+            {header}
+          </div>
           <button
             ref={closeRef}
             type="button"

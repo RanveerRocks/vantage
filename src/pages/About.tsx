@@ -5,7 +5,7 @@ function OwnerPlaceholder({ children }: { children: ReactNode }) {
   return (
     <div className="mt-3 rounded-card border border-dashed border-gold/50 bg-gold/5 p-4">
       <p className="font-mono text-[10px] uppercase tracking-wider text-gold-deep">
-        Placeholder — owner copy to replace
+        Placeholder: owner copy to replace
       </p>
       <p className="mt-2 text-sm leading-relaxed text-slate">{children}</p>
     </div>
@@ -25,7 +25,7 @@ export function About() {
         <OwnerPlaceholder>
           Two to three paragraphs on the problem: families choosing a study destination on
           brand-name gravity and agent advice, missing visa realities, true costs, and what daily
-          life is like — and how Vantage puts the blind spots on one screen without ranking
+          life is like, and how Vantage puts the blind spots on one screen without ranking
           anything.
         </OwnerPlaceholder>
       </section>

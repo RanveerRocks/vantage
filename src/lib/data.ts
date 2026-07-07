@@ -158,7 +158,7 @@ export function loadData(): AppData {
     const count = emerging.filter((record) => record.degreeId === degreeId).length
     if (count < 4 || count > 5) {
       throw new Error(
-        `Invalid data in emerging.json: expected 4–5 destinations for ${degreeId}, found ${count}`,
+        `Invalid data in emerging.json: expected 4 to 5 destinations for ${degreeId}, found ${count}`,
       )
     }
   }

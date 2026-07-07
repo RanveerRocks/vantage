@@ -49,7 +49,7 @@ export function Header() {
     <header className="sticky top-0 z-40 border-b border-hairline bg-paper/90 backdrop-blur">
       <div className="mx-auto flex h-14 w-full max-w-6xl items-center justify-between gap-3 px-4 sm:px-6">
         {/* The wordmark text is hidden below sm, so the link needs its own name */}
-        <Link to="/" aria-label="Vantage — home" className="flex items-center gap-2 rounded-chip">
+        <Link to="/" aria-label="Vantage home" className="flex items-center gap-2 rounded-chip">
           <CrosshairMark />
           <span className="hidden font-display text-xl font-semibold tracking-tight sm:inline">
             Vantage

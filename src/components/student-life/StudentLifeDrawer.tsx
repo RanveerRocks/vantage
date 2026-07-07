@@ -26,7 +26,8 @@ export function StudentLifeDrawer({ detail, factors, weights, onClose }: Student
 
   return (
     <Drawer
-      label={`${country.name} — student life breakdown`}
+      label={`${country.name}: student life breakdown`}
+      kicker="Student life detail"
       onClose={onClose}
       header={
         <>

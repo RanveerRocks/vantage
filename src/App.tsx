@@ -15,9 +15,12 @@ const About = lazy(() => import('./pages/About').then((m) => ({ default: m.About
 function RouteFallback() {
   return (
     <div className="mx-auto w-full max-w-6xl px-4 py-16 sm:px-6">
-      <p className="font-mono text-xs uppercase tracking-widest text-slate" role="status">
-        Loading…
-      </p>
+      <div
+        className="rounded-card border border-dashed border-hairline p-14 text-center"
+        role="status"
+      >
+        <p className="font-mono text-xs uppercase tracking-widest text-slate">Loading…</p>
+      </div>
     </div>
   )
 }

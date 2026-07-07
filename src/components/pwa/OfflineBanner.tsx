@@ -23,7 +23,7 @@ export function OfflineBanner() {
       role="status"
       className="border-b border-hairline bg-white px-4 py-1.5 text-center font-mono text-[11px] tracking-wide text-slate"
     >
-      offline — data as of {config.ratesLastUpdated}
+      offline: data as of {config.ratesLastUpdated}
     </div>
   )
 }

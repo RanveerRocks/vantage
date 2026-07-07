@@ -49,7 +49,7 @@ function TimelineBar({ pathway, maxYears, tall }: TimelineBarProps) {
         {pathway.stages.map((stage, index) => (
           <span
             key={stage.label}
-            title={`${stage.label} — ${stage.years} yr`}
+            title={`${stage.label}: ${stage.years} yr`}
             className="flex h-full items-center justify-center"
             style={{
               width: `${(stage.years / total) * 100}%`,
@@ -128,7 +128,7 @@ export function PathwaysTab() {
             Post-Study Pathway Timelines
           </h2>
           <p className="mt-1 max-w-xl text-sm text-slate">
-            Years from arrival through study, post-study work, PR, and citizenship — drawn to a
+            Years from arrival through study, post-study work, PR, and citizenship, drawn to a
             common scale. The gold tick marks PR eligibility.
           </p>
         </div>
@@ -171,7 +171,9 @@ export function PathwaysTab() {
         )}
       </div>
 
-      <div className="mt-4 rounded-card border border-hairline bg-white p-4 sm:p-5">
+      <p className="mt-5 text-xs text-slate">Click a country to see stage details.</p>
+
+      <div className="mt-2 rounded-card border border-hairline bg-white p-4 shadow-soft sm:p-5">
         <div className="flex flex-wrap items-center gap-x-4 gap-y-1">
           {stageLabels.map((label, index) => (
             <span key={label} className="flex items-center gap-1.5 text-xs text-slate">
@@ -203,7 +205,7 @@ export function PathwaysTab() {
                 data-pathway-country={pathway.countryId}
                 onClick={() => setSelectedId(pathway.countryId)}
                 aria-label={`${country?.name}: PR eligibility in ${pathway.totalYearsToPr} years. Open stage details.`}
-                className={`col-span-3 grid grid-cols-subgrid items-center rounded-chip px-0 text-left hover:bg-paper ${
+                className={`col-span-3 grid cursor-pointer grid-cols-subgrid items-center rounded-chip px-0 text-left hover:bg-paper ${
                   comparing ? 'py-2.5' : 'py-1.5'
                 }`}
               >
@@ -228,7 +230,7 @@ export function PathwaysTab() {
       </div>
 
       <p className="mt-3 text-xs text-slate">
-        Sorted by years to PR eligibility. Click a country for stage-by-stage detail and sources.{' '}
+        Sorted by years to PR eligibility.{' '}
         <Link to="/methodology" className="text-ultramarine underline underline-offset-2">
           How these are computed
         </Link>

@@ -24,6 +24,12 @@ export default {
         card: '10px',
         chip: '6px',
       },
+      // Barely-there elevation: hairline borders stay the primary edge,
+      // shadows only whisper.
+      boxShadow: {
+        soft: '0 1px 2px rgba(17, 24, 38, 0.04)',
+        lift: '0 4px 16px rgba(17, 24, 38, 0.07)',
+      },
     },
   },
   plugins: [],

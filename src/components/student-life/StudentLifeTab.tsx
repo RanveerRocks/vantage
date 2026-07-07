@@ -70,16 +70,19 @@ export function StudentLifeTab() {
             Student Life Index
           </h2>
           <p className="mt-1 max-w-xl text-sm text-slate">
-            Rank the eight countries by what matters to you — set each factor&rsquo;s weight and
-            the ranking recomputes live.
+            Rank the eight countries by what daily life is like, weighted by you.
           </p>
         </div>
         {allSample && <ConfidenceBadge confidence="placeholder" />}
       </div>
 
-      <div className="mt-4 grid grid-cols-1 gap-6 lg:grid-cols-12">
+      <p className="mt-5 text-xs text-slate">
+        Set how much each factor matters to you. The ranking updates live.
+      </p>
+
+      <div className="mt-2 grid grid-cols-1 gap-6 lg:grid-cols-12">
         <div className="lg:col-span-5">
-          <div className="rounded-card border border-hairline bg-white p-4 sm:p-5">
+          <div className="rounded-card border border-hairline bg-white p-4 shadow-soft sm:p-5">
             <div className="flex items-baseline justify-between gap-3">
               <h3 className="text-xs font-medium uppercase tracking-wider text-slate">
                 Your weights
@@ -94,7 +97,7 @@ export function StudentLifeTab() {
               </button>
             </div>
             <p className="mt-1 font-mono text-[11px] text-slate">
-              0–5 · default 3 · 0 removes the factor entirely
+              0 to 5 · default 3 · 0 removes the factor entirely
             </p>
             <div className="mt-4 space-y-5">
               {data.factors.map((factor) => (
@@ -110,7 +113,7 @@ export function StudentLifeTab() {
         </div>
 
         <div className="lg:col-span-7">
-          <div className="rounded-card border border-hairline bg-white p-4 sm:p-5">
+          <div className="rounded-card border border-hairline bg-white p-4 shadow-soft sm:p-5">
             <h3 className="text-xs font-medium uppercase tracking-wider text-slate">
               Ranking · weighted by you
             </h3>
@@ -132,8 +135,8 @@ export function StudentLifeTab() {
             </div>
           </div>
           <p className="mt-3 text-xs text-slate">
-            SLI = Σ(score × weight) ÷ Σ(weight), on curated 0–100 factor scores. Click a country
-            for its factor breakdown.{' '}
+            SLI = Σ(score × weight) ÷ Σ(weight), on curated 0 to 100 factor scores. Click a
+            country for its factor breakdown.{' '}
             <Link to="/methodology" className="text-ultramarine underline underline-offset-2">
               How these are computed
             </Link>

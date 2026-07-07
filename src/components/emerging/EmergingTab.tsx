@@ -16,7 +16,7 @@ export function EmergingTab({ degree }: { degree: Degree }) {
             Beyond the usual eight
           </h2>
           <p className="mt-1 max-w-xl text-sm text-slate">
-            Under-the-radar destinations worth a look for {degree.name} — deliberately lighter
+            Under-the-radar destinations worth a look for {degree.name}. Deliberately lighter
             than the main eight: a pitch and a place to start reading, not a full comparison.
           </p>
         </div>
@@ -27,7 +27,7 @@ export function EmergingTab({ degree }: { degree: Degree }) {
         {cards.map((destination) => (
           <article
             key={destination.country}
-            className="rounded-card border border-hairline bg-white p-4"
+            className="rounded-card border border-hairline bg-white p-4 shadow-soft"
           >
             <div className="flex items-center gap-2">
               <span className="text-xl" aria-hidden="true">

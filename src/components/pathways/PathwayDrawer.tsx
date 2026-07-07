@@ -19,7 +19,8 @@ export function PathwayDrawer({ detail, onClose }: PathwayDrawerProps) {
 
   return (
     <Drawer
-      label={`${country.name} — post-study pathway`}
+      label={`${country.name}: post-study pathway`}
+      kicker="Pathway detail"
       onClose={onClose}
       header={
         <>

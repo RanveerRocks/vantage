@@ -56,7 +56,8 @@ export function CountryDrawer({ detail, usdToInr, onClose }: CountryDrawerProps)
 
   return (
     <Drawer
-      label={`${country.name} — career and visa details`}
+      label={`${country.name}: career and visa details`}
+      kicker="Career & visa detail"
       onClose={onClose}
       header={
         <>

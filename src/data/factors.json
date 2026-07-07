@@ -12,7 +12,7 @@
   {
     "id": "openness",
     "name": "Openness & Inclusion",
-    "description": "How welcoming daily life feels for international and Indian students."
+    "description": "How welcoming daily life feels for international students."
   },
   {
     "id": "work-rights",
@@ -31,8 +31,8 @@
   },
   {
     "id": "community",
-    "name": "Indian Community",
-    "description": "Size and reach of the Indian student and diaspora community."
+    "name": "Community",
+    "description": "Size and reach of the diaspora and international community from your home country."
   },
   {
     "id": "political-climate",

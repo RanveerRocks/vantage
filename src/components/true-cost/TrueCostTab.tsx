@@ -50,14 +50,16 @@ export function TrueCostTab() {
             True-Cost View
           </h2>
           <p className="mt-1 max-w-xl text-sm text-slate">
-            Estimated first-year cost across the eight countries — tuition, living, insurance, and
+            Estimated first-year cost across the eight countries: tuition, living, insurance, and
             flights per year, plus one-time visa fees. Cheapest first.
           </p>
         </div>
         {allSample && <ConfidenceBadge confidence="placeholder" />}
       </div>
 
-      <div className="mt-4 rounded-card border border-hairline bg-white p-4 sm:p-5">
+      <p className="mt-5 text-xs text-slate">Expand a country for the full cost breakdown.</p>
+
+      <div className="mt-2 rounded-card border border-hairline bg-white p-4 shadow-soft sm:p-5">
         <div className="flex flex-wrap items-center gap-x-4 gap-y-1">
           {CATEGORIES.map(({ label, color }) => (
             <span key={label} className="flex items-center gap-1.5 text-xs text-slate">
@@ -86,7 +88,7 @@ export function TrueCostTab() {
                   aria-expanded={expanded}
                   aria-controls={panelId}
                   onClick={() => setExpandedId(expanded ? null : record.countryId)}
-                  className="flex w-full items-center gap-2 py-2.5 text-left hover:bg-paper sm:gap-3"
+                  className="flex w-full cursor-pointer items-center gap-2 py-2.5 text-left hover:bg-paper sm:gap-3"
                 >
                   <svg
                     width="8"
@@ -201,7 +203,7 @@ export function TrueCostTab() {
       </div>
 
       <p className="mt-3 text-xs text-slate">
-        First-year estimate only — full-degree totals depend on programme length. Switch ₹/$ in
+        First-year estimate only. Full-degree totals depend on programme length. Switch ₹/$ in
         the header.{' '}
         <Link to="/methodology" className="text-ultramarine underline underline-offset-2">
           How these are computed
