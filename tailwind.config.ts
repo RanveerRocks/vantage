@@ -25,10 +25,11 @@ export default {
         chip: '6px',
       },
       // Barely-there elevation: hairline borders stay the primary edge,
-      // shadows only whisper.
+      // shadows only whisper. Multi-stop so cards read as material, not glow.
       boxShadow: {
-        soft: '0 1px 2px rgba(17, 24, 38, 0.04)',
-        lift: '0 4px 16px rgba(17, 24, 38, 0.07)',
+        soft: '0 1px 2px rgba(17, 24, 38, 0.05), 0 4px 12px rgba(17, 24, 38, 0.04)',
+        lift: '0 2px 4px rgba(17, 24, 38, 0.05), 0 14px 32px rgba(17, 24, 38, 0.09)',
+        drawer: '-12px 0 40px rgba(17, 24, 38, 0.12)',
       },
     },
   },

@@ -40,7 +40,7 @@ export function CountryRankingBars({ entries, selectedId, onSelect }: CountryRan
               {entry.flag}
             </span>
             <span className="w-20 shrink-0 truncate text-sm sm:w-28">{entry.name}</span>
-            <span className="relative h-4 min-w-0 flex-1 overflow-hidden rounded-full bg-hairline/60">
+            <span className="relative h-3 min-w-0 flex-1 overflow-hidden rounded-full bg-hairline/50">
               <motion.span
                 className="absolute inset-y-0 left-0 rounded-full"
                 style={{ backgroundColor: entry.color }}

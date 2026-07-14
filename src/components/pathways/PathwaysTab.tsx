@@ -50,7 +50,10 @@ function TimelineBar({ pathway, maxYears, tall }: TimelineBarProps) {
           <span
             key={stage.label}
             title={`${stage.label}: ${stage.years} yr`}
-            className="flex h-full items-center justify-center"
+            // Inset divider keeps stage boundaries exactly on the year scale.
+            className={`flex h-full items-center justify-center ${
+              index < pathway.stages.length - 1 ? 'shadow-[inset_-2px_0_0_#fff]' : ''
+            }`}
             style={{
               width: `${(stage.years / total) * 100}%`,
               backgroundColor: STAGE_COLORS[index % STAGE_COLORS.length],

@@ -29,7 +29,7 @@ const ULTRAMARINE = '#2440C9'
 const GOLD = '#B98A1F'
 const MONO = '"IBM Plex Mono", ui-monospace, monospace'
 const TICKS = [0, 25, 50, 75, 100]
-const TICK_STYLE = { fill: SLATE, fontSize: 11, fontFamily: MONO }
+const TICK_STYLE = { fill: SLATE, fontSize: 10.5, fontFamily: MONO, letterSpacing: '0.05em' }
 
 // Recharts passes its internal chart state to <Customized>; we only need the
 // axis scales and the plot-area offset.
@@ -83,8 +83,8 @@ function CountryDot({ cx, cy, point, index, sighted, selected, onHover, onSelect
         transition={{ type: 'spring', stiffness: 360, damping: 20, delay: index * 0.04 }}
       >
         <motion.g animate={{ scale: sighted ? 1.12 : 1 }} transition={{ duration: 0.18, ease: 'easeOut' }}>
-          {selected ? <circle r={19.5} fill="none" stroke={GOLD} strokeWidth={2.5} /> : null}
-          <circle r={14} fill={point.color} stroke="#FFFFFF" strokeWidth={1.5} />
+          {selected ? <circle r={20} fill="none" stroke={GOLD} strokeWidth={2.5} /> : null}
+          <circle r={14} fill={point.color} stroke="#FFFFFF" strokeWidth={2} />
           <text textAnchor="middle" dominantBaseline="central" fontSize={13} aria-hidden="true">
             {point.flag}
           </text>
@@ -197,10 +197,10 @@ export function CareerVisaChart({ degreeName, points, selectedId, onSelect }: Ca
             x={xSide === 'min' ? offset.left + 10 : offset.left + offset.width - 10}
             y={ySide === 'max' ? offset.top + 16 : offset.top + offset.height - 10}
             textAnchor={xSide === 'min' ? 'start' : 'end'}
-            fontSize={11}
+            fontSize={10.5}
             fill={SLATE}
-            fillOpacity={0.8}
-            style={{ fontVariant: 'small-caps', letterSpacing: '0.08em' }}
+            fillOpacity={0.65}
+            style={{ fontVariant: 'small-caps', letterSpacing: '0.11em' }}
           >
             {text}
           </text>
@@ -226,39 +226,76 @@ export function CareerVisaChart({ degreeName, points, selectedId, onSelect }: Ca
           animate: { pathLength: 1, opacity: 1 },
           transition: { duration: 0.22, ease: 'easeOut' as const },
         }
+    const yText = sightedPoint.y.toFixed(1)
+    const xText = sightedPoint.x.toFixed(1)
+    const chipWidth = (text: string) => text.length * 6.6 + 12
+    const chipH = 18
+    const yChipW = chipWidth(yText)
+    const xChipW = chipWidth(xText)
     return (
       <g pointerEvents="none">
         <motion.line key={`h-${sightedPoint.countryId}`} {...draw} x1={cx} y1={cy} x2={axisX} y2={cy} stroke={ULTRAMARINE} strokeWidth={1} />
         <motion.line key={`v-${sightedPoint.countryId}`} {...draw} x1={cx} y1={cy} x2={cx} y2={axisY} stroke={ULTRAMARINE} strokeWidth={1} />
-        <text
-          x={axisX - 6}
-          y={cy}
-          textAnchor="end"
-          dominantBaseline="central"
-          fontFamily={MONO}
-          fontSize={11}
-          fontWeight={600}
-          fill={ULTRAMARINE}
-          paintOrder="stroke"
-          stroke="#FFFFFF"
-          strokeWidth={4}
-        >
-          {sightedPoint.y.toFixed(1)}
-        </text>
-        <text
-          x={cx}
-          y={axisY + 18}
-          textAnchor="middle"
-          fontFamily={MONO}
-          fontSize={11}
-          fontWeight={600}
-          fill={ULTRAMARINE}
-          paintOrder="stroke"
-          stroke="#FFFFFF"
-          strokeWidth={4}
-        >
-          {sightedPoint.x.toFixed(1)}
-        </text>
+        {/* Surveyor's reticle around the sighted dot */}
+        <circle
+          cx={cx}
+          cy={cy}
+          r={20}
+          fill="none"
+          stroke={ULTRAMARINE}
+          strokeWidth={1}
+          strokeOpacity={0.45}
+          strokeDasharray="2 4"
+        />
+        {/* Mono readout chips at both axis margins */}
+        <g>
+          <rect
+            x={axisX - yChipW - 3}
+            y={cy - chipH / 2}
+            width={yChipW}
+            height={chipH}
+            rx={4}
+            fill="#FFFFFF"
+            stroke={ULTRAMARINE}
+            strokeOpacity={0.35}
+          />
+          <text
+            x={axisX - 3 - yChipW / 2}
+            y={cy}
+            textAnchor="middle"
+            dominantBaseline="central"
+            fontFamily={MONO}
+            fontSize={11}
+            fontWeight={600}
+            fill={ULTRAMARINE}
+          >
+            {yText}
+          </text>
+        </g>
+        <g>
+          <rect
+            x={cx - xChipW / 2}
+            y={axisY + 4}
+            width={xChipW}
+            height={chipH}
+            rx={4}
+            fill="#FFFFFF"
+            stroke={ULTRAMARINE}
+            strokeOpacity={0.35}
+          />
+          <text
+            x={cx}
+            y={axisY + 4 + chipH / 2}
+            textAnchor="middle"
+            dominantBaseline="central"
+            fontFamily={MONO}
+            fontSize={11}
+            fontWeight={600}
+            fill={ULTRAMARINE}
+          >
+            {xText}
+          </text>
+        </g>
       </g>
     )
   }
@@ -294,7 +331,7 @@ export function CareerVisaChart({ degreeName, points, selectedId, onSelect }: Ca
           <div className="h-full" aria-hidden="true">
             <ResponsiveContainer width="100%" height="100%">
               <ScatterChart margin={{ top: 12, right: 20, bottom: 6, left: 0 }}>
-                <CartesianGrid stroke={HAIRLINE} strokeWidth={1} />
+                <CartesianGrid stroke={HAIRLINE} strokeWidth={1} strokeOpacity={0.7} />
                 <XAxis
                   dataKey="x"
                   type="number"

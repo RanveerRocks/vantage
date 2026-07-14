@@ -1,26 +1,7 @@
 import { Link, NavLink, matchPath, useLocation, useNavigate } from 'react-router-dom'
 import { DEGREES, findDegree } from '../../lib/degrees'
 import { useVantageStore } from '../../lib/store'
-
-function CrosshairMark() {
-  return (
-    <svg
-      width="20"
-      height="20"
-      viewBox="0 0 24 24"
-      fill="none"
-      aria-hidden="true"
-      className="shrink-0"
-    >
-      <circle cx="12" cy="12" r="6.5" stroke="#2440C9" strokeWidth="1.5" />
-      <line x1="12" y1="1" x2="12" y2="5.5" stroke="#2440C9" strokeWidth="1.5" />
-      <line x1="12" y1="18.5" x2="12" y2="23" stroke="#2440C9" strokeWidth="1.5" />
-      <line x1="1" y1="12" x2="5.5" y2="12" stroke="#2440C9" strokeWidth="1.5" />
-      <line x1="18.5" y1="12" x2="23" y2="12" stroke="#2440C9" strokeWidth="1.5" />
-      <circle cx="12" cy="12" r="1.75" fill="#B98A1F" />
-    </svg>
-  )
-}
+import { CrosshairGlyph } from '../shared/CrosshairGlyph'
 
 export function Header() {
   const navigate = useNavigate()
@@ -50,7 +31,7 @@ export function Header() {
       <div className="mx-auto flex h-14 w-full max-w-6xl items-center justify-between gap-3 px-4 sm:px-6">
         {/* The wordmark text is hidden below sm, so the link needs its own name */}
         <Link to="/" aria-label="Vantage home" className="flex items-center gap-2 rounded-chip">
-          <CrosshairMark />
+          <CrosshairGlyph />
           <span className="hidden font-display text-xl font-semibold tracking-tight sm:inline">
             Vantage
           </span>

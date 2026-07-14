@@ -112,10 +112,13 @@ export function TrueCostTab() {
                       className="flex h-full overflow-hidden rounded-full"
                       style={{ width: `${(total / maxTotal) * 100}%` }}
                     >
-                      {CATEGORIES.map(({ key, label, color }) => (
+                      {CATEGORIES.map(({ key, label, color }, index) => (
                         <span
                           key={key}
                           title={`${label}: ${formatMoney(record[key], currency, rate)}`}
+                          className={
+                            index < CATEGORIES.length - 1 ? 'shadow-[inset_-2px_0_0_#fff]' : ''
+                          }
                           style={{
                             width: `${(record[key] / total) * 100}%`,
                             backgroundColor: color,

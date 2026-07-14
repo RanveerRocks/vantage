@@ -32,7 +32,7 @@ export function Drawer({ label, kicker, header, onClose, children }: DrawerProps
   return (
     <>
       <motion.div
-        className="fixed inset-0 z-40 bg-ink/25"
+        className="fixed inset-0 z-40 bg-ink/30"
         initial={{ opacity: 0 }}
         animate={{ opacity: 1 }}
         exit={{ opacity: 0 }}
@@ -45,7 +45,7 @@ export function Drawer({ label, kicker, header, onClose, children }: DrawerProps
         aria-modal="true"
         aria-label={label}
         data-testid="country-drawer"
-        className="fixed inset-y-0 right-0 z-50 flex w-full max-w-md flex-col border-l border-hairline bg-paper"
+        className="fixed inset-y-0 right-0 z-50 flex w-full max-w-md flex-col border-l border-hairline bg-paper shadow-drawer"
         initial={{ x: '100%' }}
         animate={{ x: 0 }}
         exit={{ x: '100%' }}

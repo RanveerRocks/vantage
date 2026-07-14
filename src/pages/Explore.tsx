@@ -1,5 +1,6 @@
 import { lazy, Suspense, useEffect } from 'react'
 import { Link, useParams, useSearchParams } from 'react-router-dom'
+import { CrosshairGlyph } from '../components/shared/CrosshairGlyph'
 import { findDegree } from '../lib/degrees'
 import { useVantageStore } from '../lib/store'
 
@@ -24,9 +25,10 @@ const EmergingTab = lazy(() =>
 function TabFallback() {
   return (
     <div
-      className="rounded-card border border-dashed border-hairline p-14 text-center"
+      className="flex flex-col items-center gap-3 rounded-card border border-dashed border-hairline p-14 text-center"
       role="status"
     >
+      <CrosshairGlyph size={22} />
       <p className="font-mono text-xs uppercase tracking-widest text-slate">Loading…</p>
     </div>
   )
@@ -89,15 +91,17 @@ export function Explore() {
 
   return (
     <div className="mx-auto w-full max-w-6xl px-4 py-10 sm:px-6 sm:py-12">
-      <p className="font-mono text-xs uppercase tracking-[0.2em] text-ultramarine">Exploring</p>
-      <h1 className="mt-2 font-display text-3xl font-semibold tracking-tight sm:text-4xl">
+      <p className="font-mono text-[11px] uppercase tracking-[0.22em] text-ultramarine">
+        Exploring
+      </p>
+      <h1 className="mt-2 font-display text-3xl font-semibold tracking-tight sm:text-[2.6rem]">
         {degree.name}
       </h1>
 
       <div
         role="tablist"
         aria-label="Explore sections"
-        className="mt-8 flex gap-1 overflow-x-auto border-b border-hairline"
+        className="mt-9 flex gap-4 overflow-x-auto border-b border-hairline sm:gap-6"
       >
         {TABS.map(({ id, label }) => (
           <button
@@ -108,10 +112,10 @@ export function Explore() {
             aria-selected={tab === id}
             aria-controls="explore-tabpanel"
             onClick={() => selectTab(id)}
-            className={`-mb-px whitespace-nowrap border-b-2 px-3 py-2.5 text-sm ${
+            className={`-mb-px whitespace-nowrap border-b-2 px-0.5 pb-3 pt-1 text-sm ${
               tab === id
                 ? 'border-ultramarine font-medium text-ink'
-                : 'border-transparent text-slate hover:text-ink'
+                : 'border-transparent text-slate hover:border-hairline hover:text-ink'
             }`}
           >
             {label}

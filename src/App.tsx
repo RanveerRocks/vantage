@@ -2,6 +2,7 @@ import { lazy, Suspense } from 'react'
 import { MotionConfig } from 'framer-motion'
 import { Route, Routes } from 'react-router-dom'
 import { Layout } from './components/layout/Layout'
+import { CrosshairGlyph } from './components/shared/CrosshairGlyph'
 import { Home } from './pages/Home'
 import { NotFound } from './pages/NotFound'
 
@@ -16,9 +17,10 @@ function RouteFallback() {
   return (
     <div className="mx-auto w-full max-w-6xl px-4 py-16 sm:px-6">
       <div
-        className="rounded-card border border-dashed border-hairline p-14 text-center"
+        className="flex flex-col items-center gap-3 rounded-card border border-dashed border-hairline p-14 text-center"
         role="status"
       >
+        <CrosshairGlyph size={22} />
         <p className="font-mono text-xs uppercase tracking-widest text-slate">Loading…</p>
       </div>
     </div>

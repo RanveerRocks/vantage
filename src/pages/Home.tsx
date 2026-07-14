@@ -48,24 +48,27 @@ export function Home() {
           aria-hidden="true"
         />
         <div className="survey-grid absolute inset-0" aria-hidden="true" />
-        <div className="relative mx-auto w-full max-w-6xl px-4 py-14 sm:px-6 sm:py-20">
-          <p className="font-mono text-xs uppercase tracking-[0.2em] text-ultramarine">
+        <div className="relative mx-auto w-full max-w-6xl px-4 py-16 sm:px-6 sm:py-24">
+          <p className="font-mono text-[11px] uppercase tracking-[0.22em] text-ultramarine">
             8 countries · 8 degrees · 0 rankings
           </p>
-          <h1 className="mt-4 max-w-3xl font-display text-4xl font-semibold leading-[1.05] tracking-tight sm:text-6xl">
-            See the whole field before you choose where to study.
+          <h1 className="mt-5 max-w-3xl font-display text-[2.6rem] font-semibold leading-[1.04] tracking-tight sm:text-[4.25rem]">
+            See the whole field before you choose where to study
+            <span className="text-gold" aria-hidden="true">
+              .
+            </span>
           </h1>
-          <p className="mt-5 max-w-xl text-slate">
+          <p className="mt-6 max-w-xl leading-relaxed text-slate sm:text-lg">
             Vantage compares the career, visa, cost, and life outcomes of one degree across eight
             countries, for international students and their families. Informational, never
             recommendatory.
           </p>
 
-          <p className="mt-10 font-mono text-xs uppercase tracking-[0.18em] text-slate">
+          <p className="mt-14 font-mono text-[11px] uppercase tracking-[0.22em] text-slate">
             Start with your degree
           </p>
           <div
-            className="mt-3 grid grid-cols-2 gap-3 lg:grid-cols-4"
+            className="mt-4 grid grid-cols-2 gap-3 lg:grid-cols-4"
             onKeyDown={handleGridKeyDown}
           >
             {DEGREES.map((degree, index) => (
@@ -78,7 +81,7 @@ export function Home() {
                 onClick={() => setSelectedDegreeId(degree.id)}
                 className="group rounded-card border border-hairline bg-white p-4 shadow-soft transition-[border-color,box-shadow,transform] duration-200 hover:-translate-y-0.5 hover:border-ultramarine hover:shadow-lift"
               >
-                <span className="font-mono text-[10px] text-slate">
+                <span className="font-mono text-[10px] tracking-[0.08em] text-ultramarine">
                   {String(index + 1).padStart(2, '0')}
                 </span>
                 <span className="mt-1 flex items-baseline justify-between gap-2">
