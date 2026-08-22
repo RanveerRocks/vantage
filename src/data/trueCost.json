@@ -32,21 +32,27 @@
   },
   {
     "countryId": "uk",
-    "tuitionPerYearUsd": 28000,
-    "livingPerYearUsd": 14000,
-    "insurancePerYearUsd": 1200,
-    "visaFeesOneTimeUsd": 800,
-    "flightsPerYearUsd": 1000,
+    "tuitionPerYearUsd": 27200,
+    "livingPerYearUsd": 16320,
+    "insurancePerYearUsd": 1055,
+    "visaFeesOneTimeUsd": 759,
+    "flightsPerYearUsd": 900,
     "hiddenNotes": [
-      "[Sample] Hidden-cost note pending curation: e.g. forex movement between offer and arrival.",
-      "[Sample] Hidden-cost note pending curation: e.g. deposits, surcharges, or proof-of-funds rules."
+      "The Immigration Health Surcharge (about 776 pounds a year) is paid upfront for your whole course before you arrive, on top of the visa fee.",
+      "London living costs run well above the rest of the UK: the Home Office sets student maintenance at 1,483 pounds a month for London versus 1,136 elsewhere.",
+      "Medicine and dentistry cost far more, up to 38,000 to 70,000 pounds a year for international students."
     ],
-    "confidence": "placeholder",
+    "confidence": "medium",
     "sources": [
       {
-        "name": "Sample source, data pending curation",
-        "url": "https://example.com/vantage-sample-data",
-        "lastUpdated": "2026-07-01"
+        "name": "British Council: cost of studying in the UK",
+        "url": "https://study-uk.britishcouncil.org/moving-uk/cost-studying",
+        "lastUpdated": "2026-08-18"
+      },
+      {
+        "name": "GOV.UK: Student visa (fees and health surcharge)",
+        "url": "https://www.gov.uk/student-visa",
+        "lastUpdated": "2026-08-18"
       }
     ]
   },

@@ -218,42 +218,72 @@
   {
     "countryId": "uk",
     "factorId": "affordability",
-    "score": 35,
-    "blurb": "[Sample] Placeholder note on affordability in United Kingdom; curated justification pending.",
-    "confidence": "placeholder",
+    "score": 32,
+    "blurb": "Numbeo puts UK costs on the higher side, with London especially steep, so at 32 it is among the pricier of the eight.",
+    "confidence": "medium",
     "sources": [
       {
-        "name": "Sample source, data pending curation",
-        "url": "https://example.com/vantage-sample-data",
-        "lastUpdated": "2026-07-01"
+        "name": "Numbeo Cost of Living Index",
+        "url": "https://www.numbeo.com/cost-of-living/rankings_by_country.jsp",
+        "lastUpdated": "2026-08-18"
+      },
+      {
+        "name": "Reuters: United Kingdom cost of living",
+        "url": "https://www.reuters.com/site-search/?query=United%20Kingdom%20cost%20of%20living",
+        "lastUpdated": "2026-08-18"
+      },
+      {
+        "name": "Bloomberg: United Kingdom cost of living",
+        "url": "https://www.bloomberg.com/search?query=United%20Kingdom%20cost%20of%20living",
+        "lastUpdated": "2026-08-18"
       }
     ]
   },
   {
     "countryId": "uk",
     "factorId": "safety",
-    "score": 65,
-    "blurb": "[Sample] Placeholder note on safety in United Kingdom; curated justification pending.",
-    "confidence": "placeholder",
+    "score": 52,
+    "blurb": "Numbeo scores UK safety in the low fifties, mid-pack, with petty theft in big cities the usual concern.",
+    "confidence": "medium",
     "sources": [
       {
-        "name": "Sample source, data pending curation",
-        "url": "https://example.com/vantage-sample-data",
-        "lastUpdated": "2026-07-01"
+        "name": "Numbeo Safety Index",
+        "url": "https://www.numbeo.com/crime/rankings_by_country.jsp",
+        "lastUpdated": "2026-08-18"
+      },
+      {
+        "name": "Reuters: United Kingdom safety",
+        "url": "https://www.reuters.com/site-search/?query=United%20Kingdom%20crime%20safety",
+        "lastUpdated": "2026-08-18"
+      },
+      {
+        "name": "BBC News: United Kingdom crime",
+        "url": "https://www.bbc.co.uk/search?q=United%20Kingdom%20crime&d=news_gnl",
+        "lastUpdated": "2026-08-18"
       }
     ]
   },
   {
     "countryId": "uk",
     "factorId": "openness",
-    "score": 75,
-    "blurb": "[Sample] Placeholder note on openness & inclusion in United Kingdom; curated justification pending.",
-    "confidence": "placeholder",
+    "score": 56,
+    "blurb": "The UK scores 56 on the 2025 Migrant Integration Policy Index, just above halfway, and recently slipped after cuts to language support in education.",
+    "confidence": "high",
     "sources": [
       {
-        "name": "Sample source, data pending curation",
-        "url": "https://example.com/vantage-sample-data",
-        "lastUpdated": "2026-07-01"
+        "name": "MIPEX 2025: United Kingdom",
+        "url": "https://www.mipex.eu/united-kingdom",
+        "lastUpdated": "2026-08-18"
+      },
+      {
+        "name": "Reuters: United Kingdom immigration",
+        "url": "https://www.reuters.com/site-search/?query=United%20Kingdom%20immigration%20integration",
+        "lastUpdated": "2026-08-18"
+      },
+      {
+        "name": "The Guardian: United Kingdom immigration",
+        "url": "https://www.theguardian.com/search?q=United%20Kingdom%20immigration",
+        "lastUpdated": "2026-08-18"
       }
     ]
   },
@@ -261,41 +291,71 @@
     "countryId": "uk",
     "factorId": "work-rights",
     "score": 65,
-    "blurb": "[Sample] Placeholder note on work rights in United Kingdom; curated justification pending.",
-    "confidence": "placeholder",
+    "blurb": "Degree students can work 20 hours a week in term time and full time in holidays, then the two-year Graduate Route allows any work after graduation.",
+    "confidence": "high",
     "sources": [
       {
-        "name": "Sample source, data pending curation",
-        "url": "https://example.com/vantage-sample-data",
-        "lastUpdated": "2026-07-01"
+        "name": "GOV.UK: Student visa work conditions",
+        "url": "https://www.gov.uk/student-visa/work",
+        "lastUpdated": "2026-08-18"
+      },
+      {
+        "name": "The PIE News: United Kingdom student work",
+        "url": "https://thepienews.com/?s=United%20Kingdom%20student%20work%20rights",
+        "lastUpdated": "2026-08-18"
+      },
+      {
+        "name": "ICEF Monitor: United Kingdom student work",
+        "url": "https://monitor.icef.com/?s=United%20Kingdom%20student%20work",
+        "lastUpdated": "2026-08-18"
       }
     ]
   },
   {
     "countryId": "uk",
     "factorId": "healthcare",
-    "score": 75,
-    "blurb": "[Sample] Placeholder note on healthcare in United Kingdom; curated justification pending.",
-    "confidence": "placeholder",
+    "score": 72,
+    "blurb": "The NHS gives students broad access once the Immigration Health Surcharge is paid, and Numbeo rates UK healthcare well.",
+    "confidence": "medium",
     "sources": [
       {
-        "name": "Sample source, data pending curation",
-        "url": "https://example.com/vantage-sample-data",
-        "lastUpdated": "2026-07-01"
+        "name": "Numbeo Health Care Index",
+        "url": "https://www.numbeo.com/health-care/rankings_by_country.jsp",
+        "lastUpdated": "2026-08-18"
+      },
+      {
+        "name": "Reuters: United Kingdom healthcare",
+        "url": "https://www.reuters.com/site-search/?query=United%20Kingdom%20healthcare",
+        "lastUpdated": "2026-08-18"
+      },
+      {
+        "name": "BBC News: United Kingdom health",
+        "url": "https://www.bbc.co.uk/search?q=United%20Kingdom%20healthcare&d=news_gnl",
+        "lastUpdated": "2026-08-18"
       }
     ]
   },
   {
     "countryId": "uk",
     "factorId": "language",
-    "score": 95,
-    "blurb": "[Sample] Placeholder note on language ease in United Kingdom; curated justification pending.",
-    "confidence": "placeholder",
+    "score": 100,
+    "blurb": "English is the language of study and daily life across the UK.",
+    "confidence": "high",
     "sources": [
       {
-        "name": "Sample source, data pending curation",
-        "url": "https://example.com/vantage-sample-data",
-        "lastUpdated": "2026-07-01"
+        "name": "EF English Proficiency Index",
+        "url": "https://www.ef.com/epi/",
+        "lastUpdated": "2026-08-18"
+      },
+      {
+        "name": "Wikipedia: Languages of United Kingdom",
+        "url": "https://en.wikipedia.org/wiki/Languages_of_the_United_Kingdom",
+        "lastUpdated": "2026-08-18"
+      },
+      {
+        "name": "Ethnologue: United Kingdom",
+        "url": "https://www.ethnologue.com/country/GB/",
+        "lastUpdated": "2026-08-18"
       }
     ]
   },
@@ -303,41 +363,71 @@
     "countryId": "uk",
     "factorId": "community",
     "score": 88,
-    "blurb": "[Sample] Placeholder note on community in United Kingdom; curated justification pending.",
-    "confidence": "placeholder",
+    "blurb": "The UK hosts around 730,000 international students, with a very large Indian community and dense diaspora networks.",
+    "confidence": "medium",
     "sources": [
       {
-        "name": "Sample source, data pending curation",
-        "url": "https://example.com/vantage-sample-data",
-        "lastUpdated": "2026-07-01"
+        "name": "HESA: international student data",
+        "url": "https://www.hesa.ac.uk/data-and-analysis/students/where-from",
+        "lastUpdated": "2026-08-18"
+      },
+      {
+        "name": "The PIE News: United Kingdom international students",
+        "url": "https://thepienews.com/?s=United%20Kingdom%20international%20students",
+        "lastUpdated": "2026-08-18"
+      },
+      {
+        "name": "ICEF Monitor: United Kingdom international students",
+        "url": "https://monitor.icef.com/?s=United%20Kingdom%20international%20students",
+        "lastUpdated": "2026-08-18"
       }
     ]
   },
   {
     "countryId": "uk",
     "factorId": "political-climate",
-    "score": 60,
-    "blurb": "[Sample] Placeholder note on political climate in United Kingdom; curated justification pending.",
-    "confidence": "placeholder",
+    "score": 80,
+    "blurb": "The UK scored 7.2 of 9 on Gallup’s 2023 Migrant Acceptance Index, up from 6.6 in 2016, even as immigration stayed politically charged and student-visa rules tightened.",
+    "confidence": "medium",
     "sources": [
       {
-        "name": "Sample source, data pending curation",
-        "url": "https://example.com/vantage-sample-data",
-        "lastUpdated": "2026-07-01"
+        "name": "Gallup Migrant Acceptance Index (2023)",
+        "url": "https://news.gallup.com/poll/656579/germany-election-key-issues-facing-next-chancellor.aspx",
+        "lastUpdated": "2026-08-18"
+      },
+      {
+        "name": "Reuters: United Kingdom immigration policy",
+        "url": "https://www.reuters.com/site-search/?query=United%20Kingdom%20immigration%20policy",
+        "lastUpdated": "2026-08-18"
+      },
+      {
+        "name": "AP News: United Kingdom immigration",
+        "url": "https://apnews.com/search?q=United%20Kingdom%20immigration",
+        "lastUpdated": "2026-08-18"
       }
     ]
   },
   {
     "countryId": "uk",
     "factorId": "climate-lifestyle",
-    "score": 55,
-    "blurb": "[Sample] Placeholder note on climate & lifestyle in United Kingdom; curated justification pending.",
-    "confidence": "placeholder",
+    "score": 88,
+    "blurb": "Numbeo rates the UK’s mild, temperate climate highly: rarely extreme, though grey and wet for much of the year.",
+    "confidence": "medium",
     "sources": [
       {
-        "name": "Sample source, data pending curation",
-        "url": "https://example.com/vantage-sample-data",
-        "lastUpdated": "2026-07-01"
+        "name": "Numbeo Climate Index",
+        "url": "https://www.numbeo.com/quality-of-life/rankings_by_country.jsp",
+        "lastUpdated": "2026-08-18"
+      },
+      {
+        "name": "Wikipedia: Climate of United Kingdom",
+        "url": "https://en.wikipedia.org/wiki/Climate_of_the_United_Kingdom",
+        "lastUpdated": "2026-08-18"
+      },
+      {
+        "name": "UK Met Office",
+        "url": "https://www.metoffice.gov.uk/",
+        "lastUpdated": "2026-08-18"
       }
     ]
   },

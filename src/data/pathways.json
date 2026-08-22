@@ -43,32 +43,37 @@
     "stages": [
       {
         "label": "Study",
-        "years": 2,
-        "description": "[Sample] Placeholder description of the study stage in United Kingdom; curated details pending."
+        "years": 3,
+        "description": "A UK bachelor’s degree is typically three years (four in Scotland)."
       },
       {
         "label": "Post-study work visa",
         "years": 2,
-        "description": "[Sample] Placeholder description of the post-study work visa stage in United Kingdom; curated details pending."
+        "description": "The Graduate Route lets you stay two years to work or job-hunt at any skill level, but this time does not count toward settlement."
       },
       {
         "label": "PR process",
-        "years": 1,
-        "description": "[Sample] Placeholder description of the pr process stage in United Kingdom; curated details pending."
+        "years": 3,
+        "description": "Settlement (Indefinite Leave to Remain) needs five continuous years on a Skilled Worker visa, so you must switch routes. The 2025 white paper proposed extending this qualifying period to ten years."
       },
       {
         "label": "Citizenship",
         "years": 1,
-        "description": "[Sample] Placeholder description of the citizenship stage in United Kingdom; curated details pending."
+        "description": "You can usually apply for British citizenship about 12 months after gaining ILR."
       }
     ],
-    "totalYearsToPr": 5,
-    "confidence": "placeholder",
+    "totalYearsToPr": 8,
+    "confidence": "medium",
     "sources": [
       {
-        "name": "Sample source, data pending curation",
-        "url": "https://example.com/vantage-sample-data",
-        "lastUpdated": "2026-07-01"
+        "name": "GOV.UK: Graduate visa",
+        "url": "https://www.gov.uk/graduate-visa",
+        "lastUpdated": "2026-08-18"
+      },
+      {
+        "name": "GOV.UK: Indefinite leave to remain (Skilled Worker)",
+        "url": "https://www.gov.uk/indefinite-leave-to-remain-tier-2-t2-skilled-worker-visa",
+        "lastUpdated": "2026-08-18"
       }
     ]
   },
