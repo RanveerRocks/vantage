@@ -254,84 +254,84 @@
   {
     "countryId": "ca",
     "factorId": "affordability",
-    "score": 40,
-    "blurb": "[Sample] Placeholder note on affordability in Canada; curated justification pending.",
-    "confidence": "placeholder",
+    "score": 39,
+    "blurb": "By Numbeo's cost-of-living index Canada is the least expensive of the eight countries here, though at 39 it is still a costly destination in absolute terms. Rent in Toronto and Vancouver drives much of the spend.",
+    "confidence": "medium",
     "sources": [
       {
-        "name": "Sample source, data pending curation",
-        "url": "https://example.com/vantage-sample-data",
-        "lastUpdated": "2026-07-01"
+        "name": "Numbeo Cost of Living Index",
+        "url": "https://www.numbeo.com/cost-of-living/rankings_by_country.jsp",
+        "lastUpdated": "2026-08-18"
       }
     ]
   },
   {
     "countryId": "ca",
     "factorId": "safety",
-    "score": 75,
-    "blurb": "[Sample] Placeholder note on safety in Canada; curated justification pending.",
-    "confidence": "placeholder",
+    "score": 54,
+    "blurb": "Numbeo scores Canada in the mid-fifties for safety, comfortable but below the safest of the eight. Big-city property crime is the concern students most often report.",
+    "confidence": "medium",
     "sources": [
       {
-        "name": "Sample source, data pending curation",
-        "url": "https://example.com/vantage-sample-data",
-        "lastUpdated": "2026-07-01"
+        "name": "Numbeo Safety Index",
+        "url": "https://www.numbeo.com/crime/rankings_by_country.jsp",
+        "lastUpdated": "2026-08-18"
       }
     ]
   },
   {
     "countryId": "ca",
     "factorId": "openness",
-    "score": 80,
-    "blurb": "[Sample] Placeholder note on openness & inclusion in Canada; curated justification pending.",
-    "confidence": "placeholder",
+    "score": 81,
+    "blurb": "Canada scores 81 on the 2025 Migrant Integration Policy Index, fourth in the world, reflecting strong rights and support for newcomers.",
+    "confidence": "high",
     "sources": [
       {
-        "name": "Sample source, data pending curation",
-        "url": "https://example.com/vantage-sample-data",
-        "lastUpdated": "2026-07-01"
+        "name": "MIPEX 2025: Canada",
+        "url": "https://www.mipex.eu/canada",
+        "lastUpdated": "2026-08-18"
       }
     ]
   },
   {
     "countryId": "ca",
     "factorId": "work-rights",
-    "score": 75,
-    "blurb": "[Sample] Placeholder note on work rights in Canada; curated justification pending.",
-    "confidence": "placeholder",
+    "score": 80,
+    "blurb": "International students can work up to 24 hours a week off campus during term and full time during scheduled breaks, then move onto a post-graduation work permit. One of the more generous regimes here.",
+    "confidence": "high",
     "sources": [
       {
-        "name": "Sample source, data pending curation",
-        "url": "https://example.com/vantage-sample-data",
-        "lastUpdated": "2026-07-01"
+        "name": "IRCC: Work off campus",
+        "url": "https://www.canada.ca/en/immigration-refugees-citizenship/services/study-canada/work/work-off-campus.html",
+        "lastUpdated": "2026-08-18"
       }
     ]
   },
   {
     "countryId": "ca",
     "factorId": "healthcare",
-    "score": 70,
-    "blurb": "[Sample] Placeholder note on healthcare in Canada; curated justification pending.",
-    "confidence": "placeholder",
+    "score": 69,
+    "blurb": "Numbeo rates Canadian healthcare highly for quality, but coverage for international students varies by province and often needs paid insurance (see the True Cost view).",
+    "confidence": "medium",
     "sources": [
       {
-        "name": "Sample source, data pending curation",
-        "url": "https://example.com/vantage-sample-data",
-        "lastUpdated": "2026-07-01"
+        "name": "Numbeo Health Care Index",
+        "url": "https://www.numbeo.com/health-care/rankings_by_country.jsp",
+        "lastUpdated": "2026-08-18"
       }
     ]
   },
   {
     "countryId": "ca",
     "factorId": "language",
-    "score": 92,
-    "blurb": "[Sample] Placeholder note on language ease in Canada; curated justification pending.",
-    "confidence": "placeholder",
+    "score": 98,
+    "blurb": "English is a primary language of study and daily life across most of Canada. Official bilingualism means French dominates in Quebec, a small caveat outside English-medium programs.",
+    "confidence": "high",
     "sources": [
       {
-        "name": "Sample source, data pending curation",
-        "url": "https://example.com/vantage-sample-data",
-        "lastUpdated": "2026-07-01"
+        "name": "EF English Proficiency Index",
+        "url": "https://www.ef.com/epi/",
+        "lastUpdated": "2026-08-18"
       }
     ]
   },
@@ -339,41 +339,46 @@
     "countryId": "ca",
     "factorId": "community",
     "score": 85,
-    "blurb": "[Sample] Placeholder note on community in Canada; curated justification pending.",
-    "confidence": "placeholder",
+    "blurb": "Canada hosts one of the world's largest international-student populations, roughly 691,000 permit holders at the end of 2025, so diaspora and campus communities run deep even after recent policy caps.",
+    "confidence": "medium",
     "sources": [
       {
-        "name": "Sample source, data pending curation",
-        "url": "https://example.com/vantage-sample-data",
-        "lastUpdated": "2026-07-01"
+        "name": "IRCC: International Student Program data",
+        "url": "https://www.canada.ca/en/immigration-refugees-citizenship/corporate/transparency/transition-binders/deputy-minister-2026/international-student-program.html",
+        "lastUpdated": "2026-08-18"
       }
     ]
   },
   {
     "countryId": "ca",
     "factorId": "political-climate",
-    "score": 72,
-    "blurb": "[Sample] Placeholder note on political climate in Canada; curated justification pending.",
-    "confidence": "placeholder",
+    "score": 94,
+    "blurb": "Canada topped Gallup’s 2019 Migrant Acceptance Index at 8.46 out of 9, the most welcoming country measured. Public acceptance stays high, though 2024 to 2025 brought tighter study-permit caps and higher proof-of-funds rules, a shift worth watching.",
+    "confidence": "medium",
     "sources": [
       {
-        "name": "Sample source, data pending curation",
-        "url": "https://example.com/vantage-sample-data",
-        "lastUpdated": "2026-07-01"
+        "name": "Gallup Migrant Acceptance Index (2019)",
+        "url": "https://news.gallup.com/poll/320669/canada-migrants-sixth-place.aspx",
+        "lastUpdated": "2026-08-18"
+      },
+      {
+        "name": "IRCC: 2026 international student cap allocations (latest update)",
+        "url": "https://www.canada.ca/en/immigration-refugees-citizenship/news/notices/2026-provincial-territorial-allocations-under-international-student-cap.html",
+        "lastUpdated": "2026-08-18"
       }
     ]
   },
   {
     "countryId": "ca",
     "factorId": "climate-lifestyle",
-    "score": 45,
-    "blurb": "[Sample] Placeholder note on climate & lifestyle in Canada; curated justification pending.",
-    "confidence": "placeholder",
+    "score": 53,
+    "blurb": "Numbeo's climate index puts Canada mid-pack: warm summers but long, cold winters, mildest along the south-west coast.",
+    "confidence": "medium",
     "sources": [
       {
-        "name": "Sample source, data pending curation",
-        "url": "https://example.com/vantage-sample-data",
-        "lastUpdated": "2026-07-01"
+        "name": "Numbeo Climate Index",
+        "url": "https://www.numbeo.com/quality-of-life/rankings_by_country.jsp",
+        "lastUpdated": "2026-08-18"
       }
     ]
   },
