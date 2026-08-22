@@ -4,32 +4,37 @@
     "stages": [
       {
         "label": "Study",
-        "years": 2,
-        "description": "[Sample] Placeholder description of the study stage in United States; curated details pending."
+        "years": 4,
+        "description": "A US bachelor’s degree typically takes four years."
       },
       {
         "label": "Post-study work visa",
-        "years": 3,
-        "description": "[Sample] Placeholder description of the post-study work visa stage in United States; curated details pending."
+        "years": 1,
+        "description": "Optional Practical Training (OPT) gives 12 months of work after graduation, up to 36 months for STEM degrees. Staying longer means winning the annual H-1B visa lottery."
       },
       {
         "label": "PR process",
-        "years": 3,
-        "description": "[Sample] Placeholder description of the pr process stage in United States; curated details pending."
+        "years": 4,
+        "description": "There is no direct study-to-residence route. After H-1B an employer-sponsored green card runs about 3 to 4 years for most nationalities, but Indian and Chinese citizens face waits of a decade or more under per-country caps."
       },
       {
         "label": "Citizenship",
         "years": 5,
-        "description": "[Sample] Placeholder description of the citizenship stage in United States; curated details pending."
+        "description": "Green-card holders can apply for naturalization after five years of permanent residence."
       }
     ],
-    "totalYearsToPr": 8,
-    "confidence": "placeholder",
+    "totalYearsToPr": 9,
+    "confidence": "medium",
     "sources": [
       {
-        "name": "Sample source, data pending curation",
-        "url": "https://example.com/vantage-sample-data",
-        "lastUpdated": "2026-07-01"
+        "name": "USCIS: Optional Practical Training (OPT) for F-1 students",
+        "url": "https://www.uscis.gov/working-in-the-united-states/students-and-exchange-visitors/optional-practical-training-opt-for-f-1-students",
+        "lastUpdated": "2026-08-18"
+      },
+      {
+        "name": "USCIS: Citizenship and naturalization",
+        "url": "https://www.uscis.gov/citizenship/learn-about-citizenship/citizenship-and-naturalization",
+        "lastUpdated": "2026-08-18"
       }
     ]
   },

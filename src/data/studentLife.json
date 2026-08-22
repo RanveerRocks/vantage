@@ -2,126 +2,216 @@
   {
     "countryId": "us",
     "factorId": "affordability",
-    "score": 25,
-    "blurb": "[Sample] Placeholder note on affordability in United States; curated justification pending.",
-    "confidence": "placeholder",
+    "score": 30,
+    "blurb": "Numbeo puts US living costs among the highest of the eight, second only to Singapore, so at 30 affordability is a real weakness. Big coastal cities are the priciest.",
+    "confidence": "medium",
     "sources": [
       {
-        "name": "Sample source, data pending curation",
-        "url": "https://example.com/vantage-sample-data",
-        "lastUpdated": "2026-07-01"
+        "name": "Numbeo Cost of Living Index",
+        "url": "https://www.numbeo.com/cost-of-living/rankings_by_country.jsp",
+        "lastUpdated": "2026-08-18"
+      },
+      {
+        "name": "Reuters: United States cost of living",
+        "url": "https://www.reuters.com/site-search/?query=United%20States%20cost%20of%20living",
+        "lastUpdated": "2026-08-18"
+      },
+      {
+        "name": "Bloomberg: United States cost of living",
+        "url": "https://www.bloomberg.com/search?query=United%20States%20cost%20of%20living",
+        "lastUpdated": "2026-08-18"
       }
     ]
   },
   {
     "countryId": "us",
     "factorId": "safety",
-    "score": 55,
-    "blurb": "[Sample] Placeholder note on safety in United States; curated justification pending.",
-    "confidence": "placeholder",
+    "score": 51,
+    "blurb": "Numbeo scores US safety in the low fifties, second-lowest here, and it varies enormously by city and campus.",
+    "confidence": "medium",
     "sources": [
       {
-        "name": "Sample source, data pending curation",
-        "url": "https://example.com/vantage-sample-data",
-        "lastUpdated": "2026-07-01"
+        "name": "Numbeo Safety Index",
+        "url": "https://www.numbeo.com/crime/rankings_by_country.jsp",
+        "lastUpdated": "2026-08-18"
+      },
+      {
+        "name": "Reuters: United States safety",
+        "url": "https://www.reuters.com/site-search/?query=United%20States%20crime%20safety",
+        "lastUpdated": "2026-08-18"
+      },
+      {
+        "name": "BBC News: United States crime",
+        "url": "https://www.bbc.co.uk/search?q=United%20States%20crime&d=news_gnl",
+        "lastUpdated": "2026-08-18"
       }
     ]
   },
   {
     "countryId": "us",
     "factorId": "openness",
-    "score": 70,
-    "blurb": "[Sample] Placeholder note on openness & inclusion in United States; curated justification pending.",
-    "confidence": "placeholder",
+    "score": 62,
+    "blurb": "The US scores 62 on the 2025 Migrant Integration Policy Index, ninth among measured countries, held back by the lack of a national integration policy despite strong anti-discrimination law.",
+    "confidence": "high",
     "sources": [
       {
-        "name": "Sample source, data pending curation",
-        "url": "https://example.com/vantage-sample-data",
-        "lastUpdated": "2026-07-01"
+        "name": "MIPEX 2025: United States",
+        "url": "https://www.mipex.eu/immigration-policy-center-mipex-usa-factsheet",
+        "lastUpdated": "2026-08-18"
+      },
+      {
+        "name": "Reuters: United States immigration",
+        "url": "https://www.reuters.com/site-search/?query=United%20States%20immigration%20integration",
+        "lastUpdated": "2026-08-18"
+      },
+      {
+        "name": "The Guardian: United States immigration",
+        "url": "https://www.theguardian.com/search?q=United%20States%20immigration",
+        "lastUpdated": "2026-08-18"
       }
     ]
   },
   {
     "countryId": "us",
     "factorId": "work-rights",
-    "score": 60,
-    "blurb": "[Sample] Placeholder note on work rights in United States; curated justification pending.",
-    "confidence": "placeholder",
+    "score": 50,
+    "blurb": "F-1 students cannot work off campus in the first year and are capped at 20 hours a week on campus during term. Practical training (OPT, 36 months for STEM) comes only after graduation. Tighter than Canada or the UK.",
+    "confidence": "high",
     "sources": [
       {
-        "name": "Sample source, data pending curation",
-        "url": "https://example.com/vantage-sample-data",
-        "lastUpdated": "2026-07-01"
+        "name": "USCIS: Optional Practical Training (OPT) for F-1 students",
+        "url": "https://www.uscis.gov/working-in-the-united-states/students-and-exchange-visitors/optional-practical-training-opt-for-f-1-students",
+        "lastUpdated": "2026-08-18"
+      },
+      {
+        "name": "The PIE News: United States student work",
+        "url": "https://thepienews.com/?s=United%20States%20student%20work%20rights",
+        "lastUpdated": "2026-08-18"
+      },
+      {
+        "name": "ICEF Monitor: United States student work",
+        "url": "https://monitor.icef.com/?s=United%20States%20student%20work",
+        "lastUpdated": "2026-08-18"
       }
     ]
   },
   {
     "countryId": "us",
     "factorId": "healthcare",
-    "score": 40,
-    "blurb": "[Sample] Placeholder note on healthcare in United States; curated justification pending.",
-    "confidence": "placeholder",
+    "score": 67,
+    "blurb": "Numbeo rates US healthcare quality highly, but it is costly and access hinges on the insurance your university requires (see True Cost).",
+    "confidence": "medium",
     "sources": [
       {
-        "name": "Sample source, data pending curation",
-        "url": "https://example.com/vantage-sample-data",
-        "lastUpdated": "2026-07-01"
+        "name": "Numbeo Health Care Index",
+        "url": "https://www.numbeo.com/health-care/rankings_by_country.jsp",
+        "lastUpdated": "2026-08-18"
+      },
+      {
+        "name": "Reuters: United States healthcare",
+        "url": "https://www.reuters.com/site-search/?query=United%20States%20healthcare",
+        "lastUpdated": "2026-08-18"
+      },
+      {
+        "name": "BBC News: United States health",
+        "url": "https://www.bbc.co.uk/search?q=United%20States%20healthcare&d=news_gnl",
+        "lastUpdated": "2026-08-18"
       }
     ]
   },
   {
     "countryId": "us",
     "factorId": "language",
-    "score": 95,
-    "blurb": "[Sample] Placeholder note on language ease in United States; curated justification pending.",
-    "confidence": "placeholder",
+    "score": 100,
+    "blurb": "English is the language of study and daily life throughout the US.",
+    "confidence": "high",
     "sources": [
       {
-        "name": "Sample source, data pending curation",
-        "url": "https://example.com/vantage-sample-data",
-        "lastUpdated": "2026-07-01"
+        "name": "EF English Proficiency Index",
+        "url": "https://www.ef.com/epi/",
+        "lastUpdated": "2026-08-18"
+      },
+      {
+        "name": "Wikipedia: Languages of United States",
+        "url": "https://en.wikipedia.org/wiki/Languages_of_the_United_States",
+        "lastUpdated": "2026-08-18"
+      },
+      {
+        "name": "Ethnologue: United States",
+        "url": "https://www.ethnologue.com/country/US/",
+        "lastUpdated": "2026-08-18"
       }
     ]
   },
   {
     "countryId": "us",
     "factorId": "community",
-    "score": 90,
-    "blurb": "[Sample] Placeholder note on community in United States; curated justification pending.",
-    "confidence": "placeholder",
+    "score": 92,
+    "blurb": "The US hosts the world’s largest international-student population, about 1.18 million in 2024/25, with India the top sending country. Diaspora and campus communities are vast.",
+    "confidence": "medium",
     "sources": [
       {
-        "name": "Sample source, data pending curation",
-        "url": "https://example.com/vantage-sample-data",
-        "lastUpdated": "2026-07-01"
+        "name": "IIE Open Doors: international students",
+        "url": "https://opendoorsdata.org/annual-release/international-students/",
+        "lastUpdated": "2026-08-18"
+      },
+      {
+        "name": "The PIE News: United States international students",
+        "url": "https://thepienews.com/?s=United%20States%20international%20students",
+        "lastUpdated": "2026-08-18"
+      },
+      {
+        "name": "ICEF Monitor: United States international students",
+        "url": "https://monitor.icef.com/?s=United%20States%20international%20students",
+        "lastUpdated": "2026-08-18"
       }
     ]
   },
   {
     "countryId": "us",
     "factorId": "political-climate",
-    "score": 50,
-    "blurb": "[Sample] Placeholder note on political climate in United States; curated justification pending.",
-    "confidence": "placeholder",
+    "score": 88,
+    "blurb": "The US scored 7.95 of 9 on Gallup’s 2019 Migrant Acceptance Index, sixth globally. Sentiment is high but immigration politics are volatile and policy can swing sharply between administrations.",
+    "confidence": "medium",
     "sources": [
       {
-        "name": "Sample source, data pending curation",
-        "url": "https://example.com/vantage-sample-data",
-        "lastUpdated": "2026-07-01"
+        "name": "Gallup Migrant Acceptance Index (2019)",
+        "url": "https://news.gallup.com/poll/320669/canada-migrants-sixth-place.aspx",
+        "lastUpdated": "2026-08-18"
+      },
+      {
+        "name": "Reuters: United States immigration policy",
+        "url": "https://www.reuters.com/site-search/?query=United%20States%20immigration%20policy",
+        "lastUpdated": "2026-08-18"
+      },
+      {
+        "name": "AP News: United States immigration",
+        "url": "https://apnews.com/search?q=United%20States%20immigration",
+        "lastUpdated": "2026-08-18"
       }
     ]
   },
   {
     "countryId": "us",
     "factorId": "climate-lifestyle",
-    "score": 70,
-    "blurb": "[Sample] Placeholder note on climate & lifestyle in United States; curated justification pending.",
-    "confidence": "placeholder",
+    "score": 76,
+    "blurb": "Numbeo’s climate index rates the US well, with a huge regional range from mild California to harsh northern winters.",
+    "confidence": "medium",
     "sources": [
       {
-        "name": "Sample source, data pending curation",
-        "url": "https://example.com/vantage-sample-data",
-        "lastUpdated": "2026-07-01"
+        "name": "Numbeo Climate Index",
+        "url": "https://www.numbeo.com/quality-of-life/rankings_by_country.jsp",
+        "lastUpdated": "2026-08-18"
+      },
+      {
+        "name": "Wikipedia: Climate of United States",
+        "url": "https://en.wikipedia.org/wiki/Climate_of_the_United_States",
+        "lastUpdated": "2026-08-18"
+      },
+      {
+        "name": "US National Weather Service",
+        "url": "https://www.weather.gov/",
+        "lastUpdated": "2026-08-18"
       }
     ]
   },

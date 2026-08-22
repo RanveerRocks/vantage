@@ -1,21 +1,32 @@
 [
   {
     "countryId": "us",
-    "tuitionPerYearUsd": 38000,
-    "livingPerYearUsd": 16000,
-    "insurancePerYearUsd": 2200,
-    "visaFeesOneTimeUsd": 500,
+    "tuitionPerYearUsd": 35000,
+    "livingPerYearUsd": 18000,
+    "insurancePerYearUsd": 2000,
+    "visaFeesOneTimeUsd": 535,
     "flightsPerYearUsd": 1300,
     "hiddenNotes": [
-      "[Sample] Hidden-cost note pending curation: e.g. forex movement between offer and arrival.",
-      "[Sample] Hidden-cost note pending curation: e.g. deposits, surcharges, or proof-of-funds rules."
+      "Published tuition ranges widely: about 25,000 dollars at public universities (the out-of-state rate international students pay) to 45,000-plus at private ones, so the figure here is a representative midpoint.",
+      "US universities require their own health insurance and often auto-enroll you in a plan costing 1,500 to 2,500 dollars a year, on top of any cover you arrange yourself.",
+      "There is little need-based aid for international undergraduates, and all-in costs at top private universities can exceed 80,000 dollars a year."
     ],
-    "confidence": "placeholder",
+    "confidence": "medium",
     "sources": [
       {
-        "name": "Sample source, data pending curation",
-        "url": "https://example.com/vantage-sample-data",
-        "lastUpdated": "2026-07-01"
+        "name": "US News: average college tuition 2025-2026",
+        "url": "https://www.usnews.com/education/best-colleges/paying-for-college/articles/paying-for-college-infographic",
+        "lastUpdated": "2026-08-18"
+      },
+      {
+        "name": "ICE: I-901 SEVIS fee",
+        "url": "https://www.ice.gov/sevis/i901",
+        "lastUpdated": "2026-08-18"
+      },
+      {
+        "name": "US Department of State: student visa fees",
+        "url": "https://travel.state.gov/content/travel/en/us-visas/study/student-visa.html",
+        "lastUpdated": "2026-08-18"
       }
     ]
   },
