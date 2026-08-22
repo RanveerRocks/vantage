@@ -262,6 +262,16 @@
         "name": "Numbeo Cost of Living Index",
         "url": "https://www.numbeo.com/cost-of-living/rankings_by_country.jsp",
         "lastUpdated": "2026-08-18"
+      },
+      {
+        "name": "Reuters: Canada cost of living",
+        "url": "https://www.reuters.com/site-search/?query=Canada%20cost%20of%20living",
+        "lastUpdated": "2026-08-18"
+      },
+      {
+        "name": "Bloomberg: Canada cost of living",
+        "url": "https://www.bloomberg.com/search?query=Canada%20cost%20of%20living",
+        "lastUpdated": "2026-08-18"
       }
     ]
   },
@@ -275,6 +285,16 @@
       {
         "name": "Numbeo Safety Index",
         "url": "https://www.numbeo.com/crime/rankings_by_country.jsp",
+        "lastUpdated": "2026-08-18"
+      },
+      {
+        "name": "Reuters: Canada safety",
+        "url": "https://www.reuters.com/site-search/?query=Canada%20crime%20safety",
+        "lastUpdated": "2026-08-18"
+      },
+      {
+        "name": "BBC News: Canada crime",
+        "url": "https://www.bbc.co.uk/search?q=Canada%20crime&d=news_gnl",
         "lastUpdated": "2026-08-18"
       }
     ]
@@ -290,6 +310,16 @@
         "name": "MIPEX 2025: Canada",
         "url": "https://www.mipex.eu/canada",
         "lastUpdated": "2026-08-18"
+      },
+      {
+        "name": "Reuters: Canada immigration",
+        "url": "https://www.reuters.com/site-search/?query=Canada%20immigration%20integration",
+        "lastUpdated": "2026-08-18"
+      },
+      {
+        "name": "The Guardian: Canada immigration",
+        "url": "https://www.theguardian.com/search?q=Canada%20immigration",
+        "lastUpdated": "2026-08-18"
       }
     ]
   },
@@ -303,6 +333,16 @@
       {
         "name": "IRCC: Work off campus",
         "url": "https://www.canada.ca/en/immigration-refugees-citizenship/services/study-canada/work/work-off-campus.html",
+        "lastUpdated": "2026-08-18"
+      },
+      {
+        "name": "The PIE News: Canada student work",
+        "url": "https://thepienews.com/?s=Canada%20student%20work%20rights",
+        "lastUpdated": "2026-08-18"
+      },
+      {
+        "name": "ICEF Monitor: Canada student work",
+        "url": "https://monitor.icef.com/?s=Canada%20student%20work",
         "lastUpdated": "2026-08-18"
       }
     ]
@@ -318,6 +358,16 @@
         "name": "Numbeo Health Care Index",
         "url": "https://www.numbeo.com/health-care/rankings_by_country.jsp",
         "lastUpdated": "2026-08-18"
+      },
+      {
+        "name": "Reuters: Canada healthcare",
+        "url": "https://www.reuters.com/site-search/?query=Canada%20healthcare",
+        "lastUpdated": "2026-08-18"
+      },
+      {
+        "name": "BBC News: Canada health",
+        "url": "https://www.bbc.co.uk/search?q=Canada%20healthcare&d=news_gnl",
+        "lastUpdated": "2026-08-18"
       }
     ]
   },
@@ -332,6 +382,16 @@
         "name": "EF English Proficiency Index",
         "url": "https://www.ef.com/epi/",
         "lastUpdated": "2026-08-18"
+      },
+      {
+        "name": "Wikipedia: Languages of Canada",
+        "url": "https://en.wikipedia.org/wiki/Languages_of_Canada",
+        "lastUpdated": "2026-08-18"
+      },
+      {
+        "name": "Ethnologue: Canada",
+        "url": "https://www.ethnologue.com/country/CA/",
+        "lastUpdated": "2026-08-18"
       }
     ]
   },
@@ -345,6 +405,16 @@
       {
         "name": "IRCC: International Student Program data",
         "url": "https://www.canada.ca/en/immigration-refugees-citizenship/corporate/transparency/transition-binders/deputy-minister-2026/international-student-program.html",
+        "lastUpdated": "2026-08-18"
+      },
+      {
+        "name": "The PIE News: Canada international students",
+        "url": "https://thepienews.com/?s=Canada%20international%20students",
+        "lastUpdated": "2026-08-18"
+      },
+      {
+        "name": "ICEF Monitor: Canada international students",
+        "url": "https://monitor.icef.com/?s=Canada%20international%20students",
         "lastUpdated": "2026-08-18"
       }
     ]
@@ -362,8 +432,13 @@
         "lastUpdated": "2026-08-18"
       },
       {
-        "name": "IRCC: 2026 international student cap allocations (latest update)",
-        "url": "https://www.canada.ca/en/immigration-refugees-citizenship/news/notices/2026-provincial-territorial-allocations-under-international-student-cap.html",
+        "name": "Reuters: Canada immigration policy",
+        "url": "https://www.reuters.com/site-search/?query=Canada%20immigration%20policy",
+        "lastUpdated": "2026-08-18"
+      },
+      {
+        "name": "AP News: Canada immigration",
+        "url": "https://apnews.com/search?q=Canada%20immigration",
         "lastUpdated": "2026-08-18"
       }
     ]
@@ -378,6 +453,16 @@
       {
         "name": "Numbeo Climate Index",
         "url": "https://www.numbeo.com/quality-of-life/rankings_by_country.jsp",
+        "lastUpdated": "2026-08-18"
+      },
+      {
+        "name": "Wikipedia: Climate of Canada",
+        "url": "https://en.wikipedia.org/wiki/Climate_of_Canada",
+        "lastUpdated": "2026-08-18"
+      },
+      {
+        "name": "Environment Canada",
+        "url": "https://weather.gc.ca/",
         "lastUpdated": "2026-08-18"
       }
     ]
