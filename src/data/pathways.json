@@ -72,32 +72,37 @@
     "stages": [
       {
         "label": "Study",
-        "years": 2,
-        "description": "[Sample] Placeholder description of the study stage in Canada; curated details pending."
+        "years": 4,
+        "description": "A Canadian bachelor's degree typically runs four years. Graduating from a program this length earns a post-graduation work permit (PGWP) valid for up to three years."
       },
       {
         "label": "Post-study work visa",
-        "years": 3,
-        "description": "[Sample] Placeholder description of the post-study work visa stage in Canada; curated details pending."
+        "years": 1,
+        "description": "Express Entry's Canadian Experience Class needs 12 months of skilled Canadian work, gained on the PGWP, before you can apply for permanent residence."
       },
       {
         "label": "PR process",
         "years": 1,
-        "description": "[Sample] Placeholder description of the pr process stage in Canada; curated details pending."
+        "description": "After the work requirement is met, an Express Entry profile usually leads to an invitation and PR being granted within about a year. This duration is a representative estimate."
       },
       {
         "label": "Citizenship",
         "years": 3,
-        "description": "[Sample] Placeholder description of the citizenship stage in Canada; curated details pending."
+        "description": "Citizenship needs 1,095 days (three years) of physical presence in the five years before applying. Time spent in Canada on the PGWP before PR counts as a half day each, up to 365 days."
       }
     ],
     "totalYearsToPr": 6,
-    "confidence": "placeholder",
+    "confidence": "medium",
     "sources": [
       {
-        "name": "Sample source, data pending curation",
-        "url": "https://example.com/vantage-sample-data",
-        "lastUpdated": "2026-07-01"
+        "name": "IRCC: Post-graduation work permit",
+        "url": "https://www.canada.ca/en/immigration-refugees-citizenship/services/study-canada/work/after-graduation/about.html",
+        "lastUpdated": "2026-08-18"
+      },
+      {
+        "name": "IRCC: Citizenship physical presence",
+        "url": "https://www.canada.ca/en/immigration-refugees-citizenship/services/canadian-citizenship/adult-minor/how/physical-presence.html",
+        "lastUpdated": "2026-08-18"
       }
     ]
   },

@@ -15,10 +15,14 @@ describe('loadData', () => {
     expect(data.config.usdToInr).toBeGreaterThan(0)
   })
 
-  it('ships every not-yet-curated record as confidence "placeholder"', () => {
+  it('backs every curated (non-placeholder) record with a real, non-sample source', () => {
     const data = loadData()
-    const flagged = [...data.careerVisa, ...data.studentLife, ...data.pathways, ...data.trueCost]
-    expect(flagged.every((record) => record.confidence === 'placeholder')).toBe(true)
+    const records = [...data.careerVisa, ...data.studentLife, ...data.pathways, ...data.trueCost]
+    const curated = records.filter((record) => record.confidence !== 'placeholder')
+    for (const record of curated) {
+      expect(record.sources.length).toBeGreaterThan(0)
+      expect(record.sources.every((source) => !source.url.includes('example.com'))).toBe(true)
+    }
   })
 })
 

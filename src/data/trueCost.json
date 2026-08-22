@@ -41,21 +41,37 @@
   },
   {
     "countryId": "ca",
-    "tuitionPerYearUsd": 24000,
-    "livingPerYearUsd": 12000,
-    "insurancePerYearUsd": 800,
-    "visaFeesOneTimeUsd": 600,
+    "tuitionPerYearUsd": 30057,
+    "livingPerYearUsd": 16484,
+    "insurancePerYearUsd": 570,
+    "visaFeesOneTimeUsd": 169,
     "flightsPerYearUsd": 1200,
     "hiddenNotes": [
-      "[Sample] Hidden-cost note pending curation: e.g. forex movement between offer and arrival.",
-      "[Sample] Hidden-cost note pending curation: e.g. deposits, surcharges, or proof-of-funds rules."
+      "The proof-of-funds requirement more than doubled to CAD 22,895 per year for a single student outside Quebec, far above the roughly CAD 10,000 many families still budget for.",
+      "Ontario's UHIP health insurance is mandatory and rises to about CAD 948 for 2026/27, and it excludes dental, prescription drugs, and mental health unless you add supplementary cover.",
+      "Tuition here is the national average for international undergraduates; high-demand programs and top universities charge considerably more."
     ],
-    "confidence": "placeholder",
+    "confidence": "medium",
     "sources": [
       {
-        "name": "Sample source, data pending curation",
-        "url": "https://example.com/vantage-sample-data",
-        "lastUpdated": "2026-07-01"
+        "name": "Statistics Canada: 2025/2026 tuition fees",
+        "url": "https://www150.statcan.gc.ca/n1/daily-quotidien/250910/dq250910d-eng.htm",
+        "lastUpdated": "2026-08-18"
+      },
+      {
+        "name": "IRCC: Proof of funds for a study permit",
+        "url": "https://www.canada.ca/en/immigration-refugees-citizenship/services/study-canada/study-permit/get-documents/financial-support.html",
+        "lastUpdated": "2026-08-18"
+      },
+      {
+        "name": "IRCC: Application fee list",
+        "url": "https://ircc.canada.ca/english/information/fees/fees.asp",
+        "lastUpdated": "2026-08-18"
+      },
+      {
+        "name": "UHIP Ontario: student premium",
+        "url": "https://uhip.ca/",
+        "lastUpdated": "2026-08-18"
       }
     ]
   },
