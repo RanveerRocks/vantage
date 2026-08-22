@@ -20,7 +20,7 @@ export function StudentLifeTab() {
 
   const totalWeight = FACTOR_IDS.reduce((sum, id) => sum + weights[id], 0)
   const isDefault = FACTOR_IDS.every((id) => weights[id] === DEFAULT_WEIGHT)
-  const allSample = data.studentLife.every((record) => record.confidence === 'placeholder')
+  const someSample = data.studentLife.some((record) => record.confidence === 'placeholder')
 
   const ranked: RankedCountry[] = useMemo(() => {
     if (totalWeight === 0) return []
@@ -73,7 +73,7 @@ export function StudentLifeTab() {
             Rank the eight countries by what daily life is like, weighted by you.
           </p>
         </div>
-        {allSample && <ConfidenceBadge confidence="placeholder" />}
+        {someSample && <ConfidenceBadge confidence="placeholder" />}
       </div>
 
       <p className="mt-5 text-xs text-slate">

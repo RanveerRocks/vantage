@@ -95,7 +95,7 @@ export function PathwaysTab() {
   const visible = comparing
     ? pathways.filter((pathway) => compareIds.includes(pathway.countryId))
     : pathways
-  const allSample = data.pathways.every((pathway) => pathway.confidence === 'placeholder')
+  const someSample = data.pathways.some((pathway) => pathway.confidence === 'placeholder')
   const stageLabels = pathways[0]?.stages.map((stage) => stage.label) ?? []
 
   const countryOf = useCallback(
@@ -135,7 +135,7 @@ export function PathwaysTab() {
             common scale. The gold tick marks PR eligibility.
           </p>
         </div>
-        {allSample && <ConfidenceBadge confidence="placeholder" />}
+        {someSample && <ConfidenceBadge confidence="placeholder" />}
       </div>
 
       <div className="mt-4 flex flex-wrap items-center gap-2">

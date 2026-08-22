@@ -43,7 +43,7 @@ export function CareerVisaTab({ degree }: { degree: Degree }) {
     [records, breakdowns, rois, data],
   )
 
-  const allSample = records.every((record) => record.confidence === 'placeholder')
+  const someSample = records.some((record) => record.confidence === 'placeholder')
 
   const selectedDetail: CountryDetail | null = useMemo(() => {
     if (!selectedId) return null
@@ -72,7 +72,7 @@ export function CareerVisaTab({ degree }: { degree: Degree }) {
             return on cost.
           </p>
         </div>
-        {allSample && <ConfidenceBadge confidence="placeholder" />}
+        {someSample && <ConfidenceBadge confidence="placeholder" />}
       </div>
 
       <p className="mt-5 text-xs text-slate">Click any country for a full breakdown.</p>

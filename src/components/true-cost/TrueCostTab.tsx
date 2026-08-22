@@ -40,7 +40,7 @@ export function TrueCostTab() {
     [data],
   )
   const maxTotal = rows.length > 0 ? rows[rows.length - 1].total : 0
-  const allSample = data.trueCost.every((record) => record.confidence === 'placeholder')
+  const someSample = data.trueCost.some((record) => record.confidence === 'placeholder')
 
   return (
     <section aria-labelledby="true-cost-heading">
@@ -54,7 +54,7 @@ export function TrueCostTab() {
             flights per year, plus one-time visa fees. Cheapest first.
           </p>
         </div>
-        {allSample && <ConfidenceBadge confidence="placeholder" />}
+        {someSample && <ConfidenceBadge confidence="placeholder" />}
       </div>
 
       <p className="mt-5 text-xs text-slate">Expand a country for the full cost breakdown.</p>
