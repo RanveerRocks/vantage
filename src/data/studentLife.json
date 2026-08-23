@@ -170,13 +170,13 @@
   {
     "countryId": "us",
     "factorId": "political-climate",
-    "score": 88,
-    "blurb": "The US scored 7.95 of 9 on Gallup’s 2019 Migrant Acceptance Index, sixth globally. Sentiment is high but immigration politics are volatile and policy can swing sharply between administrations.",
+    "score": 87,
+    "blurb": "The US scored 7.86 of 9 on Gallup’s 2016-17 Migrant Acceptance Index, among the most accepting. Sentiment is high but immigration politics are volatile and policy can swing sharply between administrations.",
     "confidence": "medium",
     "sources": [
       {
-        "name": "Gallup Migrant Acceptance Index (2019)",
-        "url": "https://news.gallup.com/poll/320669/canada-migrants-sixth-place.aspx",
+        "name": "World Happiness Report 2018 annex: Gallup Migrant Acceptance Index (2016-17)",
+        "url": "https://files.worldhappiness.report/WHR18_Annex.pdf",
         "lastUpdated": "2026-08-18"
       },
       {
@@ -602,13 +602,13 @@
   {
     "countryId": "ca",
     "factorId": "political-climate",
-    "score": 94,
-    "blurb": "Canada topped Gallup’s 2019 Migrant Acceptance Index at 8.46 out of 9, the most welcoming country measured. Public acceptance stays high, though 2024 to 2025 brought tighter study-permit caps and higher proof-of-funds rules, a shift worth watching.",
+    "score": 90,
+    "blurb": "Canada scored 8.14 of 9 on Gallup’s 2016-17 Migrant Acceptance Index and led the world outright by 2019. Public acceptance stays high, though 2024 to 2025 brought tighter study-permit caps and higher proof-of-funds rules, a shift worth watching.",
     "confidence": "medium",
     "sources": [
       {
-        "name": "Gallup Migrant Acceptance Index (2019)",
-        "url": "https://news.gallup.com/poll/320669/canada-migrants-sixth-place.aspx",
+        "name": "World Happiness Report 2018 annex: Gallup Migrant Acceptance Index (2016-17)",
+        "url": "https://files.worldhappiness.report/WHR18_Annex.pdf",
         "lastUpdated": "2026-08-18"
       },
       {
@@ -650,42 +650,72 @@
   {
     "countryId": "au",
     "factorId": "affordability",
-    "score": 38,
-    "blurb": "[Sample] Placeholder note on affordability in Australia; curated justification pending.",
-    "confidence": "placeholder",
+    "score": 29,
+    "blurb": "Numbeo puts Australia among the pricier of the eight, and the visa now demands AUD 29,710 a year in living funds, so at 29 affordability is a weakness.",
+    "confidence": "medium",
     "sources": [
       {
-        "name": "Sample source, data pending curation",
-        "url": "https://example.com/vantage-sample-data",
-        "lastUpdated": "2026-07-01"
+        "name": "Numbeo Cost of Living Index",
+        "url": "https://www.numbeo.com/cost-of-living/rankings_by_country.jsp",
+        "lastUpdated": "2026-08-18"
+      },
+      {
+        "name": "Reuters: Australia cost of living",
+        "url": "https://www.reuters.com/site-search/?query=Australia%20cost%20of%20living",
+        "lastUpdated": "2026-08-18"
+      },
+      {
+        "name": "Bloomberg: Australia cost of living",
+        "url": "https://www.bloomberg.com/search?query=Australia%20cost%20of%20living",
+        "lastUpdated": "2026-08-18"
       }
     ]
   },
   {
     "countryId": "au",
     "factorId": "safety",
-    "score": 78,
-    "blurb": "[Sample] Placeholder note on safety in Australia; curated justification pending.",
-    "confidence": "placeholder",
+    "score": 53,
+    "blurb": "Numbeo scores Australian safety in the low-to-mid fifties, comfortable and mid-pack.",
+    "confidence": "medium",
     "sources": [
       {
-        "name": "Sample source, data pending curation",
-        "url": "https://example.com/vantage-sample-data",
-        "lastUpdated": "2026-07-01"
+        "name": "Numbeo Safety Index",
+        "url": "https://www.numbeo.com/crime/rankings_by_country.jsp",
+        "lastUpdated": "2026-08-18"
+      },
+      {
+        "name": "Reuters: Australia safety",
+        "url": "https://www.reuters.com/site-search/?query=Australia%20crime%20safety",
+        "lastUpdated": "2026-08-18"
+      },
+      {
+        "name": "BBC News: Australia crime",
+        "url": "https://www.bbc.co.uk/search?q=Australia%20crime&d=news_gnl",
+        "lastUpdated": "2026-08-18"
       }
     ]
   },
   {
     "countryId": "au",
     "factorId": "openness",
-    "score": 76,
-    "blurb": "[Sample] Placeholder note on openness & inclusion in Australia; curated justification pending.",
-    "confidence": "placeholder",
+    "score": 65,
+    "blurb": "Australia scores 65 on MIPEX and ranks fifth of 33 countries, strong on citizenship and anti-discrimination.",
+    "confidence": "high",
     "sources": [
       {
-        "name": "Sample source, data pending curation",
-        "url": "https://example.com/vantage-sample-data",
-        "lastUpdated": "2026-07-01"
+        "name": "MIPEX 2020: Australia",
+        "url": "https://www.mipex.eu/australia",
+        "lastUpdated": "2026-08-18"
+      },
+      {
+        "name": "Reuters: Australia immigration",
+        "url": "https://www.reuters.com/site-search/?query=Australia%20immigration%20integration",
+        "lastUpdated": "2026-08-18"
+      },
+      {
+        "name": "The Guardian: Australia immigration",
+        "url": "https://www.theguardian.com/search?q=Australia%20immigration",
+        "lastUpdated": "2026-08-18"
       }
     ]
   },
@@ -693,13 +723,23 @@
     "countryId": "au",
     "factorId": "work-rights",
     "score": 78,
-    "blurb": "[Sample] Placeholder note on work rights in Australia; curated justification pending.",
-    "confidence": "placeholder",
+    "blurb": "Students can work 48 hours a fortnight (about 24 a week) during term and unlimited hours in breaks, then a two-year Graduate visa follows. Among the more generous regimes.",
+    "confidence": "high",
     "sources": [
       {
-        "name": "Sample source, data pending curation",
-        "url": "https://example.com/vantage-sample-data",
-        "lastUpdated": "2026-07-01"
+        "name": "Department of Home Affairs: Student visa (subclass 500)",
+        "url": "https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/student-500",
+        "lastUpdated": "2026-08-18"
+      },
+      {
+        "name": "The PIE News: Australia student work",
+        "url": "https://thepienews.com/?s=Australia%20student%20work%20rights",
+        "lastUpdated": "2026-08-18"
+      },
+      {
+        "name": "ICEF Monitor: Australia student work",
+        "url": "https://monitor.icef.com/?s=Australia%20student%20work",
+        "lastUpdated": "2026-08-18"
       }
     ]
   },
@@ -707,69 +747,119 @@
     "countryId": "au",
     "factorId": "healthcare",
     "score": 72,
-    "blurb": "[Sample] Placeholder note on healthcare in Australia; curated justification pending.",
-    "confidence": "placeholder",
+    "blurb": "Numbeo rates Australian healthcare well; students rely on mandatory Overseas Student Health Cover rather than Medicare.",
+    "confidence": "medium",
     "sources": [
       {
-        "name": "Sample source, data pending curation",
-        "url": "https://example.com/vantage-sample-data",
-        "lastUpdated": "2026-07-01"
+        "name": "Numbeo Health Care Index",
+        "url": "https://www.numbeo.com/health-care/rankings_by_country.jsp",
+        "lastUpdated": "2026-08-18"
+      },
+      {
+        "name": "Reuters: Australia healthcare",
+        "url": "https://www.reuters.com/site-search/?query=Australia%20healthcare",
+        "lastUpdated": "2026-08-18"
+      },
+      {
+        "name": "BBC News: Australia health",
+        "url": "https://www.bbc.co.uk/search?q=Australia%20healthcare&d=news_gnl",
+        "lastUpdated": "2026-08-18"
       }
     ]
   },
   {
     "countryId": "au",
     "factorId": "language",
-    "score": 94,
-    "blurb": "[Sample] Placeholder note on language ease in Australia; curated justification pending.",
-    "confidence": "placeholder",
+    "score": 100,
+    "blurb": "English is the language of study and daily life across Australia.",
+    "confidence": "high",
     "sources": [
       {
-        "name": "Sample source, data pending curation",
-        "url": "https://example.com/vantage-sample-data",
-        "lastUpdated": "2026-07-01"
+        "name": "EF English Proficiency Index",
+        "url": "https://www.ef.com/epi/",
+        "lastUpdated": "2026-08-18"
+      },
+      {
+        "name": "Wikipedia: Languages of Australia",
+        "url": "https://en.wikipedia.org/wiki/Languages_of_Australia",
+        "lastUpdated": "2026-08-18"
+      },
+      {
+        "name": "Ethnologue: Australia",
+        "url": "https://www.ethnologue.com/country/AU/",
+        "lastUpdated": "2026-08-18"
       }
     ]
   },
   {
     "countryId": "au",
     "factorId": "community",
-    "score": 80,
-    "blurb": "[Sample] Placeholder note on community in Australia; curated justification pending.",
-    "confidence": "placeholder",
+    "score": 87,
+    "blurb": "Australia hosts a record 600,000-plus student-visa holders, with large Indian and wider Asian communities.",
+    "confidence": "medium",
     "sources": [
       {
-        "name": "Sample source, data pending curation",
-        "url": "https://example.com/vantage-sample-data",
-        "lastUpdated": "2026-07-01"
+        "name": "Department of Education: international student data",
+        "url": "https://www.education.gov.au/international-education-data-and-research/international-student-monthly-summary-and-data-tables",
+        "lastUpdated": "2026-08-18"
+      },
+      {
+        "name": "The PIE News: Australia international students",
+        "url": "https://thepienews.com/?s=Australia%20international%20students",
+        "lastUpdated": "2026-08-18"
+      },
+      {
+        "name": "ICEF Monitor: Australia international students",
+        "url": "https://monitor.icef.com/?s=Australia%20international%20students",
+        "lastUpdated": "2026-08-18"
       }
     ]
   },
   {
     "countryId": "au",
     "factorId": "political-climate",
-    "score": 70,
-    "blurb": "[Sample] Placeholder note on political climate in Australia; curated justification pending.",
-    "confidence": "placeholder",
+    "score": 89,
+    "blurb": "Australia scored 7.98 of 9 on Gallup’s 2016-17 Migrant Acceptance Index, among the most welcoming, though 2024 to 2025 brought caps on international enrolments.",
+    "confidence": "medium",
     "sources": [
       {
-        "name": "Sample source, data pending curation",
-        "url": "https://example.com/vantage-sample-data",
-        "lastUpdated": "2026-07-01"
+        "name": "World Happiness Report 2018 annex: Gallup Migrant Acceptance Index (2016-17)",
+        "url": "https://files.worldhappiness.report/WHR18_Annex.pdf",
+        "lastUpdated": "2026-08-18"
+      },
+      {
+        "name": "Reuters: Australia immigration policy",
+        "url": "https://www.reuters.com/site-search/?query=Australia%20immigration%20policy",
+        "lastUpdated": "2026-08-18"
+      },
+      {
+        "name": "AP News: Australia immigration",
+        "url": "https://apnews.com/search?q=Australia%20immigration",
+        "lastUpdated": "2026-08-18"
       }
     ]
   },
   {
     "countryId": "au",
     "factorId": "climate-lifestyle",
-    "score": 80,
-    "blurb": "[Sample] Placeholder note on climate & lifestyle in Australia; curated justification pending.",
-    "confidence": "placeholder",
+    "score": 92,
+    "blurb": "Numbeo rates Australia’s climate the best of the eight: warm, sunny, and mild across most populated areas.",
+    "confidence": "medium",
     "sources": [
       {
-        "name": "Sample source, data pending curation",
-        "url": "https://example.com/vantage-sample-data",
-        "lastUpdated": "2026-07-01"
+        "name": "Numbeo Climate Index",
+        "url": "https://www.numbeo.com/quality-of-life/rankings_by_country.jsp",
+        "lastUpdated": "2026-08-18"
+      },
+      {
+        "name": "Wikipedia: Climate of Australia",
+        "url": "https://en.wikipedia.org/wiki/Climate_of_Australia",
+        "lastUpdated": "2026-08-18"
+      },
+      {
+        "name": "Bureau of Meteorology",
+        "url": "http://www.bom.gov.au/",
+        "lastUpdated": "2026-08-18"
       }
     ]
   },

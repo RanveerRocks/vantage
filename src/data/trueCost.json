@@ -94,21 +94,27 @@
   },
   {
     "countryId": "au",
-    "tuitionPerYearUsd": 26000,
-    "livingPerYearUsd": 14000,
-    "insurancePerYearUsd": 600,
-    "visaFeesOneTimeUsd": 900,
+    "tuitionPerYearUsd": 24850,
+    "livingPerYearUsd": 21094,
+    "insurancePerYearUsd": 497,
+    "visaFeesOneTimeUsd": 1420,
     "flightsPerYearUsd": 1000,
     "hiddenNotes": [
-      "[Sample] Hidden-cost note pending curation: e.g. forex movement between offer and arrival.",
-      "[Sample] Hidden-cost note pending curation: e.g. deposits, surcharges, or proof-of-funds rules."
+      "Australia now asks student-visa applicants to show AUD 29,710 a year in living funds, among the highest thresholds anywhere, and the student visa fee jumped to AUD 2,000 (rising again in 2026).",
+      "Overseas Student Health Cover (OSHC) is mandatory for the whole visa, around AUD 500 to 800 a year.",
+      "Tuition varies widely by course; medicine and veterinary science run far above the AUD 20,000 to 45,000 band typical for other bachelor’s degrees."
     ],
-    "confidence": "placeholder",
+    "confidence": "medium",
     "sources": [
       {
-        "name": "Sample source, data pending curation",
-        "url": "https://example.com/vantage-sample-data",
-        "lastUpdated": "2026-07-01"
+        "name": "Study Australia: cost of studying",
+        "url": "https://www.studyaustralia.gov.au/en/plan-your-studies/how-to-apply-to-study-in-australia/tuition-fees-and-scholarships",
+        "lastUpdated": "2026-08-18"
+      },
+      {
+        "name": "Department of Home Affairs: Student visa (subclass 500)",
+        "url": "https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/student-500",
+        "lastUpdated": "2026-08-18"
       }
     ]
   },

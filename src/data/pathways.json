@@ -121,32 +121,37 @@
     "stages": [
       {
         "label": "Study",
-        "years": 2,
-        "description": "[Sample] Placeholder description of the study stage in Australia; curated details pending."
+        "years": 3,
+        "description": "An Australian bachelor’s degree is typically three years."
       },
       {
         "label": "Post-study work visa",
         "years": 2,
-        "description": "[Sample] Placeholder description of the post-study work visa stage in Australia; curated details pending."
+        "description": "The Temporary Graduate visa (subclass 485) gives bachelor’s graduates two years of post-study work rights (longer for research degrees)."
       },
       {
         "label": "PR process",
-        "years": 1,
-        "description": "[Sample] Placeholder description of the pr process stage in Australia; curated details pending."
+        "years": 2,
+        "description": "Permanent residence is points-based skilled migration, with no lottery but rising thresholds and occupation lists. Many use the 485 years to build points and secure state nomination."
       },
       {
         "label": "Citizenship",
-        "years": 4,
-        "description": "[Sample] Placeholder description of the citizenship stage in Australia; curated details pending."
+        "years": 1,
+        "description": "Citizenship needs four years of lawful residence including the final 12 months as a permanent resident."
       }
     ],
-    "totalYearsToPr": 5,
-    "confidence": "placeholder",
+    "totalYearsToPr": 7,
+    "confidence": "medium",
     "sources": [
       {
-        "name": "Sample source, data pending curation",
-        "url": "https://example.com/vantage-sample-data",
-        "lastUpdated": "2026-07-01"
+        "name": "Department of Home Affairs: Temporary Graduate visa (485)",
+        "url": "https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/temporary-graduate-485",
+        "lastUpdated": "2026-08-18"
+      },
+      {
+        "name": "Department of Home Affairs: Become an Australian citizen",
+        "url": "https://immi.homeaffairs.gov.au/citizenship/become-a-citizen",
+        "lastUpdated": "2026-08-18"
       }
     ]
   },
