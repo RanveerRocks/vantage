@@ -866,126 +866,216 @@
   {
     "countryId": "de",
     "factorId": "affordability",
-    "score": 70,
-    "blurb": "[Sample] Placeholder note on affordability in Germany; curated justification pending.",
-    "confidence": "placeholder",
+    "score": 32,
+    "blurb": "German day-to-day living costs are mid-pack on Numbeo, but paired with tuition-free public universities (shown in True Cost) the overall budget is the lightest of the eight.",
+    "confidence": "medium",
     "sources": [
       {
-        "name": "Sample source, data pending curation",
-        "url": "https://example.com/vantage-sample-data",
-        "lastUpdated": "2026-07-01"
+        "name": "Numbeo Cost of Living Index",
+        "url": "https://www.numbeo.com/cost-of-living/rankings_by_country.jsp",
+        "lastUpdated": "2026-08-18"
+      },
+      {
+        "name": "Reuters: Germany cost of living",
+        "url": "https://www.reuters.com/site-search/?query=Germany%20cost%20of%20living",
+        "lastUpdated": "2026-08-18"
+      },
+      {
+        "name": "Bloomberg: Germany cost of living",
+        "url": "https://www.bloomberg.com/search?query=Germany%20cost%20of%20living",
+        "lastUpdated": "2026-08-18"
       }
     ]
   },
   {
     "countryId": "de",
     "factorId": "safety",
-    "score": 72,
-    "blurb": "[Sample] Placeholder note on safety in Germany; curated justification pending.",
-    "confidence": "placeholder",
+    "score": 61,
+    "blurb": "Numbeo scores Germany in the low sixties for safety, among the safer of the eight.",
+    "confidence": "medium",
     "sources": [
       {
-        "name": "Sample source, data pending curation",
-        "url": "https://example.com/vantage-sample-data",
-        "lastUpdated": "2026-07-01"
+        "name": "Numbeo Safety Index",
+        "url": "https://www.numbeo.com/crime/rankings_by_country.jsp",
+        "lastUpdated": "2026-08-18"
+      },
+      {
+        "name": "Reuters: Germany safety",
+        "url": "https://www.reuters.com/site-search/?query=Germany%20crime%20safety",
+        "lastUpdated": "2026-08-18"
+      },
+      {
+        "name": "BBC News: Germany crime",
+        "url": "https://www.bbc.co.uk/search?q=Germany%20crime&d=news_gnl",
+        "lastUpdated": "2026-08-18"
       }
     ]
   },
   {
     "countryId": "de",
     "factorId": "openness",
-    "score": 62,
-    "blurb": "[Sample] Placeholder note on openness & inclusion in Germany; curated justification pending.",
-    "confidence": "placeholder",
+    "score": 58,
+    "blurb": "Germany scores 58 on the 2025 MIPEX and recently broke into the global top ten for integration policy.",
+    "confidence": "high",
     "sources": [
       {
-        "name": "Sample source, data pending curation",
-        "url": "https://example.com/vantage-sample-data",
-        "lastUpdated": "2026-07-01"
+        "name": "MIPEX 2025: Germany",
+        "url": "https://www.mipex.eu/germany",
+        "lastUpdated": "2026-08-18"
+      },
+      {
+        "name": "Reuters: Germany immigration",
+        "url": "https://www.reuters.com/site-search/?query=Germany%20immigration%20integration",
+        "lastUpdated": "2026-08-18"
+      },
+      {
+        "name": "The Guardian: Germany immigration",
+        "url": "https://www.theguardian.com/search?q=Germany%20immigration",
+        "lastUpdated": "2026-08-18"
       }
     ]
   },
   {
     "countryId": "de",
     "factorId": "work-rights",
-    "score": 70,
-    "blurb": "[Sample] Placeholder note on work rights in Germany; curated justification pending.",
-    "confidence": "placeholder",
+    "score": 62,
+    "blurb": "Students can work 140 full or 280 half days a year (about 20 hours a week), then get an 18-month permit to find graduate work.",
+    "confidence": "high",
     "sources": [
       {
-        "name": "Sample source, data pending curation",
-        "url": "https://example.com/vantage-sample-data",
-        "lastUpdated": "2026-07-01"
+        "name": "Make it in Germany: working during your studies",
+        "url": "https://www.make-it-in-germany.com/en/study-training/studying/while-studying/working",
+        "lastUpdated": "2026-08-18"
+      },
+      {
+        "name": "The PIE News: Germany student work",
+        "url": "https://thepienews.com/?s=Germany%20student%20work%20rights",
+        "lastUpdated": "2026-08-18"
+      },
+      {
+        "name": "ICEF Monitor: Germany student work",
+        "url": "https://monitor.icef.com/?s=Germany%20student%20work",
+        "lastUpdated": "2026-08-18"
       }
     ]
   },
   {
     "countryId": "de",
     "factorId": "healthcare",
-    "score": 80,
-    "blurb": "[Sample] Placeholder note on healthcare in Germany; curated justification pending.",
-    "confidence": "placeholder",
+    "score": 71,
+    "blurb": "Numbeo rates German healthcare highly; enrolment requires mandatory public health insurance of about 120 euros a month.",
+    "confidence": "medium",
     "sources": [
       {
-        "name": "Sample source, data pending curation",
-        "url": "https://example.com/vantage-sample-data",
-        "lastUpdated": "2026-07-01"
+        "name": "Numbeo Health Care Index",
+        "url": "https://www.numbeo.com/health-care/rankings_by_country.jsp",
+        "lastUpdated": "2026-08-18"
+      },
+      {
+        "name": "Reuters: Germany healthcare",
+        "url": "https://www.reuters.com/site-search/?query=Germany%20healthcare",
+        "lastUpdated": "2026-08-18"
+      },
+      {
+        "name": "BBC News: Germany health",
+        "url": "https://www.bbc.co.uk/search?q=Germany%20healthcare&d=news_gnl",
+        "lastUpdated": "2026-08-18"
       }
     ]
   },
   {
     "countryId": "de",
     "factorId": "language",
-    "score": 45,
-    "blurb": "[Sample] Placeholder note on language ease in Germany; curated justification pending.",
-    "confidence": "placeholder",
+    "score": 72,
+    "blurb": "Everyday life and many bachelor’s programs run in German, though English-taught degrees are growing and Germans rank among the most proficient English speakers. Learning German sharply improves work and residence options.",
+    "confidence": "medium",
     "sources": [
       {
-        "name": "Sample source, data pending curation",
-        "url": "https://example.com/vantage-sample-data",
-        "lastUpdated": "2026-07-01"
+        "name": "EF English Proficiency Index",
+        "url": "https://www.ef.com/epi/",
+        "lastUpdated": "2026-08-18"
+      },
+      {
+        "name": "Wikipedia: Languages of Germany",
+        "url": "https://en.wikipedia.org/wiki/Languages_of_Germany",
+        "lastUpdated": "2026-08-18"
+      },
+      {
+        "name": "Ethnologue: Germany",
+        "url": "https://www.ethnologue.com/country/DE/",
+        "lastUpdated": "2026-08-18"
       }
     ]
   },
   {
     "countryId": "de",
     "factorId": "community",
-    "score": 60,
-    "blurb": "[Sample] Placeholder note on community in Germany; curated justification pending.",
-    "confidence": "placeholder",
+    "score": 82,
+    "blurb": "Germany hosts over 400,000 international students, the most in continental Europe, with fast-growing Indian enrolment.",
+    "confidence": "medium",
     "sources": [
       {
-        "name": "Sample source, data pending curation",
-        "url": "https://example.com/vantage-sample-data",
-        "lastUpdated": "2026-07-01"
+        "name": "DAAD: international student numbers",
+        "url": "https://www.daad.de/en/the-daad/communication-publications/press/press_releases/2024/zahl-internationaler-studierender-in-deutschland-steigt-auf-ueber-400000/",
+        "lastUpdated": "2026-08-18"
+      },
+      {
+        "name": "The PIE News: Germany international students",
+        "url": "https://thepienews.com/?s=Germany%20international%20students",
+        "lastUpdated": "2026-08-18"
+      },
+      {
+        "name": "ICEF Monitor: Germany international students",
+        "url": "https://monitor.icef.com/?s=Germany%20international%20students",
+        "lastUpdated": "2026-08-18"
       }
     ]
   },
   {
     "countryId": "de",
     "factorId": "political-climate",
-    "score": 68,
-    "blurb": "[Sample] Placeholder note on political climate in Germany; curated justification pending.",
-    "confidence": "placeholder",
+    "score": 71,
+    "blurb": "Germany scored 6.4 of 9 on Gallup’s 2023 Migrant Acceptance Index, down from 7.1 in 2016 amid heated migration politics, though it stays above the EU average.",
+    "confidence": "medium",
     "sources": [
       {
-        "name": "Sample source, data pending curation",
-        "url": "https://example.com/vantage-sample-data",
-        "lastUpdated": "2026-07-01"
+        "name": "Gallup Migrant Acceptance Index (2023)",
+        "url": "https://news.gallup.com/poll/656579/germany-election-key-issues-facing-next-chancellor.aspx",
+        "lastUpdated": "2026-08-18"
+      },
+      {
+        "name": "Reuters: Germany immigration policy",
+        "url": "https://www.reuters.com/site-search/?query=Germany%20immigration%20policy",
+        "lastUpdated": "2026-08-18"
+      },
+      {
+        "name": "AP News: Germany immigration",
+        "url": "https://apnews.com/search?q=Germany%20immigration",
+        "lastUpdated": "2026-08-18"
       }
     ]
   },
   {
     "countryId": "de",
     "factorId": "climate-lifestyle",
-    "score": 60,
-    "blurb": "[Sample] Placeholder note on climate & lifestyle in Germany; curated justification pending.",
-    "confidence": "placeholder",
+    "score": 83,
+    "blurb": "Numbeo rates Germany’s temperate climate well: four clear seasons, cold winters and warm summers.",
+    "confidence": "medium",
     "sources": [
       {
-        "name": "Sample source, data pending curation",
-        "url": "https://example.com/vantage-sample-data",
-        "lastUpdated": "2026-07-01"
+        "name": "Numbeo Climate Index",
+        "url": "https://www.numbeo.com/quality-of-life/rankings_by_country.jsp",
+        "lastUpdated": "2026-08-18"
+      },
+      {
+        "name": "Wikipedia: Climate of Germany",
+        "url": "https://en.wikipedia.org/wiki/Climate_of_Germany",
+        "lastUpdated": "2026-08-18"
+      },
+      {
+        "name": "Deutscher Wetterdienst",
+        "url": "https://www.dwd.de/",
+        "lastUpdated": "2026-08-18"
       }
     ]
   },

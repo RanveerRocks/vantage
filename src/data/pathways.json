@@ -160,32 +160,37 @@
     "stages": [
       {
         "label": "Study",
-        "years": 2,
-        "description": "[Sample] Placeholder description of the study stage in Germany; curated details pending."
+        "years": 3,
+        "description": "A German bachelor’s degree usually takes three years, taught in German or, increasingly, in English."
       },
       {
         "label": "Post-study work visa",
         "years": 1.5,
-        "description": "[Sample] Placeholder description of the post-study work visa stage in Germany; curated details pending."
+        "description": "Graduates get an 18-month residence permit (via the Opportunity Card / Chancenkarte route) to find qualified work."
       },
       {
         "label": "PR process",
-        "years": 1.5,
-        "description": "[Sample] Placeholder description of the pr process stage in Germany; curated details pending."
+        "years": 2,
+        "description": "With an EU Blue Card and B1 German you can reach a settlement permit in as little as 21 to 33 months; without German it is the standard five years."
       },
       {
         "label": "Citizenship",
-        "years": 3,
-        "description": "[Sample] Placeholder description of the citizenship stage in Germany; curated details pending."
+        "years": 5,
+        "description": "Since the 2024 reform, citizenship is possible after five years (three with strong integration), and dual nationality is now allowed."
       }
     ],
-    "totalYearsToPr": 5,
-    "confidence": "placeholder",
+    "totalYearsToPr": 6.5,
+    "confidence": "medium",
     "sources": [
       {
-        "name": "Sample source, data pending curation",
-        "url": "https://example.com/vantage-sample-data",
-        "lastUpdated": "2026-07-01"
+        "name": "Make it in Germany: after your studies",
+        "url": "https://www.make-it-in-germany.com/en/study-training/studying/while-and-after/after",
+        "lastUpdated": "2026-08-18"
+      },
+      {
+        "name": "Make it in Germany: citizenship",
+        "url": "https://www.make-it-in-germany.com/en/living-in-germany/settling-in/citizenship",
+        "lastUpdated": "2026-08-18"
       }
     ]
   },

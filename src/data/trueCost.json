@@ -120,21 +120,27 @@
   },
   {
     "countryId": "de",
-    "tuitionPerYearUsd": 1500,
-    "livingPerYearUsd": 11000,
-    "insurancePerYearUsd": 1300,
-    "visaFeesOneTimeUsd": 300,
-    "flightsPerYearUsd": 900,
+    "tuitionPerYearUsd": 812,
+    "livingPerYearUsd": 13808,
+    "insurancePerYearUsd": 1682,
+    "visaFeesOneTimeUsd": 203,
+    "flightsPerYearUsd": 800,
     "hiddenNotes": [
-      "[Sample] Hidden-cost note pending curation: e.g. forex movement between offer and arrival.",
-      "[Sample] Hidden-cost note pending curation: e.g. deposits, surcharges, or proof-of-funds rules."
+      "Public universities charge no tuition in most states; you pay only a semester contribution of roughly 350 euros, often including a public-transport pass. Baden-Württemberg is the exception, charging non-EU students about 3,000 euros a year.",
+      "You must park about 11,904 euros in a blocked account before arrival to prove you can support yourself, released to you monthly.",
+      "Public student health insurance runs about 120 euros a month and is mandatory before you can enrol."
     ],
-    "confidence": "placeholder",
+    "confidence": "medium",
     "sources": [
       {
-        "name": "Sample source, data pending curation",
-        "url": "https://example.com/vantage-sample-data",
-        "lastUpdated": "2026-07-01"
+        "name": "DAAD: cost of living and studying in Germany",
+        "url": "https://www.daad.de/en/studying-in-germany/plan-your-studies/tuition-fees/",
+        "lastUpdated": "2026-08-18"
+      },
+      {
+        "name": "German Missions: blocked account and student visa",
+        "url": "https://www.germany.info/us-en/service/visa/student-visa/924288",
+        "lastUpdated": "2026-08-18"
       }
     ]
   },
