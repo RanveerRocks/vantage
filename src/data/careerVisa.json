@@ -36,19 +36,34 @@
   {
     "countryId": "us",
     "degreeId": "engineering",
-    "jobDemand": 80,
-    "visaOpenness": 38,
-    "postStudyWorkYears": 3,
-    "prPathwayYears": 8,
-    "medianSalaryY1PppUsd": 68000,
-    "totalDegreeCostUsd": 117000,
-    "narrative": "[Sample] Placeholder narrative for Engineering (non-CS) in United States. Two to three curated sentences will justify this position once real data lands. All values on this record are sample data.",
-    "confidence": "placeholder",
+    "jobDemand": 78,
+    "visaOpenness": 48,
+    "postStudyWorkYears": 1,
+    "prPathwayYears": 9,
+    "medianSalaryY1PppUsd": 70000,
+    "totalDegreeCostUsd": 225700,
+    "narrative": "US engineering demand is steady and pay is strong, but a four-year degree and the H-1B lottery keep the return and visa score modest.",
+    "confidence": "medium",
     "sources": [
       {
-        "name": "Sample source, data pending curation",
-        "url": "https://example.com/vantage-sample-data",
-        "lastUpdated": "2026-07-01"
+        "name": "US BLS: Architecture and Engineering occupations",
+        "url": "https://www.bls.gov/ooh/architecture-and-engineering/home.htm",
+        "lastUpdated": "2026-08-18"
+      },
+      {
+        "name": "LinkedIn Jobs: engineer in United States",
+        "url": "https://www.linkedin.com/jobs/search/?keywords=engineer&location=United%20States",
+        "lastUpdated": "2026-08-18"
+      },
+      {
+        "name": "Reuters: United States immigration and visa news",
+        "url": "https://www.reuters.com/site-search/?query=United%20States%20immigration%20visa",
+        "lastUpdated": "2026-08-18"
+      },
+      {
+        "name": "Glassdoor: engineer salaries in United States",
+        "url": "https://www.glassdoor.com/Search/results.htm?keyword=engineer%20United%20States",
+        "lastUpdated": "2026-08-18"
       }
     ]
   },
@@ -203,19 +218,34 @@
   {
     "countryId": "uk",
     "degreeId": "engineering",
-    "jobDemand": 70,
+    "jobDemand": 80,
     "visaOpenness": 58,
     "postStudyWorkYears": 2,
-    "prPathwayYears": 5,
-    "medianSalaryY1PppUsd": 48500,
-    "totalDegreeCostUsd": 90000,
-    "narrative": "[Sample] Placeholder narrative for Engineering (non-CS) in United Kingdom. Two to three curated sentences will justify this position once real data lands. All values on this record are sample data.",
-    "confidence": "placeholder",
+    "prPathwayYears": 8,
+    "medianSalaryY1PppUsd": 42029,
+    "totalDegreeCostUsd": 137200,
+    "narrative": "The UK needs engineers and the short three-year degree lifts ROI, though graduate pay is moderate and settlement is slow.",
+    "confidence": "medium",
     "sources": [
       {
-        "name": "Sample source, data pending curation",
-        "url": "https://example.com/vantage-sample-data",
-        "lastUpdated": "2026-07-01"
+        "name": "GOV.UK: Skilled Worker eligible occupations",
+        "url": "https://www.gov.uk/government/publications/skilled-worker-visa-eligible-occupations",
+        "lastUpdated": "2026-08-18"
+      },
+      {
+        "name": "LinkedIn Jobs: engineer in United Kingdom",
+        "url": "https://www.linkedin.com/jobs/search/?keywords=engineer&location=United%20Kingdom",
+        "lastUpdated": "2026-08-18"
+      },
+      {
+        "name": "Reuters: United Kingdom immigration and visa news",
+        "url": "https://www.reuters.com/site-search/?query=United%20Kingdom%20immigration%20visa",
+        "lastUpdated": "2026-08-18"
+      },
+      {
+        "name": "Glassdoor: engineer salaries in United Kingdom",
+        "url": "https://www.glassdoor.com/Search/results.htm?keyword=engineer%20United%20Kingdom",
+        "lastUpdated": "2026-08-18"
       }
     ]
   },
@@ -370,19 +400,34 @@
   {
     "countryId": "ca",
     "degreeId": "engineering",
-    "jobDemand": 75,
-    "visaOpenness": 72,
+    "jobDemand": 82,
+    "visaOpenness": 62,
     "postStudyWorkYears": 3,
     "prPathwayYears": 6,
-    "medianSalaryY1PppUsd": 53000,
-    "totalDegreeCostUsd": 77000,
-    "narrative": "[Sample] Placeholder narrative for Engineering (non-CS) in Canada. Two to three curated sentences will justify this position once real data lands. All values on this record are sample data.",
-    "confidence": "placeholder",
+    "medianSalaryY1PppUsd": 47934,
+    "totalDegreeCostUsd": 193400,
+    "narrative": "Canada lists many engineering roles for skilled migration with a clear PR route, but a four-year degree holds the return mid-pack.",
+    "confidence": "medium",
     "sources": [
       {
-        "name": "Sample source, data pending curation",
-        "url": "https://example.com/vantage-sample-data",
-        "lastUpdated": "2026-07-01"
+        "name": "Canada Job Bank: occupational outlook",
+        "url": "https://www.jobbank.gc.ca/trend-analysis/job-market-reports",
+        "lastUpdated": "2026-08-18"
+      },
+      {
+        "name": "LinkedIn Jobs: engineer in Canada",
+        "url": "https://www.linkedin.com/jobs/search/?keywords=engineer&location=Canada",
+        "lastUpdated": "2026-08-18"
+      },
+      {
+        "name": "Reuters: Canada immigration and visa news",
+        "url": "https://www.reuters.com/site-search/?query=Canada%20immigration%20visa",
+        "lastUpdated": "2026-08-18"
+      },
+      {
+        "name": "Glassdoor: engineer salaries in Canada",
+        "url": "https://www.glassdoor.com/Search/results.htm?keyword=engineer%20Canada",
+        "lastUpdated": "2026-08-18"
       }
     ]
   },
@@ -537,19 +582,34 @@
   {
     "countryId": "au",
     "degreeId": "engineering",
-    "jobDemand": 72,
-    "visaOpenness": 68,
+    "jobDemand": 86,
+    "visaOpenness": 60,
     "postStudyWorkYears": 2,
-    "prPathwayYears": 5,
-    "medianSalaryY1PppUsd": 55000,
-    "totalDegreeCostUsd": 85000,
-    "narrative": "[Sample] Placeholder narrative for Engineering (non-CS) in Australia. Two to three curated sentences will justify this position once real data lands. All values on this record are sample data.",
-    "confidence": "placeholder",
+    "prPathwayYears": 7,
+    "medianSalaryY1PppUsd": 46259,
+    "totalDegreeCostUsd": 143700,
+    "narrative": "Australia ranks engineering high on its Skills Priority List and pairs good pay with a graduate visa, though living costs weigh on ROI.",
+    "confidence": "medium",
     "sources": [
       {
-        "name": "Sample source, data pending curation",
-        "url": "https://example.com/vantage-sample-data",
-        "lastUpdated": "2026-07-01"
+        "name": "Jobs and Skills Australia: Skills Priority List",
+        "url": "https://www.jobsandskills.gov.au/data/skills-priority-list",
+        "lastUpdated": "2026-08-18"
+      },
+      {
+        "name": "LinkedIn Jobs: engineer in Australia",
+        "url": "https://www.linkedin.com/jobs/search/?keywords=engineer&location=Australia",
+        "lastUpdated": "2026-08-18"
+      },
+      {
+        "name": "Reuters: Australia immigration and visa news",
+        "url": "https://www.reuters.com/site-search/?query=Australia%20immigration%20visa",
+        "lastUpdated": "2026-08-18"
+      },
+      {
+        "name": "Glassdoor: engineer salaries in Australia",
+        "url": "https://www.glassdoor.com/Search/results.htm?keyword=engineer%20Australia",
+        "lastUpdated": "2026-08-18"
       }
     ]
   },
@@ -704,19 +764,34 @@
   {
     "countryId": "de",
     "degreeId": "engineering",
-    "jobDemand": 78,
-    "visaOpenness": 66,
+    "jobDemand": 90,
+    "visaOpenness": 68,
     "postStudyWorkYears": 1.5,
-    "prPathwayYears": 5,
-    "medianSalaryY1PppUsd": 57000,
-    "totalDegreeCostUsd": 28000,
-    "narrative": "[Sample] Placeholder narrative for Engineering (non-CS) in Germany. Two to three curated sentences will justify this position once real data lands. All values on this record are sample data.",
-    "confidence": "placeholder",
+    "prPathwayYears": 6.5,
+    "medianSalaryY1PppUsd": 68493,
+    "totalDegreeCostUsd": 51500,
+    "narrative": "Germany is an engineering powerhouse with acute shortages, free tuition and strong PPP pay, the best return in the set for engineers willing to work in German.",
+    "confidence": "medium",
     "sources": [
       {
-        "name": "Sample source, data pending curation",
-        "url": "https://example.com/vantage-sample-data",
-        "lastUpdated": "2026-07-01"
+        "name": "Make it in Germany: shortage occupations",
+        "url": "https://www.make-it-in-germany.com/en/working-in-germany/shortage-occupations",
+        "lastUpdated": "2026-08-18"
+      },
+      {
+        "name": "LinkedIn Jobs: engineer in Germany",
+        "url": "https://www.linkedin.com/jobs/search/?keywords=engineer&location=Germany",
+        "lastUpdated": "2026-08-18"
+      },
+      {
+        "name": "Reuters: Germany immigration and visa news",
+        "url": "https://www.reuters.com/site-search/?query=Germany%20immigration%20visa",
+        "lastUpdated": "2026-08-18"
+      },
+      {
+        "name": "Glassdoor: engineer salaries in Germany",
+        "url": "https://www.glassdoor.com/Search/results.htm?keyword=engineer%20Germany",
+        "lastUpdated": "2026-08-18"
       }
     ]
   },
@@ -871,19 +946,34 @@
   {
     "countryId": "ie",
     "degreeId": "engineering",
-    "jobDemand": 76,
-    "visaOpenness": 74,
-    "postStudyWorkYears": 2,
-    "prPathwayYears": 5,
-    "medianSalaryY1PppUsd": 55000,
-    "totalDegreeCostUsd": 64000,
-    "narrative": "[Sample] Placeholder narrative for Engineering (non-CS) in Ireland. Two to three curated sentences will justify this position once real data lands. All values on this record are sample data.",
-    "confidence": "placeholder",
+    "jobDemand": 82,
+    "visaOpenness": 64,
+    "postStudyWorkYears": 1,
+    "prPathwayYears": 7,
+    "medianSalaryY1PppUsd": 43210,
+    "totalDegreeCostUsd": 109400,
+    "narrative": "Ireland needs engineers for its construction and tech-manufacturing boom, with a fast route to work, though costs and a short bachelor post-study window bite.",
+    "confidence": "medium",
     "sources": [
       {
-        "name": "Sample source, data pending curation",
-        "url": "https://example.com/vantage-sample-data",
-        "lastUpdated": "2026-07-01"
+        "name": "Ireland: Critical Skills Occupations List",
+        "url": "https://enterprise.gov.ie/en/what-we-do/workplace-and-skills/employment-permits/employment-permit-eligibility/highly-skilled-eligible-occupations-list/",
+        "lastUpdated": "2026-08-18"
+      },
+      {
+        "name": "LinkedIn Jobs: engineer in Ireland",
+        "url": "https://www.linkedin.com/jobs/search/?keywords=engineer&location=Ireland",
+        "lastUpdated": "2026-08-18"
+      },
+      {
+        "name": "Reuters: Ireland immigration and visa news",
+        "url": "https://www.reuters.com/site-search/?query=Ireland%20immigration%20visa",
+        "lastUpdated": "2026-08-18"
+      },
+      {
+        "name": "Glassdoor: engineer salaries in Ireland",
+        "url": "https://www.glassdoor.com/Search/results.htm?keyword=engineer%20Ireland",
+        "lastUpdated": "2026-08-18"
       }
     ]
   },
@@ -1038,19 +1128,34 @@
   {
     "countryId": "nl",
     "degreeId": "engineering",
-    "jobDemand": 74,
-    "visaOpenness": 62,
+    "jobDemand": 82,
+    "visaOpenness": 60,
     "postStudyWorkYears": 1,
     "prPathwayYears": 5,
-    "medianSalaryY1PppUsd": 56000,
-    "totalDegreeCostUsd": 59000,
-    "narrative": "[Sample] Placeholder narrative for Engineering (non-CS) in Netherlands. Two to three curated sentences will justify this position once real data lands. All values on this record are sample data.",
-    "confidence": "placeholder",
+    "medianSalaryY1PppUsd": 48718,
+    "totalDegreeCostUsd": 87000,
+    "narrative": "The Netherlands has strong engineering demand, English-taught degrees and the quickest route to residence, with solid PPP pay.",
+    "confidence": "medium",
     "sources": [
       {
-        "name": "Sample source, data pending curation",
-        "url": "https://example.com/vantage-sample-data",
-        "lastUpdated": "2026-07-01"
+        "name": "UWV: labour market shortages",
+        "url": "https://www.uwv.nl/",
+        "lastUpdated": "2026-08-18"
+      },
+      {
+        "name": "LinkedIn Jobs: engineer in Netherlands",
+        "url": "https://www.linkedin.com/jobs/search/?keywords=engineer&location=Netherlands",
+        "lastUpdated": "2026-08-18"
+      },
+      {
+        "name": "Reuters: Netherlands immigration and visa news",
+        "url": "https://www.reuters.com/site-search/?query=Netherlands%20immigration%20visa",
+        "lastUpdated": "2026-08-18"
+      },
+      {
+        "name": "Glassdoor: engineer salaries in Netherlands",
+        "url": "https://www.glassdoor.com/Search/results.htm?keyword=engineer%20Netherlands",
+        "lastUpdated": "2026-08-18"
       }
     ]
   },
@@ -1205,19 +1310,34 @@
   {
     "countryId": "sg",
     "degreeId": "engineering",
-    "jobDemand": 70,
+    "jobDemand": 80,
     "visaOpenness": 55,
     "postStudyWorkYears": 1,
-    "prPathwayYears": 6,
-    "medianSalaryY1PppUsd": 61500,
-    "totalDegreeCostUsd": 91000,
-    "narrative": "[Sample] Placeholder narrative for Engineering (non-CS) in Singapore. Two to three curated sentences will justify this position once real data lands. All values on this record are sample data.",
-    "confidence": "placeholder",
+    "prPathwayYears": 8,
+    "medianSalaryY1PppUsd": 53571,
+    "totalDegreeCostUsd": 144600,
+    "narrative": "Singapore pays engineers less than its tech roles and ties grant students to a three-year bond, with a selective PR path, tempering the return.",
+    "confidence": "medium",
     "sources": [
       {
-        "name": "Sample source, data pending curation",
-        "url": "https://example.com/vantage-sample-data",
-        "lastUpdated": "2026-07-01"
+        "name": "Singapore MOM: Employment Pass eligibility (COMPASS)",
+        "url": "https://www.mom.gov.sg/passes-and-permits/employment-pass/eligibility",
+        "lastUpdated": "2026-08-18"
+      },
+      {
+        "name": "LinkedIn Jobs: engineer in Singapore",
+        "url": "https://www.linkedin.com/jobs/search/?keywords=engineer&location=Singapore",
+        "lastUpdated": "2026-08-18"
+      },
+      {
+        "name": "Reuters: Singapore immigration and visa news",
+        "url": "https://www.reuters.com/site-search/?query=Singapore%20immigration%20visa",
+        "lastUpdated": "2026-08-18"
+      },
+      {
+        "name": "Glassdoor: engineer salaries in Singapore",
+        "url": "https://www.glassdoor.com/Search/results.htm?keyword=engineer%20Singapore",
+        "lastUpdated": "2026-08-18"
       }
     ]
   },
