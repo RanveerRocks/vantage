@@ -70,57 +70,102 @@
   {
     "countryId": "us",
     "degreeId": "business-finance",
-    "jobDemand": 70,
-    "visaOpenness": 38,
-    "postStudyWorkYears": 3,
-    "prPathwayYears": 8,
+    "jobDemand": 74,
+    "visaOpenness": 48,
+    "postStudyWorkYears": 1,
+    "prPathwayYears": 9,
     "medianSalaryY1PppUsd": 65000,
-    "totalDegreeCostUsd": 124000,
-    "narrative": "[Sample] Placeholder narrative for Business & Finance in United States. Two to three curated sentences will justify this position once real data lands. All values on this record are sample data.",
-    "confidence": "placeholder",
+    "totalDegreeCostUsd": 225700,
+    "narrative": "Wall Street sets the pace on finance pay, but the four-year degree cost and visa lottery pull the return down.",
+    "confidence": "medium",
     "sources": [
       {
-        "name": "Sample source, data pending curation",
-        "url": "https://example.com/vantage-sample-data",
-        "lastUpdated": "2026-07-01"
+        "name": "US BLS: Business and Financial occupations",
+        "url": "https://www.bls.gov/ooh/business-and-financial/home.htm",
+        "lastUpdated": "2026-08-18"
+      },
+      {
+        "name": "LinkedIn Jobs: financial analyst in United States",
+        "url": "https://www.linkedin.com/jobs/search/?keywords=financial%20analyst&location=United%20States",
+        "lastUpdated": "2026-08-18"
+      },
+      {
+        "name": "Reuters: United States immigration and visa news",
+        "url": "https://www.reuters.com/site-search/?query=United%20States%20immigration%20visa",
+        "lastUpdated": "2026-08-18"
+      },
+      {
+        "name": "Glassdoor: financial analyst salaries in United States",
+        "url": "https://www.glassdoor.com/Search/results.htm?keyword=financial%20analyst%20United%20States",
+        "lastUpdated": "2026-08-18"
       }
     ]
   },
   {
     "countryId": "us",
     "degreeId": "economics",
-    "jobDemand": 65,
-    "visaOpenness": 38,
-    "postStudyWorkYears": 3,
-    "prPathwayYears": 8,
+    "jobDemand": 64,
+    "visaOpenness": 48,
+    "postStudyWorkYears": 1,
+    "prPathwayYears": 9,
     "medianSalaryY1PppUsd": 62000,
-    "totalDegreeCostUsd": 113000,
-    "narrative": "[Sample] Placeholder narrative for Economics in United States. Two to three curated sentences will justify this position once real data lands. All values on this record are sample data.",
-    "confidence": "placeholder",
+    "totalDegreeCostUsd": 225700,
+    "narrative": "US economics grads find good analyst roles and pay, but the costly degree and visa lottery limit the return.",
+    "confidence": "medium",
     "sources": [
       {
-        "name": "Sample source, data pending curation",
-        "url": "https://example.com/vantage-sample-data",
-        "lastUpdated": "2026-07-01"
+        "name": "US BLS: Economists occupational outlook",
+        "url": "https://www.bls.gov/ooh/life-physical-and-social-science/economists.htm",
+        "lastUpdated": "2026-08-18"
+      },
+      {
+        "name": "LinkedIn Jobs: economist in United States",
+        "url": "https://www.linkedin.com/jobs/search/?keywords=economist&location=United%20States",
+        "lastUpdated": "2026-08-18"
+      },
+      {
+        "name": "Reuters: United States immigration and visa news",
+        "url": "https://www.reuters.com/site-search/?query=United%20States%20immigration%20visa",
+        "lastUpdated": "2026-08-18"
+      },
+      {
+        "name": "Glassdoor: economist salaries in United States",
+        "url": "https://www.glassdoor.com/Search/results.htm?keyword=economist%20United%20States",
+        "lastUpdated": "2026-08-18"
       }
     ]
   },
   {
     "countryId": "us",
     "degreeId": "data-science",
-    "jobDemand": 88,
-    "visaOpenness": 38,
-    "postStudyWorkYears": 3,
-    "prPathwayYears": 8,
-    "medianSalaryY1PppUsd": 71500,
-    "totalDegreeCostUsd": 121000,
-    "narrative": "[Sample] Placeholder narrative for Data Science & Analytics in United States. Two to three curated sentences will justify this position once real data lands. All values on this record are sample data.",
-    "confidence": "placeholder",
+    "jobDemand": 90,
+    "visaOpenness": 48,
+    "postStudyWorkYears": 1,
+    "prPathwayYears": 9,
+    "medianSalaryY1PppUsd": 80000,
+    "totalDegreeCostUsd": 225700,
+    "narrative": "US data-science demand and pay are the highest anywhere, but a costly four-year degree and the H-1B lottery hold back ROI and the visa score.",
+    "confidence": "medium",
     "sources": [
       {
-        "name": "Sample source, data pending curation",
-        "url": "https://example.com/vantage-sample-data",
-        "lastUpdated": "2026-07-01"
+        "name": "US BLS: Data Scientists occupational outlook",
+        "url": "https://www.bls.gov/ooh/math/data-scientists.htm",
+        "lastUpdated": "2026-08-18"
+      },
+      {
+        "name": "LinkedIn Jobs: data scientist in United States",
+        "url": "https://www.linkedin.com/jobs/search/?keywords=data%20scientist&location=United%20States",
+        "lastUpdated": "2026-08-18"
+      },
+      {
+        "name": "Reuters: United States immigration and visa news",
+        "url": "https://www.reuters.com/site-search/?query=United%20States%20immigration%20visa",
+        "lastUpdated": "2026-08-18"
+      },
+      {
+        "name": "Glassdoor: data scientist salaries in United States",
+        "url": "https://www.glassdoor.com/Search/results.htm?keyword=data%20scientist%20United%20States",
+        "lastUpdated": "2026-08-18"
       }
     ]
   },
@@ -252,57 +297,102 @@
   {
     "countryId": "uk",
     "degreeId": "business-finance",
-    "jobDemand": 60,
+    "jobDemand": 80,
     "visaOpenness": 58,
     "postStudyWorkYears": 2,
-    "prPathwayYears": 5,
-    "medianSalaryY1PppUsd": 46000,
-    "totalDegreeCostUsd": 96000,
-    "narrative": "[Sample] Placeholder narrative for Business & Finance in United Kingdom. Two to three curated sentences will justify this position once real data lands. All values on this record are sample data.",
-    "confidence": "placeholder",
+    "prPathwayYears": 8,
+    "medianSalaryY1PppUsd": 43478,
+    "totalDegreeCostUsd": 137200,
+    "narrative": "London is a global finance centre with strong hiring, and the short degree helps ROI, though graduate pay starts modest.",
+    "confidence": "medium",
     "sources": [
       {
-        "name": "Sample source, data pending curation",
-        "url": "https://example.com/vantage-sample-data",
-        "lastUpdated": "2026-07-01"
+        "name": "GOV.UK: Skilled Worker eligible occupations",
+        "url": "https://www.gov.uk/government/publications/skilled-worker-visa-eligible-occupations",
+        "lastUpdated": "2026-08-18"
+      },
+      {
+        "name": "LinkedIn Jobs: financial analyst in United Kingdom",
+        "url": "https://www.linkedin.com/jobs/search/?keywords=financial%20analyst&location=United%20Kingdom",
+        "lastUpdated": "2026-08-18"
+      },
+      {
+        "name": "Reuters: United Kingdom immigration and visa news",
+        "url": "https://www.reuters.com/site-search/?query=United%20Kingdom%20immigration%20visa",
+        "lastUpdated": "2026-08-18"
+      },
+      {
+        "name": "Glassdoor: financial analyst salaries in United Kingdom",
+        "url": "https://www.glassdoor.com/Search/results.htm?keyword=financial%20analyst%20United%20Kingdom",
+        "lastUpdated": "2026-08-18"
       }
     ]
   },
   {
     "countryId": "uk",
     "degreeId": "economics",
-    "jobDemand": 55,
+    "jobDemand": 72,
     "visaOpenness": 58,
     "postStudyWorkYears": 2,
-    "prPathwayYears": 5,
-    "medianSalaryY1PppUsd": 44000,
-    "totalDegreeCostUsd": 87000,
-    "narrative": "[Sample] Placeholder narrative for Economics in United Kingdom. Two to three curated sentences will justify this position once real data lands. All values on this record are sample data.",
-    "confidence": "placeholder",
+    "prPathwayYears": 8,
+    "medianSalaryY1PppUsd": 40580,
+    "totalDegreeCostUsd": 137200,
+    "narrative": "UK demand for economists is solid, especially in London, and the short degree aids ROI despite modest starting pay.",
+    "confidence": "medium",
     "sources": [
       {
-        "name": "Sample source, data pending curation",
-        "url": "https://example.com/vantage-sample-data",
-        "lastUpdated": "2026-07-01"
+        "name": "GOV.UK: Skilled Worker eligible occupations",
+        "url": "https://www.gov.uk/government/publications/skilled-worker-visa-eligible-occupations",
+        "lastUpdated": "2026-08-18"
+      },
+      {
+        "name": "LinkedIn Jobs: economist in United Kingdom",
+        "url": "https://www.linkedin.com/jobs/search/?keywords=economist&location=United%20Kingdom",
+        "lastUpdated": "2026-08-18"
+      },
+      {
+        "name": "Reuters: United Kingdom immigration and visa news",
+        "url": "https://www.reuters.com/site-search/?query=United%20Kingdom%20immigration%20visa",
+        "lastUpdated": "2026-08-18"
+      },
+      {
+        "name": "Glassdoor: economist salaries in United Kingdom",
+        "url": "https://www.glassdoor.com/Search/results.htm?keyword=economist%20United%20Kingdom",
+        "lastUpdated": "2026-08-18"
       }
     ]
   },
   {
     "countryId": "uk",
     "degreeId": "data-science",
-    "jobDemand": 78,
+    "jobDemand": 85,
     "visaOpenness": 58,
     "postStudyWorkYears": 2,
-    "prPathwayYears": 5,
-    "medianSalaryY1PppUsd": 50500,
-    "totalDegreeCostUsd": 93000,
-    "narrative": "[Sample] Placeholder narrative for Data Science & Analytics in United Kingdom. Two to three curated sentences will justify this position once real data lands. All values on this record are sample data.",
-    "confidence": "placeholder",
+    "prPathwayYears": 8,
+    "medianSalaryY1PppUsd": 47826,
+    "totalDegreeCostUsd": 137200,
+    "narrative": "UK data roles are plentiful and the three-year degree lifts ROI, though pay trails the US and settlement is slow.",
+    "confidence": "medium",
     "sources": [
       {
-        "name": "Sample source, data pending curation",
-        "url": "https://example.com/vantage-sample-data",
-        "lastUpdated": "2026-07-01"
+        "name": "GOV.UK: Skilled Worker eligible occupations",
+        "url": "https://www.gov.uk/government/publications/skilled-worker-visa-eligible-occupations",
+        "lastUpdated": "2026-08-18"
+      },
+      {
+        "name": "LinkedIn Jobs: data scientist in United Kingdom",
+        "url": "https://www.linkedin.com/jobs/search/?keywords=data%20scientist&location=United%20Kingdom",
+        "lastUpdated": "2026-08-18"
+      },
+      {
+        "name": "Reuters: United Kingdom immigration and visa news",
+        "url": "https://www.reuters.com/site-search/?query=United%20Kingdom%20immigration%20visa",
+        "lastUpdated": "2026-08-18"
+      },
+      {
+        "name": "Glassdoor: data scientist salaries in United Kingdom",
+        "url": "https://www.glassdoor.com/Search/results.htm?keyword=data%20scientist%20United%20Kingdom",
+        "lastUpdated": "2026-08-18"
       }
     ]
   },
@@ -434,57 +524,102 @@
   {
     "countryId": "ca",
     "degreeId": "business-finance",
-    "jobDemand": 65,
-    "visaOpenness": 72,
+    "jobDemand": 68,
+    "visaOpenness": 62,
     "postStudyWorkYears": 3,
     "prPathwayYears": 6,
-    "medianSalaryY1PppUsd": 50500,
-    "totalDegreeCostUsd": 81000,
-    "narrative": "[Sample] Placeholder narrative for Business & Finance in Canada. Two to three curated sentences will justify this position once real data lands. All values on this record are sample data.",
-    "confidence": "placeholder",
+    "medianSalaryY1PppUsd": 49587,
+    "totalDegreeCostUsd": 193400,
+    "narrative": "Canadian finance hiring is steady with a clear PR route, though a four-year degree holds ROI mid-pack.",
+    "confidence": "medium",
     "sources": [
       {
-        "name": "Sample source, data pending curation",
-        "url": "https://example.com/vantage-sample-data",
-        "lastUpdated": "2026-07-01"
+        "name": "Canada Job Bank: occupational outlook",
+        "url": "https://www.jobbank.gc.ca/trend-analysis/job-market-reports",
+        "lastUpdated": "2026-08-18"
+      },
+      {
+        "name": "LinkedIn Jobs: financial analyst in Canada",
+        "url": "https://www.linkedin.com/jobs/search/?keywords=financial%20analyst&location=Canada",
+        "lastUpdated": "2026-08-18"
+      },
+      {
+        "name": "Reuters: Canada immigration and visa news",
+        "url": "https://www.reuters.com/site-search/?query=Canada%20immigration%20visa",
+        "lastUpdated": "2026-08-18"
+      },
+      {
+        "name": "Glassdoor: financial analyst salaries in Canada",
+        "url": "https://www.glassdoor.com/Search/results.htm?keyword=financial%20analyst%20Canada",
+        "lastUpdated": "2026-08-18"
       }
     ]
   },
   {
     "countryId": "ca",
     "degreeId": "economics",
-    "jobDemand": 60,
-    "visaOpenness": 72,
+    "jobDemand": 64,
+    "visaOpenness": 62,
     "postStudyWorkYears": 3,
     "prPathwayYears": 6,
-    "medianSalaryY1PppUsd": 48000,
-    "totalDegreeCostUsd": 74000,
-    "narrative": "[Sample] Placeholder narrative for Economics in Canada. Two to three curated sentences will justify this position once real data lands. All values on this record are sample data.",
-    "confidence": "placeholder",
+    "medianSalaryY1PppUsd": 46281,
+    "totalDegreeCostUsd": 193400,
+    "narrative": "Canada hires economists across government and finance with a clear PR path, though degree cost caps ROI.",
+    "confidence": "medium",
     "sources": [
       {
-        "name": "Sample source, data pending curation",
-        "url": "https://example.com/vantage-sample-data",
-        "lastUpdated": "2026-07-01"
+        "name": "Canada Job Bank: occupational outlook",
+        "url": "https://www.jobbank.gc.ca/trend-analysis/job-market-reports",
+        "lastUpdated": "2026-08-18"
+      },
+      {
+        "name": "LinkedIn Jobs: economist in Canada",
+        "url": "https://www.linkedin.com/jobs/search/?keywords=economist&location=Canada",
+        "lastUpdated": "2026-08-18"
+      },
+      {
+        "name": "Reuters: Canada immigration and visa news",
+        "url": "https://www.reuters.com/site-search/?query=Canada%20immigration%20visa",
+        "lastUpdated": "2026-08-18"
+      },
+      {
+        "name": "Glassdoor: economist salaries in Canada",
+        "url": "https://www.glassdoor.com/Search/results.htm?keyword=economist%20Canada",
+        "lastUpdated": "2026-08-18"
       }
     ]
   },
   {
     "countryId": "ca",
     "degreeId": "data-science",
-    "jobDemand": 83,
-    "visaOpenness": 72,
+    "jobDemand": 86,
+    "visaOpenness": 62,
     "postStudyWorkYears": 3,
     "prPathwayYears": 6,
-    "medianSalaryY1PppUsd": 55000,
-    "totalDegreeCostUsd": 79000,
-    "narrative": "[Sample] Placeholder narrative for Data Science & Analytics in Canada. Two to three curated sentences will justify this position once real data lands. All values on this record are sample data.",
-    "confidence": "placeholder",
+    "medianSalaryY1PppUsd": 53719,
+    "totalDegreeCostUsd": 193400,
+    "narrative": "Canada has strong data demand and a clear PGWP-to-PR route, though a four-year degree keeps ROI mid-pack.",
+    "confidence": "medium",
     "sources": [
       {
-        "name": "Sample source, data pending curation",
-        "url": "https://example.com/vantage-sample-data",
-        "lastUpdated": "2026-07-01"
+        "name": "Canada Job Bank: occupational outlook",
+        "url": "https://www.jobbank.gc.ca/trend-analysis/job-market-reports",
+        "lastUpdated": "2026-08-18"
+      },
+      {
+        "name": "LinkedIn Jobs: data scientist in Canada",
+        "url": "https://www.linkedin.com/jobs/search/?keywords=data%20scientist&location=Canada",
+        "lastUpdated": "2026-08-18"
+      },
+      {
+        "name": "Reuters: Canada immigration and visa news",
+        "url": "https://www.reuters.com/site-search/?query=Canada%20immigration%20visa",
+        "lastUpdated": "2026-08-18"
+      },
+      {
+        "name": "Glassdoor: data scientist salaries in Canada",
+        "url": "https://www.glassdoor.com/Search/results.htm?keyword=data%20scientist%20Canada",
+        "lastUpdated": "2026-08-18"
       }
     ]
   },
@@ -616,57 +751,102 @@
   {
     "countryId": "au",
     "degreeId": "business-finance",
-    "jobDemand": 62,
-    "visaOpenness": 68,
+    "jobDemand": 70,
+    "visaOpenness": 60,
     "postStudyWorkYears": 2,
-    "prPathwayYears": 5,
-    "medianSalaryY1PppUsd": 52500,
-    "totalDegreeCostUsd": 90000,
-    "narrative": "[Sample] Placeholder narrative for Business & Finance in Australia. Two to three curated sentences will justify this position once real data lands. All values on this record are sample data.",
-    "confidence": "placeholder",
+    "prPathwayYears": 7,
+    "medianSalaryY1PppUsd": 44218,
+    "totalDegreeCostUsd": 143700,
+    "narrative": "Australia offers solid finance roles and a graduate visa, but living costs weigh on the return.",
+    "confidence": "medium",
     "sources": [
       {
-        "name": "Sample source, data pending curation",
-        "url": "https://example.com/vantage-sample-data",
-        "lastUpdated": "2026-07-01"
+        "name": "Jobs and Skills Australia: Skills Priority List",
+        "url": "https://www.jobsandskills.gov.au/data/skills-priority-list",
+        "lastUpdated": "2026-08-18"
+      },
+      {
+        "name": "LinkedIn Jobs: financial analyst in Australia",
+        "url": "https://www.linkedin.com/jobs/search/?keywords=financial%20analyst&location=Australia",
+        "lastUpdated": "2026-08-18"
+      },
+      {
+        "name": "Reuters: Australia immigration and visa news",
+        "url": "https://www.reuters.com/site-search/?query=Australia%20immigration%20visa",
+        "lastUpdated": "2026-08-18"
+      },
+      {
+        "name": "Glassdoor: financial analyst salaries in Australia",
+        "url": "https://www.glassdoor.com/Search/results.htm?keyword=financial%20analyst%20Australia",
+        "lastUpdated": "2026-08-18"
       }
     ]
   },
   {
     "countryId": "au",
     "degreeId": "economics",
-    "jobDemand": 57,
-    "visaOpenness": 68,
+    "jobDemand": 66,
+    "visaOpenness": 60,
     "postStudyWorkYears": 2,
-    "prPathwayYears": 5,
-    "medianSalaryY1PppUsd": 50000,
-    "totalDegreeCostUsd": 82000,
-    "narrative": "[Sample] Placeholder narrative for Economics in Australia. Two to three curated sentences will justify this position once real data lands. All values on this record are sample data.",
-    "confidence": "placeholder",
+    "prPathwayYears": 7,
+    "medianSalaryY1PppUsd": 42857,
+    "totalDegreeCostUsd": 143700,
+    "narrative": "Australia offers steady economics roles and a graduate visa, offset by high living costs.",
+    "confidence": "medium",
     "sources": [
       {
-        "name": "Sample source, data pending curation",
-        "url": "https://example.com/vantage-sample-data",
-        "lastUpdated": "2026-07-01"
+        "name": "Jobs and Skills Australia: Skills Priority List",
+        "url": "https://www.jobsandskills.gov.au/data/skills-priority-list",
+        "lastUpdated": "2026-08-18"
+      },
+      {
+        "name": "LinkedIn Jobs: economist in Australia",
+        "url": "https://www.linkedin.com/jobs/search/?keywords=economist&location=Australia",
+        "lastUpdated": "2026-08-18"
+      },
+      {
+        "name": "Reuters: Australia immigration and visa news",
+        "url": "https://www.reuters.com/site-search/?query=Australia%20immigration%20visa",
+        "lastUpdated": "2026-08-18"
+      },
+      {
+        "name": "Glassdoor: economist salaries in Australia",
+        "url": "https://www.glassdoor.com/Search/results.htm?keyword=economist%20Australia",
+        "lastUpdated": "2026-08-18"
       }
     ]
   },
   {
     "countryId": "au",
     "degreeId": "data-science",
-    "jobDemand": 80,
-    "visaOpenness": 68,
+    "jobDemand": 85,
+    "visaOpenness": 60,
     "postStudyWorkYears": 2,
-    "prPathwayYears": 5,
-    "medianSalaryY1PppUsd": 57500,
-    "totalDegreeCostUsd": 87000,
-    "narrative": "[Sample] Placeholder narrative for Data Science & Analytics in Australia. Two to three curated sentences will justify this position once real data lands. All values on this record are sample data.",
-    "confidence": "placeholder",
+    "prPathwayYears": 7,
+    "medianSalaryY1PppUsd": 51020,
+    "totalDegreeCostUsd": 143700,
+    "narrative": "Australia pays data scientists well and offers a graduate visa, but high living costs weigh on the return.",
+    "confidence": "medium",
     "sources": [
       {
-        "name": "Sample source, data pending curation",
-        "url": "https://example.com/vantage-sample-data",
-        "lastUpdated": "2026-07-01"
+        "name": "Jobs and Skills Australia: Skills Priority List",
+        "url": "https://www.jobsandskills.gov.au/data/skills-priority-list",
+        "lastUpdated": "2026-08-18"
+      },
+      {
+        "name": "LinkedIn Jobs: data scientist in Australia",
+        "url": "https://www.linkedin.com/jobs/search/?keywords=data%20scientist&location=Australia",
+        "lastUpdated": "2026-08-18"
+      },
+      {
+        "name": "Reuters: Australia immigration and visa news",
+        "url": "https://www.reuters.com/site-search/?query=Australia%20immigration%20visa",
+        "lastUpdated": "2026-08-18"
+      },
+      {
+        "name": "Glassdoor: data scientist salaries in Australia",
+        "url": "https://www.glassdoor.com/Search/results.htm?keyword=data%20scientist%20Australia",
+        "lastUpdated": "2026-08-18"
       }
     ]
   },
@@ -799,56 +979,101 @@
     "countryId": "de",
     "degreeId": "business-finance",
     "jobDemand": 68,
-    "visaOpenness": 66,
+    "visaOpenness": 68,
     "postStudyWorkYears": 1.5,
-    "prPathwayYears": 5,
-    "medianSalaryY1PppUsd": 54500,
-    "totalDegreeCostUsd": 28000,
-    "narrative": "[Sample] Placeholder narrative for Business & Finance in Germany. Two to three curated sentences will justify this position once real data lands. All values on this record are sample data.",
-    "confidence": "placeholder",
+    "prPathwayYears": 6.5,
+    "medianSalaryY1PppUsd": 65753,
+    "totalDegreeCostUsd": 51500,
+    "narrative": "Germany finance sector is smaller, but free tuition and strong PPP pay lift the return sharply.",
+    "confidence": "medium",
     "sources": [
       {
-        "name": "Sample source, data pending curation",
-        "url": "https://example.com/vantage-sample-data",
-        "lastUpdated": "2026-07-01"
+        "name": "Make it in Germany: shortage occupations",
+        "url": "https://www.make-it-in-germany.com/en/working-in-germany/shortage-occupations",
+        "lastUpdated": "2026-08-18"
+      },
+      {
+        "name": "LinkedIn Jobs: financial analyst in Germany",
+        "url": "https://www.linkedin.com/jobs/search/?keywords=financial%20analyst&location=Germany",
+        "lastUpdated": "2026-08-18"
+      },
+      {
+        "name": "Reuters: Germany immigration and visa news",
+        "url": "https://www.reuters.com/site-search/?query=Germany%20immigration%20visa",
+        "lastUpdated": "2026-08-18"
+      },
+      {
+        "name": "Glassdoor: financial analyst salaries in Germany",
+        "url": "https://www.glassdoor.com/Search/results.htm?keyword=financial%20analyst%20Germany",
+        "lastUpdated": "2026-08-18"
       }
     ]
   },
   {
     "countryId": "de",
     "degreeId": "economics",
-    "jobDemand": 63,
-    "visaOpenness": 66,
+    "jobDemand": 66,
+    "visaOpenness": 68,
     "postStudyWorkYears": 1.5,
-    "prPathwayYears": 5,
-    "medianSalaryY1PppUsd": 52000,
-    "totalDegreeCostUsd": 28000,
-    "narrative": "[Sample] Placeholder narrative for Economics in Germany. Two to three curated sentences will justify this position once real data lands. All values on this record are sample data.",
-    "confidence": "placeholder",
+    "prPathwayYears": 6.5,
+    "medianSalaryY1PppUsd": 63014,
+    "totalDegreeCostUsd": 51500,
+    "narrative": "Germany economy runs deep on analysts, and free tuition plus strong PPP pay drive a high return.",
+    "confidence": "medium",
     "sources": [
       {
-        "name": "Sample source, data pending curation",
-        "url": "https://example.com/vantage-sample-data",
-        "lastUpdated": "2026-07-01"
+        "name": "Make it in Germany: shortage occupations",
+        "url": "https://www.make-it-in-germany.com/en/working-in-germany/shortage-occupations",
+        "lastUpdated": "2026-08-18"
+      },
+      {
+        "name": "LinkedIn Jobs: economist in Germany",
+        "url": "https://www.linkedin.com/jobs/search/?keywords=economist&location=Germany",
+        "lastUpdated": "2026-08-18"
+      },
+      {
+        "name": "Reuters: Germany immigration and visa news",
+        "url": "https://www.reuters.com/site-search/?query=Germany%20immigration%20visa",
+        "lastUpdated": "2026-08-18"
+      },
+      {
+        "name": "Glassdoor: economist salaries in Germany",
+        "url": "https://www.glassdoor.com/Search/results.htm?keyword=economist%20Germany",
+        "lastUpdated": "2026-08-18"
       }
     ]
   },
   {
     "countryId": "de",
     "degreeId": "data-science",
-    "jobDemand": 86,
-    "visaOpenness": 66,
+    "jobDemand": 88,
+    "visaOpenness": 68,
     "postStudyWorkYears": 1.5,
-    "prPathwayYears": 5,
-    "medianSalaryY1PppUsd": 60000,
-    "totalDegreeCostUsd": 28000,
-    "narrative": "[Sample] Placeholder narrative for Data Science & Analytics in Germany. Two to three curated sentences will justify this position once real data lands. All values on this record are sample data.",
-    "confidence": "placeholder",
+    "prPathwayYears": 6.5,
+    "medianSalaryY1PppUsd": 68493,
+    "totalDegreeCostUsd": 51500,
+    "narrative": "Germany blends heavy data demand, free tuition and strong PPP pay for a top-of-set return, if you can work in German.",
+    "confidence": "medium",
     "sources": [
       {
-        "name": "Sample source, data pending curation",
-        "url": "https://example.com/vantage-sample-data",
-        "lastUpdated": "2026-07-01"
+        "name": "Make it in Germany: shortage occupations",
+        "url": "https://www.make-it-in-germany.com/en/working-in-germany/shortage-occupations",
+        "lastUpdated": "2026-08-18"
+      },
+      {
+        "name": "LinkedIn Jobs: data scientist in Germany",
+        "url": "https://www.linkedin.com/jobs/search/?keywords=data%20scientist&location=Germany",
+        "lastUpdated": "2026-08-18"
+      },
+      {
+        "name": "Reuters: Germany immigration and visa news",
+        "url": "https://www.reuters.com/site-search/?query=Germany%20immigration%20visa",
+        "lastUpdated": "2026-08-18"
+      },
+      {
+        "name": "Glassdoor: data scientist salaries in Germany",
+        "url": "https://www.glassdoor.com/Search/results.htm?keyword=data%20scientist%20Germany",
+        "lastUpdated": "2026-08-18"
       }
     ]
   },
@@ -980,57 +1205,102 @@
   {
     "countryId": "ie",
     "degreeId": "business-finance",
-    "jobDemand": 66,
-    "visaOpenness": 74,
-    "postStudyWorkYears": 2,
-    "prPathwayYears": 5,
-    "medianSalaryY1PppUsd": 52500,
-    "totalDegreeCostUsd": 67000,
-    "narrative": "[Sample] Placeholder narrative for Business & Finance in Ireland. Two to three curated sentences will justify this position once real data lands. All values on this record are sample data.",
-    "confidence": "placeholder",
+    "jobDemand": 72,
+    "visaOpenness": 64,
+    "postStudyWorkYears": 1,
+    "prPathwayYears": 7,
+    "medianSalaryY1PppUsd": 43210,
+    "totalDegreeCostUsd": 109400,
+    "narrative": "Dublin financial-services cluster hires well and offers fast work rights, though costs are high.",
+    "confidence": "medium",
     "sources": [
       {
-        "name": "Sample source, data pending curation",
-        "url": "https://example.com/vantage-sample-data",
-        "lastUpdated": "2026-07-01"
+        "name": "Ireland: Critical Skills Occupations List",
+        "url": "https://enterprise.gov.ie/en/what-we-do/workplace-and-skills/employment-permits/employment-permit-eligibility/highly-skilled-eligible-occupations-list/",
+        "lastUpdated": "2026-08-18"
+      },
+      {
+        "name": "LinkedIn Jobs: financial analyst in Ireland",
+        "url": "https://www.linkedin.com/jobs/search/?keywords=financial%20analyst&location=Ireland",
+        "lastUpdated": "2026-08-18"
+      },
+      {
+        "name": "Reuters: Ireland immigration and visa news",
+        "url": "https://www.reuters.com/site-search/?query=Ireland%20immigration%20visa",
+        "lastUpdated": "2026-08-18"
+      },
+      {
+        "name": "Glassdoor: financial analyst salaries in Ireland",
+        "url": "https://www.glassdoor.com/Search/results.htm?keyword=financial%20analyst%20Ireland",
+        "lastUpdated": "2026-08-18"
       }
     ]
   },
   {
     "countryId": "ie",
     "degreeId": "economics",
-    "jobDemand": 61,
-    "visaOpenness": 74,
-    "postStudyWorkYears": 2,
-    "prPathwayYears": 5,
-    "medianSalaryY1PppUsd": 50000,
-    "totalDegreeCostUsd": 62000,
-    "narrative": "[Sample] Placeholder narrative for Economics in Ireland. Two to three curated sentences will justify this position once real data lands. All values on this record are sample data.",
-    "confidence": "placeholder",
+    "jobDemand": 70,
+    "visaOpenness": 64,
+    "postStudyWorkYears": 1,
+    "prPathwayYears": 7,
+    "medianSalaryY1PppUsd": 43210,
+    "totalDegreeCostUsd": 109400,
+    "narrative": "Ireland policy and finance sectors hire economists, with fast work rights but steep Dublin costs.",
+    "confidence": "medium",
     "sources": [
       {
-        "name": "Sample source, data pending curation",
-        "url": "https://example.com/vantage-sample-data",
-        "lastUpdated": "2026-07-01"
+        "name": "Ireland: Critical Skills Occupations List",
+        "url": "https://enterprise.gov.ie/en/what-we-do/workplace-and-skills/employment-permits/employment-permit-eligibility/highly-skilled-eligible-occupations-list/",
+        "lastUpdated": "2026-08-18"
+      },
+      {
+        "name": "LinkedIn Jobs: economist in Ireland",
+        "url": "https://www.linkedin.com/jobs/search/?keywords=economist&location=Ireland",
+        "lastUpdated": "2026-08-18"
+      },
+      {
+        "name": "Reuters: Ireland immigration and visa news",
+        "url": "https://www.reuters.com/site-search/?query=Ireland%20immigration%20visa",
+        "lastUpdated": "2026-08-18"
+      },
+      {
+        "name": "Glassdoor: economist salaries in Ireland",
+        "url": "https://www.glassdoor.com/Search/results.htm?keyword=economist%20Ireland",
+        "lastUpdated": "2026-08-18"
       }
     ]
   },
   {
     "countryId": "ie",
     "degreeId": "data-science",
-    "jobDemand": 84,
-    "visaOpenness": 74,
-    "postStudyWorkYears": 2,
-    "prPathwayYears": 5,
-    "medianSalaryY1PppUsd": 57500,
-    "totalDegreeCostUsd": 65000,
-    "narrative": "[Sample] Placeholder narrative for Data Science & Analytics in Ireland. Two to three curated sentences will justify this position once real data lands. All values on this record are sample data.",
-    "confidence": "placeholder",
+    "jobDemand": 90,
+    "visaOpenness": 64,
+    "postStudyWorkYears": 1,
+    "prPathwayYears": 7,
+    "medianSalaryY1PppUsd": 51852,
+    "totalDegreeCostUsd": 109400,
+    "narrative": "Ireland tech-hub status puts data scientists on the Critical Skills list with fast work rights, though Dublin costs bite.",
+    "confidence": "medium",
     "sources": [
       {
-        "name": "Sample source, data pending curation",
-        "url": "https://example.com/vantage-sample-data",
-        "lastUpdated": "2026-07-01"
+        "name": "Ireland: Critical Skills Occupations List",
+        "url": "https://enterprise.gov.ie/en/what-we-do/workplace-and-skills/employment-permits/employment-permit-eligibility/highly-skilled-eligible-occupations-list/",
+        "lastUpdated": "2026-08-18"
+      },
+      {
+        "name": "LinkedIn Jobs: data scientist in Ireland",
+        "url": "https://www.linkedin.com/jobs/search/?keywords=data%20scientist&location=Ireland",
+        "lastUpdated": "2026-08-18"
+      },
+      {
+        "name": "Reuters: Ireland immigration and visa news",
+        "url": "https://www.reuters.com/site-search/?query=Ireland%20immigration%20visa",
+        "lastUpdated": "2026-08-18"
+      },
+      {
+        "name": "Glassdoor: data scientist salaries in Ireland",
+        "url": "https://www.glassdoor.com/Search/results.htm?keyword=data%20scientist%20Ireland",
+        "lastUpdated": "2026-08-18"
       }
     ]
   },
@@ -1162,57 +1432,102 @@
   {
     "countryId": "nl",
     "degreeId": "business-finance",
-    "jobDemand": 64,
-    "visaOpenness": 62,
+    "jobDemand": 74,
+    "visaOpenness": 60,
     "postStudyWorkYears": 1,
     "prPathwayYears": 5,
-    "medianSalaryY1PppUsd": 53500,
-    "totalDegreeCostUsd": 62000,
-    "narrative": "[Sample] Placeholder narrative for Business & Finance in Netherlands. Two to three curated sentences will justify this position once real data lands. All values on this record are sample data.",
-    "confidence": "placeholder",
+    "medianSalaryY1PppUsd": 53846,
+    "totalDegreeCostUsd": 87000,
+    "narrative": "Amsterdam finance scene, English-taught degrees and the quickest residence route give finance grads a strong all-round case.",
+    "confidence": "medium",
     "sources": [
       {
-        "name": "Sample source, data pending curation",
-        "url": "https://example.com/vantage-sample-data",
-        "lastUpdated": "2026-07-01"
+        "name": "UWV: labour market shortages",
+        "url": "https://www.uwv.nl/",
+        "lastUpdated": "2026-08-18"
+      },
+      {
+        "name": "LinkedIn Jobs: financial analyst in Netherlands",
+        "url": "https://www.linkedin.com/jobs/search/?keywords=financial%20analyst&location=Netherlands",
+        "lastUpdated": "2026-08-18"
+      },
+      {
+        "name": "Reuters: Netherlands immigration and visa news",
+        "url": "https://www.reuters.com/site-search/?query=Netherlands%20immigration%20visa",
+        "lastUpdated": "2026-08-18"
+      },
+      {
+        "name": "Glassdoor: financial analyst salaries in Netherlands",
+        "url": "https://www.glassdoor.com/Search/results.htm?keyword=financial%20analyst%20Netherlands",
+        "lastUpdated": "2026-08-18"
       }
     ]
   },
   {
     "countryId": "nl",
     "degreeId": "economics",
-    "jobDemand": 59,
-    "visaOpenness": 62,
+    "jobDemand": 72,
+    "visaOpenness": 60,
     "postStudyWorkYears": 1,
     "prPathwayYears": 5,
-    "medianSalaryY1PppUsd": 51000,
-    "totalDegreeCostUsd": 57000,
-    "narrative": "[Sample] Placeholder narrative for Economics in Netherlands. Two to three curated sentences will justify this position once real data lands. All values on this record are sample data.",
-    "confidence": "placeholder",
+    "medianSalaryY1PppUsd": 51282,
+    "totalDegreeCostUsd": 87000,
+    "narrative": "The Netherlands pairs solid economist demand and English-taught study with the fastest residence route.",
+    "confidence": "medium",
     "sources": [
       {
-        "name": "Sample source, data pending curation",
-        "url": "https://example.com/vantage-sample-data",
-        "lastUpdated": "2026-07-01"
+        "name": "UWV: labour market shortages",
+        "url": "https://www.uwv.nl/",
+        "lastUpdated": "2026-08-18"
+      },
+      {
+        "name": "LinkedIn Jobs: economist in Netherlands",
+        "url": "https://www.linkedin.com/jobs/search/?keywords=economist&location=Netherlands",
+        "lastUpdated": "2026-08-18"
+      },
+      {
+        "name": "Reuters: Netherlands immigration and visa news",
+        "url": "https://www.reuters.com/site-search/?query=Netherlands%20immigration%20visa",
+        "lastUpdated": "2026-08-18"
+      },
+      {
+        "name": "Glassdoor: economist salaries in Netherlands",
+        "url": "https://www.glassdoor.com/Search/results.htm?keyword=economist%20Netherlands",
+        "lastUpdated": "2026-08-18"
       }
     ]
   },
   {
     "countryId": "nl",
     "degreeId": "data-science",
-    "jobDemand": 82,
-    "visaOpenness": 62,
+    "jobDemand": 88,
+    "visaOpenness": 60,
     "postStudyWorkYears": 1,
     "prPathwayYears": 5,
-    "medianSalaryY1PppUsd": 58500,
-    "totalDegreeCostUsd": 60000,
-    "narrative": "[Sample] Placeholder narrative for Data Science & Analytics in Netherlands. Two to three curated sentences will justify this position once real data lands. All values on this record are sample data.",
-    "confidence": "placeholder",
+    "medianSalaryY1PppUsd": 56410,
+    "totalDegreeCostUsd": 87000,
+    "narrative": "The Netherlands pairs strong data demand and English-taught degrees with the fastest route to residence and solid PPP pay.",
+    "confidence": "medium",
     "sources": [
       {
-        "name": "Sample source, data pending curation",
-        "url": "https://example.com/vantage-sample-data",
-        "lastUpdated": "2026-07-01"
+        "name": "UWV: labour market shortages",
+        "url": "https://www.uwv.nl/",
+        "lastUpdated": "2026-08-18"
+      },
+      {
+        "name": "LinkedIn Jobs: data scientist in Netherlands",
+        "url": "https://www.linkedin.com/jobs/search/?keywords=data%20scientist&location=Netherlands",
+        "lastUpdated": "2026-08-18"
+      },
+      {
+        "name": "Reuters: Netherlands immigration and visa news",
+        "url": "https://www.reuters.com/site-search/?query=Netherlands%20immigration%20visa",
+        "lastUpdated": "2026-08-18"
+      },
+      {
+        "name": "Glassdoor: data scientist salaries in Netherlands",
+        "url": "https://www.glassdoor.com/Search/results.htm?keyword=data%20scientist%20Netherlands",
+        "lastUpdated": "2026-08-18"
       }
     ]
   },
@@ -1344,57 +1659,102 @@
   {
     "countryId": "sg",
     "degreeId": "business-finance",
-    "jobDemand": 60,
+    "jobDemand": 84,
     "visaOpenness": 55,
     "postStudyWorkYears": 1,
-    "prPathwayYears": 6,
-    "medianSalaryY1PppUsd": 59000,
-    "totalDegreeCostUsd": 97000,
-    "narrative": "[Sample] Placeholder narrative for Business & Finance in Singapore. Two to three curated sentences will justify this position once real data lands. All values on this record are sample data.",
-    "confidence": "placeholder",
+    "prPathwayYears": 8,
+    "medianSalaryY1PppUsd": 65476,
+    "totalDegreeCostUsd": 144600,
+    "narrative": "Singapore is Asia finance hub with strong pay and demand, though the three-year bond and selective PR temper it.",
+    "confidence": "medium",
     "sources": [
       {
-        "name": "Sample source, data pending curation",
-        "url": "https://example.com/vantage-sample-data",
-        "lastUpdated": "2026-07-01"
+        "name": "Singapore MOM: Employment Pass eligibility (COMPASS)",
+        "url": "https://www.mom.gov.sg/passes-and-permits/employment-pass/eligibility",
+        "lastUpdated": "2026-08-18"
+      },
+      {
+        "name": "LinkedIn Jobs: financial analyst in Singapore",
+        "url": "https://www.linkedin.com/jobs/search/?keywords=financial%20analyst&location=Singapore",
+        "lastUpdated": "2026-08-18"
+      },
+      {
+        "name": "Reuters: Singapore immigration and visa news",
+        "url": "https://www.reuters.com/site-search/?query=Singapore%20immigration%20visa",
+        "lastUpdated": "2026-08-18"
+      },
+      {
+        "name": "Glassdoor: financial analyst salaries in Singapore",
+        "url": "https://www.glassdoor.com/Search/results.htm?keyword=financial%20analyst%20Singapore",
+        "lastUpdated": "2026-08-18"
       }
     ]
   },
   {
     "countryId": "sg",
     "degreeId": "economics",
-    "jobDemand": 55,
+    "jobDemand": 78,
     "visaOpenness": 55,
     "postStudyWorkYears": 1,
-    "prPathwayYears": 6,
-    "medianSalaryY1PppUsd": 56000,
-    "totalDegreeCostUsd": 88000,
-    "narrative": "[Sample] Placeholder narrative for Economics in Singapore. Two to three curated sentences will justify this position once real data lands. All values on this record are sample data.",
-    "confidence": "placeholder",
+    "prPathwayYears": 8,
+    "medianSalaryY1PppUsd": 59524,
+    "totalDegreeCostUsd": 144600,
+    "narrative": "Singapore values economists in finance and policy, though the bond and selective PR weigh on the visa score.",
+    "confidence": "medium",
     "sources": [
       {
-        "name": "Sample source, data pending curation",
-        "url": "https://example.com/vantage-sample-data",
-        "lastUpdated": "2026-07-01"
+        "name": "Singapore MOM: Employment Pass eligibility (COMPASS)",
+        "url": "https://www.mom.gov.sg/passes-and-permits/employment-pass/eligibility",
+        "lastUpdated": "2026-08-18"
+      },
+      {
+        "name": "LinkedIn Jobs: economist in Singapore",
+        "url": "https://www.linkedin.com/jobs/search/?keywords=economist&location=Singapore",
+        "lastUpdated": "2026-08-18"
+      },
+      {
+        "name": "Reuters: Singapore immigration and visa news",
+        "url": "https://www.reuters.com/site-search/?query=Singapore%20immigration%20visa",
+        "lastUpdated": "2026-08-18"
+      },
+      {
+        "name": "Glassdoor: economist salaries in Singapore",
+        "url": "https://www.glassdoor.com/Search/results.htm?keyword=economist%20Singapore",
+        "lastUpdated": "2026-08-18"
       }
     ]
   },
   {
     "countryId": "sg",
     "degreeId": "data-science",
-    "jobDemand": 78,
+    "jobDemand": 88,
     "visaOpenness": 55,
     "postStudyWorkYears": 1,
-    "prPathwayYears": 6,
-    "medianSalaryY1PppUsd": 64500,
-    "totalDegreeCostUsd": 94000,
-    "narrative": "[Sample] Placeholder narrative for Data Science & Analytics in Singapore. Two to three curated sentences will justify this position once real data lands. All values on this record are sample data.",
-    "confidence": "placeholder",
+    "prPathwayYears": 8,
+    "medianSalaryY1PppUsd": 65476,
+    "totalDegreeCostUsd": 144600,
+    "narrative": "Singapore is a well-paid Asian data hub, but the three-year bond, no post-study visa and selective PR temper the score.",
+    "confidence": "medium",
     "sources": [
       {
-        "name": "Sample source, data pending curation",
-        "url": "https://example.com/vantage-sample-data",
-        "lastUpdated": "2026-07-01"
+        "name": "Singapore MOM: Employment Pass eligibility (COMPASS)",
+        "url": "https://www.mom.gov.sg/passes-and-permits/employment-pass/eligibility",
+        "lastUpdated": "2026-08-18"
+      },
+      {
+        "name": "LinkedIn Jobs: data scientist in Singapore",
+        "url": "https://www.linkedin.com/jobs/search/?keywords=data%20scientist&location=Singapore",
+        "lastUpdated": "2026-08-18"
+      },
+      {
+        "name": "Reuters: Singapore immigration and visa news",
+        "url": "https://www.reuters.com/site-search/?query=Singapore%20immigration%20visa",
+        "lastUpdated": "2026-08-18"
+      },
+      {
+        "name": "Glassdoor: data scientist salaries in Singapore",
+        "url": "https://www.glassdoor.com/Search/results.htm?keyword=data%20scientist%20Singapore",
+        "lastUpdated": "2026-08-18"
       }
     ]
   },
