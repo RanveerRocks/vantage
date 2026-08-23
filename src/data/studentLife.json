@@ -1298,56 +1298,96 @@
   {
     "countryId": "nl",
     "factorId": "affordability",
-    "score": 55,
-    "blurb": "[Sample] Placeholder note on affordability in Netherlands; curated justification pending.",
-    "confidence": "placeholder",
+    "score": 27,
+    "blurb": "Numbeo puts the Netherlands the second-priciest of the eight after Singapore, and student housing is genuinely scarce, so at 27 affordability is a weakness.",
+    "confidence": "medium",
     "sources": [
       {
-        "name": "Sample source, data pending curation",
-        "url": "https://example.com/vantage-sample-data",
-        "lastUpdated": "2026-07-01"
+        "name": "Numbeo Cost of Living Index",
+        "url": "https://www.numbeo.com/cost-of-living/rankings_by_country.jsp",
+        "lastUpdated": "2026-08-18"
+      },
+      {
+        "name": "Reuters: Netherlands cost of living",
+        "url": "https://www.reuters.com/site-search/?query=Netherlands%20cost%20of%20living",
+        "lastUpdated": "2026-08-18"
+      },
+      {
+        "name": "Bloomberg: Netherlands cost of living",
+        "url": "https://www.bloomberg.com/search?query=Netherlands%20cost%20of%20living",
+        "lastUpdated": "2026-08-18"
       }
     ]
   },
   {
     "countryId": "nl",
     "factorId": "safety",
-    "score": 76,
-    "blurb": "[Sample] Placeholder note on safety in Netherlands; curated justification pending.",
-    "confidence": "placeholder",
+    "score": 72,
+    "blurb": "Numbeo scores the Netherlands highly for safety, second only to Singapore in this group.",
+    "confidence": "medium",
     "sources": [
       {
-        "name": "Sample source, data pending curation",
-        "url": "https://example.com/vantage-sample-data",
-        "lastUpdated": "2026-07-01"
+        "name": "Numbeo Safety Index",
+        "url": "https://www.numbeo.com/crime/rankings_by_country.jsp",
+        "lastUpdated": "2026-08-18"
+      },
+      {
+        "name": "Reuters: Netherlands safety",
+        "url": "https://www.reuters.com/site-search/?query=Netherlands%20crime%20safety",
+        "lastUpdated": "2026-08-18"
+      },
+      {
+        "name": "BBC News: Netherlands crime",
+        "url": "https://www.bbc.co.uk/search?q=Netherlands%20crime&d=news_gnl",
+        "lastUpdated": "2026-08-18"
       }
     ]
   },
   {
     "countryId": "nl",
     "factorId": "openness",
-    "score": 82,
-    "blurb": "[Sample] Placeholder note on openness & inclusion in Netherlands; curated justification pending.",
-    "confidence": "placeholder",
+    "score": 57,
+    "blurb": "The Netherlands scores 57 on MIPEX 2020, though policy has turned more restrictive, with tougher integration and language rules since 2022.",
+    "confidence": "high",
     "sources": [
       {
-        "name": "Sample source, data pending curation",
-        "url": "https://example.com/vantage-sample-data",
-        "lastUpdated": "2026-07-01"
+        "name": "MIPEX 2020: Netherlands",
+        "url": "https://www.mipex.eu/netherlands",
+        "lastUpdated": "2026-08-18"
+      },
+      {
+        "name": "Reuters: Netherlands immigration",
+        "url": "https://www.reuters.com/site-search/?query=Netherlands%20immigration%20integration",
+        "lastUpdated": "2026-08-18"
+      },
+      {
+        "name": "The Guardian: Netherlands immigration",
+        "url": "https://www.theguardian.com/search?q=Netherlands%20immigration",
+        "lastUpdated": "2026-08-18"
       }
     ]
   },
   {
     "countryId": "nl",
     "factorId": "work-rights",
-    "score": 68,
-    "blurb": "[Sample] Placeholder note on work rights in Netherlands; curated justification pending.",
-    "confidence": "placeholder",
+    "score": 55,
+    "blurb": "Non-EU students are capped at 16 hours a week in term (with an employer-arranged work permit) or full-time only in summer, then a one-year orientation permit with free work rights.",
+    "confidence": "high",
     "sources": [
       {
-        "name": "Sample source, data pending curation",
-        "url": "https://example.com/vantage-sample-data",
-        "lastUpdated": "2026-07-01"
+        "name": "Study in NL: working while studying",
+        "url": "https://www.studyinnl.org/plan-your-stay/working-while-studying",
+        "lastUpdated": "2026-08-18"
+      },
+      {
+        "name": "The PIE News: Netherlands student work",
+        "url": "https://thepienews.com/?s=Netherlands%20student%20work%20rights",
+        "lastUpdated": "2026-08-18"
+      },
+      {
+        "name": "ICEF Monitor: Netherlands student work",
+        "url": "https://monitor.icef.com/?s=Netherlands%20student%20work",
+        "lastUpdated": "2026-08-18"
       }
     ]
   },
@@ -1355,69 +1395,119 @@
     "countryId": "nl",
     "factorId": "healthcare",
     "score": 78,
-    "blurb": "[Sample] Placeholder note on healthcare in Netherlands; curated justification pending.",
-    "confidence": "placeholder",
+    "blurb": "Numbeo rates Dutch healthcare among the best of the eight, though part-time workers must switch to Dutch basic insurance.",
+    "confidence": "medium",
     "sources": [
       {
-        "name": "Sample source, data pending curation",
-        "url": "https://example.com/vantage-sample-data",
-        "lastUpdated": "2026-07-01"
+        "name": "Numbeo Health Care Index",
+        "url": "https://www.numbeo.com/health-care/rankings_by_country.jsp",
+        "lastUpdated": "2026-08-18"
+      },
+      {
+        "name": "Reuters: Netherlands healthcare",
+        "url": "https://www.reuters.com/site-search/?query=Netherlands%20healthcare",
+        "lastUpdated": "2026-08-18"
+      },
+      {
+        "name": "BBC News: Netherlands health",
+        "url": "https://www.bbc.co.uk/search?q=Netherlands%20healthcare&d=news_gnl",
+        "lastUpdated": "2026-08-18"
       }
     ]
   },
   {
     "countryId": "nl",
     "factorId": "language",
-    "score": 70,
-    "blurb": "[Sample] Placeholder note on language ease in Netherlands; curated justification pending.",
-    "confidence": "placeholder",
+    "score": 90,
+    "blurb": "Dutch is the official language, but the Netherlands ranks first worldwide for English proficiency and offers a huge range of English-taught degrees, so you can study and largely live in English.",
+    "confidence": "high",
     "sources": [
       {
-        "name": "Sample source, data pending curation",
-        "url": "https://example.com/vantage-sample-data",
-        "lastUpdated": "2026-07-01"
+        "name": "EF English Proficiency Index",
+        "url": "https://www.ef.com/epi/",
+        "lastUpdated": "2026-08-18"
+      },
+      {
+        "name": "Wikipedia: Languages of Netherlands",
+        "url": "https://en.wikipedia.org/wiki/Languages_of_the_Netherlands",
+        "lastUpdated": "2026-08-18"
+      },
+      {
+        "name": "Ethnologue: Netherlands",
+        "url": "https://www.ethnologue.com/country/NL/",
+        "lastUpdated": "2026-08-18"
       }
     ]
   },
   {
     "countryId": "nl",
     "factorId": "community",
-    "score": 55,
-    "blurb": "[Sample] Placeholder note on community in Netherlands; curated justification pending.",
-    "confidence": "placeholder",
+    "score": 80,
+    "blurb": "The Netherlands hosts about 130,000 international students, with a growing Indian community, though numbers dipped in 2025 for the first time in decades.",
+    "confidence": "medium",
     "sources": [
       {
-        "name": "Sample source, data pending curation",
-        "url": "https://example.com/vantage-sample-data",
-        "lastUpdated": "2026-07-01"
+        "name": "Nuffic: international degree students",
+        "url": "https://www.nuffic.nl/en/new-enrolments-international-degree-students",
+        "lastUpdated": "2026-08-18"
+      },
+      {
+        "name": "The PIE News: Netherlands international students",
+        "url": "https://thepienews.com/?s=Netherlands%20international%20students",
+        "lastUpdated": "2026-08-18"
+      },
+      {
+        "name": "ICEF Monitor: Netherlands international students",
+        "url": "https://monitor.icef.com/?s=Netherlands%20international%20students",
+        "lastUpdated": "2026-08-18"
       }
     ]
   },
   {
     "countryId": "nl",
     "factorId": "political-climate",
-    "score": 74,
-    "blurb": "[Sample] Placeholder note on political climate in Netherlands; curated justification pending.",
-    "confidence": "placeholder",
+    "score": 83,
+    "blurb": "The Netherlands scored 7.46 of 9 on Gallup’s 2016-17 Migrant Acceptance Index, welcoming overall, though politics have shifted toward tighter migration since.",
+    "confidence": "medium",
     "sources": [
       {
-        "name": "Sample source, data pending curation",
-        "url": "https://example.com/vantage-sample-data",
-        "lastUpdated": "2026-07-01"
+        "name": "World Happiness Report 2018 annex: Gallup Migrant Acceptance Index (2016-17)",
+        "url": "https://files.worldhappiness.report/WHR18_Annex.pdf",
+        "lastUpdated": "2026-08-18"
+      },
+      {
+        "name": "Reuters: Netherlands immigration policy",
+        "url": "https://www.reuters.com/site-search/?query=Netherlands%20immigration%20policy",
+        "lastUpdated": "2026-08-18"
+      },
+      {
+        "name": "AP News: Netherlands immigration",
+        "url": "https://apnews.com/search?q=Netherlands%20immigration",
+        "lastUpdated": "2026-08-18"
       }
     ]
   },
   {
     "countryId": "nl",
     "factorId": "climate-lifestyle",
-    "score": 58,
-    "blurb": "[Sample] Placeholder note on climate & lifestyle in Netherlands; curated justification pending.",
-    "confidence": "placeholder",
+    "score": 87,
+    "blurb": "Numbeo rates the Dutch climate well: mild and temperate, though grey, wet and windy.",
+    "confidence": "medium",
     "sources": [
       {
-        "name": "Sample source, data pending curation",
-        "url": "https://example.com/vantage-sample-data",
-        "lastUpdated": "2026-07-01"
+        "name": "Numbeo Climate Index",
+        "url": "https://www.numbeo.com/quality-of-life/rankings_by_country.jsp",
+        "lastUpdated": "2026-08-18"
+      },
+      {
+        "name": "Wikipedia: Climate of Netherlands",
+        "url": "https://en.wikipedia.org/wiki/Climate_of_the_Netherlands",
+        "lastUpdated": "2026-08-18"
+      },
+      {
+        "name": "KNMI",
+        "url": "https://www.knmi.nl/",
+        "lastUpdated": "2026-08-18"
       }
     ]
   },

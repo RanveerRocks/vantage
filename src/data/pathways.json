@@ -238,32 +238,37 @@
     "stages": [
       {
         "label": "Study",
-        "years": 2,
-        "description": "[Sample] Placeholder description of the study stage in Netherlands; curated details pending."
+        "years": 3,
+        "description": "A Dutch research-university bachelor’s is typically three years (four at universities of applied sciences), and many programs are taught in English."
       },
       {
         "label": "Post-study work visa",
         "years": 1,
-        "description": "[Sample] Placeholder description of the post-study work visa stage in Netherlands; curated details pending."
+        "description": "The orientation year (zoekjaar) lets graduates work any job for 12 months with no permit or salary threshold while job-hunting."
       },
       {
         "label": "PR process",
-        "years": 2,
-        "description": "[Sample] Placeholder description of the pr process stage in Netherlands; curated details pending."
+        "years": 1,
+        "description": "Study and orientation years count toward permanent residence, which needs five continuous years of legal residence plus the civic integration exam."
       },
       {
         "label": "Citizenship",
-        "years": 2,
-        "description": "[Sample] Placeholder description of the citizenship stage in Netherlands; curated details pending."
+        "years": 1,
+        "description": "Citizenship also needs five years’ residence and the integration exam, so it arrives close behind permanent residence."
       }
     ],
     "totalYearsToPr": 5,
-    "confidence": "placeholder",
+    "confidence": "medium",
     "sources": [
       {
-        "name": "Sample source, data pending curation",
-        "url": "https://example.com/vantage-sample-data",
-        "lastUpdated": "2026-07-01"
+        "name": "Business.gov.nl: residence permit for orientation year",
+        "url": "https://business.gov.nl/coming-to-the-netherlands/permits-and-visa/residence-permit-for-orientation-year/",
+        "lastUpdated": "2026-08-18"
+      },
+      {
+        "name": "IND: permanent residence",
+        "url": "https://ind.nl/en/permanent-residence",
+        "lastUpdated": "2026-08-18"
       }
     ]
   },

@@ -172,21 +172,27 @@
   },
   {
     "countryId": "nl",
-    "tuitionPerYearUsd": 15000,
-    "livingPerYearUsd": 12000,
-    "insurancePerYearUsd": 1500,
-    "visaFeesOneTimeUsd": 350,
-    "flightsPerYearUsd": 900,
+    "tuitionPerYearUsd": 12760,
+    "livingPerYearUsd": 13920,
+    "insurancePerYearUsd": 1392,
+    "visaFeesOneTimeUsd": 406,
+    "flightsPerYearUsd": 800,
     "hiddenNotes": [
-      "[Sample] Hidden-cost note pending curation: e.g. forex movement between offer and arrival.",
-      "[Sample] Hidden-cost note pending curation: e.g. deposits, surcharges, or proof-of-funds rules."
+      "Non-EU bachelor tuition varies a lot by field and institution, from about 6,000 to 15,000 euros; the figure here is a representative midpoint.",
+      "If you take a part-time job you must switch to Dutch basic health insurance (about 130 euros a month) instead of cheaper student cover.",
+      "Student housing is scarce and Amsterdam rooms can run 650 to 1,200 euros a month, well above the national average."
     ],
-    "confidence": "placeholder",
+    "confidence": "medium",
     "sources": [
       {
-        "name": "Sample source, data pending curation",
-        "url": "https://example.com/vantage-sample-data",
-        "lastUpdated": "2026-07-01"
+        "name": "Study.eu: Netherlands tuition and cost of living",
+        "url": "https://www.study.eu/article/netherlands-tuition-fees-cost-of-living",
+        "lastUpdated": "2026-08-18"
+      },
+      {
+        "name": "Study in NL: tuition fees",
+        "url": "https://www.studyinnl.org/finances/tuition-fees",
+        "lastUpdated": "2026-08-18"
       }
     ]
   },
