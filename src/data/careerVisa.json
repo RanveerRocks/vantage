@@ -172,57 +172,102 @@
   {
     "countryId": "us",
     "degreeId": "health-life-sciences",
-    "jobDemand": 82,
-    "visaOpenness": 38,
-    "postStudyWorkYears": 3,
-    "prPathwayYears": 8,
-    "medianSalaryY1PppUsd": 59000,
-    "totalDegreeCostUsd": 121000,
-    "narrative": "[Sample] Placeholder narrative for Health & Life Sciences in United States. Two to three curated sentences will justify this position once real data lands. All values on this record are sample data.",
-    "confidence": "placeholder",
+    "jobDemand": 70,
+    "visaOpenness": 48,
+    "postStudyWorkYears": 1,
+    "prPathwayYears": 9,
+    "medianSalaryY1PppUsd": 55000,
+    "totalDegreeCostUsd": 225700,
+    "narrative": "US life-science pay is modest for a bachelor, and the four-year degree plus visa lottery weigh heavily on the return.",
+    "confidence": "medium",
     "sources": [
       {
-        "name": "Sample source, data pending curation",
-        "url": "https://example.com/vantage-sample-data",
-        "lastUpdated": "2026-07-01"
+        "name": "US BLS: Life, Physical, and Social Science occupations",
+        "url": "https://www.bls.gov/ooh/life-physical-and-social-science/home.htm",
+        "lastUpdated": "2026-08-18"
+      },
+      {
+        "name": "LinkedIn Jobs: research scientist in United States",
+        "url": "https://www.linkedin.com/jobs/search/?keywords=research%20scientist&location=United%20States",
+        "lastUpdated": "2026-08-18"
+      },
+      {
+        "name": "Reuters: United States immigration and visa news",
+        "url": "https://www.reuters.com/site-search/?query=United%20States%20immigration%20visa",
+        "lastUpdated": "2026-08-18"
+      },
+      {
+        "name": "Glassdoor: research scientist salaries in United States",
+        "url": "https://www.glassdoor.com/Search/results.htm?keyword=research%20scientist%20United%20States",
+        "lastUpdated": "2026-08-18"
       }
     ]
   },
   {
     "countryId": "us",
     "degreeId": "design-media",
-    "jobDemand": 58,
-    "visaOpenness": 38,
-    "postStudyWorkYears": 3,
-    "prPathwayYears": 8,
-    "medianSalaryY1PppUsd": 49500,
-    "totalDegreeCostUsd": 113000,
-    "narrative": "[Sample] Placeholder narrative for Design & Media in United States. Two to three curated sentences will justify this position once real data lands. All values on this record are sample data.",
-    "confidence": "placeholder",
+    "jobDemand": 52,
+    "visaOpenness": 48,
+    "postStudyWorkYears": 1,
+    "prPathwayYears": 9,
+    "medianSalaryY1PppUsd": 50000,
+    "totalDegreeCostUsd": 225700,
+    "narrative": "US creative pay is modest and unstable, and the four-year degree plus visa lottery make design one of the weaker returns.",
+    "confidence": "medium",
     "sources": [
       {
-        "name": "Sample source, data pending curation",
-        "url": "https://example.com/vantage-sample-data",
-        "lastUpdated": "2026-07-01"
+        "name": "US BLS: Arts and Design occupations",
+        "url": "https://www.bls.gov/ooh/arts-and-design/home.htm",
+        "lastUpdated": "2026-08-18"
+      },
+      {
+        "name": "LinkedIn Jobs: designer in United States",
+        "url": "https://www.linkedin.com/jobs/search/?keywords=designer&location=United%20States",
+        "lastUpdated": "2026-08-18"
+      },
+      {
+        "name": "Reuters: United States immigration and visa news",
+        "url": "https://www.reuters.com/site-search/?query=United%20States%20immigration%20visa",
+        "lastUpdated": "2026-08-18"
+      },
+      {
+        "name": "Glassdoor: designer salaries in United States",
+        "url": "https://www.glassdoor.com/Search/results.htm?keyword=designer%20United%20States",
+        "lastUpdated": "2026-08-18"
       }
     ]
   },
   {
     "countryId": "us",
     "degreeId": "humanities-social",
-    "jobDemand": 52,
-    "visaOpenness": 38,
-    "postStudyWorkYears": 3,
-    "prPathwayYears": 8,
-    "medianSalaryY1PppUsd": 46500,
-    "totalDegreeCostUsd": 105000,
-    "narrative": "[Sample] Placeholder narrative for Humanities & Social Sciences in United States. Two to three curated sentences will justify this position once real data lands. All values on this record are sample data.",
-    "confidence": "placeholder",
+    "jobDemand": 42,
+    "visaOpenness": 48,
+    "postStudyWorkYears": 1,
+    "prPathwayYears": 9,
+    "medianSalaryY1PppUsd": 48000,
+    "totalDegreeCostUsd": 225700,
+    "narrative": "Humanities grads face the weakest US visa case: rarely on skilled lists, modest pay, and a costly four-year degree.",
+    "confidence": "medium",
     "sources": [
       {
-        "name": "Sample source, data pending curation",
-        "url": "https://example.com/vantage-sample-data",
-        "lastUpdated": "2026-07-01"
+        "name": "US BLS: Occupational Outlook Handbook",
+        "url": "https://www.bls.gov/ooh/",
+        "lastUpdated": "2026-08-18"
+      },
+      {
+        "name": "LinkedIn Jobs: communications in United States",
+        "url": "https://www.linkedin.com/jobs/search/?keywords=communications&location=United%20States",
+        "lastUpdated": "2026-08-18"
+      },
+      {
+        "name": "Reuters: United States immigration and visa news",
+        "url": "https://www.reuters.com/site-search/?query=United%20States%20immigration%20visa",
+        "lastUpdated": "2026-08-18"
+      },
+      {
+        "name": "Glassdoor: communications salaries in United States",
+        "url": "https://www.glassdoor.com/Search/results.htm?keyword=communications%20United%20States",
+        "lastUpdated": "2026-08-18"
       }
     ]
   },
@@ -399,57 +444,102 @@
   {
     "countryId": "uk",
     "degreeId": "health-life-sciences",
-    "jobDemand": 72,
+    "jobDemand": 68,
     "visaOpenness": 58,
     "postStudyWorkYears": 2,
-    "prPathwayYears": 5,
-    "medianSalaryY1PppUsd": 42000,
-    "totalDegreeCostUsd": 93000,
-    "narrative": "[Sample] Placeholder narrative for Health & Life Sciences in United Kingdom. Two to three curated sentences will justify this position once real data lands. All values on this record are sample data.",
-    "confidence": "placeholder",
+    "prPathwayYears": 8,
+    "medianSalaryY1PppUsd": 43478,
+    "totalDegreeCostUsd": 137200,
+    "narrative": "UK life-science and pharma roles are steady, and the short degree helps, though graduate pay is low and settlement slow.",
+    "confidence": "medium",
     "sources": [
       {
-        "name": "Sample source, data pending curation",
-        "url": "https://example.com/vantage-sample-data",
-        "lastUpdated": "2026-07-01"
+        "name": "GOV.UK: Skilled Worker eligible occupations",
+        "url": "https://www.gov.uk/government/publications/skilled-worker-visa-eligible-occupations",
+        "lastUpdated": "2026-08-18"
+      },
+      {
+        "name": "LinkedIn Jobs: research scientist in United Kingdom",
+        "url": "https://www.linkedin.com/jobs/search/?keywords=research%20scientist&location=United%20Kingdom",
+        "lastUpdated": "2026-08-18"
+      },
+      {
+        "name": "Reuters: United Kingdom immigration and visa news",
+        "url": "https://www.reuters.com/site-search/?query=United%20Kingdom%20immigration%20visa",
+        "lastUpdated": "2026-08-18"
+      },
+      {
+        "name": "Glassdoor: research scientist salaries in United Kingdom",
+        "url": "https://www.glassdoor.com/Search/results.htm?keyword=research%20scientist%20United%20Kingdom",
+        "lastUpdated": "2026-08-18"
       }
     ]
   },
   {
     "countryId": "uk",
     "degreeId": "design-media",
-    "jobDemand": 48,
+    "jobDemand": 56,
     "visaOpenness": 58,
     "postStudyWorkYears": 2,
-    "prPathwayYears": 5,
-    "medianSalaryY1PppUsd": 35000,
-    "totalDegreeCostUsd": 87000,
-    "narrative": "[Sample] Placeholder narrative for Design & Media in United Kingdom. Two to three curated sentences will justify this position once real data lands. All values on this record are sample data.",
-    "confidence": "placeholder",
+    "prPathwayYears": 8,
+    "medianSalaryY1PppUsd": 36232,
+    "totalDegreeCostUsd": 137200,
+    "narrative": "The UK has a large creative sector but low starting pay; the short degree helps ROI only a little.",
+    "confidence": "medium",
     "sources": [
       {
-        "name": "Sample source, data pending curation",
-        "url": "https://example.com/vantage-sample-data",
-        "lastUpdated": "2026-07-01"
+        "name": "GOV.UK: Skilled Worker eligible occupations",
+        "url": "https://www.gov.uk/government/publications/skilled-worker-visa-eligible-occupations",
+        "lastUpdated": "2026-08-18"
+      },
+      {
+        "name": "LinkedIn Jobs: designer in United Kingdom",
+        "url": "https://www.linkedin.com/jobs/search/?keywords=designer&location=United%20Kingdom",
+        "lastUpdated": "2026-08-18"
+      },
+      {
+        "name": "Reuters: United Kingdom immigration and visa news",
+        "url": "https://www.reuters.com/site-search/?query=United%20Kingdom%20immigration%20visa",
+        "lastUpdated": "2026-08-18"
+      },
+      {
+        "name": "Glassdoor: designer salaries in United Kingdom",
+        "url": "https://www.glassdoor.com/Search/results.htm?keyword=designer%20United%20Kingdom",
+        "lastUpdated": "2026-08-18"
       }
     ]
   },
   {
     "countryId": "uk",
     "degreeId": "humanities-social",
-    "jobDemand": 42,
+    "jobDemand": 50,
     "visaOpenness": 58,
     "postStudyWorkYears": 2,
-    "prPathwayYears": 5,
-    "medianSalaryY1PppUsd": 33000,
-    "totalDegreeCostUsd": 82000,
-    "narrative": "[Sample] Placeholder narrative for Humanities & Social Sciences in United Kingdom. Two to three curated sentences will justify this position once real data lands. All values on this record are sample data.",
-    "confidence": "placeholder",
+    "prPathwayYears": 8,
+    "medianSalaryY1PppUsd": 34783,
+    "totalDegreeCostUsd": 137200,
+    "narrative": "The UK absorbs humanities grads across many sectors, and the short degree helps, but pay is low and sponsorship hard.",
+    "confidence": "medium",
     "sources": [
       {
-        "name": "Sample source, data pending curation",
-        "url": "https://example.com/vantage-sample-data",
-        "lastUpdated": "2026-07-01"
+        "name": "GOV.UK: Skilled Worker eligible occupations",
+        "url": "https://www.gov.uk/government/publications/skilled-worker-visa-eligible-occupations",
+        "lastUpdated": "2026-08-18"
+      },
+      {
+        "name": "LinkedIn Jobs: communications in United Kingdom",
+        "url": "https://www.linkedin.com/jobs/search/?keywords=communications&location=United%20Kingdom",
+        "lastUpdated": "2026-08-18"
+      },
+      {
+        "name": "Reuters: United Kingdom immigration and visa news",
+        "url": "https://www.reuters.com/site-search/?query=United%20Kingdom%20immigration%20visa",
+        "lastUpdated": "2026-08-18"
+      },
+      {
+        "name": "Glassdoor: communications salaries in United Kingdom",
+        "url": "https://www.glassdoor.com/Search/results.htm?keyword=communications%20United%20Kingdom",
+        "lastUpdated": "2026-08-18"
       }
     ]
   },
@@ -626,57 +716,102 @@
   {
     "countryId": "ca",
     "degreeId": "health-life-sciences",
-    "jobDemand": 77,
-    "visaOpenness": 72,
+    "jobDemand": 68,
+    "visaOpenness": 62,
     "postStudyWorkYears": 3,
     "prPathwayYears": 6,
-    "medianSalaryY1PppUsd": 45500,
-    "totalDegreeCostUsd": 79000,
-    "narrative": "[Sample] Placeholder narrative for Health & Life Sciences in Canada. Two to three curated sentences will justify this position once real data lands. All values on this record are sample data.",
-    "confidence": "placeholder",
+    "medianSalaryY1PppUsd": 41322,
+    "totalDegreeCostUsd": 193400,
+    "narrative": "Canada offers life-science research and pharma roles with a clear PR route, but a four-year degree and modest pay cap ROI.",
+    "confidence": "medium",
     "sources": [
       {
-        "name": "Sample source, data pending curation",
-        "url": "https://example.com/vantage-sample-data",
-        "lastUpdated": "2026-07-01"
+        "name": "Canada Job Bank: occupational outlook",
+        "url": "https://www.jobbank.gc.ca/trend-analysis/job-market-reports",
+        "lastUpdated": "2026-08-18"
+      },
+      {
+        "name": "LinkedIn Jobs: research scientist in Canada",
+        "url": "https://www.linkedin.com/jobs/search/?keywords=research%20scientist&location=Canada",
+        "lastUpdated": "2026-08-18"
+      },
+      {
+        "name": "Reuters: Canada immigration and visa news",
+        "url": "https://www.reuters.com/site-search/?query=Canada%20immigration%20visa",
+        "lastUpdated": "2026-08-18"
+      },
+      {
+        "name": "Glassdoor: research scientist salaries in Canada",
+        "url": "https://www.glassdoor.com/Search/results.htm?keyword=research%20scientist%20Canada",
+        "lastUpdated": "2026-08-18"
       }
     ]
   },
   {
     "countryId": "ca",
     "degreeId": "design-media",
-    "jobDemand": 53,
-    "visaOpenness": 72,
+    "jobDemand": 50,
+    "visaOpenness": 62,
     "postStudyWorkYears": 3,
     "prPathwayYears": 6,
-    "medianSalaryY1PppUsd": 38500,
-    "totalDegreeCostUsd": 74000,
-    "narrative": "[Sample] Placeholder narrative for Design & Media in Canada. Two to three curated sentences will justify this position once real data lands. All values on this record are sample data.",
-    "confidence": "placeholder",
+    "medianSalaryY1PppUsd": 37190,
+    "totalDegreeCostUsd": 193400,
+    "narrative": "Canada creative roles are limited for visa sponsorship, and a four-year degree with modest pay keeps ROI low.",
+    "confidence": "medium",
     "sources": [
       {
-        "name": "Sample source, data pending curation",
-        "url": "https://example.com/vantage-sample-data",
-        "lastUpdated": "2026-07-01"
+        "name": "Canada Job Bank: occupational outlook",
+        "url": "https://www.jobbank.gc.ca/trend-analysis/job-market-reports",
+        "lastUpdated": "2026-08-18"
+      },
+      {
+        "name": "LinkedIn Jobs: designer in Canada",
+        "url": "https://www.linkedin.com/jobs/search/?keywords=designer&location=Canada",
+        "lastUpdated": "2026-08-18"
+      },
+      {
+        "name": "Reuters: Canada immigration and visa news",
+        "url": "https://www.reuters.com/site-search/?query=Canada%20immigration%20visa",
+        "lastUpdated": "2026-08-18"
+      },
+      {
+        "name": "Glassdoor: designer salaries in Canada",
+        "url": "https://www.glassdoor.com/Search/results.htm?keyword=designer%20Canada",
+        "lastUpdated": "2026-08-18"
       }
     ]
   },
   {
     "countryId": "ca",
     "degreeId": "humanities-social",
-    "jobDemand": 47,
-    "visaOpenness": 72,
+    "jobDemand": 44,
+    "visaOpenness": 62,
     "postStudyWorkYears": 3,
     "prPathwayYears": 6,
-    "medianSalaryY1PppUsd": 36000,
-    "totalDegreeCostUsd": 69000,
-    "narrative": "[Sample] Placeholder narrative for Humanities & Social Sciences in Canada. Two to three curated sentences will justify this position once real data lands. All values on this record are sample data.",
-    "confidence": "placeholder",
+    "medianSalaryY1PppUsd": 37190,
+    "totalDegreeCostUsd": 193400,
+    "narrative": "Canada values social-science grads in public roles, but humanities rarely fit skilled migration cleanly.",
+    "confidence": "medium",
     "sources": [
       {
-        "name": "Sample source, data pending curation",
-        "url": "https://example.com/vantage-sample-data",
-        "lastUpdated": "2026-07-01"
+        "name": "Canada Job Bank: occupational outlook",
+        "url": "https://www.jobbank.gc.ca/trend-analysis/job-market-reports",
+        "lastUpdated": "2026-08-18"
+      },
+      {
+        "name": "LinkedIn Jobs: communications in Canada",
+        "url": "https://www.linkedin.com/jobs/search/?keywords=communications&location=Canada",
+        "lastUpdated": "2026-08-18"
+      },
+      {
+        "name": "Reuters: Canada immigration and visa news",
+        "url": "https://www.reuters.com/site-search/?query=Canada%20immigration%20visa",
+        "lastUpdated": "2026-08-18"
+      },
+      {
+        "name": "Glassdoor: communications salaries in Canada",
+        "url": "https://www.glassdoor.com/Search/results.htm?keyword=communications%20Canada",
+        "lastUpdated": "2026-08-18"
       }
     ]
   },
@@ -853,57 +988,102 @@
   {
     "countryId": "au",
     "degreeId": "health-life-sciences",
-    "jobDemand": 74,
-    "visaOpenness": 68,
+    "jobDemand": 72,
+    "visaOpenness": 60,
     "postStudyWorkYears": 2,
-    "prPathwayYears": 5,
-    "medianSalaryY1PppUsd": 47500,
-    "totalDegreeCostUsd": 87000,
-    "narrative": "[Sample] Placeholder narrative for Health & Life Sciences in Australia. Two to three curated sentences will justify this position once real data lands. All values on this record are sample data.",
-    "confidence": "placeholder",
+    "prPathwayYears": 7,
+    "medianSalaryY1PppUsd": 42177,
+    "totalDegreeCostUsd": 143700,
+    "narrative": "Australia has solid life-science and health-research demand and a graduate visa, offset by high living costs.",
+    "confidence": "medium",
     "sources": [
       {
-        "name": "Sample source, data pending curation",
-        "url": "https://example.com/vantage-sample-data",
-        "lastUpdated": "2026-07-01"
+        "name": "Jobs and Skills Australia: Skills Priority List",
+        "url": "https://www.jobsandskills.gov.au/data/skills-priority-list",
+        "lastUpdated": "2026-08-18"
+      },
+      {
+        "name": "LinkedIn Jobs: research scientist in Australia",
+        "url": "https://www.linkedin.com/jobs/search/?keywords=research%20scientist&location=Australia",
+        "lastUpdated": "2026-08-18"
+      },
+      {
+        "name": "Reuters: Australia immigration and visa news",
+        "url": "https://www.reuters.com/site-search/?query=Australia%20immigration%20visa",
+        "lastUpdated": "2026-08-18"
+      },
+      {
+        "name": "Glassdoor: research scientist salaries in Australia",
+        "url": "https://www.glassdoor.com/Search/results.htm?keyword=research%20scientist%20Australia",
+        "lastUpdated": "2026-08-18"
       }
     ]
   },
   {
     "countryId": "au",
     "degreeId": "design-media",
-    "jobDemand": 50,
-    "visaOpenness": 68,
+    "jobDemand": 52,
+    "visaOpenness": 60,
     "postStudyWorkYears": 2,
-    "prPathwayYears": 5,
-    "medianSalaryY1PppUsd": 40000,
-    "totalDegreeCostUsd": 82000,
-    "narrative": "[Sample] Placeholder narrative for Design & Media in Australia. Two to three curated sentences will justify this position once real data lands. All values on this record are sample data.",
-    "confidence": "placeholder",
+    "prPathwayYears": 7,
+    "medianSalaryY1PppUsd": 39456,
+    "totalDegreeCostUsd": 143700,
+    "narrative": "Australia offers creative work but design rarely features on skilled lists, weakening the visa route.",
+    "confidence": "medium",
     "sources": [
       {
-        "name": "Sample source, data pending curation",
-        "url": "https://example.com/vantage-sample-data",
-        "lastUpdated": "2026-07-01"
+        "name": "Jobs and Skills Australia: Skills Priority List",
+        "url": "https://www.jobsandskills.gov.au/data/skills-priority-list",
+        "lastUpdated": "2026-08-18"
+      },
+      {
+        "name": "LinkedIn Jobs: designer in Australia",
+        "url": "https://www.linkedin.com/jobs/search/?keywords=designer&location=Australia",
+        "lastUpdated": "2026-08-18"
+      },
+      {
+        "name": "Reuters: Australia immigration and visa news",
+        "url": "https://www.reuters.com/site-search/?query=Australia%20immigration%20visa",
+        "lastUpdated": "2026-08-18"
+      },
+      {
+        "name": "Glassdoor: designer salaries in Australia",
+        "url": "https://www.glassdoor.com/Search/results.htm?keyword=designer%20Australia",
+        "lastUpdated": "2026-08-18"
       }
     ]
   },
   {
     "countryId": "au",
     "degreeId": "humanities-social",
-    "jobDemand": 44,
-    "visaOpenness": 68,
+    "jobDemand": 46,
+    "visaOpenness": 60,
     "postStudyWorkYears": 2,
-    "prPathwayYears": 5,
-    "medianSalaryY1PppUsd": 37500,
-    "totalDegreeCostUsd": 77000,
-    "narrative": "[Sample] Placeholder narrative for Humanities & Social Sciences in Australia. Two to three curated sentences will justify this position once real data lands. All values on this record are sample data.",
-    "confidence": "placeholder",
+    "prPathwayYears": 7,
+    "medianSalaryY1PppUsd": 38095,
+    "totalDegreeCostUsd": 143700,
+    "narrative": "Australia offers humanities work but seldom on skilled lists, making the visa route the hardest here.",
+    "confidence": "medium",
     "sources": [
       {
-        "name": "Sample source, data pending curation",
-        "url": "https://example.com/vantage-sample-data",
-        "lastUpdated": "2026-07-01"
+        "name": "Jobs and Skills Australia: Skills Priority List",
+        "url": "https://www.jobsandskills.gov.au/data/skills-priority-list",
+        "lastUpdated": "2026-08-18"
+      },
+      {
+        "name": "LinkedIn Jobs: communications in Australia",
+        "url": "https://www.linkedin.com/jobs/search/?keywords=communications&location=Australia",
+        "lastUpdated": "2026-08-18"
+      },
+      {
+        "name": "Reuters: Australia immigration and visa news",
+        "url": "https://www.reuters.com/site-search/?query=Australia%20immigration%20visa",
+        "lastUpdated": "2026-08-18"
+      },
+      {
+        "name": "Glassdoor: communications salaries in Australia",
+        "url": "https://www.glassdoor.com/Search/results.htm?keyword=communications%20Australia",
+        "lastUpdated": "2026-08-18"
       }
     ]
   },
@@ -1080,38 +1260,68 @@
   {
     "countryId": "de",
     "degreeId": "health-life-sciences",
-    "jobDemand": 80,
-    "visaOpenness": 66,
+    "jobDemand": 72,
+    "visaOpenness": 68,
     "postStudyWorkYears": 1.5,
-    "prPathwayYears": 5,
-    "medianSalaryY1PppUsd": 49500,
-    "totalDegreeCostUsd": 28000,
-    "narrative": "[Sample] Placeholder narrative for Health & Life Sciences in Germany. Two to three curated sentences will justify this position once real data lands. All values on this record are sample data.",
-    "confidence": "placeholder",
+    "prPathwayYears": 6.5,
+    "medianSalaryY1PppUsd": 61644,
+    "totalDegreeCostUsd": 51500,
+    "narrative": "Germany pairs strong life-science research, free tuition and decent PPP pay for a high return, if you can work in German.",
+    "confidence": "medium",
     "sources": [
       {
-        "name": "Sample source, data pending curation",
-        "url": "https://example.com/vantage-sample-data",
-        "lastUpdated": "2026-07-01"
+        "name": "Make it in Germany: shortage occupations",
+        "url": "https://www.make-it-in-germany.com/en/working-in-germany/shortage-occupations",
+        "lastUpdated": "2026-08-18"
+      },
+      {
+        "name": "LinkedIn Jobs: research scientist in Germany",
+        "url": "https://www.linkedin.com/jobs/search/?keywords=research%20scientist&location=Germany",
+        "lastUpdated": "2026-08-18"
+      },
+      {
+        "name": "Reuters: Germany immigration and visa news",
+        "url": "https://www.reuters.com/site-search/?query=Germany%20immigration%20visa",
+        "lastUpdated": "2026-08-18"
+      },
+      {
+        "name": "Glassdoor: research scientist salaries in Germany",
+        "url": "https://www.glassdoor.com/Search/results.htm?keyword=research%20scientist%20Germany",
+        "lastUpdated": "2026-08-18"
       }
     ]
   },
   {
     "countryId": "de",
     "degreeId": "design-media",
-    "jobDemand": 56,
-    "visaOpenness": 66,
+    "jobDemand": 54,
+    "visaOpenness": 68,
     "postStudyWorkYears": 1.5,
-    "prPathwayYears": 5,
-    "medianSalaryY1PppUsd": 41500,
-    "totalDegreeCostUsd": 28000,
-    "narrative": "[Sample] Placeholder narrative for Design & Media in Germany. Two to three curated sentences will justify this position once real data lands. All values on this record are sample data.",
-    "confidence": "placeholder",
+    "prPathwayYears": 6.5,
+    "medianSalaryY1PppUsd": 54795,
+    "totalDegreeCostUsd": 51500,
+    "narrative": "Germany free tuition rescues the return for designers despite modest pay and a smaller creative-visa route.",
+    "confidence": "medium",
     "sources": [
       {
-        "name": "Sample source, data pending curation",
-        "url": "https://example.com/vantage-sample-data",
-        "lastUpdated": "2026-07-01"
+        "name": "Make it in Germany: shortage occupations",
+        "url": "https://www.make-it-in-germany.com/en/working-in-germany/shortage-occupations",
+        "lastUpdated": "2026-08-18"
+      },
+      {
+        "name": "LinkedIn Jobs: designer in Germany",
+        "url": "https://www.linkedin.com/jobs/search/?keywords=designer&location=Germany",
+        "lastUpdated": "2026-08-18"
+      },
+      {
+        "name": "Reuters: Germany immigration and visa news",
+        "url": "https://www.reuters.com/site-search/?query=Germany%20immigration%20visa",
+        "lastUpdated": "2026-08-18"
+      },
+      {
+        "name": "Glassdoor: designer salaries in Germany",
+        "url": "https://www.glassdoor.com/Search/results.htm?keyword=designer%20Germany",
+        "lastUpdated": "2026-08-18"
       }
     ]
   },
@@ -1119,18 +1329,33 @@
     "countryId": "de",
     "degreeId": "humanities-social",
     "jobDemand": 50,
-    "visaOpenness": 66,
+    "visaOpenness": 68,
     "postStudyWorkYears": 1.5,
-    "prPathwayYears": 5,
-    "medianSalaryY1PppUsd": 39000,
-    "totalDegreeCostUsd": 28000,
-    "narrative": "[Sample] Placeholder narrative for Humanities & Social Sciences in Germany. Two to three curated sentences will justify this position once real data lands. All values on this record are sample data.",
-    "confidence": "placeholder",
+    "prPathwayYears": 6.5,
+    "medianSalaryY1PppUsd": 54795,
+    "totalDegreeCostUsd": 51500,
+    "narrative": "Germany free tuition lifts the return even for humanities, though jobs and work visas skew toward German speakers.",
+    "confidence": "medium",
     "sources": [
       {
-        "name": "Sample source, data pending curation",
-        "url": "https://example.com/vantage-sample-data",
-        "lastUpdated": "2026-07-01"
+        "name": "Make it in Germany: shortage occupations",
+        "url": "https://www.make-it-in-germany.com/en/working-in-germany/shortage-occupations",
+        "lastUpdated": "2026-08-18"
+      },
+      {
+        "name": "LinkedIn Jobs: communications in Germany",
+        "url": "https://www.linkedin.com/jobs/search/?keywords=communications&location=Germany",
+        "lastUpdated": "2026-08-18"
+      },
+      {
+        "name": "Reuters: Germany immigration and visa news",
+        "url": "https://www.reuters.com/site-search/?query=Germany%20immigration%20visa",
+        "lastUpdated": "2026-08-18"
+      },
+      {
+        "name": "Glassdoor: communications salaries in Germany",
+        "url": "https://www.glassdoor.com/Search/results.htm?keyword=communications%20Germany",
+        "lastUpdated": "2026-08-18"
       }
     ]
   },
@@ -1307,57 +1532,102 @@
   {
     "countryId": "ie",
     "degreeId": "health-life-sciences",
-    "jobDemand": 78,
-    "visaOpenness": 74,
-    "postStudyWorkYears": 2,
-    "prPathwayYears": 5,
-    "medianSalaryY1PppUsd": 47500,
-    "totalDegreeCostUsd": 65000,
-    "narrative": "[Sample] Placeholder narrative for Health & Life Sciences in Ireland. Two to three curated sentences will justify this position once real data lands. All values on this record are sample data.",
-    "confidence": "placeholder",
+    "jobDemand": 84,
+    "visaOpenness": 64,
+    "postStudyWorkYears": 1,
+    "prPathwayYears": 7,
+    "medianSalaryY1PppUsd": 46914,
+    "totalDegreeCostUsd": 109400,
+    "narrative": "Ireland is Europe pharma and biopharma hub, so life-science demand is high with fast work rights, though Dublin costs bite.",
+    "confidence": "medium",
     "sources": [
       {
-        "name": "Sample source, data pending curation",
-        "url": "https://example.com/vantage-sample-data",
-        "lastUpdated": "2026-07-01"
+        "name": "Ireland: Critical Skills Occupations List",
+        "url": "https://enterprise.gov.ie/en/what-we-do/workplace-and-skills/employment-permits/employment-permit-eligibility/highly-skilled-eligible-occupations-list/",
+        "lastUpdated": "2026-08-18"
+      },
+      {
+        "name": "LinkedIn Jobs: research scientist in Ireland",
+        "url": "https://www.linkedin.com/jobs/search/?keywords=research%20scientist&location=Ireland",
+        "lastUpdated": "2026-08-18"
+      },
+      {
+        "name": "Reuters: Ireland immigration and visa news",
+        "url": "https://www.reuters.com/site-search/?query=Ireland%20immigration%20visa",
+        "lastUpdated": "2026-08-18"
+      },
+      {
+        "name": "Glassdoor: research scientist salaries in Ireland",
+        "url": "https://www.glassdoor.com/Search/results.htm?keyword=research%20scientist%20Ireland",
+        "lastUpdated": "2026-08-18"
       }
     ]
   },
   {
     "countryId": "ie",
     "degreeId": "design-media",
-    "jobDemand": 54,
-    "visaOpenness": 74,
-    "postStudyWorkYears": 2,
-    "prPathwayYears": 5,
-    "medianSalaryY1PppUsd": 40000,
-    "totalDegreeCostUsd": 62000,
-    "narrative": "[Sample] Placeholder narrative for Design & Media in Ireland. Two to three curated sentences will justify this position once real data lands. All values on this record are sample data.",
-    "confidence": "placeholder",
+    "jobDemand": 56,
+    "visaOpenness": 64,
+    "postStudyWorkYears": 1,
+    "prPathwayYears": 7,
+    "medianSalaryY1PppUsd": 40741,
+    "totalDegreeCostUsd": 109400,
+    "narrative": "Ireland growing digital-media scene helps, with fast work rights, though design pay stays low.",
+    "confidence": "medium",
     "sources": [
       {
-        "name": "Sample source, data pending curation",
-        "url": "https://example.com/vantage-sample-data",
-        "lastUpdated": "2026-07-01"
+        "name": "Ireland: Critical Skills Occupations List",
+        "url": "https://enterprise.gov.ie/en/what-we-do/workplace-and-skills/employment-permits/employment-permit-eligibility/highly-skilled-eligible-occupations-list/",
+        "lastUpdated": "2026-08-18"
+      },
+      {
+        "name": "LinkedIn Jobs: designer in Ireland",
+        "url": "https://www.linkedin.com/jobs/search/?keywords=designer&location=Ireland",
+        "lastUpdated": "2026-08-18"
+      },
+      {
+        "name": "Reuters: Ireland immigration and visa news",
+        "url": "https://www.reuters.com/site-search/?query=Ireland%20immigration%20visa",
+        "lastUpdated": "2026-08-18"
+      },
+      {
+        "name": "Glassdoor: designer salaries in Ireland",
+        "url": "https://www.glassdoor.com/Search/results.htm?keyword=designer%20Ireland",
+        "lastUpdated": "2026-08-18"
       }
     ]
   },
   {
     "countryId": "ie",
     "degreeId": "humanities-social",
-    "jobDemand": 48,
-    "visaOpenness": 74,
-    "postStudyWorkYears": 2,
-    "prPathwayYears": 5,
-    "medianSalaryY1PppUsd": 37500,
-    "totalDegreeCostUsd": 58000,
-    "narrative": "[Sample] Placeholder narrative for Humanities & Social Sciences in Ireland. Two to three curated sentences will justify this position once real data lands. All values on this record are sample data.",
-    "confidence": "placeholder",
+    "jobDemand": 52,
+    "visaOpenness": 64,
+    "postStudyWorkYears": 1,
+    "prPathwayYears": 7,
+    "medianSalaryY1PppUsd": 39506,
+    "totalDegreeCostUsd": 109400,
+    "narrative": "Ireland public and NGO sectors hire social-science grads, with fast work rights but low pay.",
+    "confidence": "medium",
     "sources": [
       {
-        "name": "Sample source, data pending curation",
-        "url": "https://example.com/vantage-sample-data",
-        "lastUpdated": "2026-07-01"
+        "name": "Ireland: Critical Skills Occupations List",
+        "url": "https://enterprise.gov.ie/en/what-we-do/workplace-and-skills/employment-permits/employment-permit-eligibility/highly-skilled-eligible-occupations-list/",
+        "lastUpdated": "2026-08-18"
+      },
+      {
+        "name": "LinkedIn Jobs: communications in Ireland",
+        "url": "https://www.linkedin.com/jobs/search/?keywords=communications&location=Ireland",
+        "lastUpdated": "2026-08-18"
+      },
+      {
+        "name": "Reuters: Ireland immigration and visa news",
+        "url": "https://www.reuters.com/site-search/?query=Ireland%20immigration%20visa",
+        "lastUpdated": "2026-08-18"
+      },
+      {
+        "name": "Glassdoor: communications salaries in Ireland",
+        "url": "https://www.glassdoor.com/Search/results.htm?keyword=communications%20Ireland",
+        "lastUpdated": "2026-08-18"
       }
     ]
   },
@@ -1534,57 +1804,102 @@
   {
     "countryId": "nl",
     "degreeId": "health-life-sciences",
-    "jobDemand": 76,
-    "visaOpenness": 62,
+    "jobDemand": 74,
+    "visaOpenness": 60,
     "postStudyWorkYears": 1,
     "prPathwayYears": 5,
-    "medianSalaryY1PppUsd": 48500,
-    "totalDegreeCostUsd": 60000,
-    "narrative": "[Sample] Placeholder narrative for Health & Life Sciences in Netherlands. Two to three curated sentences will justify this position once real data lands. All values on this record are sample data.",
-    "confidence": "placeholder",
+    "medianSalaryY1PppUsd": 48718,
+    "totalDegreeCostUsd": 87000,
+    "narrative": "The Netherlands has strong life-science research, English-taught degrees and the fastest residence route, with modest pay.",
+    "confidence": "medium",
     "sources": [
       {
-        "name": "Sample source, data pending curation",
-        "url": "https://example.com/vantage-sample-data",
-        "lastUpdated": "2026-07-01"
+        "name": "UWV: labour market shortages",
+        "url": "https://www.uwv.nl/",
+        "lastUpdated": "2026-08-18"
+      },
+      {
+        "name": "LinkedIn Jobs: research scientist in Netherlands",
+        "url": "https://www.linkedin.com/jobs/search/?keywords=research%20scientist&location=Netherlands",
+        "lastUpdated": "2026-08-18"
+      },
+      {
+        "name": "Reuters: Netherlands immigration and visa news",
+        "url": "https://www.reuters.com/site-search/?query=Netherlands%20immigration%20visa",
+        "lastUpdated": "2026-08-18"
+      },
+      {
+        "name": "Glassdoor: research scientist salaries in Netherlands",
+        "url": "https://www.glassdoor.com/Search/results.htm?keyword=research%20scientist%20Netherlands",
+        "lastUpdated": "2026-08-18"
       }
     ]
   },
   {
     "countryId": "nl",
     "degreeId": "design-media",
-    "jobDemand": 52,
-    "visaOpenness": 62,
+    "jobDemand": 60,
+    "visaOpenness": 60,
     "postStudyWorkYears": 1,
     "prPathwayYears": 5,
-    "medianSalaryY1PppUsd": 41000,
-    "totalDegreeCostUsd": 57000,
-    "narrative": "[Sample] Placeholder narrative for Design & Media in Netherlands. Two to three curated sentences will justify this position once real data lands. All values on this record are sample data.",
-    "confidence": "placeholder",
+    "medianSalaryY1PppUsd": 47436,
+    "totalDegreeCostUsd": 87000,
+    "narrative": "The Netherlands strong design culture, English-taught study and quick residence give design grads their best case here.",
+    "confidence": "medium",
     "sources": [
       {
-        "name": "Sample source, data pending curation",
-        "url": "https://example.com/vantage-sample-data",
-        "lastUpdated": "2026-07-01"
+        "name": "UWV: labour market shortages",
+        "url": "https://www.uwv.nl/",
+        "lastUpdated": "2026-08-18"
+      },
+      {
+        "name": "LinkedIn Jobs: designer in Netherlands",
+        "url": "https://www.linkedin.com/jobs/search/?keywords=designer&location=Netherlands",
+        "lastUpdated": "2026-08-18"
+      },
+      {
+        "name": "Reuters: Netherlands immigration and visa news",
+        "url": "https://www.reuters.com/site-search/?query=Netherlands%20immigration%20visa",
+        "lastUpdated": "2026-08-18"
+      },
+      {
+        "name": "Glassdoor: designer salaries in Netherlands",
+        "url": "https://www.glassdoor.com/Search/results.htm?keyword=designer%20Netherlands",
+        "lastUpdated": "2026-08-18"
       }
     ]
   },
   {
     "countryId": "nl",
     "degreeId": "humanities-social",
-    "jobDemand": 46,
-    "visaOpenness": 62,
+    "jobDemand": 54,
+    "visaOpenness": 60,
     "postStudyWorkYears": 1,
     "prPathwayYears": 5,
-    "medianSalaryY1PppUsd": 38500,
-    "totalDegreeCostUsd": 54000,
-    "narrative": "[Sample] Placeholder narrative for Humanities & Social Sciences in Netherlands. Two to three curated sentences will justify this position once real data lands. All values on this record are sample data.",
-    "confidence": "placeholder",
+    "medianSalaryY1PppUsd": 44872,
+    "totalDegreeCostUsd": 87000,
+    "narrative": "The Netherlands English-taught humanities and quick residence give social-science grads a relatively strong route.",
+    "confidence": "medium",
     "sources": [
       {
-        "name": "Sample source, data pending curation",
-        "url": "https://example.com/vantage-sample-data",
-        "lastUpdated": "2026-07-01"
+        "name": "UWV: labour market shortages",
+        "url": "https://www.uwv.nl/",
+        "lastUpdated": "2026-08-18"
+      },
+      {
+        "name": "LinkedIn Jobs: communications in Netherlands",
+        "url": "https://www.linkedin.com/jobs/search/?keywords=communications&location=Netherlands",
+        "lastUpdated": "2026-08-18"
+      },
+      {
+        "name": "Reuters: Netherlands immigration and visa news",
+        "url": "https://www.reuters.com/site-search/?query=Netherlands%20immigration%20visa",
+        "lastUpdated": "2026-08-18"
+      },
+      {
+        "name": "Glassdoor: communications salaries in Netherlands",
+        "url": "https://www.glassdoor.com/Search/results.htm?keyword=communications%20Netherlands",
+        "lastUpdated": "2026-08-18"
       }
     ]
   },
@@ -1761,57 +2076,102 @@
   {
     "countryId": "sg",
     "degreeId": "health-life-sciences",
-    "jobDemand": 72,
+    "jobDemand": 80,
     "visaOpenness": 55,
     "postStudyWorkYears": 1,
-    "prPathwayYears": 6,
-    "medianSalaryY1PppUsd": 53000,
-    "totalDegreeCostUsd": 94000,
-    "narrative": "[Sample] Placeholder narrative for Health & Life Sciences in Singapore. Two to three curated sentences will justify this position once real data lands. All values on this record are sample data.",
-    "confidence": "placeholder",
+    "prPathwayYears": 8,
+    "medianSalaryY1PppUsd": 57143,
+    "totalDegreeCostUsd": 144600,
+    "narrative": "Singapore biomedical push lifts life-science demand, though the three-year bond and selective PR temper the score.",
+    "confidence": "medium",
     "sources": [
       {
-        "name": "Sample source, data pending curation",
-        "url": "https://example.com/vantage-sample-data",
-        "lastUpdated": "2026-07-01"
+        "name": "Singapore MOM: Employment Pass eligibility (COMPASS)",
+        "url": "https://www.mom.gov.sg/passes-and-permits/employment-pass/eligibility",
+        "lastUpdated": "2026-08-18"
+      },
+      {
+        "name": "LinkedIn Jobs: research scientist in Singapore",
+        "url": "https://www.linkedin.com/jobs/search/?keywords=research%20scientist&location=Singapore",
+        "lastUpdated": "2026-08-18"
+      },
+      {
+        "name": "Reuters: Singapore immigration and visa news",
+        "url": "https://www.reuters.com/site-search/?query=Singapore%20immigration%20visa",
+        "lastUpdated": "2026-08-18"
+      },
+      {
+        "name": "Glassdoor: research scientist salaries in Singapore",
+        "url": "https://www.glassdoor.com/Search/results.htm?keyword=research%20scientist%20Singapore",
+        "lastUpdated": "2026-08-18"
       }
     ]
   },
   {
     "countryId": "sg",
     "degreeId": "design-media",
-    "jobDemand": 48,
+    "jobDemand": 58,
     "visaOpenness": 55,
     "postStudyWorkYears": 1,
-    "prPathwayYears": 6,
-    "medianSalaryY1PppUsd": 45000,
-    "totalDegreeCostUsd": 88000,
-    "narrative": "[Sample] Placeholder narrative for Design & Media in Singapore. Two to three curated sentences will justify this position once real data lands. All values on this record are sample data.",
-    "confidence": "placeholder",
+    "prPathwayYears": 8,
+    "medianSalaryY1PppUsd": 50000,
+    "totalDegreeCostUsd": 144600,
+    "narrative": "Singapore design-media scene is growing but pay is modest and the bond plus selective PR weigh on the score.",
+    "confidence": "medium",
     "sources": [
       {
-        "name": "Sample source, data pending curation",
-        "url": "https://example.com/vantage-sample-data",
-        "lastUpdated": "2026-07-01"
+        "name": "Singapore MOM: Employment Pass eligibility (COMPASS)",
+        "url": "https://www.mom.gov.sg/passes-and-permits/employment-pass/eligibility",
+        "lastUpdated": "2026-08-18"
+      },
+      {
+        "name": "LinkedIn Jobs: designer in Singapore",
+        "url": "https://www.linkedin.com/jobs/search/?keywords=designer&location=Singapore",
+        "lastUpdated": "2026-08-18"
+      },
+      {
+        "name": "Reuters: Singapore immigration and visa news",
+        "url": "https://www.reuters.com/site-search/?query=Singapore%20immigration%20visa",
+        "lastUpdated": "2026-08-18"
+      },
+      {
+        "name": "Glassdoor: designer salaries in Singapore",
+        "url": "https://www.glassdoor.com/Search/results.htm?keyword=designer%20Singapore",
+        "lastUpdated": "2026-08-18"
       }
     ]
   },
   {
     "countryId": "sg",
     "degreeId": "humanities-social",
-    "jobDemand": 42,
+    "jobDemand": 50,
     "visaOpenness": 55,
     "postStudyWorkYears": 1,
-    "prPathwayYears": 6,
-    "medianSalaryY1PppUsd": 42000,
-    "totalDegreeCostUsd": 82000,
-    "narrative": "[Sample] Placeholder narrative for Humanities & Social Sciences in Singapore. Two to three curated sentences will justify this position once real data lands. All values on this record are sample data.",
-    "confidence": "placeholder",
+    "prPathwayYears": 8,
+    "medianSalaryY1PppUsd": 50000,
+    "totalDegreeCostUsd": 144600,
+    "narrative": "Singapore hires social-science grads in policy and public service, though sponsorship and PR are selective.",
+    "confidence": "medium",
     "sources": [
       {
-        "name": "Sample source, data pending curation",
-        "url": "https://example.com/vantage-sample-data",
-        "lastUpdated": "2026-07-01"
+        "name": "Singapore MOM: Employment Pass eligibility (COMPASS)",
+        "url": "https://www.mom.gov.sg/passes-and-permits/employment-pass/eligibility",
+        "lastUpdated": "2026-08-18"
+      },
+      {
+        "name": "LinkedIn Jobs: communications in Singapore",
+        "url": "https://www.linkedin.com/jobs/search/?keywords=communications&location=Singapore",
+        "lastUpdated": "2026-08-18"
+      },
+      {
+        "name": "Reuters: Singapore immigration and visa news",
+        "url": "https://www.reuters.com/site-search/?query=Singapore%20immigration%20visa",
+        "lastUpdated": "2026-08-18"
+      },
+      {
+        "name": "Glassdoor: communications salaries in Singapore",
+        "url": "https://www.glassdoor.com/Search/results.htm?keyword=communications%20Singapore",
+        "lastUpdated": "2026-08-18"
       }
     ]
   }
