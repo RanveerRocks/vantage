@@ -199,32 +199,37 @@
     "stages": [
       {
         "label": "Study",
-        "years": 2,
-        "description": "[Sample] Placeholder description of the study stage in Ireland; curated details pending."
+        "years": 3,
+        "description": "An Irish honours bachelor’s degree usually takes three to four years."
       },
       {
         "label": "Post-study work visa",
-        "years": 2,
-        "description": "[Sample] Placeholder description of the post-study work visa stage in Ireland; curated details pending."
+        "years": 1,
+        "description": "The Third Level Graduate Scheme (Stamp 1G) gives bachelor’s graduates 12 months to find work (24 months for a master’s)."
       },
       {
         "label": "PR process",
-        "years": 1,
-        "description": "[Sample] Placeholder description of the pr process stage in Ireland; curated details pending."
+        "years": 3,
+        "description": "You switch to an employment permit, then to long-term residence (Stamp 4). Critical Skills permit holders can reach Stamp 4 in about 21 months; the general route takes far longer."
       },
       {
         "label": "Citizenship",
-        "years": 3,
-        "description": "[Sample] Placeholder description of the citizenship stage in Ireland; curated details pending."
+        "years": 2,
+        "description": "Naturalisation needs five years of reckonable residence in the past nine, with the final year continuous."
       }
     ],
-    "totalYearsToPr": 5,
-    "confidence": "placeholder",
+    "totalYearsToPr": 7,
+    "confidence": "medium",
     "sources": [
       {
-        "name": "Sample source, data pending curation",
-        "url": "https://example.com/vantage-sample-data",
-        "lastUpdated": "2026-07-01"
+        "name": "ICOS: Third Level Graduate Scheme",
+        "url": "https://www.internationalstudents.ie/info-and-advice/immigration/third-level-graduate-scheme",
+        "lastUpdated": "2026-08-18"
+      },
+      {
+        "name": "gov.ie: becoming an Irish citizen through naturalisation",
+        "url": "https://www.gov.ie/en/service/becoming-an-irish-citizen-through-naturalisation/",
+        "lastUpdated": "2026-08-18"
       }
     ]
   },

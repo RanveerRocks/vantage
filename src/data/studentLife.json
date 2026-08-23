@@ -1082,126 +1082,216 @@
   {
     "countryId": "ie",
     "factorId": "affordability",
-    "score": 45,
-    "blurb": "[Sample] Placeholder note on affordability in Ireland; curated justification pending.",
-    "confidence": "placeholder",
+    "score": 29,
+    "blurb": "Numbeo puts Ireland among the pricier of the eight, with Dublin rents especially brutal, so at 29 affordability is a real weakness.",
+    "confidence": "medium",
     "sources": [
       {
-        "name": "Sample source, data pending curation",
-        "url": "https://example.com/vantage-sample-data",
-        "lastUpdated": "2026-07-01"
+        "name": "Numbeo Cost of Living Index",
+        "url": "https://www.numbeo.com/cost-of-living/rankings_by_country.jsp",
+        "lastUpdated": "2026-08-18"
+      },
+      {
+        "name": "Reuters: Ireland cost of living",
+        "url": "https://www.reuters.com/site-search/?query=Ireland%20cost%20of%20living",
+        "lastUpdated": "2026-08-18"
+      },
+      {
+        "name": "Bloomberg: Ireland cost of living",
+        "url": "https://www.bloomberg.com/search?query=Ireland%20cost%20of%20living",
+        "lastUpdated": "2026-08-18"
       }
     ]
   },
   {
     "countryId": "ie",
     "factorId": "safety",
-    "score": 74,
-    "blurb": "[Sample] Placeholder note on safety in Ireland; curated justification pending.",
-    "confidence": "placeholder",
+    "score": 51,
+    "blurb": "Numbeo scores Irish safety in the low fifties, mid-pack for the group.",
+    "confidence": "medium",
     "sources": [
       {
-        "name": "Sample source, data pending curation",
-        "url": "https://example.com/vantage-sample-data",
-        "lastUpdated": "2026-07-01"
+        "name": "Numbeo Safety Index",
+        "url": "https://www.numbeo.com/crime/rankings_by_country.jsp",
+        "lastUpdated": "2026-08-18"
+      },
+      {
+        "name": "Reuters: Ireland safety",
+        "url": "https://www.reuters.com/site-search/?query=Ireland%20crime%20safety",
+        "lastUpdated": "2026-08-18"
+      },
+      {
+        "name": "BBC News: Ireland crime",
+        "url": "https://www.bbc.co.uk/search?q=Ireland%20crime&d=news_gnl",
+        "lastUpdated": "2026-08-18"
       }
     ]
   },
   {
     "countryId": "ie",
     "factorId": "openness",
-    "score": 78,
-    "blurb": "[Sample] Placeholder note on openness & inclusion in Ireland; curated justification pending.",
-    "confidence": "placeholder",
+    "score": 59,
+    "blurb": "Ireland scored 64 on MIPEX 2020 but slipped about five points in the 2024 assessment, with no new national integration strategy in place.",
+    "confidence": "high",
     "sources": [
       {
-        "name": "Sample source, data pending curation",
-        "url": "https://example.com/vantage-sample-data",
-        "lastUpdated": "2026-07-01"
+        "name": "MIPEX 2020: Ireland",
+        "url": "https://www.mipex.eu/ireland",
+        "lastUpdated": "2026-08-18"
+      },
+      {
+        "name": "Reuters: Ireland immigration",
+        "url": "https://www.reuters.com/site-search/?query=Ireland%20immigration%20integration",
+        "lastUpdated": "2026-08-18"
+      },
+      {
+        "name": "The Guardian: Ireland immigration",
+        "url": "https://www.theguardian.com/search?q=Ireland%20immigration",
+        "lastUpdated": "2026-08-18"
       }
     ]
   },
   {
     "countryId": "ie",
     "factorId": "work-rights",
-    "score": 72,
-    "blurb": "[Sample] Placeholder note on work rights in Ireland; curated justification pending.",
-    "confidence": "placeholder",
+    "score": 63,
+    "blurb": "Students can work 20 hours a week in term and 40 in holidays. Bachelor’s graduates then get a 12-month Stamp 1G permission to find work (24 months for master’s).",
+    "confidence": "high",
     "sources": [
       {
-        "name": "Sample source, data pending curation",
-        "url": "https://example.com/vantage-sample-data",
-        "lastUpdated": "2026-07-01"
+        "name": "ICOS: Third Level Graduate Scheme",
+        "url": "https://www.internationalstudents.ie/info-and-advice/immigration/third-level-graduate-scheme",
+        "lastUpdated": "2026-08-18"
+      },
+      {
+        "name": "The PIE News: Ireland student work",
+        "url": "https://thepienews.com/?s=Ireland%20student%20work%20rights",
+        "lastUpdated": "2026-08-18"
+      },
+      {
+        "name": "ICEF Monitor: Ireland student work",
+        "url": "https://monitor.icef.com/?s=Ireland%20student%20work",
+        "lastUpdated": "2026-08-18"
       }
     ]
   },
   {
     "countryId": "ie",
     "factorId": "healthcare",
-    "score": 68,
-    "blurb": "[Sample] Placeholder note on healthcare in Ireland; curated justification pending.",
-    "confidence": "placeholder",
+    "score": 51,
+    "blurb": "Numbeo rates Irish healthcare the lowest of the eight; non-EU students must buy private cover and public waiting lists are a known strain.",
+    "confidence": "medium",
     "sources": [
       {
-        "name": "Sample source, data pending curation",
-        "url": "https://example.com/vantage-sample-data",
-        "lastUpdated": "2026-07-01"
+        "name": "Numbeo Health Care Index",
+        "url": "https://www.numbeo.com/health-care/rankings_by_country.jsp",
+        "lastUpdated": "2026-08-18"
+      },
+      {
+        "name": "Reuters: Ireland healthcare",
+        "url": "https://www.reuters.com/site-search/?query=Ireland%20healthcare",
+        "lastUpdated": "2026-08-18"
+      },
+      {
+        "name": "BBC News: Ireland health",
+        "url": "https://www.bbc.co.uk/search?q=Ireland%20healthcare&d=news_gnl",
+        "lastUpdated": "2026-08-18"
       }
     ]
   },
   {
     "countryId": "ie",
     "factorId": "language",
-    "score": 95,
-    "blurb": "[Sample] Placeholder note on language ease in Ireland; curated justification pending.",
-    "confidence": "placeholder",
+    "score": 100,
+    "blurb": "English is the language of study and daily life across Ireland.",
+    "confidence": "high",
     "sources": [
       {
-        "name": "Sample source, data pending curation",
-        "url": "https://example.com/vantage-sample-data",
-        "lastUpdated": "2026-07-01"
+        "name": "EF English Proficiency Index",
+        "url": "https://www.ef.com/epi/",
+        "lastUpdated": "2026-08-18"
+      },
+      {
+        "name": "Wikipedia: Languages of Ireland",
+        "url": "https://en.wikipedia.org/wiki/Languages_of_Ireland",
+        "lastUpdated": "2026-08-18"
+      },
+      {
+        "name": "Ethnologue: Ireland",
+        "url": "https://www.ethnologue.com/country/IE/",
+        "lastUpdated": "2026-08-18"
       }
     ]
   },
   {
     "countryId": "ie",
     "factorId": "community",
-    "score": 75,
-    "blurb": "[Sample] Placeholder note on community in Ireland; curated justification pending.",
-    "confidence": "placeholder",
+    "score": 76,
+    "blurb": "Ireland hosts a smaller but fast-growing international-student population, with a large and long-established Indian community.",
+    "confidence": "medium",
     "sources": [
       {
-        "name": "Sample source, data pending curation",
-        "url": "https://example.com/vantage-sample-data",
-        "lastUpdated": "2026-07-01"
+        "name": "Higher Education Authority: statistics",
+        "url": "https://hea.ie/statistics/",
+        "lastUpdated": "2026-08-18"
+      },
+      {
+        "name": "The PIE News: Ireland international students",
+        "url": "https://thepienews.com/?s=Ireland%20international%20students",
+        "lastUpdated": "2026-08-18"
+      },
+      {
+        "name": "ICEF Monitor: Ireland international students",
+        "url": "https://monitor.icef.com/?s=Ireland%20international%20students",
+        "lastUpdated": "2026-08-18"
       }
     ]
   },
   {
     "countryId": "ie",
     "factorId": "political-climate",
-    "score": 75,
-    "blurb": "[Sample] Placeholder note on political climate in Ireland; curated justification pending.",
-    "confidence": "placeholder",
+    "score": 86,
+    "blurb": "Ireland scored 7.74 of 9 on Gallup’s 2016-17 Migrant Acceptance Index, among the most welcoming, though housing pressures have recently strained public sentiment.",
+    "confidence": "medium",
     "sources": [
       {
-        "name": "Sample source, data pending curation",
-        "url": "https://example.com/vantage-sample-data",
-        "lastUpdated": "2026-07-01"
+        "name": "World Happiness Report 2018 annex: Gallup Migrant Acceptance Index (2016-17)",
+        "url": "https://files.worldhappiness.report/WHR18_Annex.pdf",
+        "lastUpdated": "2026-08-18"
+      },
+      {
+        "name": "Reuters: Ireland immigration policy",
+        "url": "https://www.reuters.com/site-search/?query=Ireland%20immigration%20policy",
+        "lastUpdated": "2026-08-18"
+      },
+      {
+        "name": "AP News: Ireland immigration",
+        "url": "https://apnews.com/search?q=Ireland%20immigration",
+        "lastUpdated": "2026-08-18"
       }
     ]
   },
   {
     "countryId": "ie",
     "factorId": "climate-lifestyle",
-    "score": 55,
-    "blurb": "[Sample] Placeholder note on climate & lifestyle in Ireland; curated justification pending.",
-    "confidence": "placeholder",
+    "score": 89,
+    "blurb": "Numbeo rates Ireland’s mild maritime climate highly: cool, wet and rarely extreme.",
+    "confidence": "medium",
     "sources": [
       {
-        "name": "Sample source, data pending curation",
-        "url": "https://example.com/vantage-sample-data",
-        "lastUpdated": "2026-07-01"
+        "name": "Numbeo Climate Index",
+        "url": "https://www.numbeo.com/quality-of-life/rankings_by_country.jsp",
+        "lastUpdated": "2026-08-18"
+      },
+      {
+        "name": "Wikipedia: Climate of Ireland",
+        "url": "https://en.wikipedia.org/wiki/Climate_of_Ireland",
+        "lastUpdated": "2026-08-18"
+      },
+      {
+        "name": "Met Eireann",
+        "url": "https://www.met.ie/",
+        "lastUpdated": "2026-08-18"
       }
     ]
   },
