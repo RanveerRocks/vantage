@@ -1514,126 +1514,216 @@
   {
     "countryId": "sg",
     "factorId": "affordability",
-    "score": 42,
-    "blurb": "[Sample] Placeholder note on affordability in Singapore; curated justification pending.",
-    "confidence": "placeholder",
+    "score": 9,
+    "blurb": "Numbeo makes Singapore the most expensive of the eight by a clear margin, so at 9 affordability is by far the weakest score in the set.",
+    "confidence": "medium",
     "sources": [
       {
-        "name": "Sample source, data pending curation",
-        "url": "https://example.com/vantage-sample-data",
-        "lastUpdated": "2026-07-01"
+        "name": "Numbeo Cost of Living Index",
+        "url": "https://www.numbeo.com/cost-of-living/rankings_by_country.jsp",
+        "lastUpdated": "2026-08-18"
+      },
+      {
+        "name": "Reuters: Singapore cost of living",
+        "url": "https://www.reuters.com/site-search/?query=Singapore%20cost%20of%20living",
+        "lastUpdated": "2026-08-18"
+      },
+      {
+        "name": "Bloomberg: Singapore cost of living",
+        "url": "https://www.bloomberg.com/search?query=Singapore%20cost%20of%20living",
+        "lastUpdated": "2026-08-18"
       }
     ]
   },
   {
     "countryId": "sg",
     "factorId": "safety",
-    "score": 92,
-    "blurb": "[Sample] Placeholder note on safety in Singapore; curated justification pending.",
-    "confidence": "placeholder",
+    "score": 78,
+    "blurb": "Numbeo ranks Singapore the safest of the eight, and one of the safest cities anywhere.",
+    "confidence": "medium",
     "sources": [
       {
-        "name": "Sample source, data pending curation",
-        "url": "https://example.com/vantage-sample-data",
-        "lastUpdated": "2026-07-01"
+        "name": "Numbeo Safety Index",
+        "url": "https://www.numbeo.com/crime/rankings_by_country.jsp",
+        "lastUpdated": "2026-08-18"
+      },
+      {
+        "name": "Reuters: Singapore safety",
+        "url": "https://www.reuters.com/site-search/?query=Singapore%20crime%20safety",
+        "lastUpdated": "2026-08-18"
+      },
+      {
+        "name": "BBC News: Singapore crime",
+        "url": "https://www.bbc.co.uk/search?q=Singapore%20crime&d=news_gnl",
+        "lastUpdated": "2026-08-18"
       }
     ]
   },
   {
     "countryId": "sg",
     "factorId": "openness",
-    "score": 60,
-    "blurb": "[Sample] Placeholder note on openness & inclusion in Singapore; curated justification pending.",
-    "confidence": "placeholder",
+    "score": 62,
+    "blurb": "Singapore is not assessed by MIPEX, so this is an estimate. It is highly multicultural and English-speaking and welcoming to students and talent, though integration and citizenship rules are strict.",
+    "confidence": "low",
     "sources": [
       {
-        "name": "Sample source, data pending curation",
-        "url": "https://example.com/vantage-sample-data",
-        "lastUpdated": "2026-07-01"
+        "name": "Singapore Department of Statistics: population",
+        "url": "https://www.singstat.gov.sg/",
+        "lastUpdated": "2026-08-18"
+      },
+      {
+        "name": "Reuters: Singapore immigration",
+        "url": "https://www.reuters.com/site-search/?query=Singapore%20immigration%20integration",
+        "lastUpdated": "2026-08-18"
+      },
+      {
+        "name": "The Guardian: Singapore immigration",
+        "url": "https://www.theguardian.com/search?q=Singapore%20immigration",
+        "lastUpdated": "2026-08-18"
       }
     ]
   },
   {
     "countryId": "sg",
     "factorId": "work-rights",
-    "score": 55,
-    "blurb": "[Sample] Placeholder note on work rights in Singapore; curated justification pending.",
-    "confidence": "placeholder",
+    "score": 50,
+    "blurb": "Students at approved universities can work up to 16 hours a week in term. There is no dedicated post-study work visa, only a one-year pass to find an Employment Pass job.",
+    "confidence": "high",
     "sources": [
       {
-        "name": "Sample source, data pending curation",
-        "url": "https://example.com/vantage-sample-data",
-        "lastUpdated": "2026-07-01"
+        "name": "ICA: Student’s Pass",
+        "url": "https://www.ica.gov.sg/enter-transit-depart/entering-singapore/student-pass",
+        "lastUpdated": "2026-08-18"
+      },
+      {
+        "name": "The PIE News: Singapore student work",
+        "url": "https://thepienews.com/?s=Singapore%20student%20work%20rights",
+        "lastUpdated": "2026-08-18"
+      },
+      {
+        "name": "ICEF Monitor: Singapore student work",
+        "url": "https://monitor.icef.com/?s=Singapore%20student%20work",
+        "lastUpdated": "2026-08-18"
       }
     ]
   },
   {
     "countryId": "sg",
     "factorId": "healthcare",
-    "score": 75,
-    "blurb": "[Sample] Placeholder note on healthcare in Singapore; curated justification pending.",
-    "confidence": "placeholder",
+    "score": 72,
+    "blurb": "Numbeo rates Singapore’s healthcare highly; it is world-class but expensive, and students rely on university insurance schemes.",
+    "confidence": "medium",
     "sources": [
       {
-        "name": "Sample source, data pending curation",
-        "url": "https://example.com/vantage-sample-data",
-        "lastUpdated": "2026-07-01"
+        "name": "Numbeo Health Care Index",
+        "url": "https://www.numbeo.com/health-care/rankings_by_country.jsp",
+        "lastUpdated": "2026-08-18"
+      },
+      {
+        "name": "Reuters: Singapore healthcare",
+        "url": "https://www.reuters.com/site-search/?query=Singapore%20healthcare",
+        "lastUpdated": "2026-08-18"
+      },
+      {
+        "name": "BBC News: Singapore health",
+        "url": "https://www.bbc.co.uk/search?q=Singapore%20healthcare&d=news_gnl",
+        "lastUpdated": "2026-08-18"
       }
     ]
   },
   {
     "countryId": "sg",
     "factorId": "language",
-    "score": 85,
-    "blurb": "[Sample] Placeholder note on language ease in Singapore; curated justification pending.",
-    "confidence": "placeholder",
+    "score": 95,
+    "blurb": "English is the language of instruction and the main working language, alongside Malay, Mandarin and Tamil.",
+    "confidence": "high",
     "sources": [
       {
-        "name": "Sample source, data pending curation",
-        "url": "https://example.com/vantage-sample-data",
-        "lastUpdated": "2026-07-01"
+        "name": "EF English Proficiency Index",
+        "url": "https://www.ef.com/epi/",
+        "lastUpdated": "2026-08-18"
+      },
+      {
+        "name": "Wikipedia: Languages of Singapore",
+        "url": "https://en.wikipedia.org/wiki/Languages_of_Singapore",
+        "lastUpdated": "2026-08-18"
+      },
+      {
+        "name": "Ethnologue: Singapore",
+        "url": "https://www.ethnologue.com/country/SG/",
+        "lastUpdated": "2026-08-18"
       }
     ]
   },
   {
     "countryId": "sg",
     "factorId": "community",
-    "score": 82,
-    "blurb": "[Sample] Placeholder note on community in Singapore; curated justification pending.",
-    "confidence": "placeholder",
+    "score": 78,
+    "blurb": "Singapore hosts tens of thousands of international students and a very large ethnic-Indian population, so community and food are familiar for South Asian students.",
+    "confidence": "medium",
     "sources": [
       {
-        "name": "Sample source, data pending curation",
-        "url": "https://example.com/vantage-sample-data",
-        "lastUpdated": "2026-07-01"
+        "name": "Ministry of Education Singapore",
+        "url": "https://www.moe.gov.sg/",
+        "lastUpdated": "2026-08-18"
+      },
+      {
+        "name": "The PIE News: Singapore international students",
+        "url": "https://thepienews.com/?s=Singapore%20international%20students",
+        "lastUpdated": "2026-08-18"
+      },
+      {
+        "name": "ICEF Monitor: Singapore international students",
+        "url": "https://monitor.icef.com/?s=Singapore%20international%20students",
+        "lastUpdated": "2026-08-18"
       }
     ]
   },
   {
     "countryId": "sg",
     "factorId": "political-climate",
-    "score": 55,
-    "blurb": "[Sample] Placeholder note on political climate in Singapore; curated justification pending.",
-    "confidence": "placeholder",
+    "score": 61,
+    "blurb": "Singapore falls outside Gallup’s published most- and least-accepting tables, placing it mid-pack, so this 61 is an estimate. A large foreign workforce coexists with periodic local debate over immigration.",
+    "confidence": "low",
     "sources": [
       {
-        "name": "Sample source, data pending curation",
-        "url": "https://example.com/vantage-sample-data",
-        "lastUpdated": "2026-07-01"
+        "name": "World Happiness Report 2018 annex (Singapore falls outside both published tables; estimate)",
+        "url": "https://files.worldhappiness.report/WHR18_Annex.pdf",
+        "lastUpdated": "2026-08-18"
+      },
+      {
+        "name": "Reuters: Singapore immigration policy",
+        "url": "https://www.reuters.com/site-search/?query=Singapore%20immigration%20policy",
+        "lastUpdated": "2026-08-18"
+      },
+      {
+        "name": "AP News: Singapore immigration",
+        "url": "https://apnews.com/search?q=Singapore%20immigration",
+        "lastUpdated": "2026-08-18"
       }
     ]
   },
   {
     "countryId": "sg",
     "factorId": "climate-lifestyle",
-    "score": 65,
-    "blurb": "[Sample] Placeholder note on climate & lifestyle in Singapore; curated justification pending.",
-    "confidence": "placeholder",
+    "score": 58,
+    "blurb": "Numbeo scores Singapore’s climate modestly: hot and humid year-round with heavy rainfall and no seasons.",
+    "confidence": "medium",
     "sources": [
       {
-        "name": "Sample source, data pending curation",
-        "url": "https://example.com/vantage-sample-data",
-        "lastUpdated": "2026-07-01"
+        "name": "Numbeo Climate Index",
+        "url": "https://www.numbeo.com/quality-of-life/rankings_by_country.jsp",
+        "lastUpdated": "2026-08-18"
+      },
+      {
+        "name": "Wikipedia: Climate of Singapore",
+        "url": "https://en.wikipedia.org/wiki/Climate_of_Singapore",
+        "lastUpdated": "2026-08-18"
+      },
+      {
+        "name": "Meteorological Service Singapore",
+        "url": "https://www.weather.gov.sg/",
+        "lastUpdated": "2026-08-18"
       }
     ]
   }

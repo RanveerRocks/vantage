@@ -277,32 +277,37 @@
     "stages": [
       {
         "label": "Study",
-        "years": 2,
-        "description": "[Sample] Placeholder description of the study stage in Singapore; curated details pending."
+        "years": 4,
+        "description": "A Singapore honours bachelor’s degree typically takes four years."
       },
       {
         "label": "Post-study work visa",
         "years": 1,
-        "description": "[Sample] Placeholder description of the post-study work visa stage in Singapore; curated details pending."
+        "description": "There is no dedicated post-study work visa. Graduates of the main universities get a one-year Long-Term Visit Pass to job-hunt, then need an Employment Pass (from SGD 5,600 a month)."
       },
       {
         "label": "PR process",
         "years": 3,
-        "description": "[Sample] Placeholder description of the pr process stage in Singapore; curated details pending."
+        "description": "Permanent residence is discretionary and selective, usually applied for after two to three years on an Employment Pass, with no guarantee."
       },
       {
         "label": "Citizenship",
         "years": 2,
-        "description": "[Sample] Placeholder description of the citizenship stage in Singapore; curated details pending."
+        "description": "Citizenship can follow after about two years as a PR, but approval is highly selective and Singapore does not allow dual nationality."
       }
     ],
-    "totalYearsToPr": 6,
-    "confidence": "placeholder",
+    "totalYearsToPr": 8,
+    "confidence": "medium",
     "sources": [
       {
-        "name": "Sample source, data pending curation",
-        "url": "https://example.com/vantage-sample-data",
-        "lastUpdated": "2026-07-01"
+        "name": "ICA: Long-Term Visit Pass",
+        "url": "https://www.ica.gov.sg/enter-transit-depart/entering-singapore/long-term-passes",
+        "lastUpdated": "2026-08-18"
+      },
+      {
+        "name": "ICA: Permanent residence",
+        "url": "https://www.ica.gov.sg/reside/PR",
+        "lastUpdated": "2026-08-18"
       }
     ]
   }
