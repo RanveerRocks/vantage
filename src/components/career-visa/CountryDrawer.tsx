@@ -115,7 +115,9 @@ export function CountryDrawer({ detail, usdToInr, onClose }: CountryDrawerProps)
         <h3 className="text-xs font-medium uppercase tracking-wider text-slate">ROI inputs</h3>
         <dl className="mt-3 grid grid-cols-2 gap-3">
           <div className="rounded-card border border-hairline bg-white p-3">
-            <dt className="text-[11px] uppercase tracking-wider text-slate">Year-1 salary (PPP)</dt>
+            <dt className="text-[11px] uppercase tracking-wider text-slate">
+              Year-1 pay (total comp)
+            </dt>
             <dd className="mt-1 font-mono text-lg font-medium tabular-nums">
               {formatMoney(record.medianSalaryY1PppUsd, currency, usdToInr)}
             </dd>
@@ -128,7 +130,8 @@ export function CountryDrawer({ detail, usdToInr, onClose }: CountryDrawerProps)
           </div>
         </dl>
         <p className="mt-2 font-mono text-[11px] text-slate">
-          ROI = salary × 5 ÷ total cost, normalised across the 8 countries
+          ROI = year-1 total pay (nominal USD) × 5 ÷ full-degree cost, normalised across the 8
+          countries. It captures early cost-efficiency, not prestige or long-term earning ceiling.
         </p>
       </section>
 

@@ -119,10 +119,21 @@ X = ${X_WEIGHTS.jobDemand} · jobDemand
         <Formula>{`roiRaw = (medianSalaryY1PppUsd × 5) / totalDegreeCostUsd
 Y      = minMax(roiRaw)   // across the 8 countries for this degree`}</Formula>
         <p className="mt-3 text-sm leading-relaxed text-ink">
-          In words: five years of the typical first-job salary (PPP-adjusted so salaries are
-          comparable across countries) divided by the full cost of the degree: tuition, living,
-          insurance, and visa fees. A higher ratio means the degree pays itself back faster. The
-          ratio is then normalised across the 8 countries.
+          In words: five years of typical first-job pay divided by the full cost of the degree
+          (tuition, living, insurance, and visa fees). Salary is <strong>year-1 total
+          compensation in nominal USD</strong> (base plus typical bonus and equity, converted at
+          market exchange rates), because for an international student it is the hard-currency
+          money you can save, remit, or repay loans with. A higher ratio means the degree pays
+          itself back faster; the ratio is then normalised across the 8 countries.
+        </p>
+        <p className="mt-3 text-sm leading-relaxed text-ink">
+          <strong>What ROI does not capture.</strong> This is a deliberately narrow lens: early
+          cost-efficiency. It uses a five-year proxy, so it under-weights countries with steep
+          long-term salary growth (the US especially), and it scores neither prestige, research
+          quality, nor global brand, none of which Vantage ranks. A country can be an outstanding
+          place to study and still sit low here because it is expensive up front and hard to
+          settle in. Read the ROI axis as &ldquo;bang for buck early on,&rdquo; not
+          &ldquo;overall worth.&rdquo;
         </p>
       </Section>
 
