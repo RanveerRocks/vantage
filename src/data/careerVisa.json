@@ -31,7 +31,8 @@
         "url": "https://www.glassdoor.com/Search/results.htm?keyword=software%20developer%20United%20States",
         "lastUpdated": "2026-08-18"
       }
-    ]
+    ],
+    "medianSalaryY5Usd": 212606
   },
   {
     "countryId": "us",
@@ -65,7 +66,8 @@
         "url": "https://www.glassdoor.com/Search/results.htm?keyword=engineer%20United%20States",
         "lastUpdated": "2026-08-18"
       }
-    ]
+    ],
+    "medianSalaryY5Usd": 130732
   },
   {
     "countryId": "us",
@@ -99,7 +101,8 @@
         "url": "https://www.glassdoor.com/Search/results.htm?keyword=financial%20analyst%20United%20States",
         "lastUpdated": "2026-08-18"
       }
-    ]
+    ],
+    "medianSalaryY5Usd": 176597
   },
   {
     "countryId": "us",
@@ -133,7 +136,8 @@
         "url": "https://www.glassdoor.com/Search/results.htm?keyword=economist%20United%20States",
         "lastUpdated": "2026-08-18"
       }
-    ]
+    ],
+    "medianSalaryY5Usd": 113723
   },
   {
     "countryId": "us",
@@ -167,7 +171,8 @@
         "url": "https://www.glassdoor.com/Search/results.htm?keyword=data%20scientist%20United%20States",
         "lastUpdated": "2026-08-18"
       }
-    ]
+    ],
+    "medianSalaryY5Usd": 226780
   },
   {
     "countryId": "us",
@@ -201,7 +206,8 @@
         "url": "https://www.glassdoor.com/Search/results.htm?keyword=research%20scientist%20United%20States",
         "lastUpdated": "2026-08-18"
       }
-    ]
+    ],
+    "medianSalaryY5Usd": 95634
   },
   {
     "countryId": "us",
@@ -235,7 +241,8 @@
         "url": "https://www.glassdoor.com/Search/results.htm?keyword=designer%20United%20States",
         "lastUpdated": "2026-08-18"
       }
-    ]
+    ],
+    "medianSalaryY5Usd": 79178
   },
   {
     "countryId": "us",
@@ -269,7 +276,8 @@
         "url": "https://www.glassdoor.com/Search/results.htm?keyword=communications%20United%20States",
         "lastUpdated": "2026-08-18"
       }
-    ]
+    ],
+    "medianSalaryY5Usd": 76010
   },
   {
     "countryId": "uk",
@@ -303,7 +311,8 @@
         "url": "https://www.glassdoor.com/Search/results.htm?keyword=software%20developer%20United%20Kingdom",
         "lastUpdated": "2026-08-18"
       }
-    ]
+    ],
+    "medianSalaryY5Usd": 100988
   },
   {
     "countryId": "uk",
@@ -337,7 +346,8 @@
         "url": "https://www.glassdoor.com/Search/results.htm?keyword=engineer%20United%20Kingdom",
         "lastUpdated": "2026-08-18"
       }
-    ]
+    ],
+    "medianSalaryY5Usd": 67253
   },
   {
     "countryId": "uk",
@@ -371,7 +381,8 @@
         "url": "https://www.glassdoor.com/Search/results.htm?keyword=financial%20analyst%20United%20Kingdom",
         "lastUpdated": "2026-08-18"
       }
-    ]
+    ],
+    "medianSalaryY5Usd": 93713
   },
   {
     "countryId": "uk",
@@ -405,7 +416,8 @@
         "url": "https://www.glassdoor.com/Search/results.htm?keyword=economist%20United%20Kingdom",
         "lastUpdated": "2026-08-18"
       }
-    ]
+    ],
+    "medianSalaryY5Usd": 63774
   },
   {
     "countryId": "uk",
@@ -439,7 +451,8 @@
         "url": "https://www.glassdoor.com/Search/results.htm?keyword=data%20scientist%20United%20Kingdom",
         "lastUpdated": "2026-08-18"
       }
-    ]
+    ],
+    "medianSalaryY5Usd": 104144
   },
   {
     "countryId": "uk",
@@ -473,7 +486,8 @@
         "url": "https://www.glassdoor.com/Search/results.htm?keyword=research%20scientist%20United%20Kingdom",
         "lastUpdated": "2026-08-18"
       }
-    ]
+    ],
+    "medianSalaryY5Usd": 64774
   },
   {
     "countryId": "uk",
@@ -507,7 +521,8 @@
         "url": "https://www.glassdoor.com/Search/results.htm?keyword=designer%20United%20Kingdom",
         "lastUpdated": "2026-08-18"
       }
-    ]
+    ],
+    "medianSalaryY5Usd": 49159
   },
   {
     "countryId": "uk",
@@ -541,7 +556,8 @@
         "url": "https://www.glassdoor.com/Search/results.htm?keyword=communications%20United%20Kingdom",
         "lastUpdated": "2026-08-18"
       }
-    ]
+    ],
+    "medianSalaryY5Usd": 47193
   },
   {
     "countryId": "ca",
@@ -575,7 +591,8 @@
         "url": "https://www.glassdoor.com/Search/results.htm?keyword=software%20developer%20Canada",
         "lastUpdated": "2026-08-18"
       }
-    ]
+    ],
+    "medianSalaryY5Usd": 98654
   },
   {
     "countryId": "ca",
@@ -609,7 +626,8 @@
         "url": "https://www.glassdoor.com/Search/results.htm?keyword=engineer%20Canada",
         "lastUpdated": "2026-08-18"
       }
-    ]
+    ],
+    "medianSalaryY5Usd": 67818
   },
   {
     "countryId": "ca",
@@ -643,7 +661,8 @@
         "url": "https://www.glassdoor.com/Search/results.htm?keyword=financial%20analyst%20Canada",
         "lastUpdated": "2026-08-18"
       }
-    ]
+    ],
+    "medianSalaryY5Usd": 94500
   },
   {
     "countryId": "ca",
@@ -677,7 +696,8 @@
         "url": "https://www.glassdoor.com/Search/results.htm?keyword=economist%20Canada",
         "lastUpdated": "2026-08-18"
       }
-    ]
+    ],
+    "medianSalaryY5Usd": 64310
   },
   {
     "countryId": "ca",
@@ -711,7 +731,8 @@
         "url": "https://www.glassdoor.com/Search/results.htm?keyword=data%20scientist%20Canada",
         "lastUpdated": "2026-08-18"
       }
-    ]
+    ],
+    "medianSalaryY5Usd": 103428
   },
   {
     "countryId": "ca",
@@ -745,7 +766,8 @@
         "url": "https://www.glassdoor.com/Search/results.htm?keyword=research%20scientist%20Canada",
         "lastUpdated": "2026-08-18"
       }
-    ]
+    ],
+    "medianSalaryY5Usd": 54432
   },
   {
     "countryId": "ca",
@@ -779,7 +801,8 @@
         "url": "https://www.glassdoor.com/Search/results.htm?keyword=designer%20Canada",
         "lastUpdated": "2026-08-18"
       }
-    ]
+    ],
+    "medianSalaryY5Usd": 44615
   },
   {
     "countryId": "ca",
@@ -813,7 +836,8 @@
         "url": "https://www.glassdoor.com/Search/results.htm?keyword=communications%20Canada",
         "lastUpdated": "2026-08-18"
       }
-    ]
+    ],
+    "medianSalaryY5Usd": 44615
   },
   {
     "countryId": "au",
@@ -847,7 +871,8 @@
         "url": "https://www.glassdoor.com/Search/results.htm?keyword=software%20developer%20Australia",
         "lastUpdated": "2026-08-18"
       }
-    ]
+    ],
+    "medianSalaryY5Usd": 112975
   },
   {
     "countryId": "au",
@@ -881,7 +906,8 @@
         "url": "https://www.glassdoor.com/Search/results.htm?keyword=engineer%20Australia",
         "lastUpdated": "2026-08-18"
       }
-    ]
+    ],
+    "medianSalaryY5Usd": 78407
   },
   {
     "countryId": "au",
@@ -915,7 +941,8 @@
         "url": "https://www.glassdoor.com/Search/results.htm?keyword=financial%20analyst%20Australia",
         "lastUpdated": "2026-08-18"
       }
-    ]
+    ],
+    "medianSalaryY5Usd": 100954
   },
   {
     "countryId": "au",
@@ -949,7 +976,8 @@
         "url": "https://www.glassdoor.com/Search/results.htm?keyword=economist%20Australia",
         "lastUpdated": "2026-08-18"
       }
-    ]
+    ],
+    "medianSalaryY5Usd": 71344
   },
   {
     "countryId": "au",
@@ -983,7 +1011,8 @@
         "url": "https://www.glassdoor.com/Search/results.htm?keyword=data%20scientist%20Australia",
         "lastUpdated": "2026-08-18"
       }
-    ]
+    ],
+    "medianSalaryY5Usd": 117683
   },
   {
     "countryId": "au",
@@ -1017,7 +1046,8 @@
         "url": "https://www.glassdoor.com/Search/results.htm?keyword=research%20scientist%20Australia",
         "lastUpdated": "2026-08-18"
       }
-    ]
+    ],
+    "medianSalaryY5Usd": 66559
   },
   {
     "countryId": "au",
@@ -1051,7 +1081,8 @@
         "url": "https://www.glassdoor.com/Search/results.htm?keyword=designer%20Australia",
         "lastUpdated": "2026-08-18"
       }
-    ]
+    ],
+    "medianSalaryY5Usd": 56705
   },
   {
     "countryId": "au",
@@ -1085,7 +1116,8 @@
         "url": "https://www.glassdoor.com/Search/results.htm?keyword=communications%20Australia",
         "lastUpdated": "2026-08-18"
       }
-    ]
+    ],
+    "medianSalaryY5Usd": 54749
   },
   {
     "countryId": "de",
@@ -1119,7 +1151,8 @@
         "url": "https://www.glassdoor.com/Search/results.htm?keyword=software%20developer%20Germany",
         "lastUpdated": "2026-08-18"
       }
-    ]
+    ],
+    "medianSalaryY5Usd": 116900
   },
   {
     "countryId": "de",
@@ -1153,7 +1186,8 @@
         "url": "https://www.glassdoor.com/Search/results.htm?keyword=engineer%20Germany",
         "lastUpdated": "2026-08-18"
       }
-    ]
+    ],
+    "medianSalaryY5Usd": 89482
   },
   {
     "countryId": "de",
@@ -1187,7 +1221,8 @@
         "url": "https://www.glassdoor.com/Search/results.htm?keyword=financial%20analyst%20Germany",
         "lastUpdated": "2026-08-18"
       }
-    ]
+    ],
+    "medianSalaryY5Usd": 115710
   },
   {
     "countryId": "de",
@@ -1221,7 +1256,8 @@
         "url": "https://www.glassdoor.com/Search/results.htm?keyword=economist%20Germany",
         "lastUpdated": "2026-08-18"
       }
-    ]
+    ],
+    "medianSalaryY5Usd": 80854
   },
   {
     "countryId": "de",
@@ -1255,7 +1291,8 @@
         "url": "https://www.glassdoor.com/Search/results.htm?keyword=data%20scientist%20Germany",
         "lastUpdated": "2026-08-18"
       }
-    ]
+    ],
+    "medianSalaryY5Usd": 121771
   },
   {
     "countryId": "de",
@@ -1289,7 +1326,8 @@
         "url": "https://www.glassdoor.com/Search/results.htm?keyword=research%20scientist%20Germany",
         "lastUpdated": "2026-08-18"
       }
-    ]
+    ],
+    "medianSalaryY5Usd": 74980
   },
   {
     "countryId": "de",
@@ -1323,7 +1361,8 @@
         "url": "https://www.glassdoor.com/Search/results.htm?keyword=designer%20Germany",
         "lastUpdated": "2026-08-18"
       }
-    ]
+    ],
+    "medianSalaryY5Usd": 60698
   },
   {
     "countryId": "de",
@@ -1357,7 +1396,8 @@
         "url": "https://www.glassdoor.com/Search/results.htm?keyword=communications%20Germany",
         "lastUpdated": "2026-08-18"
       }
-    ]
+    ],
+    "medianSalaryY5Usd": 60698
   },
   {
     "countryId": "ie",
@@ -1391,7 +1431,8 @@
         "url": "https://www.glassdoor.com/Search/results.htm?keyword=software%20developer%20Ireland",
         "lastUpdated": "2026-08-18"
       }
-    ]
+    ],
+    "medianSalaryY5Usd": 102544
   },
   {
     "countryId": "ie",
@@ -1425,7 +1466,8 @@
         "url": "https://www.glassdoor.com/Search/results.htm?keyword=engineer%20Ireland",
         "lastUpdated": "2026-08-18"
       }
-    ]
+    ],
+    "medianSalaryY5Usd": 65934
   },
   {
     "countryId": "ie",
@@ -1459,7 +1501,8 @@
         "url": "https://www.glassdoor.com/Search/results.htm?keyword=financial%20analyst%20Ireland",
         "lastUpdated": "2026-08-18"
       }
-    ]
+    ],
+    "medianSalaryY5Usd": 88813
   },
   {
     "countryId": "ie",
@@ -1493,7 +1536,8 @@
         "url": "https://www.glassdoor.com/Search/results.htm?keyword=economist%20Ireland",
         "lastUpdated": "2026-08-18"
       }
-    ]
+    ],
+    "medianSalaryY5Usd": 64757
   },
   {
     "countryId": "ie",
@@ -1527,7 +1571,8 @@
         "url": "https://www.glassdoor.com/Search/results.htm?keyword=data%20scientist%20Ireland",
         "lastUpdated": "2026-08-18"
       }
-    ]
+    ],
+    "medianSalaryY5Usd": 107671
   },
   {
     "countryId": "ie",
@@ -1561,7 +1606,8 @@
         "url": "https://www.glassdoor.com/Search/results.htm?keyword=research%20scientist%20Ireland",
         "lastUpdated": "2026-08-18"
       }
-    ]
+    ],
+    "medianSalaryY5Usd": 66648
   },
   {
     "countryId": "ie",
@@ -1595,7 +1641,8 @@
         "url": "https://www.glassdoor.com/Search/results.htm?keyword=designer%20Ireland",
         "lastUpdated": "2026-08-18"
       }
-    ]
+    ],
+    "medianSalaryY5Usd": 52712
   },
   {
     "countryId": "ie",
@@ -1629,7 +1676,8 @@
         "url": "https://www.glassdoor.com/Search/results.htm?keyword=communications%20Ireland",
         "lastUpdated": "2026-08-18"
       }
-    ]
+    ],
+    "medianSalaryY5Usd": 51114
   },
   {
     "countryId": "nl",
@@ -1663,7 +1711,8 @@
         "url": "https://www.glassdoor.com/Search/results.htm?keyword=software%20developer%20Netherlands",
         "lastUpdated": "2026-08-18"
       }
-    ]
+    ],
+    "medianSalaryY5Usd": 105518
   },
   {
     "countryId": "nl",
@@ -1697,7 +1746,8 @@
         "url": "https://www.glassdoor.com/Search/results.htm?keyword=engineer%20Netherlands",
         "lastUpdated": "2026-08-18"
       }
-    ]
+    ],
+    "medianSalaryY5Usd": 70155
   },
   {
     "countryId": "nl",
@@ -1731,7 +1781,8 @@
         "url": "https://www.glassdoor.com/Search/results.htm?keyword=financial%20analyst%20Netherlands",
         "lastUpdated": "2026-08-18"
       }
-    ]
+    ],
+    "medianSalaryY5Usd": 104444
   },
   {
     "countryId": "nl",
@@ -1765,7 +1816,8 @@
         "url": "https://www.glassdoor.com/Search/results.htm?keyword=economist%20Netherlands",
         "lastUpdated": "2026-08-18"
       }
-    ]
+    ],
+    "medianSalaryY5Usd": 72528
   },
   {
     "countryId": "nl",
@@ -1799,7 +1851,8 @@
         "url": "https://www.glassdoor.com/Search/results.htm?keyword=data%20scientist%20Netherlands",
         "lastUpdated": "2026-08-18"
       }
-    ]
+    ],
+    "medianSalaryY5Usd": 110542
   },
   {
     "countryId": "nl",
@@ -1833,7 +1886,8 @@
         "url": "https://www.glassdoor.com/Search/results.htm?keyword=research%20scientist%20Netherlands",
         "lastUpdated": "2026-08-18"
       }
-    ]
+    ],
+    "medianSalaryY5Usd": 65315
   },
   {
     "countryId": "nl",
@@ -1867,7 +1921,8 @@
         "url": "https://www.glassdoor.com/Search/results.htm?keyword=designer%20Netherlands",
         "lastUpdated": "2026-08-18"
       }
-    ]
+    ],
+    "medianSalaryY5Usd": 57918
   },
   {
     "countryId": "nl",
@@ -1901,7 +1956,8 @@
         "url": "https://www.glassdoor.com/Search/results.htm?keyword=communications%20Netherlands",
         "lastUpdated": "2026-08-18"
       }
-    ]
+    ],
+    "medianSalaryY5Usd": 54788
   },
   {
     "countryId": "sg",
@@ -1935,7 +1991,8 @@
         "url": "https://www.glassdoor.com/Search/results.htm?keyword=software%20developer%20Singapore",
         "lastUpdated": "2026-08-18"
       }
-    ]
+    ],
+    "medianSalaryY5Usd": 99549
   },
   {
     "countryId": "sg",
@@ -1969,7 +2026,8 @@
         "url": "https://www.glassdoor.com/Search/results.htm?keyword=engineer%20Singapore",
         "lastUpdated": "2026-08-18"
       }
-    ]
+    ],
+    "medianSalaryY5Usd": 59853
   },
   {
     "countryId": "sg",
@@ -2003,7 +2061,8 @@
         "url": "https://www.glassdoor.com/Search/results.htm?keyword=financial%20analyst%20Singapore",
         "lastUpdated": "2026-08-18"
       }
-    ]
+    ],
+    "medianSalaryY5Usd": 98536
   },
   {
     "countryId": "sg",
@@ -2037,7 +2096,8 @@
         "url": "https://www.glassdoor.com/Search/results.htm?keyword=economist%20Singapore",
         "lastUpdated": "2026-08-18"
       }
-    ]
+    ],
+    "medianSalaryY5Usd": 65315
   },
   {
     "countryId": "sg",
@@ -2071,7 +2131,8 @@
         "url": "https://www.glassdoor.com/Search/results.htm?keyword=data%20scientist%20Singapore",
         "lastUpdated": "2026-08-18"
       }
-    ]
+    ],
+    "medianSalaryY5Usd": 99549
   },
   {
     "countryId": "sg",
@@ -2105,7 +2166,8 @@
         "url": "https://www.glassdoor.com/Search/results.htm?keyword=research%20scientist%20Singapore",
         "lastUpdated": "2026-08-18"
       }
-    ]
+    ],
+    "medianSalaryY5Usd": 59439
   },
   {
     "countryId": "sg",
@@ -2139,7 +2201,8 @@
         "url": "https://www.glassdoor.com/Search/results.htm?keyword=designer%20Singapore",
         "lastUpdated": "2026-08-18"
       }
-    ]
+    ],
+    "medianSalaryY5Usd": 47366
   },
   {
     "countryId": "sg",
@@ -2173,6 +2236,7 @@
         "url": "https://www.glassdoor.com/Search/results.htm?keyword=communications%20Singapore",
         "lastUpdated": "2026-08-18"
       }
-    ]
+    ],
+    "medianSalaryY5Usd": 47366
   }
 ]

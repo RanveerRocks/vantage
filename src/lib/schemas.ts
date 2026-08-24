@@ -60,7 +60,8 @@ export const careerVisaMetricsSchema = z.object({
   visaOpenness: score0to100,
   postStudyWorkYears: z.number().min(0),
   prPathwayYears: z.number().min(0),
-  medianSalaryY1PppUsd: z.number().positive(),
+  medianSalaryY1PppUsd: z.number().positive(), // year-1 total comp, nominal USD (legacy key name)
+  medianSalaryY5Usd: z.number().positive(), // year-5 total comp, nominal USD
   totalDegreeCostUsd: z.number().positive(),
   narrative: z.string().min(1),
   confidence: confidenceSchema,

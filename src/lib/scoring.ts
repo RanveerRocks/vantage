@@ -83,8 +83,13 @@ export function careerVisaScore(records: CareerVisaMetrics[]): CountryScore[] {
  *   Y = minMax(roiRaw)
  */
 export function roiScore(records: CareerVisaMetrics[]): CountryScore[] {
+  // Numerator averages year-1 and year-5 total pay so steep-growth markets
+  // (e.g. the US) are not judged on a starting salary alone. The ×5 constant
+  // cancels under minMax, so only the pay-to-cost ratio drives the score.
   const raw = records.map(
-    (record) => (record.medianSalaryY1PppUsd * 5) / record.totalDegreeCostUsd,
+    (record) =>
+      (((record.medianSalaryY1PppUsd + record.medianSalaryY5Usd) / 2) * 5) /
+      record.totalDegreeCostUsd,
   )
   const normalised = minMax(raw)
   return records.map((record, index) => ({

@@ -21,6 +21,7 @@ function career(countryId: CountryId, overrides: Partial<CareerVisaMetrics>): Ca
     postStudyWorkYears: 0,
     prPathwayYears: 0,
     medianSalaryY1PppUsd: 1,
+    medianSalaryY5Usd: 1,
     totalDegreeCostUsd: 1,
     narrative: 'test',
     confidence: 'placeholder',
@@ -127,18 +128,29 @@ describe('careerVisaBreakdown', () => {
 })
 
 describe('roiScore (Y axis)', () => {
-  it('normalises salary×5/cost and preserves the roiRaw ordering', () => {
+  it('normalises (avg pay)/cost and preserves the roiRaw ordering', () => {
+    // With year-5 = year-1 here, avg = year-1, so the ratios are 2.5 / 1.0 / 3.0.
     const records = [
-      career('us', { medianSalaryY1PppUsd: 50000, totalDegreeCostUsd: 100000 }), // roiRaw 2.5
-      career('uk', { medianSalaryY1PppUsd: 60000, totalDegreeCostUsd: 300000 }), // roiRaw 1.0
-      career('de', { medianSalaryY1PppUsd: 30000, totalDegreeCostUsd: 50000 }), // roiRaw 3.0
+      career('us', { medianSalaryY1PppUsd: 50000, medianSalaryY5Usd: 50000, totalDegreeCostUsd: 100000 }),
+      career('uk', { medianSalaryY1PppUsd: 60000, medianSalaryY5Usd: 60000, totalDegreeCostUsd: 300000 }),
+      career('de', { medianSalaryY1PppUsd: 30000, medianSalaryY5Usd: 30000, totalDegreeCostUsd: 50000 }),
     ]
     const scores = roiScore(records)
     expect(scores[0].score).toBeCloseTo(75, 6)
     expect(scores[1].score).toBeCloseTo(0, 6)
     expect(scores[2].score).toBeCloseTo(100, 6)
-    expect(scores[2].score).toBeGreaterThan(scores[0].score)
-    expect(scores[0].score).toBeGreaterThan(scores[1].score)
+  })
+
+  it('averages year-1 and year-5 pay, so steep growth lifts ROI', () => {
+    // Both start at 40k/yr; US grows to 120k by year 5, UK stays flat at 40k.
+    // avg pay: US 80k, UK 40k -> US ranks above UK despite equal starts.
+    const records = [
+      career('us', { medianSalaryY1PppUsd: 40000, medianSalaryY5Usd: 120000, totalDegreeCostUsd: 100000 }),
+      career('uk', { medianSalaryY1PppUsd: 40000, medianSalaryY5Usd: 40000, totalDegreeCostUsd: 100000 }),
+    ]
+    const scores = roiScore(records)
+    expect(scores[0].score).toBeCloseTo(100, 6)
+    expect(scores[1].score).toBeCloseTo(0, 6)
   })
 })
 

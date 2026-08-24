@@ -115,14 +115,18 @@ export function CountryDrawer({ detail, usdToInr, onClose }: CountryDrawerProps)
         <h3 className="text-xs font-medium uppercase tracking-wider text-slate">ROI inputs</h3>
         <dl className="mt-3 grid grid-cols-2 gap-3">
           <div className="rounded-card border border-hairline bg-white p-3">
-            <dt className="text-[11px] uppercase tracking-wider text-slate">
-              Year-1 pay (total comp)
-            </dt>
+            <dt className="text-[11px] uppercase tracking-wider text-slate">Year-1 pay</dt>
             <dd className="mt-1 font-mono text-lg font-medium tabular-nums">
               {formatMoney(record.medianSalaryY1PppUsd, currency, usdToInr)}
             </dd>
           </div>
           <div className="rounded-card border border-hairline bg-white p-3">
+            <dt className="text-[11px] uppercase tracking-wider text-slate">Year-5 pay</dt>
+            <dd className="mt-1 font-mono text-lg font-medium tabular-nums">
+              {formatMoney(record.medianSalaryY5Usd, currency, usdToInr)}
+            </dd>
+          </div>
+          <div className="col-span-2 rounded-card border border-hairline bg-white p-3">
             <dt className="text-[11px] uppercase tracking-wider text-slate">Total degree cost</dt>
             <dd className="mt-1 font-mono text-lg font-medium tabular-nums">
               {formatMoney(record.totalDegreeCostUsd, currency, usdToInr)}
@@ -130,8 +134,9 @@ export function CountryDrawer({ detail, usdToInr, onClose }: CountryDrawerProps)
           </div>
         </dl>
         <p className="mt-2 font-mono text-[11px] text-slate">
-          ROI = year-1 total pay (nominal USD) × 5 ÷ full-degree cost, normalised across the 8
-          countries. It captures early cost-efficiency, not prestige or long-term earning ceiling.
+          ROI uses the average of year-1 and year-5 total pay (nominal USD) over full-degree cost,
+          normalised across the 8 countries. It captures early cost-efficiency, not prestige or
+          long-term earning ceiling.
         </p>
       </section>
 

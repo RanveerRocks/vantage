@@ -116,24 +116,26 @@ X = ${X_WEIGHTS.jobDemand} · jobDemand
       </Section>
 
       <Section title="ROI Score (scatter, Y axis)">
-        <Formula>{`roiRaw = (medianSalaryY1PppUsd × 5) / totalDegreeCostUsd
+        <Formula>{`pay    = (year1TotalComp + year5TotalComp) / 2
+roiRaw = pay / totalDegreeCostUsd
 Y      = minMax(roiRaw)   // across the 8 countries for this degree`}</Formula>
         <p className="mt-3 text-sm leading-relaxed text-ink">
-          In words: five years of typical first-job pay divided by the full cost of the degree
-          (tuition, living, insurance, and visa fees). Salary is <strong>year-1 total
-          compensation in nominal USD</strong> (base plus typical bonus and equity, converted at
-          market exchange rates), because for an international student it is the hard-currency
-          money you can save, remit, or repay loans with. A higher ratio means the degree pays
-          itself back faster; the ratio is then normalised across the 8 countries.
+          In words: typical graduate pay divided by the full cost of the degree (tuition, living,
+          insurance, and visa fees). Pay is the <strong>average of year-1 and year-5 total
+          compensation, in nominal USD</strong> (base plus typical bonus and equity at market
+          exchange rates). We use nominal USD because it is the hard-currency money an
+          international student can save, remit, or repay loans with; we average in year-5 so
+          markets with steep salary growth (the US especially) are not judged on a starting salary
+          alone. Year-5 pay is estimated from year-1 using published growth patterns by field and
+          country, so it carries more uncertainty than the year-1 figure.
         </p>
         <p className="mt-3 text-sm leading-relaxed text-ink">
-          <strong>What ROI does not capture.</strong> This is a deliberately narrow lens: early
-          cost-efficiency. It uses a five-year proxy, so it under-weights countries with steep
-          long-term salary growth (the US especially), and it scores neither prestige, research
-          quality, nor global brand, none of which Vantage ranks. A country can be an outstanding
-          place to study and still sit low here because it is expensive up front and hard to
-          settle in. Read the ROI axis as &ldquo;bang for buck early on,&rdquo; not
-          &ldquo;overall worth.&rdquo;
+          <strong>What ROI still does not capture.</strong> Even with the year-5 average, this is a
+          deliberately narrow lens: cost-efficiency of pay against price. Free-tuition countries
+          (Germany) therefore score very high, and expensive ones score low even when the education
+          is world-leading. It scores neither prestige, research quality, nor global brand, none of
+          which Vantage ranks. A country can be an outstanding place to study and still sit low
+          here. Read the ROI axis as &ldquo;bang for buck,&rdquo; not &ldquo;overall worth.&rdquo;
         </p>
       </Section>
 
