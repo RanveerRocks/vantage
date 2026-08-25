@@ -36,7 +36,8 @@ export function CareerVisaTab({ degree }: { degree: Degree }) {
           name: country?.name ?? record.countryId,
           color: COUNTRY_COLORS[record.countryId],
           x: breakdowns[index].score,
-          y: rois[index].score,
+          y: Math.min(rois[index].score, 50),
+          yScore: rois[index].score,
         }
       }),
     [records, breakdowns, rois, data],

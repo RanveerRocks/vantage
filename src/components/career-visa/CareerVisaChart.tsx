@@ -19,7 +19,8 @@ export interface ChartPoint {
   name: string
   color: string
   x: number
-  y: number
+  y: number // plotted ROI, clamped to the 0-50 axis window
+  yScore: number // true ROI score (0-100), shown in readouts
 }
 
 const INK = '#111826'
@@ -28,7 +29,11 @@ const HAIRLINE = '#E3E6E1'
 const ULTRAMARINE = '#2440C9'
 const GOLD = '#B98A1F'
 const MONO = '"IBM Plex Mono", ui-monospace, monospace'
-const TICKS = [0, 25, 50, 75, 100]
+const X_TICKS = [0, 25, 50, 75, 100]
+// The ROI axis is a zoomed 0-50 window: returns above 50 (e.g. free-tuition
+// Germany) pin to the top so the rest of the field is not crushed at the base.
+const Y_TICKS = [0, 25, 50]
+const Y_MAX = 50
 const TICK_STYLE = { fill: SLATE, fontSize: 10.5, fontFamily: MONO, letterSpacing: '0.05em' }
 
 // Recharts passes its internal chart state to <Customized>; we only need the
@@ -226,7 +231,7 @@ export function CareerVisaChart({ degreeName, points, selectedId, onSelect }: Ca
           animate: { pathLength: 1, opacity: 1 },
           transition: { duration: 0.22, ease: 'easeOut' as const },
         }
-    const yText = sightedPoint.y.toFixed(1)
+    const yText = sightedPoint.yScore.toFixed(1)
     const xText = sightedPoint.x.toFixed(1)
     const chipWidth = (text: string) => text.length * 6.6 + 12
     const chipH = 18
@@ -301,7 +306,7 @@ export function CareerVisaChart({ degreeName, points, selectedId, onSelect }: Ca
   }
 
   const announcement = sightedPoint
-    ? `${sightedPoint.name}: career and visa score ${sightedPoint.x.toFixed(0)}, ROI score ${sightedPoint.y.toFixed(0)}. Press Enter for the full breakdown.`
+    ? `${sightedPoint.name}: career and visa score ${sightedPoint.x.toFixed(0)}, ROI score ${sightedPoint.yScore.toFixed(0)}. Press Enter for the full breakdown.`
     : ''
 
   return (
@@ -336,7 +341,7 @@ export function CareerVisaChart({ degreeName, points, selectedId, onSelect }: Ca
                   dataKey="x"
                   type="number"
                   domain={[0, 100]}
-                  ticks={TICKS}
+                  ticks={X_TICKS}
                   tick={TICK_STYLE}
                   tickLine={false}
                   axisLine={{ stroke: HAIRLINE }}
@@ -346,8 +351,9 @@ export function CareerVisaChart({ degreeName, points, selectedId, onSelect }: Ca
                 <YAxis
                   dataKey="y"
                   type="number"
-                  domain={[0, 100]}
-                  ticks={TICKS}
+                  domain={[0, Y_MAX]}
+                  ticks={Y_TICKS}
+                  tickFormatter={(v: number) => (v >= Y_MAX ? '50+' : String(v))}
                   tick={TICK_STYLE}
                   tickLine={false}
                   axisLine={{ stroke: HAIRLINE }}
@@ -355,7 +361,7 @@ export function CareerVisaChart({ degreeName, points, selectedId, onSelect }: Ca
                   width={40}
                 />
                 <ReferenceLine x={50} stroke={INK} strokeOpacity={0.22} />
-                <ReferenceLine y={50} stroke={INK} strokeOpacity={0.22} />
+                <ReferenceLine y={25} stroke={INK} strokeOpacity={0.22} />
                 <Customized component={renderQuadrantLabels} />
                 <Customized component={renderCrosshair} />
                 <Scatter data={points} isAnimationActive={false} shape={renderDot} />

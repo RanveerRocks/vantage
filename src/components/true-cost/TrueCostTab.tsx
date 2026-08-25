@@ -144,24 +144,25 @@ export function TrueCostTab() {
                 <strong className="text-ink">{formatMoney(record[biggest.key], currency, rate)}</strong>.
               </p>
 
-              <div className="mt-4">
-                <p className="flex items-center gap-2 text-xs font-semibold uppercase tracking-wider" style={{ color: ACCENT }}>
-                  <span aria-hidden="true">✦</span> What families miss
+              <div className="mt-5 border-t border-hairline pt-4">
+                <p
+                  className="text-[11px] font-semibold uppercase tracking-[0.14em]"
+                  style={{ color: ACCENT }}
+                >
+                  What families miss
                 </p>
-                <div className="mt-2 space-y-2">
+                <ul className="mt-2.5 space-y-2.5">
                   {record.hiddenNotes.map((note) => (
-                    <div key={note} className="flex gap-2.5 rounded-chip border border-amber/25 bg-amber/[0.07] p-3">
+                    <li key={note} className="flex gap-2.5">
                       <span
-                        className="mt-0.5 grid h-4 w-4 shrink-0 place-content-center rounded-full text-[10px] font-bold text-white"
-                        style={{ backgroundColor: '#D9820A' }}
+                        className="mt-[7px] h-1.5 w-1.5 shrink-0 rounded-full"
+                        style={{ backgroundColor: ACCENT }}
                         aria-hidden="true"
-                      >
-                        !
-                      </span>
-                      <Rich text={note} className="text-xs leading-relaxed text-ink" />
-                    </div>
+                      />
+                      <Rich text={note} className="text-[13px] leading-relaxed text-slate" />
+                    </li>
                   ))}
-                </div>
+                </ul>
               </div>
 
               <div className="mt-4 border-t border-hairline pt-3">

@@ -89,9 +89,19 @@ export function Explore() {
     })
   }
 
+  const activeColor = TABS.find((t) => t.id === tab)?.color ?? '#2440C9'
+
   return (
-    <div className="mx-auto w-full max-w-6xl px-4 py-10 sm:px-6 sm:py-12">
-      <p className="font-mono text-[11px] uppercase tracking-[0.22em] text-gradient">Exploring</p>
+    <div
+      className="relative"
+      style={{
+        background: `radial-gradient(120% 460px at 50% 0, ${activeColor}14, transparent 70%)`,
+      }}
+    >
+      <div className="mx-auto w-full max-w-6xl px-4 py-10 sm:px-6 sm:py-12">
+        <p className="font-mono text-[11px] uppercase tracking-[0.22em]" style={{ color: activeColor }}>
+          Exploring
+        </p>
       <h1 className="mt-2 font-display text-3xl font-semibold tracking-tight text-ink sm:text-[2.7rem]">
         {degree.name}
       </h1>
@@ -144,6 +154,7 @@ export function Explore() {
             <EmergingTab degree={degree} />
           )}
         </Suspense>
+        </div>
       </div>
     </div>
   )

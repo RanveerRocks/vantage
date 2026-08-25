@@ -65,4 +65,41 @@
     -webkit-mask-image: radial-gradient(ellipse 90% 100% at 50% 0%, black 40%, transparent 100%);
     mask-image: radial-gradient(ellipse 90% 100% at 50% 0%, black 40%, transparent 100%);
   }
+
+  /* Reviews marquee: seamless side-to-side auto-scroll of a duplicated track.
+     Pauses on hover/focus; edges faded like a chart margin. */
+  .marquee-viewport {
+    overflow: hidden;
+    -webkit-mask-image: linear-gradient(90deg, transparent, black 6%, black 94%, transparent);
+    mask-image: linear-gradient(90deg, transparent, black 6%, black 94%, transparent);
+  }
+  .marquee-track {
+    display: flex;
+    width: max-content;
+    animation: vantage-marquee var(--marquee-duration, 48s) linear infinite;
+  }
+  .marquee-viewport:hover .marquee-track,
+  .marquee-viewport:focus-within .marquee-track {
+    animation-play-state: paused;
+  }
+  @media (prefers-reduced-motion: reduce) {
+    .marquee-track {
+      animation: none;
+      transform: none;
+    }
+    .marquee-viewport {
+      overflow-x: auto;
+      -webkit-mask-image: none;
+      mask-image: none;
+    }
+  }
+}
+
+@keyframes vantage-marquee {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-50%);
+  }
 }

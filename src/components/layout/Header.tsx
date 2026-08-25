@@ -107,6 +107,17 @@ export function Header() {
           >
             Methodology
           </NavLink>
+
+          <NavLink
+            to="/about"
+            className={({ isActive }) =>
+              `hidden shrink-0 rounded-chip text-sm sm:inline ${
+                isActive ? 'text-ultramarine' : 'text-slate hover:text-ink'
+              }`
+            }
+          >
+            About
+          </NavLink>
         </div>
       </div>
     </header>

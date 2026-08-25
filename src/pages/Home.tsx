@@ -2,6 +2,7 @@ import { useRef } from 'react'
 import { Link } from 'react-router-dom'
 import { DEGREES } from '../lib/degrees'
 import { useVantageStore } from '../lib/store'
+import { ReviewsSection } from '../components/home/ReviewsSection'
 
 // A vivid accent per degree tile, so the picker reads as a bright, inviting grid.
 // Jewel tones: vivid but dark enough to pass AA both as text on white and
@@ -137,6 +138,10 @@ export function Home() {
           ))}
         </ul>
       </section>
+
+      <div className="border-t border-hairline">
+        <ReviewsSection />
+      </div>
     </>
   )
 }

@@ -1,4 +1,3 @@
-import { Link } from 'react-router-dom'
 import { loadData } from '../../lib/data'
 
 export function Footer() {
@@ -11,9 +10,6 @@ export function Footer() {
           Informational only.
         </p>
         <div className="flex items-center gap-4">
-          <Link to="/about" className="rounded-chip text-sm text-slate hover:text-ink">
-            About
-          </Link>
           <span className="font-mono text-xs uppercase tracking-widest text-slate">
             Curated · not live
           </span>

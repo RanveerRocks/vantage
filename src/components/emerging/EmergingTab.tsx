@@ -46,15 +46,9 @@ export function EmergingTab({ degree }: { degree: Degree }) {
                 >
                   {destination.flag}
                 </span>
-                <div className="min-w-0">
-                  <span
-                    className="font-mono text-[10px] font-semibold uppercase tracking-[0.14em]"
-                    style={{ color: accent }}
-                  >
-                    Hidden gem
-                  </span>
-                  <h3 className="truncate font-semibold text-ink">{destination.country}</h3>
-                </div>
+                <h3 className="min-w-0 truncate text-lg font-semibold text-ink">
+                  {destination.country}
+                </h3>
               </div>
 
               <div className="flex flex-1 flex-col px-4 pb-4">
