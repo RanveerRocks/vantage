@@ -4,6 +4,7 @@ import { ConfidenceBadge } from '../shared/ConfidenceBadge'
 import { Drawer } from '../shared/Drawer'
 import { ReadoutBar } from '../shared/ReadoutBar'
 import { SourceList } from '../shared/SourceList'
+import { Rich } from '../shared/Rich'
 
 export interface StudentLifeDetail {
   country: Country
@@ -28,6 +29,7 @@ export function StudentLifeDrawer({ detail, factors, weights, onClose }: Student
     <Drawer
       label={`${country.name}: student life breakdown`}
       kicker="Student life detail"
+      accent="#0E7490"
       onClose={onClose}
       header={
         <>
@@ -61,7 +63,7 @@ export function StudentLifeDrawer({ detail, factors, weights, onClose }: Student
               tag={weight === 0 ? 'w 0 · off' : `w ${weight}`}
               dimmed={weight === 0}
             />
-            <p className="mt-1.5 text-xs leading-relaxed text-slate">{record.blurb}</p>
+            <Rich text={record.blurb} className="mt-1.5 block text-xs leading-relaxed text-slate" />
             <div className="mt-2">
               <SourceList sources={record.sources} />
             </div>

@@ -2,6 +2,7 @@ import type { Country, Pathway } from '../../lib/schemas'
 import { ConfidenceBadge } from '../shared/ConfidenceBadge'
 import { Drawer } from '../shared/Drawer'
 import { SourceList } from '../shared/SourceList'
+import { Rich } from '../shared/Rich'
 import { STAGE_COLORS } from './stageColors'
 
 export interface PathwayDetail {
@@ -21,6 +22,7 @@ export function PathwayDrawer({ detail, onClose }: PathwayDrawerProps) {
     <Drawer
       label={`${country.name}: post-study pathway`}
       kicker="Pathway detail"
+      accent="#6D28D9"
       onClose={onClose}
       header={
         <>
@@ -62,7 +64,7 @@ export function PathwayDrawer({ detail, onClose }: PathwayDrawerProps) {
                   {stage.years} yr
                 </span>
               </div>
-              <p className="mt-1 text-xs leading-relaxed text-slate">{stage.description}</p>
+              <Rich text={stage.description} className="mt-1 block text-xs leading-relaxed text-slate" />
             </div>
           ))}
         </div>

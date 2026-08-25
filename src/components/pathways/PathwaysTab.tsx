@@ -3,7 +3,6 @@ import { AnimatePresence } from 'framer-motion'
 import { Link } from 'react-router-dom'
 import { loadData } from '../../lib/data'
 import type { CountryId, Pathway } from '../../lib/schemas'
-import { ConfidenceBadge } from '../shared/ConfidenceBadge'
 import { PathwayDrawer, type PathwayDetail } from './PathwayDrawer'
 import { STAGE_COLORS, STAGE_TEXT_COLORS } from './stageColors'
 
@@ -95,7 +94,6 @@ export function PathwaysTab() {
   const visible = comparing
     ? pathways.filter((pathway) => compareIds.includes(pathway.countryId))
     : pathways
-  const someSample = data.pathways.some((pathway) => pathway.confidence === 'placeholder')
   const stageLabels = pathways[0]?.stages.map((stage) => stage.label) ?? []
 
   const countryOf = useCallback(
@@ -125,18 +123,19 @@ export function PathwaysTab() {
 
   return (
     <section aria-labelledby="pathways-heading">
-      <div className="flex flex-wrap items-start justify-between gap-2">
-        <div>
-          <h2 id="pathways-heading" className="font-display text-xl font-semibold tracking-tight">
-            Post-Study Pathway Timelines
-          </h2>
-          <p className="mt-1 max-w-xl text-sm text-slate">
-            Years from arrival through study, post-study work, PR, and citizenship, drawn to a
-            common scale. The gold tick marks PR eligibility.
-          </p>
-        </div>
-        {someSample && <ConfidenceBadge confidence="placeholder" />}
+      <div className="flex items-center gap-3">
+        <span className="h-7 w-1.5 rounded-full" style={{ backgroundColor: '#6D28D9' }} aria-hidden="true" />
+        <h2 id="pathways-heading" className="font-display text-2xl font-semibold tracking-tight text-ink">
+          Post-Study Pathway Timelines
+        </h2>
       </div>
+      <p className="mt-2 max-w-2xl text-sm leading-relaxed text-slate">
+        Years from arrival through <strong className="text-ink">study</strong>,{' '}
+        <strong className="text-ink">post-study work</strong>,{' '}
+        <strong className="text-ink">permanent residence</strong>, and{' '}
+        <strong className="text-ink">citizenship</strong>, all drawn to one common scale so you can
+        compare at a glance. The gold tick marks when you become eligible for PR.
+      </p>
 
       <div className="mt-4 flex flex-wrap items-center gap-2">
         <span className="font-mono text-[11px] uppercase tracking-wider text-slate">

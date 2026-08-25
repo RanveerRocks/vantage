@@ -4,6 +4,7 @@ import { motion } from 'framer-motion'
 interface DrawerProps {
   label: string
   kicker?: string
+  accent?: string
   header: ReactNode
   onClose: () => void
   children: ReactNode
@@ -13,7 +14,7 @@ interface DrawerProps {
  * Right-side detail drawer: backdrop, slide-in panel, Escape/backdrop close,
  * focus moved to the close button on open and restored on close.
  */
-export function Drawer({ label, kicker, header, onClose, children }: DrawerProps) {
+export function Drawer({ label, kicker, accent = '#2440C9', header, onClose, children }: DrawerProps) {
   const closeRef = useRef<HTMLButtonElement>(null)
 
   useEffect(() => {
@@ -51,10 +52,21 @@ export function Drawer({ label, kicker, header, onClose, children }: DrawerProps
         exit={{ x: '100%' }}
         transition={{ duration: 0.26, ease: 'easeOut' }}
       >
-        <div className="flex items-start justify-between gap-3 border-b border-hairline bg-white p-5">
+        <div
+          className="relative flex items-start justify-between gap-3 border-b border-hairline p-5"
+          style={{ background: `linear-gradient(180deg, ${accent}14, #ffffff 85%)` }}
+        >
+          <span
+            className="absolute inset-x-0 top-0 h-1"
+            style={{ backgroundColor: accent }}
+            aria-hidden="true"
+          />
           <div className="min-w-0">
             {kicker && (
-              <p className="mb-1.5 font-mono text-[10px] uppercase tracking-[0.18em] text-ultramarine">
+              <p
+                className="mb-1.5 font-mono text-[10px] font-semibold uppercase tracking-[0.18em]"
+                style={{ color: accent }}
+              >
                 {kicker}
               </p>
             )}

@@ -18,11 +18,11 @@ const DEGREE_ACCENTS = [
 ]
 
 const COMPONENTS = [
-  { number: '01', name: 'Career & Visa Landscape', description: 'pathway strength plotted against return on cost', color: '#2440C9' },
-  { number: '02', name: 'Student Life Index', description: 'nine factors, weighted by what matters to you', color: '#0E7490' },
-  { number: '03', name: 'Pathway Timelines', description: 'years from arrival to PR and citizenship, to scale', color: '#6D28D9' },
-  { number: '04', name: 'True-Cost View', description: 'what the first year really costs, hidden notes included', color: '#DB2777' },
-  { number: '05', name: 'Emerging Destinations', description: 'beyond the usual eight', color: '#C2410C' },
+  { number: '01', name: 'Career & Visa Landscape', description: 'Pathway strength plotted against return on cost.', color: '#2440C9' },
+  { number: '02', name: 'Student Life Index', description: 'Nine factors, weighted by what matters to you.', color: '#0E7490' },
+  { number: '03', name: 'Pathway Timelines', description: 'Years from arrival to PR and citizenship, drawn to scale.', color: '#6D28D9' },
+  { number: '04', name: 'True-Cost View', description: 'What the first year really costs, hidden fees included.', color: '#DB2777' },
+  { number: '05', name: 'Emerging Destinations', description: 'Under-the-radar options beyond the usual eight.', color: '#C2410C' },
 ]
 
 export function Home() {
@@ -61,7 +61,7 @@ export function Home() {
         <div className="survey-grid absolute inset-0" aria-hidden="true" />
         <div className="relative mx-auto w-full max-w-6xl px-4 py-16 sm:px-6 sm:py-24">
           <span className="inline-flex items-center gap-2 rounded-full border border-ultramarine/20 bg-white/70 px-3 py-1 font-mono text-[11px] uppercase tracking-[0.2em] text-ultramarine backdrop-blur">
-            <span className="h-1.5 w-1.5 rounded-full bg-cyan" />8 countries · 8 degrees · 0 rankings
+            <span className="h-1.5 w-1.5 rounded-full bg-cyan" />8 countries · 8 degrees · no league tables
           </span>
           <h1 className="mt-6 max-w-3xl font-display text-[2.7rem] font-semibold leading-[1.03] tracking-tight text-ink sm:text-[4.5rem]">
             See the <span className="text-gradient">whole field</span> before you choose where to

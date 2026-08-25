@@ -6,7 +6,6 @@ import type { Degree } from '../../lib/degrees'
 import { COUNTRY_COLORS } from '../../lib/palette'
 import { COUNTRY_IDS, type CareerVisaMetrics, type CountryId } from '../../lib/schemas'
 import { careerVisaBreakdown, roiScore } from '../../lib/scoring'
-import { ConfidenceBadge } from '../shared/ConfidenceBadge'
 import { CareerVisaChart, type ChartPoint } from './CareerVisaChart'
 import { CountryDrawer, type CountryDetail } from './CountryDrawer'
 
@@ -43,7 +42,6 @@ export function CareerVisaTab({ degree }: { degree: Degree }) {
     [records, breakdowns, rois, data],
   )
 
-  const someSample = records.some((record) => record.confidence === 'placeholder')
 
   const selectedDetail: CountryDetail | null = useMemo(() => {
     if (!selectedId) return null
@@ -62,20 +60,18 @@ export function CareerVisaTab({ degree }: { degree: Degree }) {
 
   return (
     <section aria-labelledby="career-visa-heading">
-      <div className="flex flex-wrap items-start justify-between gap-2">
-        <div>
-          <h2 id="career-visa-heading" className="font-display text-xl font-semibold tracking-tight">
-            Career &amp; Visa Landscape
-          </h2>
-          <p className="mt-1 max-w-xl text-sm text-slate">
-            Where {degree.name} stands across the eight countries: pathway strength against
-            return on cost.
-          </p>
-        </div>
-        {someSample && <ConfidenceBadge confidence="placeholder" />}
+      <div className="flex items-center gap-3">
+        <span className="h-7 w-1.5 rounded-full bg-ultramarine" aria-hidden="true" />
+        <h2 id="career-visa-heading" className="font-display text-2xl font-semibold tracking-tight text-ink">
+          Career &amp; Visa Landscape
+        </h2>
       </div>
-
-      <p className="mt-5 text-xs text-slate">Click any country for a full breakdown.</p>
+      <p className="mt-2 max-w-2xl text-sm leading-relaxed text-slate">
+        Where <strong className="text-ink">{degree.name}</strong> stands across the eight countries:{' '}
+        <strong className="text-ink">pathway strength</strong> (how easy it is to work and stay) on
+        the horizontal, <strong className="text-ink">return on cost</strong> on the vertical. Click
+        any country for the full breakdown behind its position.
+      </p>
 
       <div className="mt-2 rounded-card border border-hairline bg-white p-2 shadow-soft sm:p-4">
         <CareerVisaChart

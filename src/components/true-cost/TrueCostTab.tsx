@@ -1,20 +1,21 @@
-import { useMemo, useState } from 'react'
-import { AnimatePresence, motion } from 'framer-motion'
+import { useMemo } from 'react'
 import { Link } from 'react-router-dom'
 import { firstYearCostUsd } from '../../lib/cost'
 import { formatMoney } from '../../lib/currency'
 import { loadData } from '../../lib/data'
-import type { CountryId, TrueCost } from '../../lib/schemas'
+import type { TrueCost } from '../../lib/schemas'
 import { useVantageStore } from '../../lib/store'
-import { ConfidenceBadge } from '../shared/ConfidenceBadge'
+import { Rich } from '../shared/Rich'
 import { SourceList } from '../shared/SourceList'
 
+const ACCENT = '#DB2777'
+
 const CATEGORIES = [
-  { key: 'tuitionPerYearUsd', label: 'Tuition', cadence: 'per year', color: '#2440C9' },
-  { key: 'livingPerYearUsd', label: 'Living', cadence: 'per year', color: '#6577D8' },
-  { key: 'insurancePerYearUsd', label: 'Insurance', cadence: 'per year', color: '#93A0E8' },
-  { key: 'flightsPerYearUsd', label: 'Flights', cadence: 'per year', color: '#BCC5F0' },
-  { key: 'visaFeesOneTimeUsd', label: 'Visa fees', cadence: 'one-time', color: '#5B6472' },
+  { key: 'tuitionPerYearUsd', label: 'Tuition', cadence: 'yr', color: '#2440C9' },
+  { key: 'livingPerYearUsd', label: 'Living', cadence: 'yr', color: '#0EA5B7' },
+  { key: 'insurancePerYearUsd', label: 'Insurance', cadence: 'yr', color: '#6D28D9' },
+  { key: 'flightsPerYearUsd', label: 'Flights', cadence: 'yr', color: '#F59E0B' },
+  { key: 'visaFeesOneTimeUsd', label: 'Visa fees', cadence: 'once', color: '#EC4E86' },
 ] as const satisfies readonly {
   key: keyof TrueCost
   label: string
@@ -22,11 +23,42 @@ const CATEGORIES = [
   color: string
 }[]
 
+function Donut({ segments, size = 128, stroke = 16 }: { segments: { value: number; color: string }[]; size?: number; stroke?: number }) {
+  const r = (size - stroke) / 2
+  const c = 2 * Math.PI * r
+  const total = segments.reduce((sum, s) => sum + s.value, 0) || 1
+  let offset = 0
+  return (
+    <svg width={size} height={size} viewBox={`0 0 ${size} ${size}`} aria-hidden="true">
+      <g transform={`rotate(-90 ${size / 2} ${size / 2})`}>
+        <circle cx={size / 2} cy={size / 2} r={r} fill="none" stroke="#EEF0F5" strokeWidth={stroke} />
+        {segments.map((seg, i) => {
+          const len = (seg.value / total) * c
+          const el = (
+            <circle
+              key={i}
+              cx={size / 2}
+              cy={size / 2}
+              r={r}
+              fill="none"
+              stroke={seg.color}
+              strokeWidth={stroke}
+              strokeDasharray={`${Math.max(len - 2, 0)} ${c - Math.max(len - 2, 0)}`}
+              strokeDashoffset={-offset}
+            />
+          )
+          offset += len
+          return el
+        })}
+      </g>
+    </svg>
+  )
+}
+
 export function TrueCostTab() {
   const data = loadData()
   const currency = useVantageStore((state) => state.currency)
   const rate = data.config.usdToInr
-  const [expandedId, setExpandedId] = useState<CountryId | null>(null)
 
   const rows = useMemo(
     () =>
@@ -39,176 +71,111 @@ export function TrueCostTab() {
         .sort((a, b) => a.total - b.total),
     [data],
   )
-  const maxTotal = rows.length > 0 ? rows[rows.length - 1].total : 0
-  const someSample = data.trueCost.some((record) => record.confidence === 'placeholder')
 
   return (
     <section aria-labelledby="true-cost-heading">
-      <div className="flex flex-wrap items-start justify-between gap-2">
-        <div>
-          <h2 id="true-cost-heading" className="font-display text-xl font-semibold tracking-tight">
-            True-Cost View
-          </h2>
-          <p className="mt-1 max-w-xl text-sm text-slate">
-            Estimated first-year cost across the eight countries: tuition, living, insurance, and
-            flights per year, plus one-time visa fees. Cheapest first.
-          </p>
-        </div>
-        {someSample && <ConfidenceBadge confidence="placeholder" />}
+      <div className="flex items-center gap-3">
+        <span className="h-7 w-1.5 rounded-full" style={{ backgroundColor: ACCENT }} aria-hidden="true" />
+        <h2 id="true-cost-heading" className="font-display text-2xl font-semibold tracking-tight text-ink">
+          True-Cost View
+        </h2>
       </div>
+      <p className="mt-2 max-w-2xl text-sm leading-relaxed text-slate">
+        The <strong className="text-ink">real first-year cost</strong> of studying in each country,
+        broken into where the money actually goes: tuition, living, insurance, and flights each
+        year, plus one-time visa fees. Sorted <strong className="text-ink">cheapest first</strong>,
+        and every card flags the fees families routinely overlook.
+      </p>
 
-      <p className="mt-5 text-xs text-slate">Expand a country for the full cost breakdown.</p>
-
-      <div className="mt-2 rounded-card border border-hairline bg-white p-4 shadow-soft sm:p-5">
-        <div className="flex flex-wrap items-center gap-x-4 gap-y-1">
-          {CATEGORIES.map(({ label, color }) => (
-            <span key={label} className="flex items-center gap-1.5 text-xs text-slate">
-              <span
-                className="h-2.5 w-2.5 rounded-[3px]"
-                style={{ backgroundColor: color }}
-                aria-hidden="true"
-              />
-              {label}
-            </span>
-          ))}
-        </div>
-
-        <div className="mt-3">
-          {rows.map(({ record, country, total }) => {
-            const expanded = expandedId === record.countryId
-            const panelId = `cost-panel-${record.countryId}`
-            return (
-              <div
-                key={record.countryId}
-                className="border-b border-hairline last:border-b-0"
-              >
-                <button
-                  type="button"
-                  data-cost-country={record.countryId}
-                  aria-expanded={expanded}
-                  aria-controls={panelId}
-                  onClick={() => setExpandedId(expanded ? null : record.countryId)}
-                  className="flex w-full cursor-pointer items-center gap-2 py-2.5 text-left hover:bg-paper sm:gap-3"
-                >
-                  <svg
-                    width="8"
-                    height="8"
-                    viewBox="0 0 8 8"
-                    fill="none"
-                    aria-hidden="true"
-                    className={`shrink-0 text-slate transition-transform duration-200 ${expanded ? 'rotate-90' : ''}`}
-                  >
-                    <path d="M2 1l4 3-4 3" stroke="currentColor" strokeWidth="1.5" />
-                  </svg>
-                  <span className="flex w-16 min-w-0 shrink-0 items-center gap-1.5 sm:w-32">
-                    <span aria-hidden="true">{country?.flag}</span>
-                    <span className="hidden truncate text-sm sm:inline">{country?.name}</span>
-                    <span className="font-mono text-xs uppercase text-slate sm:hidden">
-                      {record.countryId}
+      <div className="mt-6 grid gap-4 lg:grid-cols-2">
+        {rows.map(({ record, country, total }, index) => {
+          const segments = CATEGORIES.map((c) => ({ value: record[c.key], color: c.color }))
+          const biggest = CATEGORIES.reduce((a, b) => (record[a.key] >= record[b.key] ? a : b))
+          return (
+            <article
+              key={record.countryId}
+              data-cost-country={record.countryId}
+              className="rounded-card border border-hairline bg-white p-5 shadow-soft transition-shadow hover:shadow-lift"
+            >
+              <div className="flex items-center justify-between gap-2">
+                <div className="flex items-center gap-2.5">
+                  <span className="text-2xl" aria-hidden="true">
+                    {country?.flag}
+                  </span>
+                  <div>
+                    <h3 className="font-semibold leading-tight text-ink">{country?.name}</h3>
+                    <span className="font-mono text-[11px] uppercase tracking-wider text-slate">
+                      #{index + 1} cheapest
                     </span>
-                  </span>
-                  <span className="relative h-4 min-w-0 flex-1">
-                    <span
-                      className="flex h-full overflow-hidden rounded-full"
-                      style={{ width: `${(total / maxTotal) * 100}%` }}
-                    >
-                      {CATEGORIES.map(({ key, label, color }, index) => (
-                        <span
-                          key={key}
-                          title={`${label}: ${formatMoney(record[key], currency, rate)}`}
-                          className={
-                            index < CATEGORIES.length - 1 ? 'shadow-[inset_-2px_0_0_#fff]' : ''
-                          }
-                          style={{
-                            width: `${(record[key] / total) * 100}%`,
-                            backgroundColor: color,
-                          }}
-                        />
-                      ))}
-                    </span>
-                  </span>
-                  <span className="w-[4.5rem] shrink-0 text-right font-mono text-sm font-semibold tabular-nums sm:w-20">
-                    {formatMoney(total, currency, rate)}
-                  </span>
-                </button>
-
-                <AnimatePresence initial={false}>
-                  {expanded && (
-                    <motion.div
-                      id={panelId}
-                      initial={{ height: 0, opacity: 0 }}
-                      animate={{ height: 'auto', opacity: 1 }}
-                      exit={{ height: 0, opacity: 0 }}
-                      transition={{ duration: 0.24, ease: 'easeOut' }}
-                      className="overflow-hidden"
-                    >
-                      <div className="grid gap-5 pb-4 pl-5 pr-1 pt-1 sm:grid-cols-2 sm:pl-9">
-                        <div>
-                          <h3 className="text-xs font-medium uppercase tracking-wider text-slate">
-                            Line items
-                          </h3>
-                          <dl className="mt-2 space-y-1.5">
-                            {CATEGORIES.map(({ key, label, cadence, color }) => (
-                              <div key={key} className="flex items-baseline justify-between gap-3">
-                                <dt className="flex items-center gap-1.5 text-sm text-ink">
-                                  <span
-                                    className="h-2 w-2 rounded-[2px]"
-                                    style={{ backgroundColor: color }}
-                                    aria-hidden="true"
-                                  />
-                                  {label}
-                                  <span className="font-mono text-[10px] text-slate">
-                                    {cadence}
-                                  </span>
-                                </dt>
-                                <dd className="font-mono text-sm tabular-nums">
-                                  {formatMoney(record[key], currency, rate)}
-                                </dd>
-                              </div>
-                            ))}
-                            <div className="flex items-baseline justify-between gap-3 border-t border-hairline pt-1.5">
-                              <dt className="text-sm font-medium text-ink">First-year total</dt>
-                              <dd className="font-mono text-sm font-semibold tabular-nums">
-                                {formatMoney(total, currency, rate)}
-                              </dd>
-                            </div>
-                          </dl>
-                        </div>
-                        <div>
-                          <h3 className="text-xs font-medium uppercase tracking-wider text-slate">
-                            What families miss
-                          </h3>
-                          <div className="mt-2 space-y-2">
-                            {record.hiddenNotes.map((note) => (
-                              <p
-                                key={note}
-                                className="rounded-r-chip border-l-2 border-gold bg-gold/5 py-1.5 pl-3 pr-2 text-xs leading-relaxed text-ink"
-                              >
-                                {note}
-                              </p>
-                            ))}
-                          </div>
-                          <div className="mt-3 flex flex-wrap items-center gap-2">
-                            <ConfidenceBadge confidence={record.confidence} />
-                          </div>
-                          <div className="mt-2">
-                            <SourceList sources={record.sources} />
-                          </div>
-                        </div>
-                      </div>
-                    </motion.div>
-                  )}
-                </AnimatePresence>
+                  </div>
+                </div>
               </div>
-            )
-          })}
-        </div>
+
+              <div className="mt-4 flex items-center gap-5">
+                <div className="relative shrink-0">
+                  <Donut segments={segments} />
+                  <div className="absolute inset-0 grid place-content-center text-center">
+                    <span className="font-mono text-base font-semibold tabular-nums text-ink">
+                      {formatMoney(total, currency, rate)}
+                    </span>
+                    <span className="mt-0.5 text-[9px] font-medium uppercase tracking-[0.15em] text-slate">
+                      first year
+                    </span>
+                  </div>
+                </div>
+
+                <dl className="min-w-0 flex-1 space-y-1.5">
+                  {CATEGORIES.map((cat) => (
+                    <div key={cat.key} className="flex items-center gap-2 text-xs">
+                      <span className="h-2.5 w-2.5 shrink-0 rounded-[3px]" style={{ backgroundColor: cat.color }} aria-hidden="true" />
+                      <dt className="flex-1 truncate text-slate">
+                        {cat.label} <span className="text-[10px] text-slate/70">/ {cat.cadence}</span>
+                      </dt>
+                      <dd className="font-mono font-medium tabular-nums text-ink">
+                        {formatMoney(record[cat.key], currency, rate)}
+                      </dd>
+                    </div>
+                  ))}
+                </dl>
+              </div>
+
+              <p className="mt-4 rounded-chip bg-paper px-3 py-2 text-xs text-slate">
+                Biggest line item: <strong className="text-ink">{biggest.label}</strong> at{' '}
+                <strong className="text-ink">{formatMoney(record[biggest.key], currency, rate)}</strong>.
+              </p>
+
+              <div className="mt-4">
+                <p className="flex items-center gap-2 text-xs font-semibold uppercase tracking-wider" style={{ color: ACCENT }}>
+                  <span aria-hidden="true">✦</span> What families miss
+                </p>
+                <div className="mt-2 space-y-2">
+                  {record.hiddenNotes.map((note) => (
+                    <div key={note} className="flex gap-2.5 rounded-chip border border-amber/25 bg-amber/[0.07] p-3">
+                      <span
+                        className="mt-0.5 grid h-4 w-4 shrink-0 place-content-center rounded-full text-[10px] font-bold text-white"
+                        style={{ backgroundColor: '#D9820A' }}
+                        aria-hidden="true"
+                      >
+                        !
+                      </span>
+                      <Rich text={note} className="text-xs leading-relaxed text-ink" />
+                    </div>
+                  ))}
+                </div>
+              </div>
+
+              <div className="mt-4 border-t border-hairline pt-3">
+                <SourceList sources={record.sources} />
+              </div>
+            </article>
+          )
+        })}
       </div>
 
-      <p className="mt-3 text-xs text-slate">
-        First-year estimate only. Full-degree totals depend on programme length. Switch ₹/$ in
-        the header.{' '}
-        <Link to="/methodology" className="text-ultramarine underline underline-offset-2">
+      <p className="mt-4 text-xs text-slate">
+        First-year estimate only. Full-degree totals depend on programme length. Switch ₹/$ in the
+        header.{' '}
+        <Link to="/methodology" className="font-medium text-ultramarine underline underline-offset-2">
           How these are computed
         </Link>
       </p>

@@ -8,6 +8,7 @@ import { ConfidenceBadge } from '../shared/ConfidenceBadge'
 import { Drawer } from '../shared/Drawer'
 import { ReadoutBar } from '../shared/ReadoutBar'
 import { SourceList } from '../shared/SourceList'
+import { Rich } from '../shared/Rich'
 
 export interface CountryDetail {
   country: Country
@@ -144,7 +145,7 @@ export function CountryDrawer({ detail, usdToInr, onClose }: CountryDrawerProps)
         <h3 className="text-xs font-medium uppercase tracking-wider text-slate">
           Why it sits here
         </h3>
-        <p className="mt-2 text-sm leading-relaxed text-ink">{record.narrative}</p>
+        <Rich text={record.narrative} className="mt-2 block text-sm leading-relaxed text-slate" />
       </section>
 
       <section aria-label="Sources">

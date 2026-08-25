@@ -6,7 +6,6 @@ import { COUNTRY_COLORS } from '../../lib/palette'
 import { FACTOR_IDS, type CountryId } from '../../lib/schemas'
 import { studentLifeIndex } from '../../lib/scoring'
 import { DEFAULT_WEIGHT, useVantageStore } from '../../lib/store'
-import { ConfidenceBadge } from '../shared/ConfidenceBadge'
 import { CountryRankingBars, type RankedCountry } from './CountryRankingBars'
 import { FactorSlider } from './FactorSlider'
 import { StudentLifeDrawer, type StudentLifeDetail } from './StudentLifeDrawer'
@@ -20,7 +19,6 @@ export function StudentLifeTab() {
 
   const totalWeight = FACTOR_IDS.reduce((sum, id) => sum + weights[id], 0)
   const isDefault = FACTOR_IDS.every((id) => weights[id] === DEFAULT_WEIGHT)
-  const someSample = data.studentLife.some((record) => record.confidence === 'placeholder')
 
   const ranked: RankedCountry[] = useMemo(() => {
     if (totalWeight === 0) return []
@@ -61,20 +59,18 @@ export function StudentLifeTab() {
 
   return (
     <section aria-labelledby="student-life-heading">
-      <div className="flex flex-wrap items-start justify-between gap-2">
-        <div>
-          <h2
-            id="student-life-heading"
-            className="font-display text-xl font-semibold tracking-tight"
-          >
-            Student Life Index
-          </h2>
-          <p className="mt-1 max-w-xl text-sm text-slate">
-            Rank the eight countries by what daily life is like, weighted by you.
-          </p>
-        </div>
-        {someSample && <ConfidenceBadge confidence="placeholder" />}
+      <div className="flex items-center gap-3">
+        <span className="h-7 w-1.5 rounded-full" style={{ backgroundColor: '#0E7490' }} aria-hidden="true" />
+        <h2 id="student-life-heading" className="font-display text-2xl font-semibold tracking-tight text-ink">
+          Student Life Index
+        </h2>
       </div>
+      <p className="mt-2 max-w-2xl text-sm leading-relaxed text-slate">
+        Rank the eight countries by <strong className="text-ink">what daily life is actually
+        like</strong>, weighted by what matters to <em>you</em>. Nine factors, from affordability
+        and safety to community and climate, each scored 0 to 100 and blended live as you move the
+        sliders.
+      </p>
 
       <p className="mt-5 text-xs text-slate">
         Set how much each factor matters to you. The ranking updates live.
