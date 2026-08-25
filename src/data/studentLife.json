@@ -3,7 +3,7 @@
     "countryId": "us",
     "factorId": "affordability",
     "score": 30,
-    "blurb": "Numbeo puts US living costs among the highest of the eight, second only to Singapore, so at 30 affordability is a real weakness. Big coastal cities are the priciest.",
+    "blurb": "Numbeo puts US living costs among the highest of the eight, second only to Singapore, so at 30 affordability is a real weakness. Big coastal cities are the priciest. Rent is the biggest swing factor, and big-city premiums can dwarf the national average, so where you study matters as much as which country. Look for university housing, student transport passes, and cities outside the priciest capitals to stretch a budget.",
     "confidence": "high",
     "sources": [
       {
@@ -27,7 +27,7 @@
     "countryId": "us",
     "factorId": "safety",
     "score": 51,
-    "blurb": "Numbeo scores US safety in the low fifties, second-lowest here, and it varies enormously by city and campus.",
+    "blurb": "Numbeo scores US safety in the low fifties, second-lowest here, and it varies enormously by city and campus. Numbeo’s index reflects citywide perceptions, whereas student districts and campuses are usually safer, so judge the specific city rather than the country. Universities also run safe-transport schemes, security escorts, and 24-hour campus support that rarely show up in national figures.",
     "confidence": "high",
     "sources": [
       {
@@ -51,7 +51,7 @@
     "countryId": "us",
     "factorId": "openness",
     "score": 62,
-    "blurb": "The US scores 62 on the 2025 Migrant Integration Policy Index, ninth among measured countries, held back by the lack of a national integration policy despite strong anti-discrimination law.",
+    "blurb": "The US scores 62 on the 2025 Migrant Integration Policy Index, ninth among measured countries, held back by the lack of a national integration policy despite strong anti-discrimination law. MIPEX scores integration policy (rights, anti-discrimination, access to services), not day-to-day friendliness, which international students often rate more warmly in practice. It is a useful signal of how the system treats newcomers over the long term, from recognising qualifications to family reunification.",
     "confidence": "high",
     "sources": [
       {
@@ -75,7 +75,7 @@
     "countryId": "us",
     "factorId": "work-rights",
     "score": 50,
-    "blurb": "F-1 students cannot work off campus in the first year and are capped at 20 hours a week on campus during term. Practical training (OPT, 36 months for STEM) comes only after graduation. Tighter than Canada or the UK.",
+    "blurb": "F-1 students cannot work off campus in the first year and are capped at 20 hours a week on campus during term. Practical training (OPT, 36 months for STEM) comes only after graduation. Tighter than Canada or the UK. Term-time hour caps, rules during breaks, and the post-study work window together decide how much you can earn while studying and how easily you can stay on afterwards. Treat generous work rights as both a way to offset costs and a bridge into a graduate job and, eventually, residence.",
     "confidence": "high",
     "sources": [
       {
@@ -99,7 +99,7 @@
     "countryId": "us",
     "factorId": "healthcare",
     "score": 67,
-    "blurb": "Numbeo rates US healthcare quality highly, but it is costly and access hinges on the insurance your university requires (see True Cost).",
+    "blurb": "Numbeo rates US healthcare quality highly, but it is costly and access hinges on the insurance your university requires (see True Cost). Check whether you are covered by the public system or must buy private or university insurance, and what it excludes, since dental, mental-health, and prescription gaps are common. Factor the premium into your budget (it appears in the True Cost view) and confirm coverage starts from your arrival date.",
     "confidence": "high",
     "sources": [
       {
@@ -123,7 +123,7 @@
     "countryId": "us",
     "factorId": "language",
     "score": 100,
-    "blurb": "English is the language of study and daily life throughout the US.",
+    "blurb": "English is the language of study and daily life throughout the US. Even where programmes are taught in English, daily life, part-time work, and long-term settlement are far easier if you pick up the local language. Many universities offer free or subsidised language classes, and reaching a basic level noticeably widens your job options and social circle.",
     "confidence": "high",
     "sources": [
       {
@@ -147,7 +147,7 @@
     "countryId": "us",
     "factorId": "community",
     "score": 92,
-    "blurb": "The US hosts the world’s largest international-student population, about 1.18 million in 2024/25, with India the top sending country. Diaspora and campus communities are vast.",
+    "blurb": "The US hosts the world’s largest international-student population, about 1.18 million in 2024/25, with India the top sending country. Diaspora and campus communities are vast. A large diaspora and international-student community means familiar food, faith spaces, festivals, and networks that ease a first year abroad and often help with job referrals later. Student societies and alumni groups are the fastest way to plug in once you arrive.",
     "confidence": "high",
     "sources": [
       {
@@ -171,7 +171,7 @@
     "countryId": "us",
     "factorId": "political-climate",
     "score": 87,
-    "blurb": "The US scored 7.86 of 9 on Gallup’s 2016-17 Migrant Acceptance Index, among the most accepting. Sentiment is high but immigration politics are volatile and policy can swing sharply between administrations.",
+    "blurb": "The US scored 7.86 of 9 on Gallup’s 2016-17 Migrant Acceptance Index, among the most accepting. Sentiment is high but immigration politics are volatile and policy can swing sharply between administrations. Public sentiment and immigration policy can shift quickly, so weigh the current direction of travel, not just today’s snapshot; the news links here track the latest changes. Recent caps, fee changes, and rule tightening in several countries show how fast the picture can move for international students.",
     "confidence": "high",
     "sources": [
       {
@@ -195,7 +195,7 @@
     "countryId": "us",
     "factorId": "climate-lifestyle",
     "score": 76,
-    "blurb": "Numbeo’s climate index rates the US well, with a huge regional range from mild California to harsh northern winters.",
+    "blurb": "Numbeo’s climate index rates the US well, with a huge regional range from mild California to harsh northern winters. Think about how the weather fits you, since long dark winters, humidity, or heat shape your mood, your budget (heating or cooling bills), and how you spend free time. Pair the climate with the pace of the place: a quiet university town and a dense capital are very different day to day.",
     "confidence": "high",
     "sources": [
       {
@@ -219,7 +219,7 @@
     "countryId": "uk",
     "factorId": "affordability",
     "score": 32,
-    "blurb": "Numbeo puts UK costs on the higher side, with London especially steep, so at 32 it is among the pricier of the eight.",
+    "blurb": "Numbeo puts UK costs on the higher side, with London especially steep, so at 32 it is among the pricier of the eight. Rent is the biggest swing factor, and big-city premiums can dwarf the national average, so where you study matters as much as which country. Look for university housing, student transport passes, and cities outside the priciest capitals to stretch a budget.",
     "confidence": "high",
     "sources": [
       {
@@ -243,7 +243,7 @@
     "countryId": "uk",
     "factorId": "safety",
     "score": 52,
-    "blurb": "Numbeo scores UK safety in the low fifties, mid-pack, with petty theft in big cities the usual concern.",
+    "blurb": "Numbeo scores UK safety in the low fifties, mid-pack, with petty theft in big cities the usual concern. Numbeo’s index reflects citywide perceptions, whereas student districts and campuses are usually safer, so judge the specific city rather than the country. Universities also run safe-transport schemes, security escorts, and 24-hour campus support that rarely show up in national figures.",
     "confidence": "high",
     "sources": [
       {
@@ -267,7 +267,7 @@
     "countryId": "uk",
     "factorId": "openness",
     "score": 56,
-    "blurb": "The UK scores 56 on the 2025 Migrant Integration Policy Index, just above halfway, and recently slipped after cuts to language support in education.",
+    "blurb": "The UK scores 56 on the 2025 Migrant Integration Policy Index, just above halfway, and recently slipped after cuts to language support in education. MIPEX scores integration policy (rights, anti-discrimination, access to services), not day-to-day friendliness, which international students often rate more warmly in practice. It is a useful signal of how the system treats newcomers over the long term, from recognising qualifications to family reunification.",
     "confidence": "high",
     "sources": [
       {
@@ -291,7 +291,7 @@
     "countryId": "uk",
     "factorId": "work-rights",
     "score": 65,
-    "blurb": "Degree students can work 20 hours a week in term time and full time in holidays, then the two-year Graduate Route allows any work after graduation.",
+    "blurb": "Degree students can work 20 hours a week in term time and full time in holidays, then the two-year Graduate Route allows any work after graduation. Term-time hour caps, rules during breaks, and the post-study work window together decide how much you can earn while studying and how easily you can stay on afterwards. Treat generous work rights as both a way to offset costs and a bridge into a graduate job and, eventually, residence.",
     "confidence": "high",
     "sources": [
       {
@@ -315,7 +315,7 @@
     "countryId": "uk",
     "factorId": "healthcare",
     "score": 72,
-    "blurb": "The NHS gives students broad access once the Immigration Health Surcharge is paid, and Numbeo rates UK healthcare well.",
+    "blurb": "The NHS gives students broad access once the Immigration Health Surcharge is paid, and Numbeo rates UK healthcare well. Check whether you are covered by the public system or must buy private or university insurance, and what it excludes, since dental, mental-health, and prescription gaps are common. Factor the premium into your budget (it appears in the True Cost view) and confirm coverage starts from your arrival date.",
     "confidence": "high",
     "sources": [
       {
@@ -339,7 +339,7 @@
     "countryId": "uk",
     "factorId": "language",
     "score": 100,
-    "blurb": "English is the language of study and daily life across the UK.",
+    "blurb": "English is the language of study and daily life across the UK. Even where programmes are taught in English, daily life, part-time work, and long-term settlement are far easier if you pick up the local language. Many universities offer free or subsidised language classes, and reaching a basic level noticeably widens your job options and social circle.",
     "confidence": "high",
     "sources": [
       {
@@ -363,7 +363,7 @@
     "countryId": "uk",
     "factorId": "community",
     "score": 88,
-    "blurb": "The UK hosts around 730,000 international students, with a very large Indian community and dense diaspora networks.",
+    "blurb": "The UK hosts around 730,000 international students, with a very large Indian community and dense diaspora networks. A large diaspora and international-student community means familiar food, faith spaces, festivals, and networks that ease a first year abroad and often help with job referrals later. Student societies and alumni groups are the fastest way to plug in once you arrive.",
     "confidence": "high",
     "sources": [
       {
@@ -387,7 +387,7 @@
     "countryId": "uk",
     "factorId": "political-climate",
     "score": 80,
-    "blurb": "The UK scored 7.2 of 9 on Gallup’s 2023 Migrant Acceptance Index, up from 6.6 in 2016, even as immigration stayed politically charged and student-visa rules tightened.",
+    "blurb": "The UK scored 7.2 of 9 on Gallup’s 2023 Migrant Acceptance Index, up from 6.6 in 2016, even as immigration stayed politically charged and student-visa rules tightened. Public sentiment and immigration policy can shift quickly, so weigh the current direction of travel, not just today’s snapshot; the news links here track the latest changes. Recent caps, fee changes, and rule tightening in several countries show how fast the picture can move for international students.",
     "confidence": "high",
     "sources": [
       {
@@ -411,7 +411,7 @@
     "countryId": "uk",
     "factorId": "climate-lifestyle",
     "score": 88,
-    "blurb": "Numbeo rates the UK’s mild, temperate climate highly: rarely extreme, though grey and wet for much of the year.",
+    "blurb": "Numbeo rates the UK’s mild, temperate climate highly: rarely extreme, though grey and wet for much of the year. Think about how the weather fits you, since long dark winters, humidity, or heat shape your mood, your budget (heating or cooling bills), and how you spend free time. Pair the climate with the pace of the place: a quiet university town and a dense capital are very different day to day.",
     "confidence": "high",
     "sources": [
       {
@@ -435,7 +435,7 @@
     "countryId": "ca",
     "factorId": "affordability",
     "score": 39,
-    "blurb": "By Numbeo's cost-of-living index Canada is the least expensive of the eight countries here, though at 39 it is still a costly destination in absolute terms. Rent in Toronto and Vancouver drives much of the spend.",
+    "blurb": "By Numbeo's cost-of-living index Canada is the least expensive of the eight countries here, though at 39 it is still a costly destination in absolute terms. Rent in Toronto and Vancouver drives much of the spend. Rent is the biggest swing factor, and big-city premiums can dwarf the national average, so where you study matters as much as which country. Look for university housing, student transport passes, and cities outside the priciest capitals to stretch a budget.",
     "confidence": "high",
     "sources": [
       {
@@ -459,7 +459,7 @@
     "countryId": "ca",
     "factorId": "safety",
     "score": 54,
-    "blurb": "Numbeo scores Canada in the mid-fifties for safety, comfortable but below the safest of the eight. Big-city property crime is the concern students most often report.",
+    "blurb": "Numbeo scores Canada in the mid-fifties for safety, comfortable but below the safest of the eight. Big-city property crime is the concern students most often report. Numbeo’s index reflects citywide perceptions, whereas student districts and campuses are usually safer, so judge the specific city rather than the country. Universities also run safe-transport schemes, security escorts, and 24-hour campus support that rarely show up in national figures.",
     "confidence": "high",
     "sources": [
       {
@@ -483,7 +483,7 @@
     "countryId": "ca",
     "factorId": "openness",
     "score": 81,
-    "blurb": "Canada scores 81 on the 2025 Migrant Integration Policy Index, fourth in the world, reflecting strong rights and support for newcomers.",
+    "blurb": "Canada scores 81 on the 2025 Migrant Integration Policy Index, fourth in the world, reflecting strong rights and support for newcomers. MIPEX scores integration policy (rights, anti-discrimination, access to services), not day-to-day friendliness, which international students often rate more warmly in practice. It is a useful signal of how the system treats newcomers over the long term, from recognising qualifications to family reunification.",
     "confidence": "high",
     "sources": [
       {
@@ -507,7 +507,7 @@
     "countryId": "ca",
     "factorId": "work-rights",
     "score": 80,
-    "blurb": "International students can work up to 24 hours a week off campus during term and full time during scheduled breaks, then move onto a post-graduation work permit. One of the more generous regimes here.",
+    "blurb": "International students can work up to 24 hours a week off campus during term and full time during scheduled breaks, then move onto a post-graduation work permit. One of the more generous regimes here. Term-time hour caps, rules during breaks, and the post-study work window together decide how much you can earn while studying and how easily you can stay on afterwards. Treat generous work rights as both a way to offset costs and a bridge into a graduate job and, eventually, residence.",
     "confidence": "high",
     "sources": [
       {
@@ -531,7 +531,7 @@
     "countryId": "ca",
     "factorId": "healthcare",
     "score": 69,
-    "blurb": "Numbeo rates Canadian healthcare highly for quality, but coverage for international students varies by province and often needs paid insurance (see the True Cost view).",
+    "blurb": "Numbeo rates Canadian healthcare highly for quality, but coverage for international students varies by province and often needs paid insurance (see the True Cost view). Check whether you are covered by the public system or must buy private or university insurance, and what it excludes, since dental, mental-health, and prescription gaps are common. Factor the premium into your budget (it appears in the True Cost view) and confirm coverage starts from your arrival date.",
     "confidence": "high",
     "sources": [
       {
@@ -555,7 +555,7 @@
     "countryId": "ca",
     "factorId": "language",
     "score": 98,
-    "blurb": "English is a primary language of study and daily life across most of Canada. Official bilingualism means French dominates in Quebec, a small caveat outside English-medium programs.",
+    "blurb": "English is a primary language of study and daily life across most of Canada. Official bilingualism means French dominates in Quebec, a small caveat outside English-medium programs. Even where programmes are taught in English, daily life, part-time work, and long-term settlement are far easier if you pick up the local language. Many universities offer free or subsidised language classes, and reaching a basic level noticeably widens your job options and social circle.",
     "confidence": "high",
     "sources": [
       {
@@ -579,7 +579,7 @@
     "countryId": "ca",
     "factorId": "community",
     "score": 85,
-    "blurb": "Canada hosts one of the world's largest international-student populations, roughly 691,000 permit holders at the end of 2025, so diaspora and campus communities run deep even after recent policy caps.",
+    "blurb": "Canada hosts one of the world's largest international-student populations, roughly 691,000 permit holders at the end of 2025, so diaspora and campus communities run deep even after recent policy caps. A large diaspora and international-student community means familiar food, faith spaces, festivals, and networks that ease a first year abroad and often help with job referrals later. Student societies and alumni groups are the fastest way to plug in once you arrive.",
     "confidence": "high",
     "sources": [
       {
@@ -603,7 +603,7 @@
     "countryId": "ca",
     "factorId": "political-climate",
     "score": 90,
-    "blurb": "Canada scored 8.14 of 9 on Gallup’s 2016-17 Migrant Acceptance Index and led the world outright by 2019. Public acceptance stays high, though 2024 to 2025 brought tighter study-permit caps and higher proof-of-funds rules, a shift worth watching.",
+    "blurb": "Canada scored 8.14 of 9 on Gallup’s 2016-17 Migrant Acceptance Index and led the world outright by 2019. Public acceptance stays high, though 2024 to 2025 brought tighter study-permit caps and higher proof-of-funds rules, a shift worth watching. Public sentiment and immigration policy can shift quickly, so weigh the current direction of travel, not just today’s snapshot; the news links here track the latest changes. Recent caps, fee changes, and rule tightening in several countries show how fast the picture can move for international students.",
     "confidence": "high",
     "sources": [
       {
@@ -627,7 +627,7 @@
     "countryId": "ca",
     "factorId": "climate-lifestyle",
     "score": 53,
-    "blurb": "Numbeo's climate index puts Canada mid-pack: warm summers but long, cold winters, mildest along the south-west coast.",
+    "blurb": "Numbeo's climate index puts Canada mid-pack: warm summers but long, cold winters, mildest along the south-west coast. Think about how the weather fits you, since long dark winters, humidity, or heat shape your mood, your budget (heating or cooling bills), and how you spend free time. Pair the climate with the pace of the place: a quiet university town and a dense capital are very different day to day.",
     "confidence": "high",
     "sources": [
       {
@@ -651,7 +651,7 @@
     "countryId": "au",
     "factorId": "affordability",
     "score": 29,
-    "blurb": "Numbeo puts Australia among the pricier of the eight, and the visa now demands AUD 29,710 a year in living funds, so at 29 affordability is a weakness.",
+    "blurb": "Numbeo puts Australia among the pricier of the eight, and the visa now demands AUD 29,710 a year in living funds, so at 29 affordability is a weakness. Rent is the biggest swing factor, and big-city premiums can dwarf the national average, so where you study matters as much as which country. Look for university housing, student transport passes, and cities outside the priciest capitals to stretch a budget.",
     "confidence": "high",
     "sources": [
       {
@@ -675,7 +675,7 @@
     "countryId": "au",
     "factorId": "safety",
     "score": 53,
-    "blurb": "Numbeo scores Australian safety in the low-to-mid fifties, comfortable and mid-pack.",
+    "blurb": "Numbeo scores Australian safety in the low-to-mid fifties, comfortable and mid-pack. Numbeo’s index reflects citywide perceptions, whereas student districts and campuses are usually safer, so judge the specific city rather than the country. Universities also run safe-transport schemes, security escorts, and 24-hour campus support that rarely show up in national figures.",
     "confidence": "high",
     "sources": [
       {
@@ -699,7 +699,7 @@
     "countryId": "au",
     "factorId": "openness",
     "score": 65,
-    "blurb": "Australia scores 65 on MIPEX and ranks fifth of 33 countries, strong on citizenship and anti-discrimination.",
+    "blurb": "Australia scores 65 on MIPEX and ranks fifth of 33 countries, strong on citizenship and anti-discrimination. MIPEX scores integration policy (rights, anti-discrimination, access to services), not day-to-day friendliness, which international students often rate more warmly in practice. It is a useful signal of how the system treats newcomers over the long term, from recognising qualifications to family reunification.",
     "confidence": "high",
     "sources": [
       {
@@ -723,7 +723,7 @@
     "countryId": "au",
     "factorId": "work-rights",
     "score": 78,
-    "blurb": "Students can work 48 hours a fortnight (about 24 a week) during term and unlimited hours in breaks, then a two-year Graduate visa follows. Among the more generous regimes.",
+    "blurb": "Students can work 48 hours a fortnight (about 24 a week) during term and unlimited hours in breaks, then a two-year Graduate visa follows. Among the more generous regimes. Term-time hour caps, rules during breaks, and the post-study work window together decide how much you can earn while studying and how easily you can stay on afterwards. Treat generous work rights as both a way to offset costs and a bridge into a graduate job and, eventually, residence.",
     "confidence": "high",
     "sources": [
       {
@@ -747,7 +747,7 @@
     "countryId": "au",
     "factorId": "healthcare",
     "score": 72,
-    "blurb": "Numbeo rates Australian healthcare well; students rely on mandatory Overseas Student Health Cover rather than Medicare.",
+    "blurb": "Numbeo rates Australian healthcare well; students rely on mandatory Overseas Student Health Cover rather than Medicare. Check whether you are covered by the public system or must buy private or university insurance, and what it excludes, since dental, mental-health, and prescription gaps are common. Factor the premium into your budget (it appears in the True Cost view) and confirm coverage starts from your arrival date.",
     "confidence": "high",
     "sources": [
       {
@@ -771,7 +771,7 @@
     "countryId": "au",
     "factorId": "language",
     "score": 100,
-    "blurb": "English is the language of study and daily life across Australia.",
+    "blurb": "English is the language of study and daily life across Australia. Even where programmes are taught in English, daily life, part-time work, and long-term settlement are far easier if you pick up the local language. Many universities offer free or subsidised language classes, and reaching a basic level noticeably widens your job options and social circle.",
     "confidence": "high",
     "sources": [
       {
@@ -795,7 +795,7 @@
     "countryId": "au",
     "factorId": "community",
     "score": 87,
-    "blurb": "Australia hosts a record 600,000-plus student-visa holders, with large Indian and wider Asian communities.",
+    "blurb": "Australia hosts a record 600,000-plus student-visa holders, with large Indian and wider Asian communities. A large diaspora and international-student community means familiar food, faith spaces, festivals, and networks that ease a first year abroad and often help with job referrals later. Student societies and alumni groups are the fastest way to plug in once you arrive.",
     "confidence": "high",
     "sources": [
       {
@@ -819,7 +819,7 @@
     "countryId": "au",
     "factorId": "political-climate",
     "score": 89,
-    "blurb": "Australia scored 7.98 of 9 on Gallup’s 2016-17 Migrant Acceptance Index, among the most welcoming, though 2024 to 2025 brought caps on international enrolments.",
+    "blurb": "Australia scored 7.98 of 9 on Gallup’s 2016-17 Migrant Acceptance Index, among the most welcoming, though 2024 to 2025 brought caps on international enrolments. Public sentiment and immigration policy can shift quickly, so weigh the current direction of travel, not just today’s snapshot; the news links here track the latest changes. Recent caps, fee changes, and rule tightening in several countries show how fast the picture can move for international students.",
     "confidence": "high",
     "sources": [
       {
@@ -843,7 +843,7 @@
     "countryId": "au",
     "factorId": "climate-lifestyle",
     "score": 92,
-    "blurb": "Numbeo rates Australia’s climate the best of the eight: warm, sunny, and mild across most populated areas.",
+    "blurb": "Numbeo rates Australia’s climate the best of the eight: warm, sunny, and mild across most populated areas. Think about how the weather fits you, since long dark winters, humidity, or heat shape your mood, your budget (heating or cooling bills), and how you spend free time. Pair the climate with the pace of the place: a quiet university town and a dense capital are very different day to day.",
     "confidence": "high",
     "sources": [
       {
@@ -867,7 +867,7 @@
     "countryId": "de",
     "factorId": "affordability",
     "score": 32,
-    "blurb": "German day-to-day living costs are mid-pack on Numbeo, but paired with tuition-free public universities (shown in True Cost) the overall budget is the lightest of the eight.",
+    "blurb": "German day-to-day living costs are mid-pack on Numbeo, but paired with tuition-free public universities (shown in True Cost) the overall budget is the lightest of the eight. Rent is the biggest swing factor, and big-city premiums can dwarf the national average, so where you study matters as much as which country. Look for university housing, student transport passes, and cities outside the priciest capitals to stretch a budget.",
     "confidence": "high",
     "sources": [
       {
@@ -891,7 +891,7 @@
     "countryId": "de",
     "factorId": "safety",
     "score": 61,
-    "blurb": "Numbeo scores Germany in the low sixties for safety, among the safer of the eight.",
+    "blurb": "Numbeo scores Germany in the low sixties for safety, among the safer of the eight. Numbeo’s index reflects citywide perceptions, whereas student districts and campuses are usually safer, so judge the specific city rather than the country. Universities also run safe-transport schemes, security escorts, and 24-hour campus support that rarely show up in national figures.",
     "confidence": "high",
     "sources": [
       {
@@ -915,7 +915,7 @@
     "countryId": "de",
     "factorId": "openness",
     "score": 58,
-    "blurb": "Germany scores 58 on the 2025 MIPEX and recently broke into the global top ten for integration policy.",
+    "blurb": "Germany scores 58 on the 2025 MIPEX and recently broke into the global top ten for integration policy. MIPEX scores integration policy (rights, anti-discrimination, access to services), not day-to-day friendliness, which international students often rate more warmly in practice. It is a useful signal of how the system treats newcomers over the long term, from recognising qualifications to family reunification.",
     "confidence": "high",
     "sources": [
       {
@@ -939,7 +939,7 @@
     "countryId": "de",
     "factorId": "work-rights",
     "score": 62,
-    "blurb": "Students can work 140 full or 280 half days a year (about 20 hours a week), then get an 18-month permit to find graduate work.",
+    "blurb": "Students can work 140 full or 280 half days a year (about 20 hours a week), then get an 18-month permit to find graduate work. Term-time hour caps, rules during breaks, and the post-study work window together decide how much you can earn while studying and how easily you can stay on afterwards. Treat generous work rights as both a way to offset costs and a bridge into a graduate job and, eventually, residence.",
     "confidence": "high",
     "sources": [
       {
@@ -963,7 +963,7 @@
     "countryId": "de",
     "factorId": "healthcare",
     "score": 71,
-    "blurb": "Numbeo rates German healthcare highly; enrolment requires mandatory public health insurance of about 120 euros a month.",
+    "blurb": "Numbeo rates German healthcare highly; enrolment requires mandatory public health insurance of about 120 euros a month. Check whether you are covered by the public system or must buy private or university insurance, and what it excludes, since dental, mental-health, and prescription gaps are common. Factor the premium into your budget (it appears in the True Cost view) and confirm coverage starts from your arrival date.",
     "confidence": "high",
     "sources": [
       {
@@ -987,7 +987,7 @@
     "countryId": "de",
     "factorId": "language",
     "score": 72,
-    "blurb": "Everyday life and many bachelor’s programs run in German, though English-taught degrees are growing and Germans rank among the most proficient English speakers. Learning German sharply improves work and residence options.",
+    "blurb": "Everyday life and many bachelor’s programs run in German, though English-taught degrees are growing and Germans rank among the most proficient English speakers. Learning German sharply improves work and residence options. Even where programmes are taught in English, daily life, part-time work, and long-term settlement are far easier if you pick up the local language. Many universities offer free or subsidised language classes, and reaching a basic level noticeably widens your job options and social circle.",
     "confidence": "high",
     "sources": [
       {
@@ -1011,7 +1011,7 @@
     "countryId": "de",
     "factorId": "community",
     "score": 82,
-    "blurb": "Germany hosts over 400,000 international students, the most in continental Europe, with fast-growing Indian enrolment.",
+    "blurb": "Germany hosts over 400,000 international students, the most in continental Europe, with fast-growing Indian enrolment. A large diaspora and international-student community means familiar food, faith spaces, festivals, and networks that ease a first year abroad and often help with job referrals later. Student societies and alumni groups are the fastest way to plug in once you arrive.",
     "confidence": "high",
     "sources": [
       {
@@ -1035,7 +1035,7 @@
     "countryId": "de",
     "factorId": "political-climate",
     "score": 71,
-    "blurb": "Germany scored 6.4 of 9 on Gallup’s 2023 Migrant Acceptance Index, down from 7.1 in 2016 amid heated migration politics, though it stays above the EU average.",
+    "blurb": "Germany scored 6.4 of 9 on Gallup’s 2023 Migrant Acceptance Index, down from 7.1 in 2016 amid heated migration politics, though it stays above the EU average. Public sentiment and immigration policy can shift quickly, so weigh the current direction of travel, not just today’s snapshot; the news links here track the latest changes. Recent caps, fee changes, and rule tightening in several countries show how fast the picture can move for international students.",
     "confidence": "high",
     "sources": [
       {
@@ -1059,7 +1059,7 @@
     "countryId": "de",
     "factorId": "climate-lifestyle",
     "score": 83,
-    "blurb": "Numbeo rates Germany’s temperate climate well: four clear seasons, cold winters and warm summers.",
+    "blurb": "Numbeo rates Germany’s temperate climate well: four clear seasons, cold winters and warm summers. Think about how the weather fits you, since long dark winters, humidity, or heat shape your mood, your budget (heating or cooling bills), and how you spend free time. Pair the climate with the pace of the place: a quiet university town and a dense capital are very different day to day.",
     "confidence": "high",
     "sources": [
       {
@@ -1083,7 +1083,7 @@
     "countryId": "ie",
     "factorId": "affordability",
     "score": 29,
-    "blurb": "Numbeo puts Ireland among the pricier of the eight, with Dublin rents especially brutal, so at 29 affordability is a real weakness.",
+    "blurb": "Numbeo puts Ireland among the pricier of the eight, with Dublin rents especially brutal, so at 29 affordability is a real weakness. Rent is the biggest swing factor, and big-city premiums can dwarf the national average, so where you study matters as much as which country. Look for university housing, student transport passes, and cities outside the priciest capitals to stretch a budget.",
     "confidence": "high",
     "sources": [
       {
@@ -1107,7 +1107,7 @@
     "countryId": "ie",
     "factorId": "safety",
     "score": 51,
-    "blurb": "Numbeo scores Irish safety in the low fifties, mid-pack for the group.",
+    "blurb": "Numbeo scores Irish safety in the low fifties, mid-pack for the group. Numbeo’s index reflects citywide perceptions, whereas student districts and campuses are usually safer, so judge the specific city rather than the country. Universities also run safe-transport schemes, security escorts, and 24-hour campus support that rarely show up in national figures.",
     "confidence": "high",
     "sources": [
       {
@@ -1131,7 +1131,7 @@
     "countryId": "ie",
     "factorId": "openness",
     "score": 59,
-    "blurb": "Ireland scored 64 on MIPEX 2020 but slipped about five points in the 2024 assessment, with no new national integration strategy in place.",
+    "blurb": "Ireland scored 64 on MIPEX 2020 but slipped about five points in the 2024 assessment, with no new national integration strategy in place. MIPEX scores integration policy (rights, anti-discrimination, access to services), not day-to-day friendliness, which international students often rate more warmly in practice. It is a useful signal of how the system treats newcomers over the long term, from recognising qualifications to family reunification.",
     "confidence": "high",
     "sources": [
       {
@@ -1155,7 +1155,7 @@
     "countryId": "ie",
     "factorId": "work-rights",
     "score": 63,
-    "blurb": "Students can work 20 hours a week in term and 40 in holidays. Bachelor’s graduates then get a 12-month Stamp 1G permission to find work (24 months for master’s).",
+    "blurb": "Students can work 20 hours a week in term and 40 in holidays. Bachelor’s graduates then get a 12-month Stamp 1G permission to find work (24 months for master’s). Term-time hour caps, rules during breaks, and the post-study work window together decide how much you can earn while studying and how easily you can stay on afterwards. Treat generous work rights as both a way to offset costs and a bridge into a graduate job and, eventually, residence.",
     "confidence": "high",
     "sources": [
       {
@@ -1179,7 +1179,7 @@
     "countryId": "ie",
     "factorId": "healthcare",
     "score": 51,
-    "blurb": "Numbeo rates Irish healthcare the lowest of the eight; non-EU students must buy private cover and public waiting lists are a known strain.",
+    "blurb": "Numbeo rates Irish healthcare the lowest of the eight; non-EU students must buy private cover and public waiting lists are a known strain. Check whether you are covered by the public system or must buy private or university insurance, and what it excludes, since dental, mental-health, and prescription gaps are common. Factor the premium into your budget (it appears in the True Cost view) and confirm coverage starts from your arrival date.",
     "confidence": "high",
     "sources": [
       {
@@ -1203,7 +1203,7 @@
     "countryId": "ie",
     "factorId": "language",
     "score": 100,
-    "blurb": "English is the language of study and daily life across Ireland.",
+    "blurb": "English is the language of study and daily life across Ireland. Even where programmes are taught in English, daily life, part-time work, and long-term settlement are far easier if you pick up the local language. Many universities offer free or subsidised language classes, and reaching a basic level noticeably widens your job options and social circle.",
     "confidence": "high",
     "sources": [
       {
@@ -1227,7 +1227,7 @@
     "countryId": "ie",
     "factorId": "community",
     "score": 76,
-    "blurb": "Ireland hosts a smaller but fast-growing international-student population, with a large and long-established Indian community.",
+    "blurb": "Ireland hosts a smaller but fast-growing international-student population, with a large and long-established Indian community. A large diaspora and international-student community means familiar food, faith spaces, festivals, and networks that ease a first year abroad and often help with job referrals later. Student societies and alumni groups are the fastest way to plug in once you arrive.",
     "confidence": "high",
     "sources": [
       {
@@ -1251,7 +1251,7 @@
     "countryId": "ie",
     "factorId": "political-climate",
     "score": 86,
-    "blurb": "Ireland scored 7.74 of 9 on Gallup’s 2016-17 Migrant Acceptance Index, among the most welcoming, though housing pressures have recently strained public sentiment.",
+    "blurb": "Ireland scored 7.74 of 9 on Gallup’s 2016-17 Migrant Acceptance Index, among the most welcoming, though housing pressures have recently strained public sentiment. Public sentiment and immigration policy can shift quickly, so weigh the current direction of travel, not just today’s snapshot; the news links here track the latest changes. Recent caps, fee changes, and rule tightening in several countries show how fast the picture can move for international students.",
     "confidence": "high",
     "sources": [
       {
@@ -1275,7 +1275,7 @@
     "countryId": "ie",
     "factorId": "climate-lifestyle",
     "score": 89,
-    "blurb": "Numbeo rates Ireland’s mild maritime climate highly: cool, wet and rarely extreme.",
+    "blurb": "Numbeo rates Ireland’s mild maritime climate highly: cool, wet and rarely extreme. Think about how the weather fits you, since long dark winters, humidity, or heat shape your mood, your budget (heating or cooling bills), and how you spend free time. Pair the climate with the pace of the place: a quiet university town and a dense capital are very different day to day.",
     "confidence": "high",
     "sources": [
       {
@@ -1299,7 +1299,7 @@
     "countryId": "nl",
     "factorId": "affordability",
     "score": 27,
-    "blurb": "Numbeo puts the Netherlands the second-priciest of the eight after Singapore, and student housing is genuinely scarce, so at 27 affordability is a weakness.",
+    "blurb": "Numbeo puts the Netherlands the second-priciest of the eight after Singapore, and student housing is genuinely scarce, so at 27 affordability is a weakness. Rent is the biggest swing factor, and big-city premiums can dwarf the national average, so where you study matters as much as which country. Look for university housing, student transport passes, and cities outside the priciest capitals to stretch a budget.",
     "confidence": "high",
     "sources": [
       {
@@ -1323,7 +1323,7 @@
     "countryId": "nl",
     "factorId": "safety",
     "score": 72,
-    "blurb": "Numbeo scores the Netherlands highly for safety, second only to Singapore in this group.",
+    "blurb": "Numbeo scores the Netherlands highly for safety, second only to Singapore in this group. Numbeo’s index reflects citywide perceptions, whereas student districts and campuses are usually safer, so judge the specific city rather than the country. Universities also run safe-transport schemes, security escorts, and 24-hour campus support that rarely show up in national figures.",
     "confidence": "high",
     "sources": [
       {
@@ -1347,7 +1347,7 @@
     "countryId": "nl",
     "factorId": "openness",
     "score": 57,
-    "blurb": "The Netherlands scores 57 on MIPEX 2020, though policy has turned more restrictive, with tougher integration and language rules since 2022.",
+    "blurb": "The Netherlands scores 57 on MIPEX 2020, though policy has turned more restrictive, with tougher integration and language rules since 2022. MIPEX scores integration policy (rights, anti-discrimination, access to services), not day-to-day friendliness, which international students often rate more warmly in practice. It is a useful signal of how the system treats newcomers over the long term, from recognising qualifications to family reunification.",
     "confidence": "high",
     "sources": [
       {
@@ -1371,7 +1371,7 @@
     "countryId": "nl",
     "factorId": "work-rights",
     "score": 55,
-    "blurb": "Non-EU students are capped at 16 hours a week in term (with an employer-arranged work permit) or full-time only in summer, then a one-year orientation permit with free work rights.",
+    "blurb": "Non-EU students are capped at 16 hours a week in term (with an employer-arranged work permit) or full-time only in summer, then a one-year orientation permit with free work rights. Term-time hour caps, rules during breaks, and the post-study work window together decide how much you can earn while studying and how easily you can stay on afterwards. Treat generous work rights as both a way to offset costs and a bridge into a graduate job and, eventually, residence.",
     "confidence": "high",
     "sources": [
       {
@@ -1395,7 +1395,7 @@
     "countryId": "nl",
     "factorId": "healthcare",
     "score": 78,
-    "blurb": "Numbeo rates Dutch healthcare among the best of the eight, though part-time workers must switch to Dutch basic insurance.",
+    "blurb": "Numbeo rates Dutch healthcare among the best of the eight, though part-time workers must switch to Dutch basic insurance. Check whether you are covered by the public system or must buy private or university insurance, and what it excludes, since dental, mental-health, and prescription gaps are common. Factor the premium into your budget (it appears in the True Cost view) and confirm coverage starts from your arrival date.",
     "confidence": "high",
     "sources": [
       {
@@ -1419,7 +1419,7 @@
     "countryId": "nl",
     "factorId": "language",
     "score": 90,
-    "blurb": "Dutch is the official language, but the Netherlands ranks first worldwide for English proficiency and offers a huge range of English-taught degrees, so you can study and largely live in English.",
+    "blurb": "Dutch is the official language, but the Netherlands ranks first worldwide for English proficiency and offers a huge range of English-taught degrees, so you can study and largely live in English. Even where programmes are taught in English, daily life, part-time work, and long-term settlement are far easier if you pick up the local language. Many universities offer free or subsidised language classes, and reaching a basic level noticeably widens your job options and social circle.",
     "confidence": "high",
     "sources": [
       {
@@ -1443,7 +1443,7 @@
     "countryId": "nl",
     "factorId": "community",
     "score": 80,
-    "blurb": "The Netherlands hosts about 130,000 international students, with a growing Indian community, though numbers dipped in 2025 for the first time in decades.",
+    "blurb": "The Netherlands hosts about 130,000 international students, with a growing Indian community, though numbers dipped in 2025 for the first time in decades. A large diaspora and international-student community means familiar food, faith spaces, festivals, and networks that ease a first year abroad and often help with job referrals later. Student societies and alumni groups are the fastest way to plug in once you arrive.",
     "confidence": "high",
     "sources": [
       {
@@ -1467,7 +1467,7 @@
     "countryId": "nl",
     "factorId": "political-climate",
     "score": 83,
-    "blurb": "The Netherlands scored 7.46 of 9 on Gallup’s 2016-17 Migrant Acceptance Index, welcoming overall, though politics have shifted toward tighter migration since.",
+    "blurb": "The Netherlands scored 7.46 of 9 on Gallup’s 2016-17 Migrant Acceptance Index, welcoming overall, though politics have shifted toward tighter migration since. Public sentiment and immigration policy can shift quickly, so weigh the current direction of travel, not just today’s snapshot; the news links here track the latest changes. Recent caps, fee changes, and rule tightening in several countries show how fast the picture can move for international students.",
     "confidence": "high",
     "sources": [
       {
@@ -1491,7 +1491,7 @@
     "countryId": "nl",
     "factorId": "climate-lifestyle",
     "score": 87,
-    "blurb": "Numbeo rates the Dutch climate well: mild and temperate, though grey, wet and windy.",
+    "blurb": "Numbeo rates the Dutch climate well: mild and temperate, though grey, wet and windy. Think about how the weather fits you, since long dark winters, humidity, or heat shape your mood, your budget (heating or cooling bills), and how you spend free time. Pair the climate with the pace of the place: a quiet university town and a dense capital are very different day to day.",
     "confidence": "high",
     "sources": [
       {
@@ -1515,7 +1515,7 @@
     "countryId": "sg",
     "factorId": "affordability",
     "score": 9,
-    "blurb": "Numbeo makes Singapore the most expensive of the eight by a clear margin, so at 9 affordability is by far the weakest score in the set.",
+    "blurb": "Numbeo makes Singapore the most expensive of the eight by a clear margin, so at 9 affordability is by far the weakest score in the set. Rent is the biggest swing factor, and big-city premiums can dwarf the national average, so where you study matters as much as which country. Look for university housing, student transport passes, and cities outside the priciest capitals to stretch a budget.",
     "confidence": "high",
     "sources": [
       {
@@ -1539,7 +1539,7 @@
     "countryId": "sg",
     "factorId": "safety",
     "score": 78,
-    "blurb": "Numbeo ranks Singapore the safest of the eight, and one of the safest cities anywhere.",
+    "blurb": "Numbeo ranks Singapore the safest of the eight, and one of the safest cities anywhere. Numbeo’s index reflects citywide perceptions, whereas student districts and campuses are usually safer, so judge the specific city rather than the country. Universities also run safe-transport schemes, security escorts, and 24-hour campus support that rarely show up in national figures.",
     "confidence": "high",
     "sources": [
       {
@@ -1563,7 +1563,7 @@
     "countryId": "sg",
     "factorId": "openness",
     "score": 62,
-    "blurb": "Singapore is not assessed by MIPEX, so this is an estimate. It is highly multicultural and English-speaking and welcoming to students and talent, though integration and citizenship rules are strict.",
+    "blurb": "Singapore is not assessed by MIPEX, so this is an estimate. It is highly multicultural and English-speaking and welcoming to students and talent, though integration and citizenship rules are strict. MIPEX scores integration policy (rights, anti-discrimination, access to services), not day-to-day friendliness, which international students often rate more warmly in practice. It is a useful signal of how the system treats newcomers over the long term, from recognising qualifications to family reunification.",
     "confidence": "high",
     "sources": [
       {
@@ -1587,7 +1587,7 @@
     "countryId": "sg",
     "factorId": "work-rights",
     "score": 50,
-    "blurb": "Students at approved universities can work up to 16 hours a week in term. There is no dedicated post-study work visa, only a one-year pass to find an Employment Pass job.",
+    "blurb": "Students at approved universities can work up to 16 hours a week in term. There is no dedicated post-study work visa, only a one-year pass to find an Employment Pass job. Term-time hour caps, rules during breaks, and the post-study work window together decide how much you can earn while studying and how easily you can stay on afterwards. Treat generous work rights as both a way to offset costs and a bridge into a graduate job and, eventually, residence.",
     "confidence": "high",
     "sources": [
       {
@@ -1611,7 +1611,7 @@
     "countryId": "sg",
     "factorId": "healthcare",
     "score": 72,
-    "blurb": "Numbeo rates Singapore’s healthcare highly; it is world-class but expensive, and students rely on university insurance schemes.",
+    "blurb": "Numbeo rates Singapore’s healthcare highly; it is world-class but expensive, and students rely on university insurance schemes. Check whether you are covered by the public system or must buy private or university insurance, and what it excludes, since dental, mental-health, and prescription gaps are common. Factor the premium into your budget (it appears in the True Cost view) and confirm coverage starts from your arrival date.",
     "confidence": "high",
     "sources": [
       {
@@ -1635,7 +1635,7 @@
     "countryId": "sg",
     "factorId": "language",
     "score": 95,
-    "blurb": "English is the language of instruction and the main working language, alongside Malay, Mandarin and Tamil.",
+    "blurb": "English is the language of instruction and the main working language, alongside Malay, Mandarin and Tamil. Even where programmes are taught in English, daily life, part-time work, and long-term settlement are far easier if you pick up the local language. Many universities offer free or subsidised language classes, and reaching a basic level noticeably widens your job options and social circle.",
     "confidence": "high",
     "sources": [
       {
@@ -1659,7 +1659,7 @@
     "countryId": "sg",
     "factorId": "community",
     "score": 78,
-    "blurb": "Singapore hosts tens of thousands of international students and a very large ethnic-Indian population, so community and food are familiar for South Asian students.",
+    "blurb": "Singapore hosts tens of thousands of international students and a very large ethnic-Indian population, so community and food are familiar for South Asian students. A large diaspora and international-student community means familiar food, faith spaces, festivals, and networks that ease a first year abroad and often help with job referrals later. Student societies and alumni groups are the fastest way to plug in once you arrive.",
     "confidence": "high",
     "sources": [
       {
@@ -1683,7 +1683,7 @@
     "countryId": "sg",
     "factorId": "political-climate",
     "score": 61,
-    "blurb": "Singapore falls outside Gallup’s published most- and least-accepting tables, placing it mid-pack, so this 61 is an estimate. A large foreign workforce coexists with periodic local debate over immigration.",
+    "blurb": "Singapore falls outside Gallup’s published most- and least-accepting tables, placing it mid-pack, so this 61 is an estimate. A large foreign workforce coexists with periodic local debate over immigration. Public sentiment and immigration policy can shift quickly, so weigh the current direction of travel, not just today’s snapshot; the news links here track the latest changes. Recent caps, fee changes, and rule tightening in several countries show how fast the picture can move for international students.",
     "confidence": "high",
     "sources": [
       {
@@ -1707,7 +1707,7 @@
     "countryId": "sg",
     "factorId": "climate-lifestyle",
     "score": 58,
-    "blurb": "Numbeo scores Singapore’s climate modestly: hot and humid year-round with heavy rainfall and no seasons.",
+    "blurb": "Numbeo scores Singapore’s climate modestly: hot and humid year-round with heavy rainfall and no seasons. Think about how the weather fits you, since long dark winters, humidity, or heat shape your mood, your budget (heating or cooling bills), and how you spend free time. Pair the climate with the pace of the place: a quiet university town and a dense capital are very different day to day.",
     "confidence": "high",
     "sources": [
       {
