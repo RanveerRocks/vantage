@@ -27,6 +27,28 @@
 }
 
 @layer components {
+  /* Vibrant multi-colour aurora wash for hero and section backdrops. */
+  .hero-aurora {
+    background:
+      radial-gradient(58% 80% at 12% 8%, rgba(36, 64, 201, 0.22), transparent 60%),
+      radial-gradient(52% 68% at 88% 2%, rgba(109, 59, 235, 0.2), transparent 60%),
+      radial-gradient(52% 62% at 74% 92%, rgba(14, 165, 183, 0.16), transparent 62%),
+      radial-gradient(46% 56% at 26% 98%, rgba(236, 78, 134, 0.13), transparent 60%);
+  }
+
+  /* Gradient-clipped text for display headlines. */
+  .text-gradient {
+    background-image: linear-gradient(100deg, #2440c9 0%, #6d28d9 50%, #0e7490 100%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+  }
+
+  /* Thin vivid rule used to head sections. */
+  .accent-rule {
+    background-image: linear-gradient(90deg, #2440c9, #6d28d9 55%, #0e7490);
+  }
+
   /* Cartographic survey grid: fine 24px mesh with a heavier 120px major line,
      fading out toward the edges like a chart margin. */
   .survey-grid {

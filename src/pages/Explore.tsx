@@ -37,12 +37,12 @@ function TabFallback() {
 const TAB_IDS = ['career-visa', 'student-life', 'pathways', 'true-cost', 'emerging'] as const
 type TabId = (typeof TAB_IDS)[number]
 
-const TABS: { id: TabId; label: string }[] = [
-  { id: 'career-visa', label: 'Career & Visa' },
-  { id: 'student-life', label: 'Student Life' },
-  { id: 'pathways', label: 'Pathways' },
-  { id: 'true-cost', label: 'True Cost' },
-  { id: 'emerging', label: 'Emerging' },
+const TABS: { id: TabId; label: string; color: string }[] = [
+  { id: 'career-visa', label: 'Career & Visa', color: '#2440C9' },
+  { id: 'student-life', label: 'Student Life', color: '#0E7490' },
+  { id: 'pathways', label: 'Pathways', color: '#6D28D9' },
+  { id: 'true-cost', label: 'True Cost', color: '#DB2777' },
+  { id: 'emerging', label: 'Emerging', color: '#C2410C' },
 ]
 
 function isTabId(value: string | null): value is TabId {
@@ -91,36 +91,38 @@ export function Explore() {
 
   return (
     <div className="mx-auto w-full max-w-6xl px-4 py-10 sm:px-6 sm:py-12">
-      <p className="font-mono text-[11px] uppercase tracking-[0.22em] text-ultramarine">
-        Exploring
-      </p>
-      <h1 className="mt-2 font-display text-3xl font-semibold tracking-tight sm:text-[2.6rem]">
+      <p className="font-mono text-[11px] uppercase tracking-[0.22em] text-gradient">Exploring</p>
+      <h1 className="mt-2 font-display text-3xl font-semibold tracking-tight text-ink sm:text-[2.7rem]">
         {degree.name}
       </h1>
 
       <div
         role="tablist"
         aria-label="Explore sections"
-        className="mt-9 flex gap-4 overflow-x-auto border-b border-hairline sm:gap-6"
+        className="mt-8 flex flex-wrap gap-2"
       >
-        {TABS.map(({ id, label }) => (
-          <button
-            key={id}
-            id={`tab-${id}`}
-            role="tab"
-            type="button"
-            aria-selected={tab === id}
-            aria-controls="explore-tabpanel"
-            onClick={() => selectTab(id)}
-            className={`-mb-px whitespace-nowrap border-b-2 px-0.5 pb-3 pt-1 text-sm ${
-              tab === id
-                ? 'border-ultramarine font-medium text-ink'
-                : 'border-transparent text-slate hover:border-hairline hover:text-ink'
-            }`}
-          >
-            {label}
-          </button>
-        ))}
+        {TABS.map(({ id, label, color }) => {
+          const active = tab === id
+          return (
+            <button
+              key={id}
+              id={`tab-${id}`}
+              role="tab"
+              type="button"
+              aria-selected={active}
+              aria-controls="explore-tabpanel"
+              onClick={() => selectTab(id)}
+              style={active ? { backgroundColor: color, boxShadow: `0 10px 24px -10px ${color}` } : { ['--accent' as string]: color }}
+              className={`whitespace-nowrap rounded-full px-3.5 py-1.5 text-sm font-medium transition-all duration-200 ${
+                active
+                  ? 'text-white'
+                  : 'border border-hairline bg-white text-slate hover:-translate-y-0.5 hover:border-[color:var(--accent)] hover:text-[color:var(--accent)]'
+              }`}
+            >
+              {label}
+            </button>
+          )
+        })}
       </div>
 
       <div
