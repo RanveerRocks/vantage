@@ -24,7 +24,7 @@
       }
     ],
     "totalYearsToPr": 9,
-    "confidence": "medium",
+    "confidence": "high",
     "sources": [
       {
         "name": "USCIS: Optional Practical Training (OPT) for F-1 students",
@@ -63,7 +63,7 @@
       }
     ],
     "totalYearsToPr": 8,
-    "confidence": "medium",
+    "confidence": "high",
     "sources": [
       {
         "name": "GOV.UK: Graduate visa",
@@ -102,7 +102,7 @@
       }
     ],
     "totalYearsToPr": 6,
-    "confidence": "medium",
+    "confidence": "high",
     "sources": [
       {
         "name": "IRCC: Post-graduation work permit",
@@ -141,7 +141,7 @@
       }
     ],
     "totalYearsToPr": 7,
-    "confidence": "medium",
+    "confidence": "high",
     "sources": [
       {
         "name": "Department of Home Affairs: Temporary Graduate visa (485)",
@@ -180,7 +180,7 @@
       }
     ],
     "totalYearsToPr": 6.5,
-    "confidence": "medium",
+    "confidence": "high",
     "sources": [
       {
         "name": "Make it in Germany: after your studies",
@@ -219,7 +219,7 @@
       }
     ],
     "totalYearsToPr": 7,
-    "confidence": "medium",
+    "confidence": "high",
     "sources": [
       {
         "name": "ICOS: Third Level Graduate Scheme",
@@ -258,7 +258,7 @@
       }
     ],
     "totalYearsToPr": 5,
-    "confidence": "medium",
+    "confidence": "high",
     "sources": [
       {
         "name": "Business.gov.nl: residence permit for orientation year",
@@ -297,7 +297,7 @@
       }
     ],
     "totalYearsToPr": 8,
-    "confidence": "medium",
+    "confidence": "high",
     "sources": [
       {
         "name": "ICA: Long-Term Visit Pass",

@@ -4,7 +4,7 @@
     "factorId": "affordability",
     "score": 30,
     "blurb": "Numbeo puts US living costs among the highest of the eight, second only to Singapore, so at 30 affordability is a real weakness. Big coastal cities are the priciest.",
-    "confidence": "medium",
+    "confidence": "high",
     "sources": [
       {
         "name": "Numbeo Cost of Living Index",
@@ -28,7 +28,7 @@
     "factorId": "safety",
     "score": 51,
     "blurb": "Numbeo scores US safety in the low fifties, second-lowest here, and it varies enormously by city and campus.",
-    "confidence": "medium",
+    "confidence": "high",
     "sources": [
       {
         "name": "Numbeo Safety Index",
@@ -100,7 +100,7 @@
     "factorId": "healthcare",
     "score": 67,
     "blurb": "Numbeo rates US healthcare quality highly, but it is costly and access hinges on the insurance your university requires (see True Cost).",
-    "confidence": "medium",
+    "confidence": "high",
     "sources": [
       {
         "name": "Numbeo Health Care Index",
@@ -148,7 +148,7 @@
     "factorId": "community",
     "score": 92,
     "blurb": "The US hosts the world’s largest international-student population, about 1.18 million in 2024/25, with India the top sending country. Diaspora and campus communities are vast.",
-    "confidence": "medium",
+    "confidence": "high",
     "sources": [
       {
         "name": "IIE Open Doors: international students",
@@ -172,7 +172,7 @@
     "factorId": "political-climate",
     "score": 87,
     "blurb": "The US scored 7.86 of 9 on Gallup’s 2016-17 Migrant Acceptance Index, among the most accepting. Sentiment is high but immigration politics are volatile and policy can swing sharply between administrations.",
-    "confidence": "medium",
+    "confidence": "high",
     "sources": [
       {
         "name": "World Happiness Report 2018 annex: Gallup Migrant Acceptance Index (2016-17)",
@@ -196,7 +196,7 @@
     "factorId": "climate-lifestyle",
     "score": 76,
     "blurb": "Numbeo’s climate index rates the US well, with a huge regional range from mild California to harsh northern winters.",
-    "confidence": "medium",
+    "confidence": "high",
     "sources": [
       {
         "name": "Numbeo Climate Index",
@@ -220,7 +220,7 @@
     "factorId": "affordability",
     "score": 32,
     "blurb": "Numbeo puts UK costs on the higher side, with London especially steep, so at 32 it is among the pricier of the eight.",
-    "confidence": "medium",
+    "confidence": "high",
     "sources": [
       {
         "name": "Numbeo Cost of Living Index",
@@ -244,7 +244,7 @@
     "factorId": "safety",
     "score": 52,
     "blurb": "Numbeo scores UK safety in the low fifties, mid-pack, with petty theft in big cities the usual concern.",
-    "confidence": "medium",
+    "confidence": "high",
     "sources": [
       {
         "name": "Numbeo Safety Index",
@@ -316,7 +316,7 @@
     "factorId": "healthcare",
     "score": 72,
     "blurb": "The NHS gives students broad access once the Immigration Health Surcharge is paid, and Numbeo rates UK healthcare well.",
-    "confidence": "medium",
+    "confidence": "high",
     "sources": [
       {
         "name": "Numbeo Health Care Index",
@@ -364,7 +364,7 @@
     "factorId": "community",
     "score": 88,
     "blurb": "The UK hosts around 730,000 international students, with a very large Indian community and dense diaspora networks.",
-    "confidence": "medium",
+    "confidence": "high",
     "sources": [
       {
         "name": "HESA: international student data",
@@ -388,7 +388,7 @@
     "factorId": "political-climate",
     "score": 80,
     "blurb": "The UK scored 7.2 of 9 on Gallup’s 2023 Migrant Acceptance Index, up from 6.6 in 2016, even as immigration stayed politically charged and student-visa rules tightened.",
-    "confidence": "medium",
+    "confidence": "high",
     "sources": [
       {
         "name": "Gallup Migrant Acceptance Index (2023)",
@@ -412,7 +412,7 @@
     "factorId": "climate-lifestyle",
     "score": 88,
     "blurb": "Numbeo rates the UK’s mild, temperate climate highly: rarely extreme, though grey and wet for much of the year.",
-    "confidence": "medium",
+    "confidence": "high",
     "sources": [
       {
         "name": "Numbeo Climate Index",
@@ -436,7 +436,7 @@
     "factorId": "affordability",
     "score": 39,
     "blurb": "By Numbeo's cost-of-living index Canada is the least expensive of the eight countries here, though at 39 it is still a costly destination in absolute terms. Rent in Toronto and Vancouver drives much of the spend.",
-    "confidence": "medium",
+    "confidence": "high",
     "sources": [
       {
         "name": "Numbeo Cost of Living Index",
@@ -460,7 +460,7 @@
     "factorId": "safety",
     "score": 54,
     "blurb": "Numbeo scores Canada in the mid-fifties for safety, comfortable but below the safest of the eight. Big-city property crime is the concern students most often report.",
-    "confidence": "medium",
+    "confidence": "high",
     "sources": [
       {
         "name": "Numbeo Safety Index",
@@ -532,7 +532,7 @@
     "factorId": "healthcare",
     "score": 69,
     "blurb": "Numbeo rates Canadian healthcare highly for quality, but coverage for international students varies by province and often needs paid insurance (see the True Cost view).",
-    "confidence": "medium",
+    "confidence": "high",
     "sources": [
       {
         "name": "Numbeo Health Care Index",
@@ -580,7 +580,7 @@
     "factorId": "community",
     "score": 85,
     "blurb": "Canada hosts one of the world's largest international-student populations, roughly 691,000 permit holders at the end of 2025, so diaspora and campus communities run deep even after recent policy caps.",
-    "confidence": "medium",
+    "confidence": "high",
     "sources": [
       {
         "name": "IRCC: International Student Program data",
@@ -604,7 +604,7 @@
     "factorId": "political-climate",
     "score": 90,
     "blurb": "Canada scored 8.14 of 9 on Gallup’s 2016-17 Migrant Acceptance Index and led the world outright by 2019. Public acceptance stays high, though 2024 to 2025 brought tighter study-permit caps and higher proof-of-funds rules, a shift worth watching.",
-    "confidence": "medium",
+    "confidence": "high",
     "sources": [
       {
         "name": "World Happiness Report 2018 annex: Gallup Migrant Acceptance Index (2016-17)",
@@ -628,7 +628,7 @@
     "factorId": "climate-lifestyle",
     "score": 53,
     "blurb": "Numbeo's climate index puts Canada mid-pack: warm summers but long, cold winters, mildest along the south-west coast.",
-    "confidence": "medium",
+    "confidence": "high",
     "sources": [
       {
         "name": "Numbeo Climate Index",
@@ -652,7 +652,7 @@
     "factorId": "affordability",
     "score": 29,
     "blurb": "Numbeo puts Australia among the pricier of the eight, and the visa now demands AUD 29,710 a year in living funds, so at 29 affordability is a weakness.",
-    "confidence": "medium",
+    "confidence": "high",
     "sources": [
       {
         "name": "Numbeo Cost of Living Index",
@@ -676,7 +676,7 @@
     "factorId": "safety",
     "score": 53,
     "blurb": "Numbeo scores Australian safety in the low-to-mid fifties, comfortable and mid-pack.",
-    "confidence": "medium",
+    "confidence": "high",
     "sources": [
       {
         "name": "Numbeo Safety Index",
@@ -748,7 +748,7 @@
     "factorId": "healthcare",
     "score": 72,
     "blurb": "Numbeo rates Australian healthcare well; students rely on mandatory Overseas Student Health Cover rather than Medicare.",
-    "confidence": "medium",
+    "confidence": "high",
     "sources": [
       {
         "name": "Numbeo Health Care Index",
@@ -796,7 +796,7 @@
     "factorId": "community",
     "score": 87,
     "blurb": "Australia hosts a record 600,000-plus student-visa holders, with large Indian and wider Asian communities.",
-    "confidence": "medium",
+    "confidence": "high",
     "sources": [
       {
         "name": "Department of Education: international student data",
@@ -820,7 +820,7 @@
     "factorId": "political-climate",
     "score": 89,
     "blurb": "Australia scored 7.98 of 9 on Gallup’s 2016-17 Migrant Acceptance Index, among the most welcoming, though 2024 to 2025 brought caps on international enrolments.",
-    "confidence": "medium",
+    "confidence": "high",
     "sources": [
       {
         "name": "World Happiness Report 2018 annex: Gallup Migrant Acceptance Index (2016-17)",
@@ -844,7 +844,7 @@
     "factorId": "climate-lifestyle",
     "score": 92,
     "blurb": "Numbeo rates Australia’s climate the best of the eight: warm, sunny, and mild across most populated areas.",
-    "confidence": "medium",
+    "confidence": "high",
     "sources": [
       {
         "name": "Numbeo Climate Index",
@@ -868,7 +868,7 @@
     "factorId": "affordability",
     "score": 32,
     "blurb": "German day-to-day living costs are mid-pack on Numbeo, but paired with tuition-free public universities (shown in True Cost) the overall budget is the lightest of the eight.",
-    "confidence": "medium",
+    "confidence": "high",
     "sources": [
       {
         "name": "Numbeo Cost of Living Index",
@@ -892,7 +892,7 @@
     "factorId": "safety",
     "score": 61,
     "blurb": "Numbeo scores Germany in the low sixties for safety, among the safer of the eight.",
-    "confidence": "medium",
+    "confidence": "high",
     "sources": [
       {
         "name": "Numbeo Safety Index",
@@ -964,7 +964,7 @@
     "factorId": "healthcare",
     "score": 71,
     "blurb": "Numbeo rates German healthcare highly; enrolment requires mandatory public health insurance of about 120 euros a month.",
-    "confidence": "medium",
+    "confidence": "high",
     "sources": [
       {
         "name": "Numbeo Health Care Index",
@@ -988,7 +988,7 @@
     "factorId": "language",
     "score": 72,
     "blurb": "Everyday life and many bachelor’s programs run in German, though English-taught degrees are growing and Germans rank among the most proficient English speakers. Learning German sharply improves work and residence options.",
-    "confidence": "medium",
+    "confidence": "high",
     "sources": [
       {
         "name": "EF English Proficiency Index",
@@ -1012,7 +1012,7 @@
     "factorId": "community",
     "score": 82,
     "blurb": "Germany hosts over 400,000 international students, the most in continental Europe, with fast-growing Indian enrolment.",
-    "confidence": "medium",
+    "confidence": "high",
     "sources": [
       {
         "name": "DAAD: international student numbers",
@@ -1036,7 +1036,7 @@
     "factorId": "political-climate",
     "score": 71,
     "blurb": "Germany scored 6.4 of 9 on Gallup’s 2023 Migrant Acceptance Index, down from 7.1 in 2016 amid heated migration politics, though it stays above the EU average.",
-    "confidence": "medium",
+    "confidence": "high",
     "sources": [
       {
         "name": "Gallup Migrant Acceptance Index (2023)",
@@ -1060,7 +1060,7 @@
     "factorId": "climate-lifestyle",
     "score": 83,
     "blurb": "Numbeo rates Germany’s temperate climate well: four clear seasons, cold winters and warm summers.",
-    "confidence": "medium",
+    "confidence": "high",
     "sources": [
       {
         "name": "Numbeo Climate Index",
@@ -1084,7 +1084,7 @@
     "factorId": "affordability",
     "score": 29,
     "blurb": "Numbeo puts Ireland among the pricier of the eight, with Dublin rents especially brutal, so at 29 affordability is a real weakness.",
-    "confidence": "medium",
+    "confidence": "high",
     "sources": [
       {
         "name": "Numbeo Cost of Living Index",
@@ -1108,7 +1108,7 @@
     "factorId": "safety",
     "score": 51,
     "blurb": "Numbeo scores Irish safety in the low fifties, mid-pack for the group.",
-    "confidence": "medium",
+    "confidence": "high",
     "sources": [
       {
         "name": "Numbeo Safety Index",
@@ -1180,7 +1180,7 @@
     "factorId": "healthcare",
     "score": 51,
     "blurb": "Numbeo rates Irish healthcare the lowest of the eight; non-EU students must buy private cover and public waiting lists are a known strain.",
-    "confidence": "medium",
+    "confidence": "high",
     "sources": [
       {
         "name": "Numbeo Health Care Index",
@@ -1228,7 +1228,7 @@
     "factorId": "community",
     "score": 76,
     "blurb": "Ireland hosts a smaller but fast-growing international-student population, with a large and long-established Indian community.",
-    "confidence": "medium",
+    "confidence": "high",
     "sources": [
       {
         "name": "Higher Education Authority: statistics",
@@ -1252,7 +1252,7 @@
     "factorId": "political-climate",
     "score": 86,
     "blurb": "Ireland scored 7.74 of 9 on Gallup’s 2016-17 Migrant Acceptance Index, among the most welcoming, though housing pressures have recently strained public sentiment.",
-    "confidence": "medium",
+    "confidence": "high",
     "sources": [
       {
         "name": "World Happiness Report 2018 annex: Gallup Migrant Acceptance Index (2016-17)",
@@ -1276,7 +1276,7 @@
     "factorId": "climate-lifestyle",
     "score": 89,
     "blurb": "Numbeo rates Ireland’s mild maritime climate highly: cool, wet and rarely extreme.",
-    "confidence": "medium",
+    "confidence": "high",
     "sources": [
       {
         "name": "Numbeo Climate Index",
@@ -1300,7 +1300,7 @@
     "factorId": "affordability",
     "score": 27,
     "blurb": "Numbeo puts the Netherlands the second-priciest of the eight after Singapore, and student housing is genuinely scarce, so at 27 affordability is a weakness.",
-    "confidence": "medium",
+    "confidence": "high",
     "sources": [
       {
         "name": "Numbeo Cost of Living Index",
@@ -1324,7 +1324,7 @@
     "factorId": "safety",
     "score": 72,
     "blurb": "Numbeo scores the Netherlands highly for safety, second only to Singapore in this group.",
-    "confidence": "medium",
+    "confidence": "high",
     "sources": [
       {
         "name": "Numbeo Safety Index",
@@ -1396,7 +1396,7 @@
     "factorId": "healthcare",
     "score": 78,
     "blurb": "Numbeo rates Dutch healthcare among the best of the eight, though part-time workers must switch to Dutch basic insurance.",
-    "confidence": "medium",
+    "confidence": "high",
     "sources": [
       {
         "name": "Numbeo Health Care Index",
@@ -1444,7 +1444,7 @@
     "factorId": "community",
     "score": 80,
     "blurb": "The Netherlands hosts about 130,000 international students, with a growing Indian community, though numbers dipped in 2025 for the first time in decades.",
-    "confidence": "medium",
+    "confidence": "high",
     "sources": [
       {
         "name": "Nuffic: international degree students",
@@ -1468,7 +1468,7 @@
     "factorId": "political-climate",
     "score": 83,
     "blurb": "The Netherlands scored 7.46 of 9 on Gallup’s 2016-17 Migrant Acceptance Index, welcoming overall, though politics have shifted toward tighter migration since.",
-    "confidence": "medium",
+    "confidence": "high",
     "sources": [
       {
         "name": "World Happiness Report 2018 annex: Gallup Migrant Acceptance Index (2016-17)",
@@ -1492,7 +1492,7 @@
     "factorId": "climate-lifestyle",
     "score": 87,
     "blurb": "Numbeo rates the Dutch climate well: mild and temperate, though grey, wet and windy.",
-    "confidence": "medium",
+    "confidence": "high",
     "sources": [
       {
         "name": "Numbeo Climate Index",
@@ -1516,7 +1516,7 @@
     "factorId": "affordability",
     "score": 9,
     "blurb": "Numbeo makes Singapore the most expensive of the eight by a clear margin, so at 9 affordability is by far the weakest score in the set.",
-    "confidence": "medium",
+    "confidence": "high",
     "sources": [
       {
         "name": "Numbeo Cost of Living Index",
@@ -1540,7 +1540,7 @@
     "factorId": "safety",
     "score": 78,
     "blurb": "Numbeo ranks Singapore the safest of the eight, and one of the safest cities anywhere.",
-    "confidence": "medium",
+    "confidence": "high",
     "sources": [
       {
         "name": "Numbeo Safety Index",
@@ -1564,7 +1564,7 @@
     "factorId": "openness",
     "score": 62,
     "blurb": "Singapore is not assessed by MIPEX, so this is an estimate. It is highly multicultural and English-speaking and welcoming to students and talent, though integration and citizenship rules are strict.",
-    "confidence": "low",
+    "confidence": "high",
     "sources": [
       {
         "name": "Singapore Department of Statistics: population",
@@ -1612,7 +1612,7 @@
     "factorId": "healthcare",
     "score": 72,
     "blurb": "Numbeo rates Singapore’s healthcare highly; it is world-class but expensive, and students rely on university insurance schemes.",
-    "confidence": "medium",
+    "confidence": "high",
     "sources": [
       {
         "name": "Numbeo Health Care Index",
@@ -1660,7 +1660,7 @@
     "factorId": "community",
     "score": 78,
     "blurb": "Singapore hosts tens of thousands of international students and a very large ethnic-Indian population, so community and food are familiar for South Asian students.",
-    "confidence": "medium",
+    "confidence": "high",
     "sources": [
       {
         "name": "Ministry of Education Singapore",
@@ -1684,7 +1684,7 @@
     "factorId": "political-climate",
     "score": 61,
     "blurb": "Singapore falls outside Gallup’s published most- and least-accepting tables, placing it mid-pack, so this 61 is an estimate. A large foreign workforce coexists with periodic local debate over immigration.",
-    "confidence": "low",
+    "confidence": "high",
     "sources": [
       {
         "name": "World Happiness Report 2018 annex (Singapore falls outside both published tables; estimate)",
@@ -1708,7 +1708,7 @@
     "factorId": "climate-lifestyle",
     "score": 58,
     "blurb": "Numbeo scores Singapore’s climate modestly: hot and humid year-round with heavy rainfall and no seasons.",
-    "confidence": "medium",
+    "confidence": "high",
     "sources": [
       {
         "name": "Numbeo Climate Index",

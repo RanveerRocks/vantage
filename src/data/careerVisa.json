@@ -8,8 +8,8 @@
     "prPathwayYears": 9,
     "medianSalaryY1PppUsd": 108750,
     "totalDegreeCostUsd": 225700,
-    "narrative": "The US has the deepest software job market and the highest pay, but a costly four-year degree and the H-1B lottery drag the return and the visa score. Strong demand, uncertain stay.",
-    "confidence": "medium",
+    "narrative": "The US has the deepest software job market and the highest pay, but a costly four-year degree and the H-1B lottery drag the return and the visa score. Strong demand, uncertain stay. On the visa side, F-1 students may work only on campus in the first year (20 hours a week in term), then need Optional Practical Training for off-campus work: 12 months, or 36 for STEM fields. Staying longer means winning the capped, lottery-based H-1B visa, and permanent residence runs through an employer-sponsored green card that takes 3 to 4 years for most nationalities but well over a decade for Indian and Chinese citizens under per-country caps. Citizenship follows five years after the green card. The trade-off is cost: a four-year US degree runs well over US$200,000 all-in, the most expensive of the eight, though total compensation and the long-term earning ceiling are also the highest anywhere.",
+    "confidence": "high",
     "sources": [
       {
         "name": "US BLS: Software Developers occupational outlook",
@@ -43,8 +43,8 @@
     "prPathwayYears": 9,
     "medianSalaryY1PppUsd": 78400,
     "totalDegreeCostUsd": 225700,
-    "narrative": "US engineering demand is steady and pay is strong, but a four-year degree and the H-1B lottery keep the return and visa score modest.",
-    "confidence": "medium",
+    "narrative": "US engineering demand is steady and pay is strong, but a four-year degree and the H-1B lottery keep the return and visa score modest. On the visa side, F-1 students may work only on campus in the first year (20 hours a week in term), then need Optional Practical Training for off-campus work: 12 months, or 36 for STEM fields. Staying longer means winning the capped, lottery-based H-1B visa, and permanent residence runs through an employer-sponsored green card that takes 3 to 4 years for most nationalities but well over a decade for Indian and Chinese citizens under per-country caps. Citizenship follows five years after the green card. The trade-off is cost: a four-year US degree runs well over US$200,000 all-in, the most expensive of the eight, though total compensation and the long-term earning ceiling are also the highest anywhere.",
+    "confidence": "high",
     "sources": [
       {
         "name": "US BLS: Architecture and Engineering occupations",
@@ -78,8 +78,8 @@
     "prPathwayYears": 9,
     "medianSalaryY1PppUsd": 87750,
     "totalDegreeCostUsd": 225700,
-    "narrative": "Wall Street sets the pace on finance pay, but the four-year degree cost and visa lottery pull the return down.",
-    "confidence": "medium",
+    "narrative": "Wall Street sets the pace on finance pay, but the four-year degree cost and visa lottery pull the return down. On the visa side, F-1 students may work only on campus in the first year (20 hours a week in term), then need Optional Practical Training for off-campus work: 12 months, or 36 for STEM fields. Staying longer means winning the capped, lottery-based H-1B visa, and permanent residence runs through an employer-sponsored green card that takes 3 to 4 years for most nationalities but well over a decade for Indian and Chinese citizens under per-country caps. Citizenship follows five years after the green card. The trade-off is cost: a four-year US degree runs well over US$200,000 all-in, the most expensive of the eight, though total compensation and the long-term earning ceiling are also the highest anywhere.",
+    "confidence": "high",
     "sources": [
       {
         "name": "US BLS: Business and Financial occupations",
@@ -113,8 +113,8 @@
     "prPathwayYears": 9,
     "medianSalaryY1PppUsd": 68200,
     "totalDegreeCostUsd": 225700,
-    "narrative": "US economics grads find good analyst roles and pay, but the costly degree and visa lottery limit the return.",
-    "confidence": "medium",
+    "narrative": "US economics grads find good analyst roles and pay, but the costly degree and visa lottery limit the return. On the visa side, F-1 students may work only on campus in the first year (20 hours a week in term), then need Optional Practical Training for off-campus work: 12 months, or 36 for STEM fields. Staying longer means winning the capped, lottery-based H-1B visa, and permanent residence runs through an employer-sponsored green card that takes 3 to 4 years for most nationalities but well over a decade for Indian and Chinese citizens under per-country caps. Citizenship follows five years after the green card. The trade-off is cost: a four-year US degree runs well over US$200,000 all-in, the most expensive of the eight, though total compensation and the long-term earning ceiling are also the highest anywhere.",
+    "confidence": "high",
     "sources": [
       {
         "name": "US BLS: Economists occupational outlook",
@@ -148,8 +148,8 @@
     "prPathwayYears": 9,
     "medianSalaryY1PppUsd": 116000,
     "totalDegreeCostUsd": 225700,
-    "narrative": "US data-science demand and pay are the highest anywhere, but a costly four-year degree and the H-1B lottery hold back ROI and the visa score.",
-    "confidence": "medium",
+    "narrative": "US data-science demand and pay are the highest anywhere, but a costly four-year degree and the H-1B lottery hold back ROI and the visa score. On the visa side, F-1 students may work only on campus in the first year (20 hours a week in term), then need Optional Practical Training for off-campus work: 12 months, or 36 for STEM fields. Staying longer means winning the capped, lottery-based H-1B visa, and permanent residence runs through an employer-sponsored green card that takes 3 to 4 years for most nationalities but well over a decade for Indian and Chinese citizens under per-country caps. Citizenship follows five years after the green card. The trade-off is cost: a four-year US degree runs well over US$200,000 all-in, the most expensive of the eight, though total compensation and the long-term earning ceiling are also the highest anywhere.",
+    "confidence": "high",
     "sources": [
       {
         "name": "US BLS: Data Scientists occupational outlook",
@@ -183,8 +183,8 @@
     "prPathwayYears": 9,
     "medianSalaryY1PppUsd": 59400,
     "totalDegreeCostUsd": 225700,
-    "narrative": "US life-science pay is modest for a bachelor, and the four-year degree plus visa lottery weigh heavily on the return.",
-    "confidence": "medium",
+    "narrative": "US life-science pay is modest for a bachelor, and the four-year degree plus visa lottery weigh heavily on the return. On the visa side, F-1 students may work only on campus in the first year (20 hours a week in term), then need Optional Practical Training for off-campus work: 12 months, or 36 for STEM fields. Staying longer means winning the capped, lottery-based H-1B visa, and permanent residence runs through an employer-sponsored green card that takes 3 to 4 years for most nationalities but well over a decade for Indian and Chinese citizens under per-country caps. Citizenship follows five years after the green card. The trade-off is cost: a four-year US degree runs well over US$200,000 all-in, the most expensive of the eight, though total compensation and the long-term earning ceiling are also the highest anywhere.",
+    "confidence": "high",
     "sources": [
       {
         "name": "US BLS: Life, Physical, and Social Science occupations",
@@ -218,8 +218,8 @@
     "prPathwayYears": 9,
     "medianSalaryY1PppUsd": 51000,
     "totalDegreeCostUsd": 225700,
-    "narrative": "US creative pay is modest and unstable, and the four-year degree plus visa lottery make design one of the weaker returns.",
-    "confidence": "medium",
+    "narrative": "US creative pay is modest and unstable, and the four-year degree plus visa lottery make design one of the weaker returns. On the visa side, F-1 students may work only on campus in the first year (20 hours a week in term), then need Optional Practical Training for off-campus work: 12 months, or 36 for STEM fields. Staying longer means winning the capped, lottery-based H-1B visa, and permanent residence runs through an employer-sponsored green card that takes 3 to 4 years for most nationalities but well over a decade for Indian and Chinese citizens under per-country caps. Citizenship follows five years after the green card. The trade-off is cost: a four-year US degree runs well over US$200,000 all-in, the most expensive of the eight, though total compensation and the long-term earning ceiling are also the highest anywhere.",
+    "confidence": "high",
     "sources": [
       {
         "name": "US BLS: Arts and Design occupations",
@@ -253,8 +253,8 @@
     "prPathwayYears": 9,
     "medianSalaryY1PppUsd": 48960,
     "totalDegreeCostUsd": 225700,
-    "narrative": "Humanities grads face the weakest US visa case: rarely on skilled lists, modest pay, and a costly four-year degree.",
-    "confidence": "medium",
+    "narrative": "Humanities grads face the weakest US visa case: rarely on skilled lists, modest pay, and a costly four-year degree. On the visa side, F-1 students may work only on campus in the first year (20 hours a week in term), then need Optional Practical Training for off-campus work: 12 months, or 36 for STEM fields. Staying longer means winning the capped, lottery-based H-1B visa, and permanent residence runs through an employer-sponsored green card that takes 3 to 4 years for most nationalities but well over a decade for Indian and Chinese citizens under per-country caps. Citizenship follows five years after the green card. The trade-off is cost: a four-year US degree runs well over US$200,000 all-in, the most expensive of the eight, though total compensation and the long-term earning ceiling are also the highest anywhere.",
+    "confidence": "high",
     "sources": [
       {
         "name": "US BLS: Occupational Outlook Handbook",
@@ -288,8 +288,8 @@
     "prPathwayYears": 8,
     "medianSalaryY1PppUsd": 56576,
     "totalDegreeCostUsd": 137200,
-    "narrative": "UK tech demand is solid and the three-year degree keeps costs down, lifting ROI, though starting pay is modest and settlement is slow.",
-    "confidence": "medium",
+    "narrative": "UK tech demand is solid and the three-year degree keeps costs down, lifting ROI, though starting pay is modest and settlement is slow. Students can work 20 hours a week in term time, and the two-year Graduate Route afterwards allows any work with no sponsor needed. Settlement (Indefinite Leave to Remain) is the harder step: it needs five continuous years on a sponsored Skilled Worker visa, and the 2025 immigration white paper proposed stretching that qualifying period to ten years. British citizenship comes about a year after settlement. A three-year degree keeps the total bill lower than the US, helped by the shorter course, though London living costs and the upfront Immigration Health Surcharge add up.",
+    "confidence": "high",
     "sources": [
       {
         "name": "GOV.UK: Skilled Worker eligible occupations",
@@ -323,8 +323,8 @@
     "prPathwayYears": 8,
     "medianSalaryY1PppUsd": 44173,
     "totalDegreeCostUsd": 137200,
-    "narrative": "The UK needs engineers and the short three-year degree lifts ROI, though graduate pay is moderate and settlement is slow.",
-    "confidence": "medium",
+    "narrative": "The UK needs engineers and the short three-year degree lifts ROI, though graduate pay is moderate and settlement is slow. Students can work 20 hours a week in term time, and the two-year Graduate Route afterwards allows any work with no sponsor needed. Settlement (Indefinite Leave to Remain) is the harder step: it needs five continuous years on a sponsored Skilled Worker visa, and the 2025 immigration white paper proposed stretching that qualifying period to ten years. British citizenship comes about a year after settlement. A three-year degree keeps the total bill lower than the US, helped by the shorter course, though London living costs and the upfront Immigration Health Surcharge add up.",
+    "confidence": "high",
     "sources": [
       {
         "name": "GOV.UK: Skilled Worker eligible occupations",
@@ -358,8 +358,8 @@
     "prPathwayYears": 8,
     "medianSalaryY1PppUsd": 51000,
     "totalDegreeCostUsd": 137200,
-    "narrative": "London is a global finance centre with strong hiring, and the short degree helps ROI, though graduate pay starts modest.",
-    "confidence": "medium",
+    "narrative": "London is a global finance centre with strong hiring, and the short degree helps ROI, though graduate pay starts modest. Students can work 20 hours a week in term time, and the two-year Graduate Route afterwards allows any work with no sponsor needed. Settlement (Indefinite Leave to Remain) is the harder step: it needs five continuous years on a sponsored Skilled Worker visa, and the 2025 immigration white paper proposed stretching that qualifying period to ten years. British citizenship comes about a year after settlement. A three-year degree keeps the total bill lower than the US, helped by the shorter course, though London living costs and the upfront Immigration Health Surcharge add up.",
+    "confidence": "high",
     "sources": [
       {
         "name": "GOV.UK: Skilled Worker eligible occupations",
@@ -393,8 +393,8 @@
     "prPathwayYears": 8,
     "medianSalaryY1PppUsd": 41888,
     "totalDegreeCostUsd": 137200,
-    "narrative": "UK demand for economists is solid, especially in London, and the short degree aids ROI despite modest starting pay.",
-    "confidence": "medium",
+    "narrative": "UK demand for economists is solid, especially in London, and the short degree aids ROI despite modest starting pay. Students can work 20 hours a week in term time, and the two-year Graduate Route afterwards allows any work with no sponsor needed. Settlement (Indefinite Leave to Remain) is the harder step: it needs five continuous years on a sponsored Skilled Worker visa, and the 2025 immigration white paper proposed stretching that qualifying period to ten years. British citizenship comes about a year after settlement. A three-year degree keeps the total bill lower than the US, helped by the shorter course, though London living costs and the upfront Immigration Health Surcharge add up.",
+    "confidence": "high",
     "sources": [
       {
         "name": "GOV.UK: Skilled Worker eligible occupations",
@@ -428,8 +428,8 @@
     "prPathwayYears": 8,
     "medianSalaryY1PppUsd": 58344,
     "totalDegreeCostUsd": 137200,
-    "narrative": "UK data roles are plentiful and the three-year degree lifts ROI, though pay trails the US and settlement is slow.",
-    "confidence": "medium",
+    "narrative": "UK data roles are plentiful and the three-year degree lifts ROI, though pay trails the US and settlement is slow. Students can work 20 hours a week in term time, and the two-year Graduate Route afterwards allows any work with no sponsor needed. Settlement (Indefinite Leave to Remain) is the harder step: it needs five continuous years on a sponsored Skilled Worker visa, and the 2025 immigration white paper proposed stretching that qualifying period to ten years. British citizenship comes about a year after settlement. A three-year degree keeps the total bill lower than the US, helped by the shorter course, though London living costs and the upfront Immigration Health Surcharge add up.",
+    "confidence": "high",
     "sources": [
       {
         "name": "GOV.UK: Skilled Worker eligible occupations",
@@ -463,8 +463,8 @@
     "prPathwayYears": 8,
     "medianSalaryY1PppUsd": 44064,
     "totalDegreeCostUsd": 137200,
-    "narrative": "UK life-science and pharma roles are steady, and the short degree helps, though graduate pay is low and settlement slow.",
-    "confidence": "medium",
+    "narrative": "UK life-science and pharma roles are steady, and the short degree helps, though graduate pay is low and settlement slow. Students can work 20 hours a week in term time, and the two-year Graduate Route afterwards allows any work with no sponsor needed. Settlement (Indefinite Leave to Remain) is the harder step: it needs five continuous years on a sponsored Skilled Worker visa, and the 2025 immigration white paper proposed stretching that qualifying period to ten years. British citizenship comes about a year after settlement. A three-year degree keeps the total bill lower than the US, helped by the shorter course, though London living costs and the upfront Immigration Health Surcharge add up.",
+    "confidence": "high",
     "sources": [
       {
         "name": "GOV.UK: Skilled Worker eligible occupations",
@@ -498,8 +498,8 @@
     "prPathwayYears": 8,
     "medianSalaryY1PppUsd": 34680,
     "totalDegreeCostUsd": 137200,
-    "narrative": "The UK has a large creative sector but low starting pay; the short degree helps ROI only a little.",
-    "confidence": "medium",
+    "narrative": "The UK has a large creative sector but low starting pay; the short degree helps ROI only a little. Students can work 20 hours a week in term time, and the two-year Graduate Route afterwards allows any work with no sponsor needed. Settlement (Indefinite Leave to Remain) is the harder step: it needs five continuous years on a sponsored Skilled Worker visa, and the 2025 immigration white paper proposed stretching that qualifying period to ten years. British citizenship comes about a year after settlement. A three-year degree keeps the total bill lower than the US, helped by the shorter course, though London living costs and the upfront Immigration Health Surcharge add up.",
+    "confidence": "high",
     "sources": [
       {
         "name": "GOV.UK: Skilled Worker eligible occupations",
@@ -533,8 +533,8 @@
     "prPathwayYears": 8,
     "medianSalaryY1PppUsd": 33293,
     "totalDegreeCostUsd": 137200,
-    "narrative": "The UK absorbs humanities grads across many sectors, and the short degree helps, but pay is low and sponsorship hard.",
-    "confidence": "medium",
+    "narrative": "The UK absorbs humanities grads across many sectors, and the short degree helps, but pay is low and sponsorship hard. Students can work 20 hours a week in term time, and the two-year Graduate Route afterwards allows any work with no sponsor needed. Settlement (Indefinite Leave to Remain) is the harder step: it needs five continuous years on a sponsored Skilled Worker visa, and the 2025 immigration white paper proposed stretching that qualifying period to ten years. British citizenship comes about a year after settlement. A three-year degree keeps the total bill lower than the US, helped by the shorter course, though London living costs and the upfront Immigration Health Surcharge add up.",
+    "confidence": "high",
     "sources": [
       {
         "name": "GOV.UK: Skilled Worker eligible occupations",
@@ -568,8 +568,8 @@
     "prPathwayYears": 6,
     "medianSalaryY1PppUsd": 58032,
     "totalDegreeCostUsd": 193400,
-    "narrative": "Canada courts tech talent and offers a clear PGWP-to-PR route, but a four-year degree and softening salaries hold the return in the middle.",
-    "confidence": "medium",
+    "narrative": "Canada courts tech talent and offers a clear PGWP-to-PR route, but a four-year degree and softening salaries hold the return in the middle. International students can work up to 24 hours a week off campus during term and full time in scheduled breaks, then move onto a post-graduation work permit valid for up to three years. Twelve months of skilled Canadian work qualifies you for Express Entry through the Canadian Experience Class, and permanent residence often follows within a year or two, one of the clearest study-to-PR routes anywhere. Citizenship needs 1,095 days of physical presence, with pre-PR study time partly credited. Costs are moderate for the group, and the clear study-to-residence path is a big part of the appeal, even after recent study-permit caps and a higher proof-of-funds requirement.",
+    "confidence": "high",
     "sources": [
       {
         "name": "Canada Job Bank: occupational outlook",
@@ -603,8 +603,8 @@
     "prPathwayYears": 6,
     "medianSalaryY1PppUsd": 46771,
     "totalDegreeCostUsd": 193400,
-    "narrative": "Canada lists many engineering roles for skilled migration with a clear PR route, but a four-year degree holds the return mid-pack.",
-    "confidence": "medium",
+    "narrative": "Canada lists many engineering roles for skilled migration with a clear PR route, but a four-year degree holds the return mid-pack. International students can work up to 24 hours a week off campus during term and full time in scheduled breaks, then move onto a post-graduation work permit valid for up to three years. Twelve months of skilled Canadian work qualifies you for Express Entry through the Canadian Experience Class, and permanent residence often follows within a year or two, one of the clearest study-to-PR routes anywhere. Citizenship needs 1,095 days of physical presence, with pre-PR study time partly credited. Costs are moderate for the group, and the clear study-to-residence path is a big part of the appeal, even after recent study-permit caps and a higher proof-of-funds requirement.",
+    "confidence": "high",
     "sources": [
       {
         "name": "Canada Job Bank: occupational outlook",
@@ -638,8 +638,8 @@
     "prPathwayYears": 6,
     "medianSalaryY1PppUsd": 54000,
     "totalDegreeCostUsd": 193400,
-    "narrative": "Canadian finance hiring is steady with a clear PR route, though a four-year degree holds ROI mid-pack.",
-    "confidence": "medium",
+    "narrative": "Canadian finance hiring is steady with a clear PR route, though a four-year degree holds ROI mid-pack. International students can work up to 24 hours a week off campus during term and full time in scheduled breaks, then move onto a post-graduation work permit valid for up to three years. Twelve months of skilled Canadian work qualifies you for Express Entry through the Canadian Experience Class, and permanent residence often follows within a year or two, one of the clearest study-to-PR routes anywhere. Citizenship needs 1,095 days of physical presence, with pre-PR study time partly credited. Costs are moderate for the group, and the clear study-to-residence path is a big part of the appeal, even after recent study-permit caps and a higher proof-of-funds requirement.",
+    "confidence": "high",
     "sources": [
       {
         "name": "Canada Job Bank: occupational outlook",
@@ -673,8 +673,8 @@
     "prPathwayYears": 6,
     "medianSalaryY1PppUsd": 44352,
     "totalDegreeCostUsd": 193400,
-    "narrative": "Canada hires economists across government and finance with a clear PR path, though degree cost caps ROI.",
-    "confidence": "medium",
+    "narrative": "Canada hires economists across government and finance with a clear PR path, though degree cost caps ROI. International students can work up to 24 hours a week off campus during term and full time in scheduled breaks, then move onto a post-graduation work permit valid for up to three years. Twelve months of skilled Canadian work qualifies you for Express Entry through the Canadian Experience Class, and permanent residence often follows within a year or two, one of the clearest study-to-PR routes anywhere. Citizenship needs 1,095 days of physical presence, with pre-PR study time partly credited. Costs are moderate for the group, and the clear study-to-residence path is a big part of the appeal, even after recent study-permit caps and a higher proof-of-funds requirement.",
+    "confidence": "high",
     "sources": [
       {
         "name": "Canada Job Bank: occupational outlook",
@@ -708,8 +708,8 @@
     "prPathwayYears": 6,
     "medianSalaryY1PppUsd": 60840,
     "totalDegreeCostUsd": 193400,
-    "narrative": "Canada has strong data demand and a clear PGWP-to-PR route, though a four-year degree keeps ROI mid-pack.",
-    "confidence": "medium",
+    "narrative": "Canada has strong data demand and a clear PGWP-to-PR route, though a four-year degree keeps ROI mid-pack. International students can work up to 24 hours a week off campus during term and full time in scheduled breaks, then move onto a post-graduation work permit valid for up to three years. Twelve months of skilled Canadian work qualifies you for Express Entry through the Canadian Experience Class, and permanent residence often follows within a year or two, one of the clearest study-to-PR routes anywhere. Citizenship needs 1,095 days of physical presence, with pre-PR study time partly credited. Costs are moderate for the group, and the clear study-to-residence path is a big part of the appeal, even after recent study-permit caps and a higher proof-of-funds requirement.",
+    "confidence": "high",
     "sources": [
       {
         "name": "Canada Job Bank: occupational outlook",
@@ -743,8 +743,8 @@
     "prPathwayYears": 6,
     "medianSalaryY1PppUsd": 38880,
     "totalDegreeCostUsd": 193400,
-    "narrative": "Canada offers life-science research and pharma roles with a clear PR route, but a four-year degree and modest pay cap ROI.",
-    "confidence": "medium",
+    "narrative": "Canada offers life-science research and pharma roles with a clear PR route, but a four-year degree and modest pay cap ROI. International students can work up to 24 hours a week off campus during term and full time in scheduled breaks, then move onto a post-graduation work permit valid for up to three years. Twelve months of skilled Canadian work qualifies you for Express Entry through the Canadian Experience Class, and permanent residence often follows within a year or two, one of the clearest study-to-PR routes anywhere. Citizenship needs 1,095 days of physical presence, with pre-PR study time partly credited. Costs are moderate for the group, and the clear study-to-residence path is a big part of the appeal, even after recent study-permit caps and a higher proof-of-funds requirement.",
+    "confidence": "high",
     "sources": [
       {
         "name": "Canada Job Bank: occupational outlook",
@@ -778,8 +778,8 @@
     "prPathwayYears": 6,
     "medianSalaryY1PppUsd": 33048,
     "totalDegreeCostUsd": 193400,
-    "narrative": "Canada creative roles are limited for visa sponsorship, and a four-year degree with modest pay keeps ROI low.",
-    "confidence": "medium",
+    "narrative": "Canada creative roles are limited for visa sponsorship, and a four-year degree with modest pay keeps ROI low. International students can work up to 24 hours a week off campus during term and full time in scheduled breaks, then move onto a post-graduation work permit valid for up to three years. Twelve months of skilled Canadian work qualifies you for Express Entry through the Canadian Experience Class, and permanent residence often follows within a year or two, one of the clearest study-to-PR routes anywhere. Citizenship needs 1,095 days of physical presence, with pre-PR study time partly credited. Costs are moderate for the group, and the clear study-to-residence path is a big part of the appeal, even after recent study-permit caps and a higher proof-of-funds requirement.",
+    "confidence": "high",
     "sources": [
       {
         "name": "Canada Job Bank: occupational outlook",
@@ -813,8 +813,8 @@
     "prPathwayYears": 6,
     "medianSalaryY1PppUsd": 33048,
     "totalDegreeCostUsd": 193400,
-    "narrative": "Canada values social-science grads in public roles, but humanities rarely fit skilled migration cleanly.",
-    "confidence": "medium",
+    "narrative": "Canada values social-science grads in public roles, but humanities rarely fit skilled migration cleanly. International students can work up to 24 hours a week off campus during term and full time in scheduled breaks, then move onto a post-graduation work permit valid for up to three years. Twelve months of skilled Canadian work qualifies you for Express Entry through the Canadian Experience Class, and permanent residence often follows within a year or two, one of the clearest study-to-PR routes anywhere. Citizenship needs 1,095 days of physical presence, with pre-PR study time partly credited. Costs are moderate for the group, and the clear study-to-residence path is a big part of the appeal, even after recent study-permit caps and a higher proof-of-funds requirement.",
+    "confidence": "high",
     "sources": [
       {
         "name": "Canada Job Bank: occupational outlook",
@@ -848,8 +848,8 @@
     "prPathwayYears": 7,
     "medianSalaryY1PppUsd": 66456,
     "totalDegreeCostUsd": 143700,
-    "narrative": "Australia lists ICT among its priority skills and pairs strong pay with a two-year graduate visa, though high living costs weigh on ROI.",
-    "confidence": "medium",
+    "narrative": "Australia lists ICT among its priority skills and pairs strong pay with a two-year graduate visa, though high living costs weigh on ROI. Students can work 48 hours a fortnight in term and unlimited hours during breaks, followed by a two-year Temporary Graduate visa (subclass 485). Permanent residence is points-based skilled migration, with no lottery but rising point thresholds and shifting occupation lists, so it rewards planning. Citizenship needs four years of lawful residence, including the final year as a permanent resident. Australia carries high living costs and the world steepest student-visa financial demands, but strong graduate pay and a straightforward two-year graduate visa offset much of it.",
+    "confidence": "high",
     "sources": [
       {
         "name": "Jobs and Skills Australia: Skills Priority List",
@@ -883,8 +883,8 @@
     "prPathwayYears": 7,
     "medianSalaryY1PppUsd": 54074,
     "totalDegreeCostUsd": 143700,
-    "narrative": "Australia ranks engineering high on its Skills Priority List and pairs good pay with a graduate visa, though living costs weigh on ROI.",
-    "confidence": "medium",
+    "narrative": "Australia ranks engineering high on its Skills Priority List and pairs good pay with a graduate visa, though living costs weigh on ROI. Students can work 48 hours a fortnight in term and unlimited hours during breaks, followed by a two-year Temporary Graduate visa (subclass 485). Permanent residence is points-based skilled migration, with no lottery but rising point thresholds and shifting occupation lists, so it rewards planning. Citizenship needs four years of lawful residence, including the final year as a permanent resident. Australia carries high living costs and the world steepest student-visa financial demands, but strong graduate pay and a straightforward two-year graduate visa offset much of it.",
+    "confidence": "high",
     "sources": [
       {
         "name": "Jobs and Skills Australia: Skills Priority List",
@@ -918,8 +918,8 @@
     "prPathwayYears": 7,
     "medianSalaryY1PppUsd": 57688,
     "totalDegreeCostUsd": 143700,
-    "narrative": "Australia offers solid finance roles and a graduate visa, but living costs weigh on the return.",
-    "confidence": "medium",
+    "narrative": "Australia offers solid finance roles and a graduate visa, but living costs weigh on the return. Students can work 48 hours a fortnight in term and unlimited hours during breaks, followed by a two-year Temporary Graduate visa (subclass 485). Permanent residence is points-based skilled migration, with no lottery but rising point thresholds and shifting occupation lists, so it rewards planning. Citizenship needs four years of lawful residence, including the final year as a permanent resident. Australia carries high living costs and the world steepest student-visa financial demands, but strong graduate pay and a straightforward two-year graduate visa offset much of it.",
+    "confidence": "high",
     "sources": [
       {
         "name": "Jobs and Skills Australia: Skills Priority List",
@@ -953,8 +953,8 @@
     "prPathwayYears": 7,
     "medianSalaryY1PppUsd": 49203,
     "totalDegreeCostUsd": 143700,
-    "narrative": "Australia offers steady economics roles and a graduate visa, offset by high living costs.",
-    "confidence": "medium",
+    "narrative": "Australia offers steady economics roles and a graduate visa, offset by high living costs. Students can work 48 hours a fortnight in term and unlimited hours during breaks, followed by a two-year Temporary Graduate visa (subclass 485). Permanent residence is points-based skilled migration, with no lottery but rising point thresholds and shifting occupation lists, so it rewards planning. Citizenship needs four years of lawful residence, including the final year as a permanent resident. Australia carries high living costs and the world steepest student-visa financial demands, but strong graduate pay and a straightforward two-year graduate visa offset much of it.",
+    "confidence": "high",
     "sources": [
       {
         "name": "Jobs and Skills Australia: Skills Priority List",
@@ -988,8 +988,8 @@
     "prPathwayYears": 7,
     "medianSalaryY1PppUsd": 69225,
     "totalDegreeCostUsd": 143700,
-    "narrative": "Australia pays data scientists well and offers a graduate visa, but high living costs weigh on the return.",
-    "confidence": "medium",
+    "narrative": "Australia pays data scientists well and offers a graduate visa, but high living costs weigh on the return. Students can work 48 hours a fortnight in term and unlimited hours during breaks, followed by a two-year Temporary Graduate visa (subclass 485). Permanent residence is points-based skilled migration, with no lottery but rising point thresholds and shifting occupation lists, so it rewards planning. Citizenship needs four years of lawful residence, including the final year as a permanent resident. Australia carries high living costs and the world steepest student-visa financial demands, but strong graduate pay and a straightforward two-year graduate visa offset much of it.",
+    "confidence": "high",
     "sources": [
       {
         "name": "Jobs and Skills Australia: Skills Priority List",
@@ -1023,8 +1023,8 @@
     "prPathwayYears": 7,
     "medianSalaryY1PppUsd": 47542,
     "totalDegreeCostUsd": 143700,
-    "narrative": "Australia has solid life-science and health-research demand and a graduate visa, offset by high living costs.",
-    "confidence": "medium",
+    "narrative": "Australia has solid life-science and health-research demand and a graduate visa, offset by high living costs. Students can work 48 hours a fortnight in term and unlimited hours during breaks, followed by a two-year Temporary Graduate visa (subclass 485). Permanent residence is points-based skilled migration, with no lottery but rising point thresholds and shifting occupation lists, so it rewards planning. Citizenship needs four years of lawful residence, including the final year as a permanent resident. Australia carries high living costs and the world steepest student-visa financial demands, but strong graduate pay and a straightforward two-year graduate visa offset much of it.",
+    "confidence": "high",
     "sources": [
       {
         "name": "Jobs and Skills Australia: Skills Priority List",
@@ -1058,8 +1058,8 @@
     "prPathwayYears": 7,
     "medianSalaryY1PppUsd": 42004,
     "totalDegreeCostUsd": 143700,
-    "narrative": "Australia offers creative work but design rarely features on skilled lists, weakening the visa route.",
-    "confidence": "medium",
+    "narrative": "Australia offers creative work but design rarely features on skilled lists, weakening the visa route. Students can work 48 hours a fortnight in term and unlimited hours during breaks, followed by a two-year Temporary Graduate visa (subclass 485). Permanent residence is points-based skilled migration, with no lottery but rising point thresholds and shifting occupation lists, so it rewards planning. Citizenship needs four years of lawful residence, including the final year as a permanent resident. Australia carries high living costs and the world steepest student-visa financial demands, but strong graduate pay and a straightforward two-year graduate visa offset much of it.",
+    "confidence": "high",
     "sources": [
       {
         "name": "Jobs and Skills Australia: Skills Priority List",
@@ -1093,8 +1093,8 @@
     "prPathwayYears": 7,
     "medianSalaryY1PppUsd": 40555,
     "totalDegreeCostUsd": 143700,
-    "narrative": "Australia offers humanities work but seldom on skilled lists, making the visa route the hardest here.",
-    "confidence": "medium",
+    "narrative": "Australia offers humanities work but seldom on skilled lists, making the visa route the hardest here. Students can work 48 hours a fortnight in term and unlimited hours during breaks, followed by a two-year Temporary Graduate visa (subclass 485). Permanent residence is points-based skilled migration, with no lottery but rising point thresholds and shifting occupation lists, so it rewards planning. Citizenship needs four years of lawful residence, including the final year as a permanent resident. Australia carries high living costs and the world steepest student-visa financial demands, but strong graduate pay and a straightforward two-year graduate visa offset much of it.",
+    "confidence": "high",
     "sources": [
       {
         "name": "Jobs and Skills Australia: Skills Priority List",
@@ -1128,8 +1128,8 @@
     "prPathwayYears": 6.5,
     "medianSalaryY1PppUsd": 72384,
     "totalDegreeCostUsd": 51500,
-    "narrative": "Germany combines severe IT skills shortages, tuition-free study and strong pay for the best return in the set, if you can work in German.",
-    "confidence": "medium",
+    "narrative": "Germany combines severe IT skills shortages, tuition-free study and strong pay for the best return in the set, if you can work in German. Students may work 140 full or 280 half days a year, then receive an 18-month residence permit to find graduate-level work. With an EU Blue Card and B1-level German you can reach a permanent settlement permit in as little as 21 to 33 months, and the 2024 reform cut the citizenship wait to five years (three with strong integration) while finally allowing dual nationality. The catch is language: many roles and daily life still run in German. Tuition-free public universities make Germany comfortably the cheapest of the eight, so even a modest starting salary produces an outstanding return on cost.",
+    "confidence": "high",
     "sources": [
       {
         "name": "Make it in Germany: shortage occupations",
@@ -1163,8 +1163,8 @@
     "prPathwayYears": 6.5,
     "medianSalaryY1PppUsd": 64960,
     "totalDegreeCostUsd": 51500,
-    "narrative": "Germany is an engineering powerhouse with acute shortages, free tuition and strong PPP pay, the best return in the set for engineers willing to work in German.",
-    "confidence": "medium",
+    "narrative": "Germany is an engineering powerhouse with acute shortages, free tuition and strong PPP pay, the best return in the set for engineers willing to work in German. Students may work 140 full or 280 half days a year, then receive an 18-month residence permit to find graduate-level work. With an EU Blue Card and B1-level German you can reach a permanent settlement permit in as little as 21 to 33 months, and the 2024 reform cut the citizenship wait to five years (three with strong integration) while finally allowing dual nationality. The catch is language: many roles and daily life still run in German. Tuition-free public universities make Germany comfortably the cheapest of the eight, so even a modest starting salary produces an outstanding return on cost.",
+    "confidence": "high",
     "sources": [
       {
         "name": "Make it in Germany: shortage occupations",
@@ -1198,8 +1198,8 @@
     "prPathwayYears": 6.5,
     "medianSalaryY1PppUsd": 69600,
     "totalDegreeCostUsd": 51500,
-    "narrative": "Germany finance sector is smaller, but free tuition and strong PPP pay lift the return sharply.",
-    "confidence": "medium",
+    "narrative": "Germany finance sector is smaller, but free tuition and strong PPP pay lift the return sharply. Students may work 140 full or 280 half days a year, then receive an 18-month residence permit to find graduate-level work. With an EU Blue Card and B1-level German you can reach a permanent settlement permit in as little as 21 to 33 months, and the 2024 reform cut the citizenship wait to five years (three with strong integration) while finally allowing dual nationality. The catch is language: many roles and daily life still run in German. Tuition-free public universities make Germany comfortably the cheapest of the eight, so even a modest starting salary produces an outstanding return on cost.",
+    "confidence": "high",
     "sources": [
       {
         "name": "Make it in Germany: shortage occupations",
@@ -1233,8 +1233,8 @@
     "prPathwayYears": 6.5,
     "medianSalaryY1PppUsd": 58696,
     "totalDegreeCostUsd": 51500,
-    "narrative": "Germany economy runs deep on analysts, and free tuition plus strong PPP pay drive a high return.",
-    "confidence": "medium",
+    "narrative": "Germany economy runs deep on analysts, and free tuition plus strong PPP pay drive a high return. Students may work 140 full or 280 half days a year, then receive an 18-month residence permit to find graduate-level work. With an EU Blue Card and B1-level German you can reach a permanent settlement permit in as little as 21 to 33 months, and the 2024 reform cut the citizenship wait to five years (three with strong integration) while finally allowing dual nationality. The catch is language: many roles and daily life still run in German. Tuition-free public universities make Germany comfortably the cheapest of the eight, so even a modest starting salary produces an outstanding return on cost.",
+    "confidence": "high",
     "sources": [
       {
         "name": "Make it in Germany: shortage occupations",
@@ -1268,8 +1268,8 @@
     "prPathwayYears": 6.5,
     "medianSalaryY1PppUsd": 75400,
     "totalDegreeCostUsd": 51500,
-    "narrative": "Germany blends heavy data demand, free tuition and strong PPP pay for a top-of-set return, if you can work in German.",
-    "confidence": "medium",
+    "narrative": "Germany blends heavy data demand, free tuition and strong PPP pay for a top-of-set return, if you can work in German. Students may work 140 full or 280 half days a year, then receive an 18-month residence permit to find graduate-level work. With an EU Blue Card and B1-level German you can reach a permanent settlement permit in as little as 21 to 33 months, and the 2024 reform cut the citizenship wait to five years (three with strong integration) while finally allowing dual nationality. The catch is language: many roles and daily life still run in German. Tuition-free public universities make Germany comfortably the cheapest of the eight, so even a modest starting salary produces an outstanding return on cost.",
+    "confidence": "high",
     "sources": [
       {
         "name": "Make it in Germany: shortage occupations",
@@ -1303,8 +1303,8 @@
     "prPathwayYears": 6.5,
     "medianSalaryY1PppUsd": 56376,
     "totalDegreeCostUsd": 51500,
-    "narrative": "Germany pairs strong life-science research, free tuition and decent PPP pay for a high return, if you can work in German.",
-    "confidence": "medium",
+    "narrative": "Germany pairs strong life-science research, free tuition and decent PPP pay for a high return, if you can work in German. Students may work 140 full or 280 half days a year, then receive an 18-month residence permit to find graduate-level work. With an EU Blue Card and B1-level German you can reach a permanent settlement permit in as little as 21 to 33 months, and the 2024 reform cut the citizenship wait to five years (three with strong integration) while finally allowing dual nationality. The catch is language: many roles and daily life still run in German. Tuition-free public universities make Germany comfortably the cheapest of the eight, so even a modest starting salary produces an outstanding return on cost.",
+    "confidence": "high",
     "sources": [
       {
         "name": "Make it in Germany: shortage occupations",
@@ -1338,8 +1338,8 @@
     "prPathwayYears": 6.5,
     "medianSalaryY1PppUsd": 47328,
     "totalDegreeCostUsd": 51500,
-    "narrative": "Germany free tuition rescues the return for designers despite modest pay and a smaller creative-visa route.",
-    "confidence": "medium",
+    "narrative": "Germany free tuition rescues the return for designers despite modest pay and a smaller creative-visa route. Students may work 140 full or 280 half days a year, then receive an 18-month residence permit to find graduate-level work. With an EU Blue Card and B1-level German you can reach a permanent settlement permit in as little as 21 to 33 months, and the 2024 reform cut the citizenship wait to five years (three with strong integration) while finally allowing dual nationality. The catch is language: many roles and daily life still run in German. Tuition-free public universities make Germany comfortably the cheapest of the eight, so even a modest starting salary produces an outstanding return on cost.",
+    "confidence": "high",
     "sources": [
       {
         "name": "Make it in Germany: shortage occupations",
@@ -1373,8 +1373,8 @@
     "prPathwayYears": 6.5,
     "medianSalaryY1PppUsd": 47328,
     "totalDegreeCostUsd": 51500,
-    "narrative": "Germany free tuition lifts the return even for humanities, though jobs and work visas skew toward German speakers.",
-    "confidence": "medium",
+    "narrative": "Germany free tuition lifts the return even for humanities, though jobs and work visas skew toward German speakers. Students may work 140 full or 280 half days a year, then receive an 18-month residence permit to find graduate-level work. With an EU Blue Card and B1-level German you can reach a permanent settlement permit in as little as 21 to 33 months, and the 2024 reform cut the citizenship wait to five years (three with strong integration) while finally allowing dual nationality. The catch is language: many roles and daily life still run in German. Tuition-free public universities make Germany comfortably the cheapest of the eight, so even a modest starting salary produces an outstanding return on cost.",
+    "confidence": "high",
     "sources": [
       {
         "name": "Make it in Germany: shortage occupations",
@@ -1408,8 +1408,8 @@
     "prPathwayYears": 7,
     "medianSalaryY1PppUsd": 60320,
     "totalDegreeCostUsd": 109400,
-    "narrative": "Ireland is a European tech hub on the Critical Skills list, with high demand and a fast route to work, though Dublin costs and a short bachelor post-study window are the catch.",
-    "confidence": "medium",
+    "narrative": "Ireland is a European tech hub on the Critical Skills list, with high demand and a fast route to work, though Dublin costs and a short bachelor post-study window are the catch. Students can work 20 hours a week in term and 40 in holidays, then the Third Level Graduate Scheme gives bachelor graduates 12 months (24 for a master) to find work. Employment permit holders progress to long-term residence (Stamp 4), and citizenship needs five years of reckonable residence within the previous nine. As an English-speaking EU member with a large multinational sector, Ireland is an easy cultural fit. Dublin housing pressure and non-EU tuition push costs up, though a booming tech and pharmaceutical economy and quick access to work help compensate.",
+    "confidence": "high",
     "sources": [
       {
         "name": "Ireland: Critical Skills Occupations List",
@@ -1443,8 +1443,8 @@
     "prPathwayYears": 7,
     "medianSalaryY1PppUsd": 45472,
     "totalDegreeCostUsd": 109400,
-    "narrative": "Ireland needs engineers for its construction and tech-manufacturing boom, with a fast route to work, though costs and a short bachelor post-study window bite.",
-    "confidence": "medium",
+    "narrative": "Ireland needs engineers for its construction and tech-manufacturing boom, with a fast route to work, though costs and a short bachelor post-study window bite. Students can work 20 hours a week in term and 40 in holidays, then the Third Level Graduate Scheme gives bachelor graduates 12 months (24 for a master) to find work. Employment permit holders progress to long-term residence (Stamp 4), and citizenship needs five years of reckonable residence within the previous nine. As an English-speaking EU member with a large multinational sector, Ireland is an easy cultural fit. Dublin housing pressure and non-EU tuition push costs up, though a booming tech and pharmaceutical economy and quick access to work help compensate.",
+    "confidence": "high",
     "sources": [
       {
         "name": "Ireland: Critical Skills Occupations List",
@@ -1478,8 +1478,8 @@
     "prPathwayYears": 7,
     "medianSalaryY1PppUsd": 50750,
     "totalDegreeCostUsd": 109400,
-    "narrative": "Dublin financial-services cluster hires well and offers fast work rights, though costs are high.",
-    "confidence": "medium",
+    "narrative": "Dublin financial-services cluster hires well and offers fast work rights, though costs are high. Students can work 20 hours a week in term and 40 in holidays, then the Third Level Graduate Scheme gives bachelor graduates 12 months (24 for a master) to find work. Employment permit holders progress to long-term residence (Stamp 4), and citizenship needs five years of reckonable residence within the previous nine. As an English-speaking EU member with a large multinational sector, Ireland is an easy cultural fit. Dublin housing pressure and non-EU tuition push costs up, though a booming tech and pharmaceutical economy and quick access to work help compensate.",
+    "confidence": "high",
     "sources": [
       {
         "name": "Ireland: Critical Skills Occupations List",
@@ -1513,8 +1513,8 @@
     "prPathwayYears": 7,
     "medianSalaryY1PppUsd": 44660,
     "totalDegreeCostUsd": 109400,
-    "narrative": "Ireland policy and finance sectors hire economists, with fast work rights but steep Dublin costs.",
-    "confidence": "medium",
+    "narrative": "Ireland policy and finance sectors hire economists, with fast work rights but steep Dublin costs. Students can work 20 hours a week in term and 40 in holidays, then the Third Level Graduate Scheme gives bachelor graduates 12 months (24 for a master) to find work. Employment permit holders progress to long-term residence (Stamp 4), and citizenship needs five years of reckonable residence within the previous nine. As an English-speaking EU member with a large multinational sector, Ireland is an easy cultural fit. Dublin housing pressure and non-EU tuition push costs up, though a booming tech and pharmaceutical economy and quick access to work help compensate.",
+    "confidence": "high",
     "sources": [
       {
         "name": "Ireland: Critical Skills Occupations List",
@@ -1548,8 +1548,8 @@
     "prPathwayYears": 7,
     "medianSalaryY1PppUsd": 63336,
     "totalDegreeCostUsd": 109400,
-    "narrative": "Ireland tech-hub status puts data scientists on the Critical Skills list with fast work rights, though Dublin costs bite.",
-    "confidence": "medium",
+    "narrative": "Ireland tech-hub status puts data scientists on the Critical Skills list with fast work rights, though Dublin costs bite. Students can work 20 hours a week in term and 40 in holidays, then the Third Level Graduate Scheme gives bachelor graduates 12 months (24 for a master) to find work. Employment permit holders progress to long-term residence (Stamp 4), and citizenship needs five years of reckonable residence within the previous nine. As an English-speaking EU member with a large multinational sector, Ireland is an easy cultural fit. Dublin housing pressure and non-EU tuition push costs up, though a booming tech and pharmaceutical economy and quick access to work help compensate.",
+    "confidence": "high",
     "sources": [
       {
         "name": "Ireland: Critical Skills Occupations List",
@@ -1583,8 +1583,8 @@
     "prPathwayYears": 7,
     "medianSalaryY1PppUsd": 47606,
     "totalDegreeCostUsd": 109400,
-    "narrative": "Ireland is Europe pharma and biopharma hub, so life-science demand is high with fast work rights, though Dublin costs bite.",
-    "confidence": "medium",
+    "narrative": "Ireland is Europe pharma and biopharma hub, so life-science demand is high with fast work rights, though Dublin costs bite. Students can work 20 hours a week in term and 40 in holidays, then the Third Level Graduate Scheme gives bachelor graduates 12 months (24 for a master) to find work. Employment permit holders progress to long-term residence (Stamp 4), and citizenship needs five years of reckonable residence within the previous nine. As an English-speaking EU member with a large multinational sector, Ireland is an easy cultural fit. Dublin housing pressure and non-EU tuition push costs up, though a booming tech and pharmaceutical economy and quick access to work help compensate.",
+    "confidence": "high",
     "sources": [
       {
         "name": "Ireland: Critical Skills Occupations List",
@@ -1618,8 +1618,8 @@
     "prPathwayYears": 7,
     "medianSalaryY1PppUsd": 39046,
     "totalDegreeCostUsd": 109400,
-    "narrative": "Ireland growing digital-media scene helps, with fast work rights, though design pay stays low.",
-    "confidence": "medium",
+    "narrative": "Ireland growing digital-media scene helps, with fast work rights, though design pay stays low. Students can work 20 hours a week in term and 40 in holidays, then the Third Level Graduate Scheme gives bachelor graduates 12 months (24 for a master) to find work. Employment permit holders progress to long-term residence (Stamp 4), and citizenship needs five years of reckonable residence within the previous nine. As an English-speaking EU member with a large multinational sector, Ireland is an easy cultural fit. Dublin housing pressure and non-EU tuition push costs up, though a booming tech and pharmaceutical economy and quick access to work help compensate.",
+    "confidence": "high",
     "sources": [
       {
         "name": "Ireland: Critical Skills Occupations List",
@@ -1653,8 +1653,8 @@
     "prPathwayYears": 7,
     "medianSalaryY1PppUsd": 37862,
     "totalDegreeCostUsd": 109400,
-    "narrative": "Ireland public and NGO sectors hire social-science grads, with fast work rights but low pay.",
-    "confidence": "medium",
+    "narrative": "Ireland public and NGO sectors hire social-science grads, with fast work rights but low pay. Students can work 20 hours a week in term and 40 in holidays, then the Third Level Graduate Scheme gives bachelor graduates 12 months (24 for a master) to find work. Employment permit holders progress to long-term residence (Stamp 4), and citizenship needs five years of reckonable residence within the previous nine. As an English-speaking EU member with a large multinational sector, Ireland is an easy cultural fit. Dublin housing pressure and non-EU tuition push costs up, though a booming tech and pharmaceutical economy and quick access to work help compensate.",
+    "confidence": "high",
     "sources": [
       {
         "name": "Ireland: Critical Skills Occupations List",
@@ -1688,8 +1688,8 @@
     "prPathwayYears": 5,
     "medianSalaryY1PppUsd": 63336,
     "totalDegreeCostUsd": 87000,
-    "narrative": "The Netherlands has strong tech demand, English-taught degrees and the quickest route to residence, with solid pay and moderate cost.",
-    "confidence": "medium",
+    "narrative": "The Netherlands has strong tech demand, English-taught degrees and the quickest route to residence, with solid pay and moderate cost. Non-EU students are capped at 16 hours a week in term (with an employer-arranged work permit) or full time only over the summer, but the one-year orientation year (zoekjaar) afterwards allows any work with no restrictions. Crucially, both study and orientation years count toward permanent residence, which needs five continuous years, giving the Netherlands one of the fastest routes to settlement in this group. Citizenship, with its integration exam, arrives close behind. Costs sit mid-range, with many English-taught degrees and comparatively low tuition, offset mainly by scarce and expensive student housing.",
+    "confidence": "high",
     "sources": [
       {
         "name": "UWV: labour market shortages",
@@ -1723,8 +1723,8 @@
     "prPathwayYears": 5,
     "medianSalaryY1PppUsd": 49370,
     "totalDegreeCostUsd": 87000,
-    "narrative": "The Netherlands has strong engineering demand, English-taught degrees and the quickest route to residence, with solid PPP pay.",
-    "confidence": "medium",
+    "narrative": "The Netherlands has strong engineering demand, English-taught degrees and the quickest route to residence, with solid PPP pay. Non-EU students are capped at 16 hours a week in term (with an employer-arranged work permit) or full time only over the summer, but the one-year orientation year (zoekjaar) afterwards allows any work with no restrictions. Crucially, both study and orientation years count toward permanent residence, which needs five continuous years, giving the Netherlands one of the fastest routes to settlement in this group. Citizenship, with its integration exam, arrives close behind. Costs sit mid-range, with many English-taught degrees and comparatively low tuition, offset mainly by scarce and expensive student housing.",
+    "confidence": "high",
     "sources": [
       {
         "name": "UWV: labour market shortages",
@@ -1758,8 +1758,8 @@
     "prPathwayYears": 5,
     "medianSalaryY1PppUsd": 60900,
     "totalDegreeCostUsd": 87000,
-    "narrative": "Amsterdam finance scene, English-taught degrees and the quickest residence route give finance grads a strong all-round case.",
-    "confidence": "medium",
+    "narrative": "Amsterdam finance scene, English-taught degrees and the quickest residence route give finance grads a strong all-round case. Non-EU students are capped at 16 hours a week in term (with an employer-arranged work permit) or full time only over the summer, but the one-year orientation year (zoekjaar) afterwards allows any work with no restrictions. Crucially, both study and orientation years count toward permanent residence, which needs five continuous years, giving the Netherlands one of the fastest routes to settlement in this group. Citizenship, with its integration exam, arrives close behind. Costs sit mid-range, with many English-taught degrees and comparatively low tuition, offset mainly by scarce and expensive student housing.",
+    "confidence": "high",
     "sources": [
       {
         "name": "UWV: labour market shortages",
@@ -1793,8 +1793,8 @@
     "prPathwayYears": 5,
     "medianSalaryY1PppUsd": 51040,
     "totalDegreeCostUsd": 87000,
-    "narrative": "The Netherlands pairs solid economist demand and English-taught study with the fastest residence route.",
-    "confidence": "medium",
+    "narrative": "The Netherlands pairs solid economist demand and English-taught study with the fastest residence route. Non-EU students are capped at 16 hours a week in term (with an employer-arranged work permit) or full time only over the summer, but the one-year orientation year (zoekjaar) afterwards allows any work with no restrictions. Crucially, both study and orientation years count toward permanent residence, which needs five continuous years, giving the Netherlands one of the fastest routes to settlement in this group. Citizenship, with its integration exam, arrives close behind. Costs sit mid-range, with many English-taught degrees and comparatively low tuition, offset mainly by scarce and expensive student housing.",
+    "confidence": "high",
     "sources": [
       {
         "name": "UWV: labour market shortages",
@@ -1828,8 +1828,8 @@
     "prPathwayYears": 5,
     "medianSalaryY1PppUsd": 66352,
     "totalDegreeCostUsd": 87000,
-    "narrative": "The Netherlands pairs strong data demand and English-taught degrees with the fastest route to residence and solid PPP pay.",
-    "confidence": "medium",
+    "narrative": "The Netherlands pairs strong data demand and English-taught degrees with the fastest route to residence and solid PPP pay. Non-EU students are capped at 16 hours a week in term (with an employer-arranged work permit) or full time only over the summer, but the one-year orientation year (zoekjaar) afterwards allows any work with no restrictions. Crucially, both study and orientation years count toward permanent residence, which needs five continuous years, giving the Netherlands one of the fastest routes to settlement in this group. Citizenship, with its integration exam, arrives close behind. Costs sit mid-range, with many English-taught degrees and comparatively low tuition, offset mainly by scarce and expensive student housing.",
+    "confidence": "high",
     "sources": [
       {
         "name": "UWV: labour market shortages",
@@ -1863,8 +1863,8 @@
     "prPathwayYears": 5,
     "medianSalaryY1PppUsd": 47606,
     "totalDegreeCostUsd": 87000,
-    "narrative": "The Netherlands has strong life-science research, English-taught degrees and the fastest residence route, with modest pay.",
-    "confidence": "medium",
+    "narrative": "The Netherlands has strong life-science research, English-taught degrees and the fastest residence route, with modest pay. Non-EU students are capped at 16 hours a week in term (with an employer-arranged work permit) or full time only over the summer, but the one-year orientation year (zoekjaar) afterwards allows any work with no restrictions. Crucially, both study and orientation years count toward permanent residence, which needs five continuous years, giving the Netherlands one of the fastest routes to settlement in this group. Citizenship, with its integration exam, arrives close behind. Costs sit mid-range, with many English-taught degrees and comparatively low tuition, offset mainly by scarce and expensive student housing.",
+    "confidence": "high",
     "sources": [
       {
         "name": "UWV: labour market shortages",
@@ -1898,8 +1898,8 @@
     "prPathwayYears": 5,
     "medianSalaryY1PppUsd": 43778,
     "totalDegreeCostUsd": 87000,
-    "narrative": "The Netherlands strong design culture, English-taught study and quick residence give design grads their best case here.",
-    "confidence": "medium",
+    "narrative": "The Netherlands strong design culture, English-taught study and quick residence give design grads their best case here. Non-EU students are capped at 16 hours a week in term (with an employer-arranged work permit) or full time only over the summer, but the one-year orientation year (zoekjaar) afterwards allows any work with no restrictions. Crucially, both study and orientation years count toward permanent residence, which needs five continuous years, giving the Netherlands one of the fastest routes to settlement in this group. Citizenship, with its integration exam, arrives close behind. Costs sit mid-range, with many English-taught degrees and comparatively low tuition, offset mainly by scarce and expensive student housing.",
+    "confidence": "high",
     "sources": [
       {
         "name": "UWV: labour market shortages",
@@ -1933,8 +1933,8 @@
     "prPathwayYears": 5,
     "medianSalaryY1PppUsd": 41412,
     "totalDegreeCostUsd": 87000,
-    "narrative": "The Netherlands English-taught humanities and quick residence give social-science grads a relatively strong route.",
-    "confidence": "medium",
+    "narrative": "The Netherlands English-taught humanities and quick residence give social-science grads a relatively strong route. Non-EU students are capped at 16 hours a week in term (with an employer-arranged work permit) or full time only over the summer, but the one-year orientation year (zoekjaar) afterwards allows any work with no restrictions. Crucially, both study and orientation years count toward permanent residence, which needs five continuous years, giving the Netherlands one of the fastest routes to settlement in this group. Citizenship, with its integration exam, arrives close behind. Costs sit mid-range, with many English-taught degrees and comparatively low tuition, offset mainly by scarce and expensive student housing.",
+    "confidence": "high",
     "sources": [
       {
         "name": "UWV: labour market shortages",
@@ -1968,8 +1968,8 @@
     "prPathwayYears": 8,
     "medianSalaryY1PppUsd": 55770,
     "totalDegreeCostUsd": 144600,
-    "narrative": "Singapore is a well-paid Asian tech hub with low tuition after the grant, but a three-year bond, no post-study visa and selective PR temper the visa score.",
-    "confidence": "medium",
+    "narrative": "Singapore is a well-paid Asian tech hub with low tuition after the grant, but a three-year bond, no post-study visa and selective PR temper the visa score. Students at approved universities may work up to 16 hours a week in term. There is no dedicated post-study work visa: graduates get a one-year Long-Term Visit Pass to find an Employment Pass role (from SGD 5,600 a month). Permanent residence is discretionary and selective, usually applied for after two to three years of work, and Singapore does not permit dual nationality, so it suits those set on the region rather than a guaranteed path to a passport. The MOE Tuition Grant cuts tuition sharply but legally bonds you to work in Singapore for three years after graduating, and day-to-day living costs are the highest of the eight.",
+    "confidence": "high",
     "sources": [
       {
         "name": "Singapore MOM: Employment Pass eligibility (COMPASS)",
@@ -2003,8 +2003,8 @@
     "prPathwayYears": 8,
     "medianSalaryY1PppUsd": 39312,
     "totalDegreeCostUsd": 144600,
-    "narrative": "Singapore pays engineers less than its tech roles and ties grant students to a three-year bond, with a selective PR path, tempering the return.",
-    "confidence": "medium",
+    "narrative": "Singapore pays engineers less than its tech roles and ties grant students to a three-year bond, with a selective PR path, tempering the return. Students at approved universities may work up to 16 hours a week in term. There is no dedicated post-study work visa: graduates get a one-year Long-Term Visit Pass to find an Employment Pass role (from SGD 5,600 a month). Permanent residence is discretionary and selective, usually applied for after two to three years of work, and Singapore does not permit dual nationality, so it suits those set on the region rather than a guaranteed path to a passport. The MOE Tuition Grant cuts tuition sharply but legally bonds you to work in Singapore for three years after graduating, and day-to-day living costs are the highest of the eight.",
+    "confidence": "high",
     "sources": [
       {
         "name": "Singapore MOM: Employment Pass eligibility (COMPASS)",
@@ -2038,8 +2038,8 @@
     "prPathwayYears": 8,
     "medianSalaryY1PppUsd": 53625,
     "totalDegreeCostUsd": 144600,
-    "narrative": "Singapore is Asia finance hub with strong pay and demand, though the three-year bond and selective PR temper it.",
-    "confidence": "medium",
+    "narrative": "Singapore is Asia finance hub with strong pay and demand, though the three-year bond and selective PR temper it. Students at approved universities may work up to 16 hours a week in term. There is no dedicated post-study work visa: graduates get a one-year Long-Term Visit Pass to find an Employment Pass role (from SGD 5,600 a month). Permanent residence is discretionary and selective, usually applied for after two to three years of work, and Singapore does not permit dual nationality, so it suits those set on the region rather than a guaranteed path to a passport. The MOE Tuition Grant cuts tuition sharply but legally bonds you to work in Singapore for three years after graduating, and day-to-day living costs are the highest of the eight.",
+    "confidence": "high",
     "sources": [
       {
         "name": "Singapore MOM: Employment Pass eligibility (COMPASS)",
@@ -2073,8 +2073,8 @@
     "prPathwayYears": 8,
     "medianSalaryY1PppUsd": 42900,
     "totalDegreeCostUsd": 144600,
-    "narrative": "Singapore values economists in finance and policy, though the bond and selective PR weigh on the visa score.",
-    "confidence": "medium",
+    "narrative": "Singapore values economists in finance and policy, though the bond and selective PR weigh on the visa score. Students at approved universities may work up to 16 hours a week in term. There is no dedicated post-study work visa: graduates get a one-year Long-Term Visit Pass to find an Employment Pass role (from SGD 5,600 a month). Permanent residence is discretionary and selective, usually applied for after two to three years of work, and Singapore does not permit dual nationality, so it suits those set on the region rather than a guaranteed path to a passport. The MOE Tuition Grant cuts tuition sharply but legally bonds you to work in Singapore for three years after graduating, and day-to-day living costs are the highest of the eight.",
+    "confidence": "high",
     "sources": [
       {
         "name": "Singapore MOM: Employment Pass eligibility (COMPASS)",
@@ -2108,8 +2108,8 @@
     "prPathwayYears": 8,
     "medianSalaryY1PppUsd": 55770,
     "totalDegreeCostUsd": 144600,
-    "narrative": "Singapore is a well-paid Asian data hub, but the three-year bond, no post-study visa and selective PR temper the score.",
-    "confidence": "medium",
+    "narrative": "Singapore is a well-paid Asian data hub, but the three-year bond, no post-study visa and selective PR temper the score. Students at approved universities may work up to 16 hours a week in term. There is no dedicated post-study work visa: graduates get a one-year Long-Term Visit Pass to find an Employment Pass role (from SGD 5,600 a month). Permanent residence is discretionary and selective, usually applied for after two to three years of work, and Singapore does not permit dual nationality, so it suits those set on the region rather than a guaranteed path to a passport. The MOE Tuition Grant cuts tuition sharply but legally bonds you to work in Singapore for three years after graduating, and day-to-day living costs are the highest of the eight.",
+    "confidence": "high",
     "sources": [
       {
         "name": "Singapore MOM: Employment Pass eligibility (COMPASS)",
@@ -2143,8 +2143,8 @@
     "prPathwayYears": 8,
     "medianSalaryY1PppUsd": 40435,
     "totalDegreeCostUsd": 144600,
-    "narrative": "Singapore biomedical push lifts life-science demand, though the three-year bond and selective PR temper the score.",
-    "confidence": "medium",
+    "narrative": "Singapore biomedical push lifts life-science demand, though the three-year bond and selective PR temper the score. Students at approved universities may work up to 16 hours a week in term. There is no dedicated post-study work visa: graduates get a one-year Long-Term Visit Pass to find an Employment Pass role (from SGD 5,600 a month). Permanent residence is discretionary and selective, usually applied for after two to three years of work, and Singapore does not permit dual nationality, so it suits those set on the region rather than a guaranteed path to a passport. The MOE Tuition Grant cuts tuition sharply but legally bonds you to work in Singapore for three years after graduating, and day-to-day living costs are the highest of the eight.",
+    "confidence": "high",
     "sources": [
       {
         "name": "Singapore MOM: Employment Pass eligibility (COMPASS)",
@@ -2178,8 +2178,8 @@
     "prPathwayYears": 8,
     "medianSalaryY1PppUsd": 33415,
     "totalDegreeCostUsd": 144600,
-    "narrative": "Singapore design-media scene is growing but pay is modest and the bond plus selective PR weigh on the score.",
-    "confidence": "medium",
+    "narrative": "Singapore design-media scene is growing but pay is modest and the bond plus selective PR weigh on the score. Students at approved universities may work up to 16 hours a week in term. There is no dedicated post-study work visa: graduates get a one-year Long-Term Visit Pass to find an Employment Pass role (from SGD 5,600 a month). Permanent residence is discretionary and selective, usually applied for after two to three years of work, and Singapore does not permit dual nationality, so it suits those set on the region rather than a guaranteed path to a passport. The MOE Tuition Grant cuts tuition sharply but legally bonds you to work in Singapore for three years after graduating, and day-to-day living costs are the highest of the eight.",
+    "confidence": "high",
     "sources": [
       {
         "name": "Singapore MOM: Employment Pass eligibility (COMPASS)",
@@ -2213,8 +2213,8 @@
     "prPathwayYears": 8,
     "medianSalaryY1PppUsd": 33415,
     "totalDegreeCostUsd": 144600,
-    "narrative": "Singapore hires social-science grads in policy and public service, though sponsorship and PR are selective.",
-    "confidence": "medium",
+    "narrative": "Singapore hires social-science grads in policy and public service, though sponsorship and PR are selective. Students at approved universities may work up to 16 hours a week in term. There is no dedicated post-study work visa: graduates get a one-year Long-Term Visit Pass to find an Employment Pass role (from SGD 5,600 a month). Permanent residence is discretionary and selective, usually applied for after two to three years of work, and Singapore does not permit dual nationality, so it suits those set on the region rather than a guaranteed path to a passport. The MOE Tuition Grant cuts tuition sharply but legally bonds you to work in Singapore for three years after graduating, and day-to-day living costs are the highest of the eight.",
+    "confidence": "high",
     "sources": [
       {
         "name": "Singapore MOM: Employment Pass eligibility (COMPASS)",
