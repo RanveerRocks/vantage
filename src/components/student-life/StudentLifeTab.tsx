@@ -9,6 +9,9 @@ import { DEFAULT_WEIGHT, useVantageStore } from '../../lib/store'
 import { CountryRankingBars, type RankedCountry } from './CountryRankingBars'
 import { FactorSlider } from './FactorSlider'
 import { StudentLifeDrawer, type StudentLifeDetail } from './StudentLifeDrawer'
+import { CrosshairGlyph } from '../shared/CrosshairGlyph'
+
+const TEAL = '#0E7490'
 
 export function StudentLifeTab() {
   const data = loadData()
@@ -113,6 +116,17 @@ export function StudentLifeTab() {
             <h3 className="text-xs font-medium uppercase tracking-wider text-slate">
               Ranking · weighted by you
             </h3>
+            {ranked.length > 0 ? (
+              <div
+                className="mt-3 flex items-center gap-2.5 rounded-chip px-3 py-2"
+                style={{ backgroundColor: `${TEAL}12`, border: `1px solid ${TEAL}33` }}
+              >
+                <CrosshairGlyph size={16} color={TEAL} />
+                <p className="text-[13px] font-medium" style={{ color: TEAL }}>
+                  Click any country below for its factor-by-factor breakdown, sources, and notes.
+                </p>
+              </div>
+            ) : null}
             <div className="mt-4">
               {ranked.length === 0 ? (
                 <div className="rounded-card border border-dashed border-hairline p-8 text-center">
@@ -131,8 +145,7 @@ export function StudentLifeTab() {
             </div>
           </div>
           <p className="mt-3 text-xs text-slate">
-            SLI = Σ(score × weight) ÷ Σ(weight), on curated 0 to 100 factor scores. Click a
-            country for its factor breakdown.{' '}
+            SLI = Σ(score × weight) ÷ Σ(weight), on curated 0 to 100 factor scores.{' '}
             <Link to="/methodology" className="text-ultramarine underline underline-offset-2">
               How these are computed
             </Link>

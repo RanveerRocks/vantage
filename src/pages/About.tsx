@@ -99,19 +99,18 @@ export function About() {
 
             <div className="space-y-4 text-[15px] leading-relaxed text-slate">
               <p>
-                Hi, I am Ranveer, and I designed and built Vantage.
+                Hi, I am Ranveer, and I built Vantage: the research, the design, all of it.
               </p>
               <p>
-                I am at exactly the age where this decision lands: on me, on my friends, on families I
-                know. And I watched too many of them navigate it half-blind, trusting whoever spoke
-                with the most confidence in the room. That bothered me enough to do something about it.
+                I am at exactly the age where this decision lands, on me, on my friends, on families I
+                know, and I watched too many of them fly half-blind, trusting whoever sounded most
+                certain in the room. It got under my skin. So I did something about it.
               </p>
               <p>
-                So I obsessed over this thing: every data point chased until it linked to a real,
-                official source, every screen rebuilt until it was clear enough to hand to a parent.
-                I refused to let it turn into one more ranking site telling people what to think. I care
-                about this because it is personal, and because getting it right for even one family
-                makes every late night worth it.
+                Then I threw myself at it: every data point chased until it linked to a real, official
+                source, every screen rebuilt until I could hand it to a parent without a caveat. No way
+                was this becoming one more ranking site that tells people what to think. This one is
+                personal, and getting it right for even a single family makes every late night worth it.
               </p>
               <p>
                 If you spot something wrong, know a better source, or just want to talk about where you

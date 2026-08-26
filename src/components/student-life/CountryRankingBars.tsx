@@ -29,7 +29,7 @@ export function CountryRankingBars({ entries, selectedId, onSelect }: CountryRan
             onClick={() => onSelect(entry.countryId)}
             data-rank-country={entry.countryId}
             aria-label={`${entry.name}: student life index ${entry.score.toFixed(1)}, ranked ${index + 1} of ${entries.length}. Open the factor breakdown.`}
-            className={`flex w-full cursor-pointer items-center gap-2 rounded-chip border p-2 text-left transition-shadow duration-200 hover:border-slate hover:shadow-soft sm:gap-3 ${
+            className={`group flex w-full cursor-pointer items-center gap-2 rounded-chip border p-2 text-left transition-shadow duration-200 hover:border-slate hover:shadow-soft sm:gap-3 ${
               selectedId === entry.countryId ? 'border-gold' : 'border-transparent'
             }`}
           >
@@ -51,6 +51,12 @@ export function CountryRankingBars({ entries, selectedId, onSelect }: CountryRan
             </span>
             <span className="w-11 shrink-0 text-right font-mono text-sm font-medium tabular-nums">
               {entry.score.toFixed(1)}
+            </span>
+            <span
+              aria-hidden="true"
+              className="shrink-0 text-slate/50 transition-all duration-200 group-hover:translate-x-0.5 group-hover:text-slate"
+            >
+              ›
             </span>
           </button>
         </motion.li>
