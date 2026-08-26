@@ -118,7 +118,7 @@ X = ${X_WEIGHTS.jobDemand} · jobDemand
       <Section title="ROI Score (scatter, Y axis)">
         <Formula>{`pay    = (year1TotalComp + year5TotalComp) / 2
 roiRaw = pay / totalDegreeCostUsd
-Y      = minMax(roiRaw)   // across the 8 countries for this degree`}</Formula>
+Y      = 10 + minMax(roiRaw) × 0.9   // floored to 10-100 across the 8 countries`}</Formula>
         <p className="mt-3 text-sm leading-relaxed text-ink">
           In words: typical graduate pay divided by the full cost of the degree (tuition, living,
           insurance, and visa fees). Pay is the <strong>average of year-1 and year-5 total
@@ -128,6 +128,12 @@ Y      = minMax(roiRaw)   // across the 8 countries for this degree`}</Formula>
           markets with steep salary growth (the US especially) are not judged on a starting salary
           alone. Year-5 pay is estimated from year-1 using published growth patterns by field and
           country, so it carries more uncertainty than the year-1 figure.
+        </p>
+        <p className="mt-3 text-sm leading-relaxed text-ink">
+          The axis is <strong>floored at 10</strong>: the lowest-scoring country is lifted to 10
+          instead of 0, because even the weakest country in the set still earns back a real multiple
+          of its cost, so a literal 0 would misread as &ldquo;no return.&rdquo; The ranking and the
+          spacing between countries are unchanged.
         </p>
         <p className="mt-3 text-sm leading-relaxed text-ink">
           <strong>What ROI still does not capture.</strong> Even with the year-5 average, this is a

@@ -136,8 +136,9 @@ describe('roiScore (Y axis)', () => {
       career('de', { medianSalaryY1PppUsd: 30000, medianSalaryY5Usd: 30000, totalDegreeCostUsd: 50000 }),
     ]
     const scores = roiScore(records)
-    expect(scores[0].score).toBeCloseTo(75, 6)
-    expect(scores[1].score).toBeCloseTo(0, 6)
+    // Floored to [10, 100]: 75 -> 77.5, 0 -> 10, 100 -> 100 (ordering preserved).
+    expect(scores[0].score).toBeCloseTo(77.5, 6)
+    expect(scores[1].score).toBeCloseTo(10, 6)
     expect(scores[2].score).toBeCloseTo(100, 6)
   })
 
@@ -149,8 +150,9 @@ describe('roiScore (Y axis)', () => {
       career('uk', { medianSalaryY1PppUsd: 40000, medianSalaryY5Usd: 40000, totalDegreeCostUsd: 100000 }),
     ]
     const scores = roiScore(records)
+    // Floored to [10, 100]: top stays 100, bottom lifts from 0 to 10.
     expect(scores[0].score).toBeCloseTo(100, 6)
-    expect(scores[1].score).toBeCloseTo(0, 6)
+    expect(scores[1].score).toBeCloseTo(10, 6)
   })
 })
 

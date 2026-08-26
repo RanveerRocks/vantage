@@ -78,9 +78,17 @@ export function careerVisaScore(records: CareerVisaMetrics[]): CountryScore[] {
 }
 
 /**
+ * The ROI axis is floored so the lowest cost-efficiency in the set reads as a
+ * small positive value rather than a literal 0, which misreads as "no return"
+ * (the weakest country still earns back a real multiple of its cost). Ranking
+ * and spacing are unchanged; only the bottom of the range lifts.
+ */
+export const ROI_FLOOR = 10
+
+/**
  * Graph 1 Y-axis, computed across the country set for one degree:
- *   roiRaw = (medianSalaryY1PppUsd × 5) / totalDegreeCostUsd
- *   Y = minMax(roiRaw)
+ *   roiRaw = (avg(salaryY1, salaryY5) × 5) / totalDegreeCostUsd
+ *   Y = ROI_FLOOR + minMax(roiRaw) × (100 − ROI_FLOOR) / 100
  */
 export function roiScore(records: CareerVisaMetrics[]): CountryScore[] {
   // Numerator averages year-1 and year-5 total pay so steep-growth markets
@@ -94,7 +102,7 @@ export function roiScore(records: CareerVisaMetrics[]): CountryScore[] {
   const normalised = minMax(raw)
   return records.map((record, index) => ({
     countryId: record.countryId,
-    score: normalised[index],
+    score: ROI_FLOOR + (normalised[index] / 100) * (100 - ROI_FLOOR),
   }))
 }
 

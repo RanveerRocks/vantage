@@ -84,8 +84,8 @@ export function CareerVisaTab({ degree }: { degree: Degree }) {
       </div>
 
       <p className="mt-3 text-xs text-slate">
-        Both scores are relative to these eight countries for this degree (0 = weakest in the set,
-        100 = strongest). ROI measures early-career cost-efficiency and visa ease, not prestige,
+        Both scores are relative to these eight countries for this degree, ranked lowest to highest
+        within the set. ROI measures early-career cost-efficiency and visa ease, not prestige,
         research quality, or long-term earning ceiling, where a country like the US leads.{' '}
         <Link to="/methodology" className="text-ultramarine underline underline-offset-2">
           How these are computed
