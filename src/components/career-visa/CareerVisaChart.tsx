@@ -72,10 +72,11 @@ interface CountryDotProps {
 
 function CountryDot({ cx, cy, point, index, sighted, selected, onHover, onSelect }: CountryDotProps) {
   return (
-    <motion.g
-      initial={false}
-      animate={{ x: cx, y: cy }}
-      transition={{ type: 'spring', stiffness: 300, damping: 30 }}
+    // Position via a real SVG transform attribute. framer-motion maps `x`/`y`
+    // to SVG presentation attributes on a <g> (which ignores them), so the
+    // translate must live on a plain group; scale/rotate still animate reliably.
+    <g
+      transform={`translate(${cx}, ${cy})`}
       style={{ cursor: 'pointer' }}
       data-country={point.countryId}
       onMouseEnter={() => onHover(point.countryId)}
@@ -108,7 +109,7 @@ function CountryDot({ cx, cy, point, index, sighted, selected, onHover, onSelect
           </text>
         </motion.g>
       </motion.g>
-    </motion.g>
+    </g>
   )
 }
 
