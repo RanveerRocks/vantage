@@ -14,7 +14,7 @@ export function About() {
           </h1>
           <p className="mt-4 max-w-xl text-base leading-relaxed text-slate">
             Vantage <span className="italic">(n.)</span>: a position from which you can see the whole
-            field. This is the tool I wish my family had when the decision was ours to make.
+            field.
           </p>
           <div className="mt-6 flex flex-wrap items-center gap-x-4 gap-y-2 font-mono text-[11px] uppercase tracking-[0.16em] text-slate">
             <span>8 countries</span>
@@ -27,46 +27,9 @@ export function About() {
       </div>
 
       <div className="mx-auto w-full max-w-3xl px-4 pb-16 sm:px-6">
-        {/* The project */}
+        {/* Founder's note */}
         <section className="mt-6">
-          <div className="flex items-center gap-3">
-            <span className="h-6 w-1.5 rounded-full accent-rule" aria-hidden="true" />
-            <h2 className="font-display text-2xl font-semibold tracking-tight">The project</h2>
-          </div>
-          <div className="mt-4 space-y-4 text-[15px] leading-relaxed text-slate">
-            <p>
-              Every year, thousands of students and their families make one of the biggest decisions
-              of their lives, where in the world to go and study, using some of the thinnest
-              information available to them. A league table that measures research output they will
-              never touch. A glossy brochure. An agent who earns a commission on the{' '}
-              <span className="italic">yes</span>. Somewhere in that noise, the questions that actually
-              decide how the next ten years go quietly get lost.
-            </p>
-            <p>
-              Can I legally work after I graduate? How long can I stay? What does this really cost once
-              you count the rent, the insurance, the flights home, the deposit nobody warned you about?
-              Is this a place I can build a life, or just earn a degree and leave?
-            </p>
-            <p>
-              I built Vantage because I could not find a single place that answered those questions
-              honestly, side by side, for the one degree a person actually cares about. It does not
-              rank countries. It does not tell you where to go. It lays out the map: the career and
-              visa landscape, the true cost, the years to permanent residency, how daily life scores on
-              the things <span className="italic">you</span> personally weight. And it shows its work.
-              Every number links back to an official source. Every formula is public. You decide. That
-              is the whole point.
-            </p>
-          </div>
-        </section>
-
-        {/* The builder */}
-        <section className="mt-12">
-          <div className="flex items-center gap-3">
-            <span className="h-6 w-1.5 rounded-full accent-rule" aria-hidden="true" />
-            <h2 className="font-display text-2xl font-semibold tracking-tight">The builder</h2>
-          </div>
-
-          <div className="mt-6 grid gap-6 sm:grid-cols-[176px_1fr] sm:gap-8">
+          <div className="grid gap-6 sm:grid-cols-[176px_1fr] sm:gap-8">
             <figure className="relative mx-auto w-44 sm:mx-0 sm:w-full">
               {/* Gold sightline corner ticks — the founder as the plotted point. */}
               <span
@@ -99,29 +62,29 @@ export function About() {
 
             <div className="space-y-4 text-[15px] leading-relaxed text-slate">
               <p>
-                Hi, I am Ranveer, and I built Vantage: the research, the design, all of it.
+                I&rsquo;m Ranveer Chainani, a Grade 12 IB student at Cathedral and John Connon School in
+                Mumbai. I built Vantage after watching families around me, my own included, try to
+                navigate one of the most consequential decisions of their lives without the information
+                they actually needed.
               </p>
               <p>
-                I am at exactly the age where this decision lands, on me, on my friends, on families I
-                know, and I watched too many of them fly half-blind, trusting whoever sounded most
-                certain in the room. It got under my skin. So I did something about it.
+                Vantage is my attempt to fix that. It doesn&rsquo;t rank colleges and it doesn&rsquo;t
+                tell anyone where to go. It compares countries for a specific degree on the factors
+                families most often miss, and shows its methodology openly so people can decide for
+                themselves. Over the past four months, I&rsquo;ve researched and chased every data point
+                that went into it, and designed and coded the app from scratch, all with one goal: to
+                make this the tool I wish my own family had.
               </p>
               <p>
-                Then I threw myself at it: every data point chased until it linked to a real, official
-                source, every screen rebuilt until I could hand it to a parent without a caveat. No way
-                was this becoming one more ranking site that tells people what to think. This one is
-                personal, and getting it right for even a single family makes every late night worth it.
-              </p>
-              <p>
-                If you spot something wrong, know a better source, or just want to talk about where you
-                are headed,{' '}
+                If you have feedback, a correction, or want to talk about the project, I&rsquo;d love to
+                hear from you at{' '}
                 <a
                   href="mailto:ranveerchainani1@gmail.com"
                   className="font-medium text-ultramarine underline underline-offset-2"
                 >
-                  reach out
+                  ranveerchainani1@gmail.com
                 </a>
-                . I read everything.
+                .
               </p>
             </div>
           </div>
