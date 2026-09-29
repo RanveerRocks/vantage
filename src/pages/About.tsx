@@ -1,4 +1,5 @@
 import { Link } from 'react-router-dom'
+import { BackToHome } from '../components/shared/BackToHome'
 
 export function About() {
   return (
@@ -7,7 +8,8 @@ export function About() {
       <div className="relative">
         <div className="pointer-events-none absolute inset-0 hero-aurora" aria-hidden="true" />
         <div className="pointer-events-none absolute inset-0 survey-grid" aria-hidden="true" />
-        <div className="relative mx-auto w-full max-w-3xl px-4 pb-10 pt-14 sm:px-6">
+        <div className="relative mx-auto w-full max-w-3xl px-4 pb-10 pt-10 sm:px-6">
+          <BackToHome className="mb-8" />
           <p className="font-mono text-[11px] uppercase tracking-[0.24em] text-ultramarine">About</p>
           <h1 className="mt-3 font-display text-4xl font-semibold leading-[1.05] tracking-tight sm:text-5xl">
             <span className="text-gradient">Why Vantage exists</span>
@@ -85,6 +87,61 @@ export function About() {
                   ranveerchainani1@gmail.com
                 </a>
                 .
+              </p>
+            </div>
+          </div>
+        </section>
+
+        {/* Advisor */}
+        <section className="mt-10 border-t border-hairline pt-10">
+          <div className="grid gap-6 sm:grid-cols-[176px_1fr] sm:gap-8">
+            <figure className="relative mx-auto w-44 sm:mx-0 sm:w-full">
+              {/* Gold sightline corner ticks, matching the founder's plotted point. */}
+              <span
+                className="absolute -left-2 -top-2 h-5 w-5 rounded-tl-[3px] border-l-2 border-t-2 border-gold"
+                aria-hidden="true"
+              />
+              <span
+                className="absolute -bottom-2 -right-2 h-5 w-5 rounded-br-[3px] border-b-2 border-r-2 border-gold"
+                aria-hidden="true"
+              />
+              <div className="overflow-hidden rounded-card border border-hairline shadow-soft">
+                <img
+                  src="/sonal.jpg"
+                  alt="Sonal Chinchwadkar, advisor to Vantage"
+                  className="aspect-[4/5] w-full object-cover"
+                  width={176}
+                  height={220}
+                  loading="lazy"
+                />
+              </div>
+              <figcaption className="mt-3 text-center">
+                <span className="block font-mono text-[11px] uppercase tracking-[0.14em] text-ink">
+                  Sonal Chinchwadkar
+                </span>
+                <span className="mt-0.5 block font-mono text-[10px] uppercase tracking-[0.14em] text-slate">
+                  Advisor
+                </span>
+              </figcaption>
+            </figure>
+
+            <div className="space-y-4 text-[15px] leading-relaxed text-slate">
+              <p>
+                Sonal is an accomplished leader with over 15 years of experience driving knowledge
+                management, executive education, and digital learning transformations at premier
+                organizations including the World Bank, IFC, KPMG, Accenture Consulting, and Tata group
+                companies.
+              </p>
+              <p>
+                She excels at building high-impact programs, managing global partner ecosystems, and
+                accelerating technology-led training adoption across markets in Europe, MENA, and Asia.
+              </p>
+              <p>
+                Notably, she led one of Asia&rsquo;s largest university digital transitions and has
+                delivered exceptional results across multilateral as well as corporate sectors. Her
+                comprehensive expertise spans leading learning strategies, curriculum development,
+                capacity building, and creating scalable L&amp;D service portfolios that align with
+                organizational vision towards change management and productivity enhancement.
               </p>
             </div>
           </div>

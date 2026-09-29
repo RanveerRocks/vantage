@@ -2,6 +2,7 @@ import type { ReactNode } from 'react'
 import { loadData } from '../lib/data'
 import { X_WEIGHTS } from '../lib/scoring'
 import { DEFAULT_WEIGHT } from '../lib/store'
+import { BackToHome } from '../components/shared/BackToHome'
 
 function Section({ title, children }: { title: string; children: ReactNode }) {
   return (
@@ -38,7 +39,8 @@ export function Methodology() {
   const { config } = loadData()
 
   return (
-    <div className="mx-auto w-full max-w-3xl px-4 py-12 sm:px-6">
+    <div className="mx-auto w-full max-w-3xl px-4 py-10 sm:px-6">
+      <BackToHome className="mb-8" />
       <p className="font-mono text-xs uppercase tracking-[0.2em] text-ultramarine">Methodology</p>
       <h1 className="mt-2 font-display text-3xl font-semibold tracking-tight sm:text-4xl">
         Every formula, weight, and convention, in plain language
