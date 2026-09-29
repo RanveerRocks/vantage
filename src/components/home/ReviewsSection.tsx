@@ -107,7 +107,7 @@ function CarouselArrow({
       onClick={onClick}
       aria-label={dir === 'prev' ? 'Previous review' : 'Next review'}
       style={{ ['--accent' as string]: accent }}
-      className="z-10 grid h-9 w-9 shrink-0 place-content-center rounded-full border border-hairline bg-white text-slate shadow-soft transition-colors hover:border-[color:var(--accent)] hover:bg-[color:var(--accent)] hover:text-white"
+      className="z-10 hidden h-9 w-9 shrink-0 place-content-center rounded-full border border-hairline bg-white text-slate shadow-soft transition-colors hover:border-[color:var(--accent)] hover:bg-[color:var(--accent)] hover:text-white sm:grid"
     >
       <svg width="16" height="16" viewBox="0 0 24 24" fill="none" aria-hidden="true">
         <path
@@ -181,22 +181,25 @@ function ReviewsCarousel({ reviews }: { reviews: Review[] }) {
       onFocusCapture={() => setPaused(true)}
       onBlurCapture={() => setPaused(false)}
     >
-      {/* Colourful aurora that eases to each review's accent as it changes. */}
+      {/* Full-width aurora wash that shifts to each review's accent, reaching
+          the section edges like the home page hero. */}
       <motion.div
         aria-hidden="true"
-        className="pointer-events-none absolute -inset-x-4 top-0 h-full"
+        className="pointer-events-none absolute inset-y-0 left-1/2 w-screen -translate-x-1/2"
         animate={{
-          background: `radial-gradient(70% 70% at 30% 8%, ${accent}33, transparent 60%), radial-gradient(70% 70% at 78% 55%, ${accent}22, transparent 62%)`,
+          background: `radial-gradient(42% 78% at 15% 42%, ${accent}24, transparent 60%), radial-gradient(42% 78% at 85% 58%, ${accent}1e, transparent 60%), radial-gradient(60% 70% at 50% 34%, ${accent}12, transparent 66%)`,
         }}
         transition={{ duration: 0.7, ease: 'easeOut' }}
       />
-      <div className="relative flex items-center gap-1 sm:gap-3">
+      <div className="relative flex items-center justify-center gap-3 py-2 sm:gap-5">
         {count > 1 ? (
           <CarouselArrow dir="prev" accent={accent} onClick={() => goTo(index - 1, -1)} />
         ) : null}
 
-        <div className="relative mx-auto h-[300px] w-full max-w-xl sm:h-[240px]">
-          <AnimatePresence custom={dir} initial={false} mode="popLayout">
+        {/* Grid-stacked so both slides share one cell: the card auto-sizes to its
+            content (no clipping) while they cross-fade and slide. */}
+        <div className="grid w-full max-w-2xl">
+          <AnimatePresence custom={dir} initial={false}>
             <motion.figure
               key={index}
               custom={dir}
@@ -209,18 +212,18 @@ function ReviewsCarousel({ reviews }: { reviews: Review[] }) {
                 opacity: { duration: 0.25 },
                 scale: { duration: 0.3 },
               }}
-              className="absolute inset-0 flex flex-col justify-center rounded-card border border-hairline bg-white px-6 py-7 text-center sm:px-8"
-              style={{ borderTop: `3px solid ${accent}`, boxShadow: `0 24px 60px -24px ${accent}77` }}
+              className="col-start-1 row-start-1 flex flex-col justify-center rounded-card border border-hairline bg-white px-6 py-6 text-center sm:px-9 sm:py-7"
+              style={{ borderTop: `3px solid ${accent}`, boxShadow: `0 20px 46px -26px ${accent}66` }}
             >
               <div className="flex justify-center">
                 <Stars rating={active.rating} />
               </div>
-              <blockquote className="mt-4 text-[15px] leading-relaxed text-ink sm:text-[17px]">
+              <blockquote className="mx-auto mt-3.5 max-w-[46ch] text-[13.5px] leading-relaxed text-ink sm:text-[15px]">
                 <span style={{ color: accent }}>“</span>
                 {active.text}
                 <span style={{ color: accent }}>”</span>
               </blockquote>
-              <figcaption className="mt-5">
+              <figcaption className="mt-4">
                 <span className="block text-sm font-semibold text-ink">{active.name}</span>
                 {active.role ? (
                   <span
@@ -319,7 +322,7 @@ export function ReviewsSection() {
       name: trimmedName.slice(0, 60),
       role: role.trim().slice(0, 48) || undefined,
       rating,
-      text: trimmedText.slice(0, 240),
+      text: trimmedText.slice(0, 400),
     }
 
     if (isSupabaseConfigured) {
@@ -425,14 +428,14 @@ export function ReviewsSection() {
             <textarea
               value={text}
               onChange={(e) => setText(e.target.value)}
-              maxLength={240}
+              maxLength={400}
               required
               rows={3}
               placeholder="What did Vantage help you see?"
               className="w-full resize-none rounded-card border border-hairline bg-paper px-3 py-2 text-sm leading-relaxed text-ink outline-none focus:border-ultramarine"
             />
             <span className="mt-1 block text-right font-mono text-[10px] text-slate">
-              {text.length}/240
+              {text.length}/400
             </span>
           </label>
 

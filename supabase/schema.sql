@@ -6,7 +6,7 @@ create table if not exists public.reviews (
   name text not null check (char_length(name) between 1 and 60),
   role text check (char_length(role) <= 60),
   rating int not null check (rating between 1 and 5),
-  text text not null check (char_length(text) between 1 and 280),
+  text text not null check (char_length(text) between 1 and 400),
   status text not null default 'pending' check (status in ('pending', 'approved')),
   created_at timestamptz not null default now()
 );
