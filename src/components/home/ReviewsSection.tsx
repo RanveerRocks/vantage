@@ -1,20 +1,17 @@
-import { useEffect, useMemo, useState } from 'react'
-
-export interface Review {
-  name: string
-  role?: string
-  rating: number // 1-5
-  text: string
-}
-
-// Real, collected reviews go here once gathered. Kept empty by design — Vantage
-// never ships invented testimonials. Until the first real ones land, the section
-// shows an honest invite and lets a visitor add their own (stored on their device).
-const SEED_REVIEWS: Review[] = []
+import { useCallback, useEffect, useMemo, useState } from 'react'
+import { AnimatePresence, motion, useReducedMotion } from 'framer-motion'
+import {
+  SEED_REVIEWS,
+  fetchApprovedReviews,
+  isSupabaseConfigured,
+  submitReview,
+  type Review,
+} from '../../lib/reviews'
 
 const STORAGE_KEY = 'vantage:reviews'
 const CARD_ACCENTS = ['#2440C9', '#0E7490', '#6D28D9', '#DB2777', '#C2410C', '#047857']
 
+// Local-only fallback storage, used when the Supabase backend is not configured.
 function loadLocalReviews(): Review[] {
   if (typeof window === 'undefined') return []
   try {
@@ -95,43 +92,217 @@ function StarPicker({ value, onChange }: { value: number; onChange: (n: number) 
   )
 }
 
+function CarouselArrow({
+  dir,
+  accent,
+  onClick,
+}: {
+  dir: 'prev' | 'next'
+  accent: string
+  onClick: () => void
+}) {
+  return (
+    <button
+      type="button"
+      onClick={onClick}
+      aria-label={dir === 'prev' ? 'Previous review' : 'Next review'}
+      style={{ ['--accent' as string]: accent }}
+      className="z-10 grid h-9 w-9 shrink-0 place-content-center rounded-full border border-hairline bg-white text-slate shadow-soft transition-colors hover:border-[color:var(--accent)] hover:bg-[color:var(--accent)] hover:text-white"
+    >
+      <svg width="16" height="16" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+        <path
+          d={dir === 'prev' ? 'M15 18l-6-6 6-6' : 'M9 6l6 6-6 6'}
+          stroke="currentColor"
+          strokeWidth="2"
+          strokeLinecap="round"
+          strokeLinejoin="round"
+        />
+      </svg>
+    </button>
+  )
+}
+
+const slideVariants = {
+  enter: (dir: number) => ({ x: dir > 0 ? 90 : -90, opacity: 0, scale: 0.94 }),
+  center: { x: 0, opacity: 1, scale: 1 },
+  exit: (dir: number) => ({ x: dir > 0 ? -90 : 90, opacity: 0, scale: 0.94 }),
+}
+
+// A colourful, auto-advancing carousel: each review slides in over an aurora wash
+// that shifts to the review's accent colour, echoing the home page palette.
+function ReviewsCarousel({ reviews }: { reviews: Review[] }) {
+  const reduced = useReducedMotion() ?? false
+  const [index, setIndex] = useState(0)
+  const [dir, setDir] = useState(1)
+  const [paused, setPaused] = useState(false)
+  const count = reviews.length
+
+  const goTo = useCallback(
+    (to: number, direction: number) => {
+      setDir(direction)
+      setIndex(((to % count) + count) % count)
+    },
+    [count],
+  )
+
+  // Keep the index valid if the list changes size (e.g. after fetch).
+  useEffect(() => {
+    if (index > count - 1) setIndex(0)
+  }, [count, index])
+
+  // Auto-advance, paused on hover/focus and under reduced motion.
+  useEffect(() => {
+    if (reduced || paused || count < 2) return
+    const t = window.setTimeout(() => goTo(index + 1, 1), 4800)
+    return () => window.clearTimeout(t)
+  }, [index, paused, reduced, count, goTo])
+
+  if (count === 0) return null
+
+  // Reduced motion: a calm, static grid instead of any moving carousel.
+  if (reduced) {
+    return (
+      <div className="mt-8 flex flex-wrap justify-center gap-4">
+        {reviews.map((review, i) => (
+          <ReviewCard key={i} review={review} accent={CARD_ACCENTS[i % CARD_ACCENTS.length]} />
+        ))}
+      </div>
+    )
+  }
+
+  const accent = CARD_ACCENTS[index % CARD_ACCENTS.length]
+  const active = reviews[index]
+
+  return (
+    <div
+      className="relative mt-8"
+      onMouseEnter={() => setPaused(true)}
+      onMouseLeave={() => setPaused(false)}
+      onFocusCapture={() => setPaused(true)}
+      onBlurCapture={() => setPaused(false)}
+    >
+      {/* Colourful aurora that eases to each review's accent as it changes. */}
+      <motion.div
+        aria-hidden="true"
+        className="pointer-events-none absolute -inset-x-4 top-0 h-full"
+        animate={{
+          background: `radial-gradient(70% 70% at 30% 8%, ${accent}33, transparent 60%), radial-gradient(70% 70% at 78% 55%, ${accent}22, transparent 62%)`,
+        }}
+        transition={{ duration: 0.7, ease: 'easeOut' }}
+      />
+      <div className="relative flex items-center gap-1 sm:gap-3">
+        {count > 1 ? (
+          <CarouselArrow dir="prev" accent={accent} onClick={() => goTo(index - 1, -1)} />
+        ) : null}
+
+        <div className="relative mx-auto h-[300px] w-full max-w-xl sm:h-[240px]">
+          <AnimatePresence custom={dir} initial={false} mode="popLayout">
+            <motion.figure
+              key={index}
+              custom={dir}
+              variants={slideVariants}
+              initial="enter"
+              animate="center"
+              exit="exit"
+              transition={{
+                x: { type: 'spring', stiffness: 320, damping: 32 },
+                opacity: { duration: 0.25 },
+                scale: { duration: 0.3 },
+              }}
+              className="absolute inset-0 flex flex-col justify-center rounded-card border border-hairline bg-white px-6 py-7 text-center sm:px-8"
+              style={{ borderTop: `3px solid ${accent}`, boxShadow: `0 24px 60px -24px ${accent}77` }}
+            >
+              <div className="flex justify-center">
+                <Stars rating={active.rating} />
+              </div>
+              <blockquote className="mt-4 text-[15px] leading-relaxed text-ink sm:text-[17px]">
+                <span style={{ color: accent }}>“</span>
+                {active.text}
+                <span style={{ color: accent }}>”</span>
+              </blockquote>
+              <figcaption className="mt-5">
+                <span className="block text-sm font-semibold text-ink">{active.name}</span>
+                {active.role ? (
+                  <span
+                    className="mt-0.5 block font-mono text-[11px] uppercase tracking-[0.12em]"
+                    style={{ color: accent }}
+                  >
+                    {active.role}
+                  </span>
+                ) : null}
+              </figcaption>
+            </motion.figure>
+          </AnimatePresence>
+        </div>
+
+        {count > 1 ? (
+          <CarouselArrow dir="next" accent={accent} onClick={() => goTo(index + 1, 1)} />
+        ) : null}
+      </div>
+
+      {count > 1 ? (
+        <div className="mt-5 flex justify-center gap-2">
+          {reviews.map((_, i) => (
+            <button
+              key={i}
+              type="button"
+              aria-label={`Show review ${i + 1}`}
+              aria-current={i === index}
+              onClick={() => goTo(i, i > index ? 1 : -1)}
+              className="h-2 rounded-full transition-all duration-300"
+              style={
+                i === index
+                  ? { width: 22, backgroundColor: CARD_ACCENTS[i % CARD_ACCENTS.length] }
+                  : { width: 8, backgroundColor: '#E3E6E1' }
+              }
+            />
+          ))}
+        </div>
+      ) : null}
+    </div>
+  )
+}
+
+interface Thanks {
+  mode: 'pending' | 'local'
+  name: string
+  review?: Review
+}
+
 export function ReviewsSection() {
+  const [remoteReviews, setRemoteReviews] = useState<Review[]>([])
   const [localReviews, setLocalReviews] = useState<Review[]>([])
   const [formOpen, setFormOpen] = useState(false)
   const [name, setName] = useState('')
   const [role, setRole] = useState('')
   const [text, setText] = useState('')
   const [rating, setRating] = useState(5)
-  const [justAdded, setJustAdded] = useState<Review | null>(null)
+  const [submitting, setSubmitting] = useState(false)
+  const [submitError, setSubmitError] = useState(false)
+  const [thanks, setThanks] = useState<Thanks | null>(null)
 
   useEffect(() => {
+    if (isSupabaseConfigured) {
+      let active = true
+      fetchApprovedReviews().then((rows) => {
+        if (active) setRemoteReviews(rows)
+      })
+      return () => {
+        active = false
+      }
+    }
     setLocalReviews(loadLocalReviews())
   }, [])
 
-  const reviews = useMemo(() => [...localReviews, ...SEED_REVIEWS], [localReviews])
-  const marquee = reviews.length >= 3
-  // Slow the scroll for longer lists so each card stays readable.
-  const duration = Math.max(28, reviews.length * 9)
+  const reviews = useMemo(
+    () =>
+      isSupabaseConfigured
+        ? [...remoteReviews, ...SEED_REVIEWS]
+        : [...localReviews, ...SEED_REVIEWS],
+    [remoteReviews, localReviews],
+  )
 
-  function handleSubmit(event: React.FormEvent) {
-    event.preventDefault()
-    const trimmedName = name.trim()
-    const trimmedText = text.trim()
-    if (!trimmedName || !trimmedText) return
-    const review: Review = {
-      name: trimmedName.slice(0, 40),
-      role: role.trim().slice(0, 48) || undefined,
-      rating,
-      text: trimmedText.slice(0, 240),
-    }
-    const next = [review, ...localReviews]
-    setLocalReviews(next)
-    try {
-      window.localStorage.setItem(STORAGE_KEY, JSON.stringify(next))
-    } catch {
-      /* storage may be unavailable (private mode) — the review still shows this session */
-    }
-    setJustAdded(review)
+  function resetForm() {
     setName('')
     setRole('')
     setText('')
@@ -139,13 +310,52 @@ export function ReviewsSection() {
     setFormOpen(false)
   }
 
-  const mailtoJustAdded = justAdded
-    ? `mailto:ranveerchainani1@gmail.com?subject=${encodeURIComponent(
-        'Vantage review to feature',
-      )}&body=${encodeURIComponent(
-        `${justAdded.text}\n\nby ${justAdded.name}${justAdded.role ? `, ${justAdded.role}` : ''} (${justAdded.rating}/5)`,
-      )}`
-    : ''
+  async function handleSubmit(event: React.FormEvent) {
+    event.preventDefault()
+    const trimmedName = name.trim()
+    const trimmedText = text.trim()
+    if (!trimmedName || !trimmedText) return
+    const review: Review = {
+      name: trimmedName.slice(0, 60),
+      role: role.trim().slice(0, 48) || undefined,
+      rating,
+      text: trimmedText.slice(0, 240),
+    }
+
+    if (isSupabaseConfigured) {
+      setSubmitting(true)
+      setSubmitError(false)
+      const result = await submitReview(review)
+      setSubmitting(false)
+      if (result === 'ok') {
+        setThanks({ mode: 'pending', name: review.name })
+        resetForm()
+      } else {
+        setSubmitError(true)
+      }
+      return
+    }
+
+    // Fallback with no backend: keep the review on this device only.
+    const next = [review, ...localReviews]
+    setLocalReviews(next)
+    try {
+      window.localStorage.setItem(STORAGE_KEY, JSON.stringify(next))
+    } catch {
+      /* storage may be unavailable (private mode) — the review still shows this session */
+    }
+    setThanks({ mode: 'local', name: review.name, review })
+    resetForm()
+  }
+
+  const mailtoLocal =
+    thanks?.mode === 'local' && thanks.review
+      ? `mailto:ranveerchainani1@gmail.com?subject=${encodeURIComponent(
+          'Vantage review to feature',
+        )}&body=${encodeURIComponent(
+          `${thanks.review.text}\n\nby ${thanks.review.name}${thanks.review.role ? `, ${thanks.review.role}` : ''} (${thanks.review.rating}/5)`,
+        )}`
+      : ''
 
   return (
     <section className="mx-auto w-full max-w-6xl px-4 py-12 sm:px-6" aria-labelledby="reviews-heading">
@@ -164,7 +374,8 @@ export function ReviewsSection() {
             type="button"
             onClick={() => {
               setFormOpen(true)
-              setJustAdded(null)
+              setThanks(null)
+              setSubmitError(false)
             }}
             className="shrink-0 rounded-full bg-ultramarine px-4 py-2 text-sm font-medium text-white shadow-[0_10px_24px_-10px_#2440C9] transition-transform hover:-translate-y-0.5"
           >
@@ -187,7 +398,7 @@ export function ReviewsSection() {
               <input
                 value={name}
                 onChange={(e) => setName(e.target.value)}
-                maxLength={40}
+                maxLength={60}
                 required
                 placeholder="Your name"
                 className="w-full rounded-chip border border-hairline bg-paper px-3 py-2 text-sm text-ink outline-none focus:border-ultramarine"
@@ -235,35 +446,60 @@ export function ReviewsSection() {
             <div className="flex items-center gap-2">
               <button
                 type="button"
-                onClick={() => setFormOpen(false)}
+                onClick={() => {
+                  setFormOpen(false)
+                  setSubmitError(false)
+                }}
                 className="rounded-full px-4 py-2 text-sm font-medium text-slate hover:text-ink"
               >
                 Cancel
               </button>
               <button
                 type="submit"
-                className="rounded-full bg-ultramarine px-4 py-2 text-sm font-medium text-white shadow-[0_10px_24px_-10px_#2440C9] transition-transform hover:-translate-y-0.5"
+                disabled={submitting}
+                className="rounded-full bg-ultramarine px-4 py-2 text-sm font-medium text-white shadow-[0_10px_24px_-10px_#2440C9] transition-transform hover:-translate-y-0.5 disabled:opacity-60"
               >
-                Post review
+                {submitting ? 'Posting…' : 'Post review'}
               </button>
             </div>
           </div>
+
+          {isSupabaseConfigured ? (
+            <p className="mt-3 text-[11px] leading-relaxed text-slate">
+              Reviews are checked before they appear, so yours will show up here once it&rsquo;s
+              approved.
+            </p>
+          ) : null}
+          {submitError ? (
+            <p className="mt-2 text-[13px] font-medium text-coral">
+              Something went wrong sending that. Please try again in a moment.
+            </p>
+          ) : null}
         </form>
       ) : null}
 
-      {/* Thanks note after adding */}
-      {justAdded ? (
+      {/* Thanks note after submitting */}
+      {thanks ? (
         <div className="mt-6 rounded-card border border-hairline bg-white p-4 text-sm text-slate">
-          Thanks, <strong className="text-ink">{justAdded.name}</strong>. Your review now shows below
-          on this device.{' '}
-          <a href={mailtoJustAdded} className="font-medium text-ultramarine underline underline-offset-2">
-            Send it to us
-          </a>{' '}
-          to have it featured for everyone.
+          {thanks.mode === 'pending' ? (
+            <>
+              Thanks, <strong className="text-ink">{thanks.name}</strong>! Your review has been
+              submitted and will appear here once it&rsquo;s approved.
+            </>
+          ) : (
+            <>
+              Thanks, <strong className="text-ink">{thanks.name}</strong>. Your review now shows below
+              on this device.{' '}
+              <a href={mailtoLocal} className="font-medium text-ultramarine underline underline-offset-2">
+                Send it to us
+              </a>{' '}
+              to have it featured for everyone.
+            </>
+          )}
         </div>
       ) : null}
 
-      {/* Carousel / list / empty state */}
+      {/* Colourful auto-advancing carousel, or an honest empty state */}
       {reviews.length === 0 ? (
         <div className="mt-6 rounded-card border border-dashed border-hairline bg-white/60 p-8 text-center">
           <p className="text-sm text-slate">
@@ -278,28 +514,8 @@ export function ReviewsSection() {
             .
           </p>
         </div>
-      ) : marquee ? (
-        <div className="marquee-viewport mt-8" role="region" aria-label="Reviews">
-          <div className="marquee-track gap-4" style={{ ['--marquee-duration' as string]: `${duration}s` }}>
-            {reviews.map((review, i) => (
-              <ReviewCard key={`a-${i}`} review={review} accent={CARD_ACCENTS[i % CARD_ACCENTS.length]} />
-            ))}
-            {/* Duplicate track for a seamless loop. */}
-            {reviews.map((review, i) => (
-              <ReviewCard
-                key={`b-${i}`}
-                review={review}
-                accent={CARD_ACCENTS[i % CARD_ACCENTS.length]}
-              />
-            ))}
-          </div>
-        </div>
       ) : (
-        <div className="mt-8 flex flex-wrap gap-4">
-          {reviews.map((review, i) => (
-            <ReviewCard key={i} review={review} accent={CARD_ACCENTS[i % CARD_ACCENTS.length]} />
-          ))}
-        </div>
+        <ReviewsCarousel reviews={reviews} />
       )}
     </section>
   )
