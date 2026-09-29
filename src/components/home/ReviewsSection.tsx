@@ -212,7 +212,15 @@ function ReviewsCarousel({ reviews }: { reviews: Review[] }) {
                 opacity: { duration: 0.25 },
                 scale: { duration: 0.3 },
               }}
-              className="col-start-1 row-start-1 flex flex-col justify-center rounded-card border border-hairline bg-white px-6 py-6 text-center sm:px-9 sm:py-7"
+              drag={count > 1 ? 'x' : false}
+              dragConstraints={{ left: 0, right: 0 }}
+              dragElastic={0.18}
+              onDragEnd={(_event, info) => {
+                // Flick left -> next, flick right -> previous (by distance or speed).
+                if (info.offset.x < -55 || info.velocity.x < -450) goTo(index + 1, 1)
+                else if (info.offset.x > 55 || info.velocity.x > 450) goTo(index - 1, -1)
+              }}
+              className="col-start-1 row-start-1 flex touch-pan-y flex-col justify-center rounded-card border border-hairline bg-white px-6 py-6 text-center sm:cursor-grab sm:px-9 sm:py-7 sm:active:cursor-grabbing"
               style={{ borderTop: `3px solid ${accent}`, boxShadow: `0 20px 46px -26px ${accent}66` }}
             >
               <div className="flex justify-center">
