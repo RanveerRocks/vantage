@@ -1,6 +1,7 @@
 import { lazy, Suspense } from 'react'
 import { MotionConfig } from 'framer-motion'
 import { Route, Routes } from 'react-router-dom'
+import { Analytics } from '@vercel/analytics/react'
 import { Layout } from './components/layout/Layout'
 import { CrosshairGlyph } from './components/shared/CrosshairGlyph'
 import { Home } from './pages/Home'
@@ -41,6 +42,9 @@ export default function App() {
           </Route>
         </Routes>
       </Suspense>
+      {/* Vercel Web Analytics: reports page views (incl. client-side route
+          changes). No-ops locally; sends data once deployed on Vercel. */}
+      <Analytics />
     </MotionConfig>
   )
 }
