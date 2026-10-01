@@ -2,6 +2,16 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
+    <!-- Google Analytics (gtag.js). Skips localhost so local dev isn't counted. -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-MLKQH45BFJ"></script>
+    <script>
+      window.dataLayer = window.dataLayer || []
+      function gtag() { dataLayer.push(arguments) }
+      gtag('js', new Date())
+      if (location.hostname !== 'localhost' && location.hostname !== '127.0.0.1') {
+        gtag('config', 'G-MLKQH45BFJ')
+      }
+    </script>
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="theme-color" content="#2440C9" />
     <meta
